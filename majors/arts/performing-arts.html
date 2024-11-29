@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Performing Arts</title>
     <link rel="stylesheet" href="../../styles/style.css">
+    <script defer src="../../scripts/main.js"></script>
 </head>
 <body>
     <header>
@@ -13,12 +14,9 @@
     </header>
     <main>
         <section>
-            <h2>Core Courses</h2>
-            <ul>
-                <li><a href="../../books/arts/performing-arts.json#course-1">Acting Fundamentals</a></li>
-                <li><a href="../../books/arts/performing-arts.json#course-2">Stagecraft and Lighting</a></li>
-                <li><a href="../../books/arts/performing-arts.json#course-3">Music Theory</a></li>
-                <li><a href="../../books/arts/performing-arts.json#course-4">Choreography Basics</a></li>
+            <h2>Core Courses and Books</h2>
+            <ul id="book-list" data-json="../../books/arts/performing-arts.json">
+                <!-- Books will be dynamically loaded here -->
             </ul>
         </section>
     </main>
@@ -27,4 +25,3 @@
     </footer>
 </body>
 </html>
-
