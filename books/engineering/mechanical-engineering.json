@@ -1,1 +1,30 @@
+{
+    "major": "Mechanical Engineering",
+    "books": [
+        {
+            "course": "Thermodynamics",
+            "title": "Introduction to Thermodynamics",
+            "author": "Richard E. Sonntag",
+            "link": "https://www.amazon.com/dp/example1"
+        },
+        {
+            "course": "Fluid Mechanics",
+            "title": "Fundamentals of Fluid Mechanics",
+            "author": "Bruce R. Munson",
+            "link": "https://www.amazon.com/dp/example2"
+        },
+        {
+            "course": "Heat Transfer",
+            "title": "Heat Transfer",
+            "author": "Frank P. Incropera",
+            "link": "https://www.amazon.com/dp/example3"
+        },
+        {
+            "course": "Machine Design",
+            "title": "Machine Design",
+            "author": "Robert L. Norton",
+            "link": "https://www.amazon.com/dp/example4"
+        }
+    ]
+}
 
