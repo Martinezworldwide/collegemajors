@@ -1,1 +1,30 @@
+{
+    "major": "Electrical Engineering",
+    "books": [
+        {
+            "course": "Circuits and Systems",
+            "title": "Introduction to Electric Circuits",
+            "author": "Richard C. Dorf",
+            "link": "https://www.amazon.com/dp/example9"
+        },
+        {
+            "course": "Electromagnetic Fields",
+            "title": "Field and Wave Electromagnetics",
+            "author": "David K. Cheng",
+            "link": "https://www.amazon.com/dp/example10"
+        },
+        {
+            "course": "Power Systems",
+            "title": "Electric Power Systems",
+            "author": "B. M. Weedy",
+            "link": "https://www.amazon.com/dp/example11"
+        },
+        {
+            "course": "Digital Signal Processing",
+            "title": "Digital Signal Processing: Principles, Algorithms, and Applications",
+            "author": "John G. Proakis",
+            "link": "https://www.amazon.com/dp/example12"
+        }
+    ]
+}
 
