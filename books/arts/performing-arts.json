@@ -1,1 +1,30 @@
+{
+    "major": "Performing Arts",
+    "books": [
+        {
+            "course": "Acting Fundamentals",
+            "title": "An Actor Prepares",
+            "author": "Constantin Stanislavski",
+            "link": "https://www.amazon.com/dp/example13"
+        },
+        {
+            "course": "Stagecraft and Lighting",
+            "title": "Stagecraft Fundamentals",
+            "author": "Rita Kogler Carver",
+            "link": "https://www.amazon.com/dp/example14"
+        },
+        {
+            "course": "Music Theory",
+            "title": "The Complete Musician: An Integrated Approach to Theory, Analysis, and Listening",
+            "author": "Steven G. Laitz",
+            "link": "https://www.amazon.com/dp/example15"
+        },
+        {
+            "course": "Choreography Basics",
+            "title": "Choreography: A Basic Approach Using Improvisation",
+            "author": "Sandra Minton",
+            "link": "https://www.amazon.com/dp/example16"
+        }
+    ]
+}
 
