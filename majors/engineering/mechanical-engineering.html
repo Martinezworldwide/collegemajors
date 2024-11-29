@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mechanical Engineering</title>
     <link rel="stylesheet" href="../../styles/style.css">
+    <script defer src="../../scripts/main.js"></script>
 </head>
 <body>
     <header>
@@ -13,12 +14,9 @@
     </header>
     <main>
         <section>
-            <h2>Core Courses</h2>
-            <ul>
-                <li><a href="../../books/engineering/mechanical-engineering.json#course-1">Thermodynamics</a></li>
-                <li><a href="../../books/engineering/mechanical-engineering.json#course-2">Fluid Mechanics</a></li>
-                <li><a href="../../books/engineering/mechanical-engineering.json#course-3">Heat Transfer</a></li>
-                <li><a href="../../books/engineering/mechanical-engineering.json#course-4">Machine Design</a></li>
+            <h2>Core Courses and Books</h2>
+            <ul id="book-list" data-json="../../books/engineering/mechanical-engineering.json">
+                <!-- Books will be dynamically loaded here -->
             </ul>
         </section>
     </main>
@@ -27,4 +25,3 @@
     </footer>
 </body>
 </html>
-
