@@ -1,1 +1,30 @@
+{
+    "major": "Fine Arts",
+    "books": [
+        {
+            "course": "Drawing and Composition",
+            "title": "Drawing on the Right Side of the Brain",
+            "author": "Betty Edwards",
+            "link": "https://www.amazon.com/dp/example5"
+        },
+        {
+            "course": "Painting Techniques",
+            "title": "The Complete Painting Course",
+            "author": "David Sanmiguel",
+            "link": "https://www.amazon.com/dp/example6"
+        },
+        {
+            "course": "Sculpture and 3D Design",
+            "title": "Modeling the Figure in Clay",
+            "author": "Bruno Lucchesi",
+            "link": "https://www.amazon.com/dp/example7"
+        },
+        {
+            "course": "Art Criticism",
+            "title": "Art Criticism and Theory Since 1900",
+            "author": "Stephen Bann",
+            "link": "https://www.amazon.com/dp/example8"
+        }
+    ]
+}
 
