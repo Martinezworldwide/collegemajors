@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fine Arts</title>
     <link rel="stylesheet" href="../../styles/style.css">
+    <script defer src="../../scripts/main.js"></script>
 </head>
 <body>
     <header>
@@ -13,12 +14,9 @@
     </header>
     <main>
         <section>
-            <h2>Core Courses</h2>
-            <ul>
-                <li><a href="../../books/arts/fine-arts.json#course-1">Drawing and Composition</a></li>
-                <li><a href="../../books/arts/fine-arts.json#course-2">Painting Techniques</a></li>
-                <li><a href="../../books/arts/fine-arts.json#course-3">Sculpture and 3D Design</a></li>
-                <li><a href="../../books/arts/fine-arts.json#course-4">Art Criticism</a></li>
+            <h2>Core Courses and Books</h2>
+            <ul id="book-list" data-json="../../books/arts/fine-arts.json">
+                <!-- Books will be dynamically loaded here -->
             </ul>
         </section>
     </main>
@@ -27,4 +25,5 @@
     </footer>
 </body>
 </html>
+
 
