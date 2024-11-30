@@ -4,6 +4,7 @@
     "freshman": {
       "fall": [
         {
+          "course_number": 1,
           "course": "Calculus I",
           "textbook": {
             "title": "Calculus: Early Transcendentals",
@@ -12,6 +13,7 @@
           }
         },
         {
+          "course_number": 2,
           "course": "General Chemistry I with Lab",
           "textbook": {
             "title": "Chemistry: The Central Science",
@@ -20,6 +22,7 @@
           }
         },
         {
+          "course_number": 3,
           "course": "Introduction to Engineering",
           "textbook": {
             "title": "Engineering Fundamentals: An Introduction to Engineering",
@@ -28,6 +31,7 @@
           }
         },
         {
+          "course_number": 4,
           "course": "Introduction to Programming",
           "textbook": {
             "title": "Introduction to Java Programming and Data Structures",
@@ -36,6 +40,7 @@
           }
         },
         {
+          "course_number": 5,
           "course": "Composition I",
           "textbook": {
             "title": "The Norton Field Guide to Writing",
@@ -46,6 +51,7 @@
       ],
       "spring": [
         {
+          "course_number": 6,
           "course": "Calculus II",
           "textbook": {
             "title": "Calculus: Early Transcendentals",
@@ -54,6 +60,7 @@
           }
         },
         {
+          "course_number": 7,
           "course": "Physics I (Mechanics) with Lab",
           "textbook": {
             "title": "University Physics with Modern Physics",
@@ -62,6 +69,7 @@
           }
         },
         {
+          "course_number": 8,
           "course": "Engineering Graphics or CAD",
           "textbook": {
             "title": "Engineering Drawing and Design",
@@ -70,6 +78,7 @@
           }
         },
         {
+          "course_number": 9,
           "course": "Fundamentals of Electrical Engineering",
           "textbook": {
             "title": "Fundamentals of Electrical Engineering I",
@@ -78,6 +87,7 @@
           }
         },
         {
+          "course_number": 10,
           "course": "Composition II",
           "textbook": {
             "title": "The Norton Field Guide to Writing",
@@ -90,6 +100,7 @@
     "sophomore": {
       "fall": [
         {
+          "course_number": 11,
           "course": "Calculus III",
           "textbook": {
             "title": "Calculus: Early Transcendentals",
@@ -98,6 +109,7 @@
           }
         },
         {
+          "course_number": 12,
           "course": "Physics II (Electricity & Magnetism) with Lab",
           "textbook": {
             "title": "University Physics with Modern Physics",
@@ -106,6 +118,7 @@
           }
         },
         {
+          "course_number": 13,
           "course": "Circuits I",
           "textbook": {
             "title": "Electric Circuits",
@@ -114,6 +127,7 @@
           }
         },
         {
+          "course_number": 14,
           "course": "Digital Systems Design",
           "textbook": {
             "title": "Digital Design and Computer Architecture",
@@ -122,6 +136,7 @@
           }
         },
         {
+          "course_number": 15,
           "course": "Technical Communication or Public Speaking",
           "textbook": {
             "title": "Technical Communication: A Practical Approach",
@@ -132,6 +147,7 @@
       ],
       "spring": [
         {
+          "course_number": 16,
           "course": "Differential Equations",
           "textbook": {
             "title": "Elementary Differential Equations and Boundary Value Problems",
@@ -140,6 +156,7 @@
           }
         },
         {
+          "course_number": 17,
           "course": "Circuits II",
           "textbook": {
             "title": "Electric Circuits",
@@ -148,6 +165,7 @@
           }
         },
         {
+          "course_number": 18,
           "course": "Microcontrollers and Embedded Systems",
           "textbook": {
             "title": "Embedded Systems: Introduction to ARM Cortex-M Microcontrollers",
@@ -156,6 +174,7 @@
           }
         },
         {
+          "course_number": 19,
           "course": "Linear Algebra",
           "textbook": {
             "title": "Linear Algebra and Its Applications",
@@ -164,6 +183,7 @@
           }
         },
         {
+          "course_number": 20,
           "course": "Economics for Engineers or General Education Elective",
           "textbook": {
             "title": "Economics",
@@ -171,20 +191,22 @@
             "open_source_url": null
           }
         },
-{
-  "course": "Introductory Lab: Circuits & Systems",
-  "textbook": {
-    "title": "Lab manual provided by the institution",
-    "author": null,
-    "open_source_url": null
-  }
-}
-
-
+        {
+          "course_number": 21,
+          "course": "Introductory Lab: Circuits & Systems",
+          "textbook": {
+            "title": "Lab manual provided by the institution",
+            "author": null,
+            "open_source_url": null
+          }
+        }
+      ]
+    },
 {
   "junior": {
     "fall": [
       {
+        "course_number": 22,
         "course": "Signals and Systems",
         "textbook": {
           "title": "Signals and Systems: Theory and Applications",
@@ -193,6 +215,7 @@
         }
       },
       {
+        "course_number": 23,
         "course": "Electronics I",
         "textbook": {
           "title": "Microelectronic Circuits",
@@ -201,6 +224,7 @@
         }
       },
       {
+        "course_number": 24,
         "course": "Electromagnetic Fields",
         "textbook": {
           "title": "Fundamentals of Applied Electromagnetics",
@@ -209,6 +233,7 @@
         }
       },
       {
+        "course_number": 25,
         "course": "Probability and Statistics for Engineers",
         "textbook": {
           "title": "Probability and Statistics for Engineering and the Sciences",
@@ -217,6 +242,7 @@
         }
       },
       {
+        "course_number": 26,
         "course": "General Education Elective (Humanities/Social Science)",
         "textbook": {
           "title": "Varies by course selection",
@@ -225,6 +251,7 @@
         }
       },
       {
+        "course_number": 27,
         "course": "Engineering Lab: Electronics",
         "textbook": {
           "title": "Lab manual provided by the institution",
@@ -235,6 +262,7 @@
     ],
     "spring": [
       {
+        "course_number": 28,
         "course": "Control Systems",
         "textbook": {
           "title": "Control Systems Engineering",
@@ -243,6 +271,7 @@
         }
       },
       {
+        "course_number": 29,
         "course": "Electronics II",
         "textbook": {
           "title": "Microelectronic Circuits",
@@ -251,6 +280,7 @@
         }
       },
       {
+        "course_number": 30,
         "course": "Power Systems Engineering",
         "textbook": {
           "title": "Power System Analysis and Design",
@@ -259,6 +289,7 @@
         }
       },
       {
+        "course_number": 31,
         "course": "Engineering Ethics",
         "textbook": {
           "title": "Engineering Ethics: Concepts and Cases",
@@ -267,6 +298,7 @@
         }
       },
       {
+        "course_number": 32,
         "course": "General Education Elective (Diversity/Global Issues)",
         "textbook": {
           "title": "Varies by course selection",
@@ -275,6 +307,7 @@
         }
       },
       {
+        "course_number": 33,
         "course": "Engineering Lab: Signals & Systems",
         "textbook": {
           "title": "Lab manual provided by the institution",
@@ -287,6 +320,7 @@
   "senior": {
     "fall": [
       {
+        "course_number": 34,
         "course": "Capstone Design Project I",
         "textbook": {
           "title": "No specific textbook; guided by faculty advisors",
@@ -295,6 +329,7 @@
         }
       },
       {
+        "course_number": 35,
         "course": "Communication Systems",
         "textbook": {
           "title": "Modern Digital and Analog Communication Systems",
@@ -303,6 +338,7 @@
         }
       },
       {
+        "course_number": 36,
         "course": "Advanced Elective (e.g., VLSI Design, Machine Learning, or RF Systems)",
         "textbook": {
           "title": "Varies by course selection",
@@ -311,6 +347,7 @@
         }
       },
       {
+        "course_number": 37,
         "course": "Renewable Energy Systems or another specialization course",
         "textbook": {
           "title": "Renewable Energy Systems",
@@ -319,6 +356,7 @@
         }
       },
       {
+        "course_number": 38,
         "course": "General Education Elective (Free Elective)",
         "textbook": {
           "title": "Varies by course selection",
@@ -329,6 +367,7 @@
     ],
     "spring": [
       {
+        "course_number": 39,
         "course": "Capstone Design Project II",
         "textbook": {
           "title": "No specific textbook; guided by faculty advisors",
@@ -337,6 +376,7 @@
         }
       },
       {
+        "course_number": 40,
         "course": "Advanced Elective (e.g., Digital Signal Processing, Embedded Systems)",
         "textbook": {
           "title": "Varies by course selection",
@@ -345,6 +385,7 @@
         }
       },
       {
+        "course_number": 41,
         "course": "Professional Development for Engineers",
         "textbook": {
           "title": "Engineering Your Future: The Professional Practice of Engineering",
@@ -353,6 +394,7 @@
         }
       },
       {
+        "course_number": 42,
         "course": "Free Elective or Specialization Elective",
         "textbook": {
           "title": "Varies by course selection",
@@ -361,6 +403,7 @@
         }
       },
       {
+        "course_number": 43,
         "course": "General Education Elective",
         "textbook": {
           "title": "Varies by course selection",
@@ -369,6 +412,7 @@
         }
       },
       {
+        "course_number": 44,
         "course": "Engineering Lab: Advanced Systems",
         "textbook": {
           "title": "Lab manual provided by the institution",
@@ -379,3 +423,4 @@
     ]
   }
 }
+
