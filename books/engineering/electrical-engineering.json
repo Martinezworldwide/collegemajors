@@ -1,30 +1,381 @@
 {
-    "major": "Electrical Engineering",
-    "books": [
+  "program": "Bachelor of Science in Electrical Engineering",
+  "curriculum": {
+    "freshman": {
+      "fall": [
         {
-            "course": "Circuits and Systems",
-            "title": "Introduction to Electric Circuits",
-            "author": "Richard C. Dorf",
-            "link": "https://www.amazon.com/dp/example9"
+          "course": "Calculus I",
+          "textbook": {
+            "title": "Calculus: Early Transcendentals",
+            "author": "James Stewart",
+            "open_source_url": null
+          }
         },
         {
-            "course": "Electromagnetic Fields",
-            "title": "Field and Wave Electromagnetics",
-            "author": "David K. Cheng",
-            "link": "https://www.amazon.com/dp/example10"
+          "course": "General Chemistry I with Lab",
+          "textbook": {
+            "title": "Chemistry: The Central Science",
+            "author": "Brown, LeMay, Bursten, and Murphy",
+            "open_source_url": null
+          }
         },
         {
-            "course": "Power Systems",
-            "title": "Electric Power Systems",
-            "author": "B. M. Weedy",
-            "link": "https://www.amazon.com/dp/example11"
+          "course": "Introduction to Engineering",
+          "textbook": {
+            "title": "Engineering Fundamentals: An Introduction to Engineering",
+            "author": "Saeed Moaveni",
+            "open_source_url": null
+          }
         },
         {
-            "course": "Digital Signal Processing",
-            "title": "Digital Signal Processing: Principles, Algorithms, and Applications",
-            "author": "John G. Proakis",
-            "link": "https://www.amazon.com/dp/example12"
+          "course": "Introduction to Programming",
+          "textbook": {
+            "title": "Introduction to Java Programming and Data Structures",
+            "author": "Y. Daniel Liang",
+            "open_source_url": null
+          }
+        },
+        {
+          "course": "Composition I",
+          "textbook": {
+            "title": "The Norton Field Guide to Writing",
+            "author": "Richard Bullock, Maureen Daly Goggin, and Francine Weinberg",
+            "open_source_url": null
+          }
         }
-    ]
+      ],
+      "spring": [
+        {
+          "course": "Calculus II",
+          "textbook": {
+            "title": "Calculus: Early Transcendentals",
+            "author": "James Stewart",
+            "open_source_url": null
+          }
+        },
+        {
+          "course": "Physics I (Mechanics) with Lab",
+          "textbook": {
+            "title": "University Physics with Modern Physics",
+            "author": "Hugh D. Young and Roger A. Freedman",
+            "open_source_url": null
+          }
+        },
+        {
+          "course": "Engineering Graphics or CAD",
+          "textbook": {
+            "title": "Engineering Drawing and Design",
+            "author": "David A. Madsen and David P. Madsen",
+            "open_source_url": null
+          }
+        },
+        {
+          "course": "Fundamentals of Electrical Engineering",
+          "textbook": {
+            "title": "Fundamentals of Electrical Engineering I",
+            "author": "Don H. Johnson",
+            "open_source_url": "https://www.ece.rice.edu/~dhj/courses/elec241/col10040.pdf"
+          }
+        },
+        {
+          "course": "Composition II",
+          "textbook": {
+            "title": "The Norton Field Guide to Writing",
+            "author": "Richard Bullock, Maureen Daly Goggin, and Francine Weinberg",
+            "open_source_url": null
+          }
+        }
+      ]
+    },
+    "sophomore": {
+      "fall": [
+        {
+          "course": "Calculus III",
+          "textbook": {
+            "title": "Calculus: Early Transcendentals",
+            "author": "James Stewart",
+            "open_source_url": null
+          }
+        },
+        {
+          "course": "Physics II (Electricity & Magnetism) with Lab",
+          "textbook": {
+            "title": "University Physics with Modern Physics",
+            "author": "Hugh D. Young and Roger A. Freedman",
+            "open_source_url": null
+          }
+        },
+        {
+          "course": "Circuits I",
+          "textbook": {
+            "title": "Electric Circuits",
+            "author": "James W. Nilsson and Susan Riedel",
+            "open_source_url": null
+          }
+        },
+        {
+          "course": "Digital Systems Design",
+          "textbook": {
+            "title": "Digital Design and Computer Architecture",
+            "author": "David Harris and Sarah Harris",
+            "open_source_url": null
+          }
+        },
+        {
+          "course": "Technical Communication or Public Speaking",
+          "textbook": {
+            "title": "Technical Communication: A Practical Approach",
+            "author": "William S. Pfeiffer and Kaye E. Adkins",
+            "open_source_url": null
+          }
+        }
+      ],
+      "spring": [
+        {
+          "course": "Differential Equations",
+          "textbook": {
+            "title": "Elementary Differential Equations and Boundary Value Problems",
+            "author": "William E. Boyce and Richard C. DiPrima",
+            "open_source_url": null
+          }
+        },
+        {
+          "course": "Circuits II",
+          "textbook": {
+            "title": "Electric Circuits",
+            "author": "James W. Nilsson and Susan Riedel",
+            "open_source_url": null
+          }
+        },
+        {
+          "course": "Microcontrollers and Embedded Systems",
+          "textbook": {
+            "title": "Embedded Systems: Introduction to ARM Cortex-M Microcontrollers",
+            "author": "Jonathan W. Valvano",
+            "open_source_url": null
+          }
+        },
+        {
+          "course": "Linear Algebra",
+          "textbook": {
+            "title": "Linear Algebra and Its Applications",
+            "author": "David C. Lay, Steven R. Lay, and Judi J. McDonald",
+            "open_source_url": null
+          }
+        },
+        {
+          "course": "Economics for Engineers or General Education Elective",
+          "textbook": {
+            "title": "Economics",
+            "author": "Paul Samuelson and William Nordhaus",
+            "open_source_url": null
+          }
+        },
+{
+  "course": "Introductory Lab: Circuits & Systems",
+  "textbook": {
+    "title": "Lab manual provided by the institution",
+    "author": null,
+    "open_source_url": null
+  }
 }
 
+
+{
+  "junior": {
+    "fall": [
+      {
+        "course": "Signals and Systems",
+        "textbook": {
+          "title": "Signals and Systems: Theory and Applications",
+          "author": "Fawwaz T. Ulaby and Andrew E. Yagle",
+          "open_source_url": "https://services.publishing.umich.edu/publications/ee/"
+        }
+      },
+      {
+        "course": "Electronics I",
+        "textbook": {
+          "title": "Microelectronic Circuits",
+          "author": "Adel S. Sedra and Kenneth C. Smith",
+          "open_source_url": null
+        }
+      },
+      {
+        "course": "Electromagnetic Fields",
+        "textbook": {
+          "title": "Fundamentals of Applied Electromagnetics",
+          "author": "Fawwaz T. Ulaby and Umberto Ravaioli",
+          "open_source_url": null
+        }
+      },
+      {
+        "course": "Probability and Statistics for Engineers",
+        "textbook": {
+          "title": "Probability and Statistics for Engineering and the Sciences",
+          "author": "Jay L. Devore",
+          "open_source_url": null
+        }
+      },
+      {
+        "course": "General Education Elective (Humanities/Social Science)",
+        "textbook": {
+          "title": "Varies by course selection",
+          "author": null,
+          "open_source_url": null
+        }
+      },
+      {
+        "course": "Engineering Lab: Electronics",
+        "textbook": {
+          "title": "Lab manual provided by the institution",
+          "author": null,
+          "open_source_url": null
+        }
+      }
+    ],
+    "spring": [
+      {
+        "course": "Control Systems",
+        "textbook": {
+          "title": "Control Systems Engineering",
+          "author": "Norman S. Nise",
+          "open_source_url": null
+        }
+      },
+      {
+        "course": "Electronics II",
+        "textbook": {
+          "title": "Microelectronic Circuits",
+          "author": "Adel S. Sedra and Kenneth C. Smith",
+          "open_source_url": null
+        }
+      },
+      {
+        "course": "Power Systems Engineering",
+        "textbook": {
+          "title": "Power System Analysis and Design",
+          "author": "J. Duncan Glover, Thomas Overbye, and Mulukutla S. Sarma",
+          "open_source_url": null
+        }
+      },
+      {
+        "course": "Engineering Ethics",
+        "textbook": {
+          "title": "Engineering Ethics: Concepts and Cases",
+          "author": "Charles E. Harris Jr., Michael S. Pritchard, and Michael J. Rabins",
+          "open_source_url": null
+        }
+      },
+      {
+        "course": "General Education Elective (Diversity/Global Issues)",
+        "textbook": {
+          "title": "Varies by course selection",
+          "author": null,
+          "open_source_url": null
+        }
+      },
+      {
+        "course": "Engineering Lab: Signals & Systems",
+        "textbook": {
+          "title": "Lab manual provided by the institution",
+          "author": null,
+          "open_source_url": null
+        }
+      }
+    ]
+  },
+  "senior": {
+    "fall": [
+      {
+        "course": "Capstone Design Project I",
+        "textbook": {
+          "title": "No specific textbook; guided by faculty advisors",
+          "author": null,
+          "open_source_url": null
+        }
+      },
+      {
+        "course": "Communication Systems",
+        "textbook": {
+          "title": "Modern Digital and Analog Communication Systems",
+          "author": "B.P. Lathi and Zhi Ding",
+          "open_source_url": null
+        }
+      },
+      {
+        "course": "Advanced Elective (e.g., VLSI Design, Machine Learning, or RF Systems)",
+        "textbook": {
+          "title": "Varies by course selection",
+          "author": null,
+          "open_source_url": null
+        }
+      },
+      {
+        "course": "Renewable Energy Systems or another specialization course",
+        "textbook": {
+          "title": "Renewable Energy Systems",
+          "author": "Henrik Lund",
+          "open_source_url": null
+        }
+      },
+      {
+        "course": "General Education Elective (Free Elective)",
+        "textbook": {
+          "title": "Varies by course selection",
+          "author": null,
+          "open_source_url": null
+        }
+      }
+    ],
+    "spring": [
+      {
+        "course": "Capstone Design Project II",
+        "textbook": {
+          "title": "No specific textbook; guided by faculty advisors",
+          "author": null,
+          "open_source_url": null
+        }
+      },
+      {
+        "course": "Advanced Elective (e.g., Digital Signal Processing, Embedded Systems)",
+        "textbook": {
+          "title": "Varies by course selection",
+          "author": null,
+          "open_source_url": null
+        }
+      },
+      {
+        "course": "Professional Development for Engineers",
+        "textbook": {
+          "title": "Engineering Your Future: The Professional Practice of Engineering",
+          "author": "Stuart G. Walesh",
+          "open_source_url": null
+        }
+      },
+      {
+        "course": "Free Elective or Specialization Elective",
+        "textbook": {
+          "title": "Varies by course selection",
+          "author": null,
+          "open_source_url": null
+        }
+      },
+      {
+        "course": "General Education Elective",
+        "textbook": {
+          "title": "Varies by course selection",
+          "author": null,
+          "open_source_url": null
+        }
+      },
+      {
+        "course": "Engineering Lab: Advanced Systems",
+        "textbook": {
+          "title": "Lab manual provided by the institution",
+          "author": null,
+          "open_source_url": null
+        }
+      }
+    ]
+  }
+}
