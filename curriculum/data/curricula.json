@@ -1,0 +1,497 @@
+{
+ "computer-science": {
+  "major": "Computer Science",
+  "cip_name": "Computer Science",
+  "category": "Computer and Information Sciences and Support Services",
+  "degree": "Bachelor's (120 credits)",
+  "total_credits": 120,
+  "semesters": [
+   {
+    "semester": 1,
+    "courses": [
+     "CS101",
+     "MATH101",
+     "ENG101",
+     "COMM101",
+     "SOC101"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 2,
+    "courses": [
+     "CS102",
+     "MATH102",
+     "ENG102",
+     "PHYS201",
+     "PHIL101"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 3,
+    "courses": [
+     "CS201",
+     "MATH204",
+     "PHYS202",
+     "HIST101",
+     "ART101"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 4,
+    "courses": [
+     "CS210",
+     "MATH203",
+     "CS220",
+     "HIST102",
+     "POLS101"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 5,
+    "courses": [
+     "CS301",
+     "CS330",
+     "STAT301",
+     "PHIL210",
+     "HUM201"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 6,
+    "courses": [
+     "CS310",
+     "CS320",
+     "CS340",
+     "SPAN101",
+     "ECON201"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 7,
+    "courses": [
+     "CS350",
+     "CS410",
+     "CS430",
+     "BUS101",
+     "PSY101"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 8,
+    "courses": [
+     "CS498",
+     "CS420",
+     "MATH212",
+     "BIO101",
+     "CHEM101"
+    ],
+    "credits": 15
+   }
+  ],
+  "course_count": 40,
+  "unique_courses": 40
+ },
+ "business-administration": {
+  "major": "Business Administration and Management",
+  "cip_name": "Business Administration and Management, General",
+  "category": "Business, Management, Marketing, and Related Support Services",
+  "degree": "Bachelor's (120 credits)",
+  "total_credits": 120,
+  "semesters": [
+   {
+    "semester": 1,
+    "courses": [
+     "BUS101",
+     "ENG101",
+     "MATH101",
+     "COMM101",
+     "SOC101"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 2,
+    "courses": [
+     "ACCT201",
+     "ENG102",
+     "ECON201",
+     "HIST101",
+     "PSY101"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 3,
+    "courses": [
+     "ACCT202",
+     "ECON202",
+     "BUS210",
+     "HIST102",
+     "PHIL101"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 4,
+    "courses": [
+     "BUS201",
+     "CS101",
+     "POLS101",
+     "ART101",
+     "BIO101"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 5,
+    "courses": [
+     "MGMT301",
+     "MKTG301",
+     "BUS330",
+     "PHIL210",
+     "HUM201"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 6,
+    "courses": [
+     "FIN301",
+     "BUS310",
+     "BUS320",
+     "SPAN101",
+     "CHEM101"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 7,
+    "courses": [
+     "ENTR340",
+     "MGMT410",
+     "MKTG410",
+     "MATH203",
+     "STAT302"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 8,
+    "courses": [
+     "BUS498",
+     "FIN410",
+     "CS330",
+     "BUS440",
+     "PSY201"
+    ],
+    "credits": 15
+   }
+  ],
+  "course_count": 40,
+  "unique_courses": 40
+ },
+ "psychology": {
+  "major": "Psychology",
+  "cip_name": "Psychology, General",
+  "category": "Psychology",
+  "degree": "Bachelor's (120 credits)",
+  "total_credits": 120,
+  "semesters": [
+   {
+    "semester": 1,
+    "courses": [
+     "PSY101",
+     "ENG101",
+     "MATH101",
+     "COMM101",
+     "SOC101"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 2,
+    "courses": [
+     "PSY201",
+     "ENG102",
+     "BIO101",
+     "HIST101",
+     "PHIL101"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 3,
+    "courses": [
+     "PSY210",
+     "PSY220",
+     "BIO102",
+     "HIST102",
+     "ART101"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 4,
+    "courses": [
+     "PSY301",
+     "CHEM101",
+     "POLS101",
+     "HUM201",
+     "SPAN101"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 5,
+    "courses": [
+     "PSY310",
+     "PSY320",
+     "PSY340",
+     "STAT301",
+     "PHIL210"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 6,
+    "courses": [
+     "PSY330",
+     "PSY350",
+     "BIO220",
+     "CS101",
+     "ECON201"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 7,
+    "courses": [
+     "PSY410",
+     "PSY420",
+     "PSY430",
+     "BUS101",
+     "MATH203"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 8,
+    "courses": [
+     "PSY498",
+     "MATH102",
+     "BIO320",
+     "MATH202",
+     "MATH204"
+    ],
+    "credits": 15
+   }
+  ],
+  "course_count": 40,
+  "unique_courses": 40
+ },
+ "biology": {
+  "major": "Biology",
+  "cip_name": "Biology/Biological Sciences, General",
+  "category": "Biological and Biomedical Sciences",
+  "degree": "Bachelor's (120 credits)",
+  "total_credits": 120,
+  "semesters": [
+   {
+    "semester": 1,
+    "courses": [
+     "BIO101",
+     "CHEM101",
+     "MATH101",
+     "ENG101",
+     "COMM101"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 2,
+    "courses": [
+     "BIO102",
+     "CHEM102",
+     "MATH102",
+     "ENG102",
+     "HIST101"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 3,
+    "courses": [
+     "BIO201",
+     "BIO210",
+     "PHYS201",
+     "PHIL101",
+     "SOC101"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 4,
+    "courses": [
+     "BIO220",
+     "CHEM301",
+     "PHYS202",
+     "HIST102",
+     "POLS101"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 5,
+    "courses": [
+     "BIO301",
+     "BIO310",
+     "STAT301",
+     "ART101",
+     "HUM201"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 6,
+    "courses": [
+     "BIO320",
+     "BIO330",
+     "CHEM302",
+     "SPAN101",
+     "PSY101"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 7,
+    "courses": [
+     "BIO410",
+     "BIO420",
+     "MATH203",
+     "CS101",
+     "ECON201"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 8,
+    "courses": [
+     "BIO498",
+     "MATH202",
+     "MATH204",
+     "MATH110",
+     "PHIL210"
+    ],
+    "credits": 15
+   }
+  ],
+  "course_count": 40,
+  "unique_courses": 40
+ },
+ "mathematics": {
+  "major": "Mathematics",
+  "cip_name": "Mathematics, General",
+  "category": "Mathematics and Statistics",
+  "degree": "Bachelor's (120 credits)",
+  "total_credits": 120,
+  "semesters": [
+   {
+    "semester": 1,
+    "courses": [
+     "MATH101",
+     "MATH110",
+     "ENG101",
+     "COMM101",
+     "CS101"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 2,
+    "courses": [
+     "MATH102",
+     "MATH204",
+     "ENG102",
+     "HIST101",
+     "PHIL101"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 3,
+    "courses": [
+     "MATH201",
+     "MATH203",
+     "CS102",
+     "HIST102",
+     "SOC101"
+    ],
+    "credits": 16
+   },
+   {
+    "semester": 4,
+    "courses": [
+     "MATH211",
+     "MATH212",
+     "PHYS201",
+     "POLS101",
+     "ART101"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 5,
+    "courses": [
+     "MATH301",
+     "MATH302",
+     "STAT301",
+     "PHYS202",
+     "HUM201"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 6,
+    "courses": [
+     "MATH303",
+     "MATH304",
+     "STAT302",
+     "SPAN101",
+     "PSY101"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 7,
+    "courses": [
+     "MATH350",
+     "MATH202",
+     "STAT401",
+     "PHIL210",
+     "BIO101"
+    ],
+    "credits": 15
+   },
+   {
+    "semester": 8,
+    "courses": [
+     "MATH498",
+     "MATH401",
+     "MATH213",
+     "MATH495",
+     "CHEM101"
+    ],
+    "credits": 14
+   }
+  ],
+  "course_count": 40,
+  "unique_courses": 40
+ }
+}

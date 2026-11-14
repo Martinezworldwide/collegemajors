@@ -1,0 +1,2219 @@
+{
+ "ENG101": {
+  "course_id": "ENG101",
+  "title": "Composition I",
+  "credit_hours": 3,
+  "level": 100,
+  "area": "Gen Ed",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "Saylor Academy",
+    "url": "https://www.saylor.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "ENG102": {
+  "course_id": "ENG102",
+  "title": "Composition II",
+  "credit_hours": 3,
+  "level": 100,
+  "area": "Gen Ed",
+  "prerequisites": [
+   "ENG101"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "Saylor Academy",
+    "url": "https://www.saylor.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "COMM101": {
+  "course_id": "COMM101",
+  "title": "Public Speaking",
+  "credit_hours": 3,
+  "level": 100,
+  "area": "Gen Ed",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "Saylor Academy",
+    "url": "https://www.saylor.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "HIST101": {
+  "course_id": "HIST101",
+  "title": "United States History I",
+  "credit_hours": 3,
+  "level": 100,
+  "area": "Gen Ed",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "Khan Academy",
+    "url": "https://www.khanacademy.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "HIST102": {
+  "course_id": "HIST102",
+  "title": "United States History II",
+  "credit_hours": 3,
+  "level": 100,
+  "area": "Gen Ed",
+  "prerequisites": [
+   "HIST101"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "Khan Academy",
+    "url": "https://www.khanacademy.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "PHIL101": {
+  "course_id": "PHIL101",
+  "title": "Introduction to Philosophy",
+  "credit_hours": 3,
+  "level": 100,
+  "area": "Gen Ed",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "OpenLearn (Open University)",
+    "url": "https://www.open.edu/openlearn/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "PHIL210": {
+  "course_id": "PHIL210",
+  "title": "Ethics",
+  "credit_hours": 3,
+  "level": 200,
+  "area": "Gen Ed",
+  "prerequisites": [
+   "PHIL101"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "OpenLearn (Open University)",
+    "url": "https://www.open.edu/openlearn/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "SOC101": {
+  "course_id": "SOC101",
+  "title": "Introduction to Sociology",
+  "credit_hours": 3,
+  "level": 100,
+  "area": "Gen Ed",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "Khan Academy",
+    "url": "https://www.khanacademy.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "POLS101": {
+  "course_id": "POLS101",
+  "title": "American Government",
+  "credit_hours": 3,
+  "level": 100,
+  "area": "Gen Ed",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "Khan Academy",
+    "url": "https://www.khanacademy.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "ART101": {
+  "course_id": "ART101",
+  "title": "Art Appreciation",
+  "credit_hours": 3,
+  "level": 100,
+  "area": "Gen Ed",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "OpenLearn (Open University)",
+    "url": "https://www.open.edu/openlearn/"
+   },
+   {
+    "provider": "Khan Academy",
+    "url": "https://www.khanacademy.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "HUM201": {
+  "course_id": "HUM201",
+  "title": "World Cultures and Humanities",
+  "credit_hours": 3,
+  "level": 200,
+  "area": "Gen Ed",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "OpenLearn (Open University)",
+    "url": "https://www.open.edu/openlearn/"
+   },
+   {
+    "provider": "Saylor Academy",
+    "url": "https://www.saylor.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "SPAN101": {
+  "course_id": "SPAN101",
+  "title": "Elementary Spanish I",
+  "credit_hours": 3,
+  "level": 100,
+  "area": "Gen Ed",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "OpenLearn (Open University)",
+    "url": "https://www.open.edu/openlearn/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "MATH101": {
+  "course_id": "MATH101",
+  "title": "Calculus I",
+  "credit_hours": 3,
+  "level": 100,
+  "area": "Mathematics",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "MathUniversity (Martinez, full course built)",
+    "url": "https://martinezworldwide.github.io/MathUniversity/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "FULL course already built in MathUniversity (4 modules)"
+ },
+ "MATH102": {
+  "course_id": "MATH102",
+  "title": "Calculus II",
+  "credit_hours": 3,
+  "level": 100,
+  "area": "Mathematics",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "MathUniversity (Martinez, full course built)",
+    "url": "https://martinezworldwide.github.io/MathUniversity/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "FULL course already built in MathUniversity (4 modules)"
+ },
+ "MATH201": {
+  "course_id": "MATH201",
+  "title": "Multivariable Calculus",
+  "credit_hours": 4,
+  "level": 200,
+  "area": "Mathematics",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "MathUniversity (Martinez, full course built)",
+    "url": "https://martinezworldwide.github.io/MathUniversity/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "FULL course already built in MathUniversity (5 modules)"
+ },
+ "MATH202": {
+  "course_id": "MATH202",
+  "title": "Differential Equations",
+  "credit_hours": 3,
+  "level": 200,
+  "area": "Mathematics",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "MathUniversity (Martinez, full course built)",
+    "url": "https://martinezworldwide.github.io/MathUniversity/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "FULL course already built in MathUniversity (6 modules)"
+ },
+ "MATH203": {
+  "course_id": "MATH203",
+  "title": "Linear Algebra",
+  "credit_hours": 3,
+  "level": 200,
+  "area": "Mathematics",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "MathUniversity (Martinez, full course built)",
+    "url": "https://martinezworldwide.github.io/MathUniversity/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "FULL course already built in MathUniversity (6 modules)"
+ },
+ "MATH204": {
+  "course_id": "MATH204",
+  "title": "Discrete Mathematics",
+  "credit_hours": 3,
+  "level": 200,
+  "area": "Mathematics",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "MathUniversity (Martinez, full course built)",
+    "url": "https://martinezworldwide.github.io/MathUniversity/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "FULL course already built in MathUniversity (5 modules)"
+ },
+ "MATH110": {
+  "course_id": "MATH110",
+  "title": "Logic, Sets, and Proof",
+  "credit_hours": 3,
+  "level": 100,
+  "area": "Mathematics",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "MathUniversity (Martinez, full course built)",
+    "url": "https://martinezworldwide.github.io/MathUniversity/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "FULL course already built in MathUniversity (4 modules)"
+ },
+ "MATH211": {
+  "course_id": "MATH211",
+  "title": "Elementary Number Theory",
+  "credit_hours": 3,
+  "level": 200,
+  "area": "Mathematics",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "MathUniversity (Martinez, full course built)",
+    "url": "https://martinezworldwide.github.io/MathUniversity/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "FULL course already built in MathUniversity (4 modules)"
+ },
+ "MATH212": {
+  "course_id": "MATH212",
+  "title": "Combinatorics",
+  "credit_hours": 3,
+  "level": 200,
+  "area": "Mathematics",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "MathUniversity (Martinez, full course built)",
+    "url": "https://martinezworldwide.github.io/MathUniversity/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "FULL course already built in MathUniversity (4 modules)"
+ },
+ "MATH213": {
+  "course_id": "MATH213",
+  "title": "Graph Theory",
+  "credit_hours": 3,
+  "level": 200,
+  "area": "Mathematics",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "MathUniversity (Martinez, full course built)",
+    "url": "https://martinezworldwide.github.io/MathUniversity/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "FULL course already built in MathUniversity (4 modules)"
+ },
+ "MATH301": {
+  "course_id": "MATH301",
+  "title": "Real Analysis I",
+  "credit_hours": 3,
+  "level": 300,
+  "area": "Mathematics",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "MathUniversity (Martinez, full course built)",
+    "url": "https://martinezworldwide.github.io/MathUniversity/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "FULL course already built in MathUniversity (6 modules)"
+ },
+ "MATH302": {
+  "course_id": "MATH302",
+  "title": "Abstract Algebra I",
+  "credit_hours": 3,
+  "level": 300,
+  "area": "Mathematics",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "MathUniversity (Martinez, full course built)",
+    "url": "https://martinezworldwide.github.io/MathUniversity/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "FULL course already built in MathUniversity (6 modules)"
+ },
+ "MATH303": {
+  "course_id": "MATH303",
+  "title": "Complex Analysis",
+  "credit_hours": 3,
+  "level": 300,
+  "area": "Mathematics",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "MathUniversity (Martinez, full course built)",
+    "url": "https://martinezworldwide.github.io/MathUniversity/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "FULL course already built in MathUniversity (6 modules)"
+ },
+ "MATH304": {
+  "course_id": "MATH304",
+  "title": "Introduction to Topology",
+  "credit_hours": 3,
+  "level": 300,
+  "area": "Mathematics",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "MathUniversity (Martinez, full course built)",
+    "url": "https://martinezworldwide.github.io/MathUniversity/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "FULL course already built in MathUniversity (6 modules)"
+ },
+ "MATH350": {
+  "course_id": "MATH350",
+  "title": "Numerical Analysis I",
+  "credit_hours": 3,
+  "level": 300,
+  "area": "Mathematics",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "MathUniversity (Martinez, full course built)",
+    "url": "https://martinezworldwide.github.io/MathUniversity/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "FULL course already built in MathUniversity (5 modules)"
+ },
+ "MATH401": {
+  "course_id": "MATH401",
+  "title": "Introduction to Graduate Mathematics",
+  "credit_hours": 3,
+  "level": 400,
+  "area": "Mathematics",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "MathUniversity (Martinez, full course built)",
+    "url": "https://martinezworldwide.github.io/MathUniversity/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "FULL course already built in MathUniversity (5 modules)"
+ },
+ "MATH498": {
+  "course_id": "MATH498",
+  "title": "Senior Capstone Project in Mathematics",
+  "credit_hours": 3,
+  "level": 400,
+  "area": "Mathematics",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "MathUniversity (Martinez, full course built)",
+    "url": "https://martinezworldwide.github.io/MathUniversity/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "FULL course already built in MathUniversity (3 modules)"
+ },
+ "STAT301": {
+  "course_id": "STAT301",
+  "title": "Probability Theory",
+  "credit_hours": 3,
+  "level": 300,
+  "area": "Mathematics",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "MathUniversity (Martinez, full course built)",
+    "url": "https://martinezworldwide.github.io/MathUniversity/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "FULL course already built in MathUniversity (5 modules)"
+ },
+ "STAT302": {
+  "course_id": "STAT302",
+  "title": "Mathematical Statistics",
+  "credit_hours": 3,
+  "level": 300,
+  "area": "Mathematics",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "MathUniversity (Martinez, full course built)",
+    "url": "https://martinezworldwide.github.io/MathUniversity/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "FULL course already built in MathUniversity (6 modules)"
+ },
+ "STAT401": {
+  "course_id": "STAT401",
+  "title": "Regression Analysis",
+  "credit_hours": 3,
+  "level": 400,
+  "area": "Mathematics",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "MathUniversity (Martinez, full course built)",
+    "url": "https://martinezworldwide.github.io/MathUniversity/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "FULL course already built in MathUniversity (5 modules)"
+ },
+ "STAT402": {
+  "course_id": "STAT402",
+  "title": "Bayesian Statistics",
+  "credit_hours": 3,
+  "level": 400,
+  "area": "Mathematics",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "MathUniversity (Martinez, full course built)",
+    "url": "https://martinezworldwide.github.io/MathUniversity/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "FULL course already built in MathUniversity (5 modules)"
+ },
+ "MATH495": {
+  "course_id": "MATH495",
+  "title": "Undergraduate Research in Mathematics",
+  "credit_hours": 2,
+  "level": 400,
+  "area": "Mathematics",
+  "prerequisites": [
+   "MATH301"
+  ],
+  "free_resources": [
+   {
+    "provider": "MathUniversity (Martinez, full course built)",
+    "url": "https://martinezworldwide.github.io/MathUniversity/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "CS101": {
+  "course_id": "CS101",
+  "title": "Introduction to Computer Science I",
+  "credit_hours": 3,
+  "level": 100,
+  "area": "Computer Science",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "MIT OpenCourseWare",
+    "url": "https://ocw.mit.edu/"
+   },
+   {
+    "provider": "Khan Academy",
+    "url": "https://www.khanacademy.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "CS102": {
+  "course_id": "CS102",
+  "title": "Introduction to Computer Science II",
+  "credit_hours": 3,
+  "level": 100,
+  "area": "Computer Science",
+  "prerequisites": [
+   "CS101"
+  ],
+  "free_resources": [
+   {
+    "provider": "MIT OpenCourseWare",
+    "url": "https://ocw.mit.edu/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "CS201": {
+  "course_id": "CS201",
+  "title": "Data Structures",
+  "credit_hours": 3,
+  "level": 200,
+  "area": "Computer Science",
+  "prerequisites": [
+   "CS102"
+  ],
+  "free_resources": [
+   {
+    "provider": "MIT OpenCourseWare",
+    "url": "https://ocw.mit.edu/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "CS210": {
+  "course_id": "CS210",
+  "title": "Computer Organization and Architecture",
+  "credit_hours": 3,
+  "level": 200,
+  "area": "Computer Science",
+  "prerequisites": [
+   "CS102"
+  ],
+  "free_resources": [
+   {
+    "provider": "Saylor Academy",
+    "url": "https://www.saylor.org/"
+   },
+   {
+    "provider": "MIT OpenCourseWare",
+    "url": "https://ocw.mit.edu/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "CS220": {
+  "course_id": "CS220",
+  "title": "Programming Languages",
+  "credit_hours": 3,
+  "level": 200,
+  "area": "Computer Science",
+  "prerequisites": [
+   "CS201"
+  ],
+  "free_resources": [
+   {
+    "provider": "MIT OpenCourseWare",
+    "url": "https://ocw.mit.edu/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "CS301": {
+  "course_id": "CS301",
+  "title": "Algorithms",
+  "credit_hours": 3,
+  "level": 300,
+  "area": "Computer Science",
+  "prerequisites": [
+   "CS201",
+   "MATH204"
+  ],
+  "free_resources": [
+   {
+    "provider": "MIT OpenCourseWare",
+    "url": "https://ocw.mit.edu/"
+   },
+   {
+    "provider": "Khan Academy",
+    "url": "https://www.khanacademy.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "CS310": {
+  "course_id": "CS310",
+  "title": "Operating Systems",
+  "credit_hours": 3,
+  "level": 300,
+  "area": "Computer Science",
+  "prerequisites": [
+   "CS210",
+   "CS201"
+  ],
+  "free_resources": [
+   {
+    "provider": "Saylor Academy",
+    "url": "https://www.saylor.org/"
+   },
+   {
+    "provider": "MIT OpenCourseWare",
+    "url": "https://ocw.mit.edu/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "CS320": {
+  "course_id": "CS320",
+  "title": "Software Engineering",
+  "credit_hours": 3,
+  "level": 300,
+  "area": "Computer Science",
+  "prerequisites": [
+   "CS201"
+  ],
+  "free_resources": [
+   {
+    "provider": "Saylor Academy",
+    "url": "https://www.saylor.org/"
+   },
+   {
+    "provider": "OpenLearn (Open University)",
+    "url": "https://www.open.edu/openlearn/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "CS330": {
+  "course_id": "CS330",
+  "title": "Database Systems",
+  "credit_hours": 3,
+  "level": 300,
+  "area": "Computer Science",
+  "prerequisites": [
+   "CS201"
+  ],
+  "free_resources": [
+   {
+    "provider": "Saylor Academy",
+    "url": "https://www.saylor.org/"
+   },
+   {
+    "provider": "MIT OpenCourseWare",
+    "url": "https://ocw.mit.edu/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "CS340": {
+  "course_id": "CS340",
+  "title": "Computer Networks",
+  "credit_hours": 3,
+  "level": 300,
+  "area": "Computer Science",
+  "prerequisites": [
+   "CS210"
+  ],
+  "free_resources": [
+   {
+    "provider": "Saylor Academy",
+    "url": "https://www.saylor.org/"
+   },
+   {
+    "provider": "MIT OpenCourseWare",
+    "url": "https://ocw.mit.edu/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "CS350": {
+  "course_id": "CS350",
+  "title": "Theory of Computation",
+  "credit_hours": 3,
+  "level": 300,
+  "area": "Computer Science",
+  "prerequisites": [
+   "MATH204",
+   "CS201"
+  ],
+  "free_resources": [
+   {
+    "provider": "MIT OpenCourseWare",
+    "url": "https://ocw.mit.edu/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "CS410": {
+  "course_id": "CS410",
+  "title": "Artificial Intelligence",
+  "credit_hours": 3,
+  "level": 400,
+  "area": "Computer Science",
+  "prerequisites": [
+   "CS301"
+  ],
+  "free_resources": [
+   {
+    "provider": "MIT OpenCourseWare",
+    "url": "https://ocw.mit.edu/"
+   },
+   {
+    "provider": "OpenLearn (Open University)",
+    "url": "https://www.open.edu/openlearn/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "CS420": {
+  "course_id": "CS420",
+  "title": "Cybersecurity Fundamentals",
+  "credit_hours": 3,
+  "level": 400,
+  "area": "Computer Science",
+  "prerequisites": [
+   "CS340"
+  ],
+  "free_resources": [
+   {
+    "provider": "Saylor Academy",
+    "url": "https://www.saylor.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "CS430": {
+  "course_id": "CS430",
+  "title": "Web and Mobile Application Development",
+  "credit_hours": 3,
+  "level": 400,
+  "area": "Computer Science",
+  "prerequisites": [
+   "CS330"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenLearn (Open University)",
+    "url": "https://www.open.edu/openlearn/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "CS498": {
+  "course_id": "CS498",
+  "title": "Senior Capstone in Computer Science",
+  "credit_hours": 3,
+  "level": 400,
+  "area": "Computer Science",
+  "prerequisites": [
+   "CS320",
+   "CS301"
+  ],
+  "free_resources": [
+   {
+    "provider": "MIT OpenCourseWare",
+    "url": "https://ocw.mit.edu/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "PHYS201": {
+  "course_id": "PHYS201",
+  "title": "Physics I (Calculus-Based)",
+  "credit_hours": 3,
+  "level": 200,
+  "area": "Science",
+  "prerequisites": [
+   "MATH101"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "Khan Academy",
+    "url": "https://www.khanacademy.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "PHYS202": {
+  "course_id": "PHYS202",
+  "title": "Physics II (Calculus-Based)",
+  "credit_hours": 3,
+  "level": 200,
+  "area": "Science",
+  "prerequisites": [
+   "PHYS201"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "Khan Academy",
+    "url": "https://www.khanacademy.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "ECON201": {
+  "course_id": "ECON201",
+  "title": "Principles of Microeconomics",
+  "credit_hours": 3,
+  "level": 200,
+  "area": "Business",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "Khan Academy",
+    "url": "https://www.khanacademy.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "ECON202": {
+  "course_id": "ECON202",
+  "title": "Principles of Macroeconomics",
+  "credit_hours": 3,
+  "level": 200,
+  "area": "Business",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "Khan Academy",
+    "url": "https://www.khanacademy.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "ACCT201": {
+  "course_id": "ACCT201",
+  "title": "Financial Accounting",
+  "credit_hours": 3,
+  "level": 200,
+  "area": "Business",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "Saylor Academy",
+    "url": "https://www.saylor.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "ACCT202": {
+  "course_id": "ACCT202",
+  "title": "Managerial Accounting",
+  "credit_hours": 3,
+  "level": 200,
+  "area": "Business",
+  "prerequisites": [
+   "ACCT201"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "Saylor Academy",
+    "url": "https://www.saylor.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "BUS101": {
+  "course_id": "BUS101",
+  "title": "Introduction to Business",
+  "credit_hours": 3,
+  "level": 100,
+  "area": "Business",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "Saylor Academy",
+    "url": "https://www.saylor.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "BUS201": {
+  "course_id": "BUS201",
+  "title": "Business Law",
+  "credit_hours": 3,
+  "level": 200,
+  "area": "Business",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "Saylor Academy",
+    "url": "https://www.saylor.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "BUS210": {
+  "course_id": "BUS210",
+  "title": "Business Statistics",
+  "credit_hours": 3,
+  "level": 200,
+  "area": "Business",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "Khan Academy",
+    "url": "https://www.khanacademy.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "MGMT301": {
+  "course_id": "MGMT301",
+  "title": "Principles of Management",
+  "credit_hours": 3,
+  "level": 300,
+  "area": "Business",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "Saylor Academy",
+    "url": "https://www.saylor.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "MKTG301": {
+  "course_id": "MKTG301",
+  "title": "Principles of Marketing",
+  "credit_hours": 3,
+  "level": 300,
+  "area": "Business",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "Saylor Academy",
+    "url": "https://www.saylor.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "FIN301": {
+  "course_id": "FIN301",
+  "title": "Principles of Finance",
+  "credit_hours": 3,
+  "level": 300,
+  "area": "Business",
+  "prerequisites": [
+   "ACCT202",
+   "ECON202"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "Saylor Academy",
+    "url": "https://www.saylor.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "BUS310": {
+  "course_id": "BUS310",
+  "title": "Operations Management",
+  "credit_hours": 3,
+  "level": 300,
+  "area": "Business",
+  "prerequisites": [
+   "BUS210"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "Saylor Academy",
+    "url": "https://www.saylor.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "BUS320": {
+  "course_id": "BUS320",
+  "title": "Organizational Behavior",
+  "credit_hours": 3,
+  "level": 300,
+  "area": "Business",
+  "prerequisites": [
+   "MGMT301"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "BUS330": {
+  "course_id": "BUS330",
+  "title": "Business Information Systems",
+  "credit_hours": 3,
+  "level": 300,
+  "area": "Business",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "Saylor Academy",
+    "url": "https://www.saylor.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "ENTR340": {
+  "course_id": "ENTR340",
+  "title": "Entrepreneurship",
+  "credit_hours": 3,
+  "level": 300,
+  "area": "Business",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "OpenLearn (Open University)",
+    "url": "https://www.open.edu/openlearn/"
+   },
+   {
+    "provider": "Saylor Academy",
+    "url": "https://www.saylor.org/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "MGMT410": {
+  "course_id": "MGMT410",
+  "title": "Human Resource Management",
+  "credit_hours": 3,
+  "level": 400,
+  "area": "Business",
+  "prerequisites": [
+   "MGMT301"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "FIN410": {
+  "course_id": "FIN410",
+  "title": "Investments",
+  "credit_hours": 3,
+  "level": 400,
+  "area": "Business",
+  "prerequisites": [
+   "FIN301"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "MKTG410": {
+  "course_id": "MKTG410",
+  "title": "Consumer Behavior",
+  "credit_hours": 3,
+  "level": 400,
+  "area": "Business",
+  "prerequisites": [
+   "MKTG301"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "BUS498": {
+  "course_id": "BUS498",
+  "title": "Strategic Management Capstone",
+  "credit_hours": 3,
+  "level": 400,
+  "area": "Business",
+  "prerequisites": [
+   "MGMT301",
+   "FIN301",
+   "MKTG301"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "PSY101": {
+  "course_id": "PSY101",
+  "title": "Introduction to Psychology",
+  "credit_hours": 3,
+  "level": 100,
+  "area": "Psychology",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "Khan Academy",
+    "url": "https://www.khanacademy.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "PSY201": {
+  "course_id": "PSY201",
+  "title": "Developmental Psychology",
+  "credit_hours": 3,
+  "level": 200,
+  "area": "Psychology",
+  "prerequisites": [
+   "PSY101"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "PSY210": {
+  "course_id": "PSY210",
+  "title": "Research Methods in Psychology",
+  "credit_hours": 3,
+  "level": 200,
+  "area": "Psychology",
+  "prerequisites": [
+   "PSY101"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "PSY220": {
+  "course_id": "PSY220",
+  "title": "Statistics for Psychology",
+  "credit_hours": 3,
+  "level": 200,
+  "area": "Psychology",
+  "prerequisites": [
+   "PSY101"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "Khan Academy",
+    "url": "https://www.khanacademy.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "PSY301": {
+  "course_id": "PSY301",
+  "title": "Social Psychology",
+  "credit_hours": 3,
+  "level": 300,
+  "area": "Psychology",
+  "prerequisites": [
+   "PSY101"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "PSY310": {
+  "course_id": "PSY310",
+  "title": "Cognitive Psychology",
+  "credit_hours": 3,
+  "level": 300,
+  "area": "Psychology",
+  "prerequisites": [
+   "PSY101"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenLearn (Open University)",
+    "url": "https://www.open.edu/openlearn/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "PSY320": {
+  "course_id": "PSY320",
+  "title": "Abnormal Psychology",
+  "credit_hours": 3,
+  "level": 300,
+  "area": "Psychology",
+  "prerequisites": [
+   "PSY101"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "PSY330": {
+  "course_id": "PSY330",
+  "title": "Personality Theory",
+  "credit_hours": 3,
+  "level": 300,
+  "area": "Psychology",
+  "prerequisites": [
+   "PSY101"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenLearn (Open University)",
+    "url": "https://www.open.edu/openlearn/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "PSY340": {
+  "course_id": "PSY340",
+  "title": "Biological Psychology",
+  "credit_hours": 3,
+  "level": 300,
+  "area": "Psychology",
+  "prerequisites": [
+   "PSY101",
+   "BIO101"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "PSY350": {
+  "course_id": "PSY350",
+  "title": "Learning and Memory",
+  "credit_hours": 3,
+  "level": 300,
+  "area": "Psychology",
+  "prerequisites": [
+   "PSY101"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenLearn (Open University)",
+    "url": "https://www.open.edu/openlearn/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "PSY410": {
+  "course_id": "PSY410",
+  "title": "Health Psychology",
+  "credit_hours": 3,
+  "level": 400,
+  "area": "Psychology",
+  "prerequisites": [
+   "PSY320"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenLearn (Open University)",
+    "url": "https://www.open.edu/openlearn/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "PSY420": {
+  "course_id": "PSY420",
+  "title": "Counseling Theory and Practice",
+  "credit_hours": 3,
+  "level": 400,
+  "area": "Psychology",
+  "prerequisites": [
+   "PSY320"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenLearn (Open University)",
+    "url": "https://www.open.edu/openlearn/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "PSY430": {
+  "course_id": "PSY430",
+  "title": "Psychological Testing and Assessment",
+  "credit_hours": 3,
+  "level": 400,
+  "area": "Psychology",
+  "prerequisites": [
+   "PSY210",
+   "PSY220"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenLearn (Open University)",
+    "url": "https://www.open.edu/openlearn/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "PSY498": {
+  "course_id": "PSY498",
+  "title": "Senior Capstone in Psychology",
+  "credit_hours": 3,
+  "level": 400,
+  "area": "Psychology",
+  "prerequisites": [
+   "PSY210",
+   "PSY220"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenLearn (Open University)",
+    "url": "https://www.open.edu/openlearn/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "BIO101": {
+  "course_id": "BIO101",
+  "title": "General Biology I",
+  "credit_hours": 3,
+  "level": 100,
+  "area": "Biology",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "Khan Academy",
+    "url": "https://www.khanacademy.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "BIO102": {
+  "course_id": "BIO102",
+  "title": "General Biology II",
+  "credit_hours": 3,
+  "level": 100,
+  "area": "Biology",
+  "prerequisites": [
+   "BIO101"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "Khan Academy",
+    "url": "https://www.khanacademy.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "CHEM101": {
+  "course_id": "CHEM101",
+  "title": "General Chemistry I",
+  "credit_hours": 3,
+  "level": 100,
+  "area": "Science",
+  "prerequisites": [],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "Khan Academy",
+    "url": "https://www.khanacademy.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "CHEM102": {
+  "course_id": "CHEM102",
+  "title": "General Chemistry II",
+  "credit_hours": 3,
+  "level": 100,
+  "area": "Science",
+  "prerequisites": [
+   "CHEM101"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "Khan Academy",
+    "url": "https://www.khanacademy.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "BIO201": {
+  "course_id": "BIO201",
+  "title": "Genetics",
+  "credit_hours": 3,
+  "level": 200,
+  "area": "Biology",
+  "prerequisites": [
+   "BIO102"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "MIT OpenCourseWare",
+    "url": "https://ocw.mit.edu/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "BIO210": {
+  "course_id": "BIO210",
+  "title": "Cell Biology",
+  "credit_hours": 3,
+  "level": 200,
+  "area": "Biology",
+  "prerequisites": [
+   "BIO102"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "MIT OpenCourseWare",
+    "url": "https://ocw.mit.edu/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "BIO220": {
+  "course_id": "BIO220",
+  "title": "Microbiology",
+  "credit_hours": 3,
+  "level": 200,
+  "area": "Biology",
+  "prerequisites": [
+   "BIO102"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "BIO301": {
+  "course_id": "BIO301",
+  "title": "Ecology",
+  "credit_hours": 3,
+  "level": 300,
+  "area": "Biology",
+  "prerequisites": [
+   "BIO102"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "OpenLearn (Open University)",
+    "url": "https://www.open.edu/openlearn/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "BIO310": {
+  "course_id": "BIO310",
+  "title": "Evolutionary Biology",
+  "credit_hours": 3,
+  "level": 300,
+  "area": "Biology",
+  "prerequisites": [
+   "BIO201"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "OpenLearn (Open University)",
+    "url": "https://www.open.edu/openlearn/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "BIO320": {
+  "course_id": "BIO320",
+  "title": "Human Anatomy and Physiology I",
+  "credit_hours": 3,
+  "level": 300,
+  "area": "Biology",
+  "prerequisites": [
+   "BIO102"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "BIO330": {
+  "course_id": "BIO330",
+  "title": "Biochemistry",
+  "credit_hours": 3,
+  "level": 300,
+  "area": "Biology",
+  "prerequisites": [
+   "CHEM102",
+   "BIO210"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "MIT OpenCourseWare",
+    "url": "https://ocw.mit.edu/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "CHEM301": {
+  "course_id": "CHEM301",
+  "title": "Organic Chemistry I",
+  "credit_hours": 3,
+  "level": 300,
+  "area": "Science",
+  "prerequisites": [
+   "CHEM102"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "Khan Academy",
+    "url": "https://www.khanacademy.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "CHEM302": {
+  "course_id": "CHEM302",
+  "title": "Organic Chemistry II",
+  "credit_hours": 3,
+  "level": 300,
+  "area": "Science",
+  "prerequisites": [
+   "CHEM301"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "Khan Academy",
+    "url": "https://www.khanacademy.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "BIO410": {
+  "course_id": "BIO410",
+  "title": "Molecular Biology",
+  "credit_hours": 3,
+  "level": 400,
+  "area": "Biology",
+  "prerequisites": [
+   "BIO330"
+  ],
+  "free_resources": [
+   {
+    "provider": "MIT OpenCourseWare",
+    "url": "https://ocw.mit.edu/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "BIO420": {
+  "course_id": "BIO420",
+  "title": "Immunology",
+  "credit_hours": 3,
+  "level": 400,
+  "area": "Biology",
+  "prerequisites": [
+   "BIO220",
+   "BIO210"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenLearn (Open University)",
+    "url": "https://www.open.edu/openlearn/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "BIO498": {
+  "course_id": "BIO498",
+  "title": "Senior Capstone in Biology",
+  "credit_hours": 3,
+  "level": 400,
+  "area": "Biology",
+  "prerequisites": [
+   "BIO201",
+   "BIO210"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenLearn (Open University)",
+    "url": "https://www.open.edu/openlearn/"
+   }
+  ],
+  "textbook": {
+   "type": "martinez-original",
+   "status": "needs-original-queued"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ },
+ "BUS440": {
+  "course_id": "BUS440",
+  "title": "International Business",
+  "credit_hours": 3,
+  "level": 400,
+  "area": "Business",
+  "prerequisites": [
+   "MGMT301"
+  ],
+  "free_resources": [
+   {
+    "provider": "OpenStax",
+    "url": "https://openstax.org/subjects"
+   },
+   {
+    "provider": "Saylor Academy",
+    "url": "https://www.saylor.org/"
+   }
+  ],
+  "textbook": {
+   "type": "open",
+   "status": "linked-open-text"
+  },
+  "modules_status": "outline-in-pilot; full modules in later batches"
+ }
+}
