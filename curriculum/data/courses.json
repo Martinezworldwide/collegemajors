@@ -45,7 +45,7 @@
    "type": "open",
    "status": "linked-open-text"
   },
-  "modules_status": "outline-in-pilot; full modules in later batches"
+  "modules_status": "FULL content in LMS (4 modules, 20 lessons)"
  },
  "COMM101": {
   "course_id": "COMM101",
@@ -91,7 +91,7 @@
    "type": "open",
    "status": "linked-open-text"
   },
-  "modules_status": "outline-in-pilot; full modules in later batches"
+  "modules_status": "FULL content in LMS (4 modules, 20 lessons)"
  },
  "HIST102": {
   "course_id": "HIST102",
@@ -116,7 +116,7 @@
    "type": "open",
    "status": "linked-open-text"
   },
-  "modules_status": "outline-in-pilot; full modules in later batches"
+  "modules_status": "FULL content in LMS (4 modules, 20 lessons)"
  },
  "PHIL101": {
   "course_id": "PHIL101",
@@ -139,7 +139,7 @@
    "type": "open",
    "status": "linked-open-text"
   },
-  "modules_status": "outline-in-pilot; full modules in later batches"
+  "modules_status": "FULL content in LMS (4 modules, 20 lessons)"
  },
  "PHIL210": {
   "course_id": "PHIL210",
@@ -164,7 +164,7 @@
    "type": "open",
    "status": "linked-open-text"
   },
-  "modules_status": "outline-in-pilot; full modules in later batches"
+  "modules_status": "FULL content in LMS (4 modules, 20 lessons)"
  },
  "SOC101": {
   "course_id": "SOC101",
@@ -210,7 +210,7 @@
    "type": "open",
    "status": "linked-open-text"
   },
-  "modules_status": "outline-in-pilot; full modules in later batches"
+  "modules_status": "FULL content in LMS (4 modules, 20 lessons)"
  },
  "ART101": {
   "course_id": "ART101",
@@ -233,7 +233,7 @@
    "type": "open",
    "status": "linked-open-text"
   },
-  "modules_status": "outline-in-pilot; full modules in later batches"
+  "modules_status": "FULL content in LMS (4 modules, 20 lessons)"
  },
  "HUM201": {
   "course_id": "HUM201",
@@ -256,7 +256,7 @@
    "type": "open",
    "status": "linked-open-text"
   },
-  "modules_status": "outline-in-pilot; full modules in later batches"
+  "modules_status": "FULL content in LMS (4 modules, 20 lessons)"
  },
  "SPAN101": {
   "course_id": "SPAN101",
@@ -275,7 +275,7 @@
    "type": "martinez-original",
    "status": "needs-original-queued"
   },
-  "modules_status": "outline-in-pilot; full modules in later batches"
+  "modules_status": "FULL content in LMS (4 modules, 20 lessons)"
  },
  "MATH101": {
   "course_id": "MATH101",
@@ -1117,7 +1117,7 @@
    "type": "open",
    "status": "linked-open-text"
   },
-  "modules_status": "outline-in-pilot; full modules in later batches"
+  "modules_status": "FULL content in LMS (4 modules, 20 lessons)"
  },
  "ECON202": {
   "course_id": "ECON202",

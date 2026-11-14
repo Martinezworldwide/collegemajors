@@ -1609,5 +1609,525 @@
   },
   "mastery_rubric": "Solve stoichiometry and gas-law problems, draw Lewis structures and predict molecular geometry, and work safely with units and significant figures. Final grade 70% or higher.",
   "source": "Martinez original syllabus (authored 2026-11-14)"
+ },
+ "ENG102": {
+  "modules": [
+   {
+    "module_title": "From Summary to Argument",
+    "lessons": [
+     "Recap: Thesis, Evidence, Structure",
+     "Reading Sources for Argument, Not Just Information",
+     "Synthesis: Putting Sources in Conversation",
+     "The Research Question",
+     "Planning the Researched Argument"
+    ]
+   },
+   {
+    "module_title": "Research and Source Evaluation",
+    "lessons": [
+     "Library Databases and Scholarly Sources",
+     "Evaluating Credibility: CRAAP and Beyond",
+     "Primary vs. Secondary Sources",
+     "Note-Taking and Source Management",
+     "Annotated Bibliography"
+    ]
+   },
+   {
+    "module_title": "Writing the Researched Argument",
+    "lessons": [
+     "Outlining a Longer Argument",
+     "Integrating Quotations and Paraphrase",
+     "Counterargument in Researched Writing",
+     "Style and Clarity at the Sentence Level",
+     "Draft Workshop: Peer Review"
+    ]
+   },
+   {
+    "module_title": "Revision, Citation and the Final Essay",
+    "lessons": [
+     "MLA Documentation for Research Papers",
+     "Revision: Re-seeing, Not Just Proofreading",
+     "Editing and Proofreading Strategies",
+     "The Final Researched Argument Essay",
+     "Portfolio Reflection: How Your Writing Changed"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": false,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Produce a researched argument essay of 2,000+ words with a clear thesis, synthesized scholarly sources, correct MLA documentation, and a demonstrated revision process. Portfolio grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-14)"
+ },
+ "HIST101": {
+  "modules": [
+   {
+    "module_title": "Native America and the Colonial World",
+    "lessons": [
+     "Indigenous America Before Contact",
+     "European Motives and the Columbian Exchange",
+     "Spanish and French Colonies",
+     "English Colonization: Jamestown and Plymouth",
+     "Slavery and the Colonial Economy"
+    ]
+   },
+   {
+    "module_title": "Revolution and the New Republic",
+    "lessons": [
+     "Causes of the American Revolution",
+     "The War and the Declaration",
+     "The Constitution: Compromise and Conflict",
+     "Federalists and Anti-Federalists",
+     "The Early Republic: Washington to Jefferson"
+    ]
+   },
+   {
+    "module_title": "Expansion, Sectionalism and the Civil War",
+    "lessons": [
+     "Westward Expansion and Manifest Destiny",
+     "The Market Revolution",
+     "Reform Movements: Abolition, Women's Rights",
+     "The Road to Secession",
+     "The Civil War: Causes, Course, Consequences"
+    ]
+   },
+   {
+    "module_title": "Reconstruction and Its Legacy",
+    "lessons": [
+     "Reconstruction Plans and Politics",
+     "The Freedmen's Experience",
+     "The End of Reconstruction and Jim Crow",
+     "The Gilded Age: Industry and Inequality",
+     "Final Essay: What Changed, What Didn't, 1492-1877"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Explain major turning points from contact to Reconstruction using primary sources, distinguish causes from triggers, and write a sourced historical argument. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-14)"
+ },
+ "HIST102": {
+  "modules": [
+   {
+    "module_title": "Industrial America, 1877-1920",
+    "lessons": [
+     "The Second Industrial Revolution",
+     "Labor, Immigration and Urban Life",
+     "Populism and Progressivism",
+     "The Spanish-American War and Empire",
+     "World War I and Its Aftermath"
+    ]
+   },
+   {
+    "module_title": "The Roaring Twenties and the Great Depression",
+    "lessons": [
+     "Prosperity and Its Limits in the 1920s",
+     "Cultural Change: Jazz, Radio, Women",
+     "The Crash and the Depression",
+     "The New Deal: Programs and Critics",
+     "World War II: Home Front and Front Lines"
+    ]
+   },
+   {
+    "module_title": "The Cold War and Civil Rights",
+    "lessons": [
+     "Origins of the Cold War",
+     "Containment, Korea and Vietnam",
+     "The Civil Rights Movement",
+     "The Great Society and Its Limits",
+     "The 1960s: Culture, Protest, Backlash"
+    ]
+   },
+   {
+    "module_title": "America Since 1975",
+    "lessons": [
+     "The Conservative Turn and the Reagan Era",
+     "Globalization and the Post-Industrial Economy",
+     "The End of the Cold War",
+     "9/11 and the War on Terror",
+     "Final Project: A Primary-Source History of One Decade"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Trace continuity and change from 1877 to the present, evaluate primary sources for perspective and reliability, and build a sourced argument about one era. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-14)"
+ },
+ "PHIL101": {
+  "modules": [
+   {
+    "module_title": "What Is Philosophy?",
+    "lessons": [
+     "Why Ask Philosophical Questions?",
+     "Arguments: Premises, Conclusions, Validity",
+     "Logic Basics: Deduction and Induction",
+     "Common Fallacies and How to Spot Them",
+     "Reading Philosophy Without Drowning"
+    ]
+   },
+   {
+    "module_title": "Knowledge and Reality",
+    "lessons": [
+     "What Is Knowledge? The Justified True Belief Problem",
+     "Descartes and the Search for Certainty",
+     "Empiricism: Locke, Berkeley, Hume",
+     "Rationalism vs. Empiricism",
+     "Skepticism: Can We Know Anything?"
+    ]
+   },
+   {
+    "module_title": "Mind, God and Meaning",
+    "lessons": [
+     "The Mind-Body Problem",
+     "Free Will and Determinism",
+     "Arguments for the Existence of God",
+     "The Problem of Evil",
+     "Does Life Have Meaning?"
+    ]
+   },
+   {
+    "module_title": "Ethics and the Good Life",
+    "lessons": [
+     "Moral Relativism vs. Moral Objectivity",
+     "Utilitarianism: The Greatest Happiness",
+     "Kant and the Duty to Reason",
+     "Virtue Ethics: Character and the Good Life",
+     "Final Essay: Defend a Position on One Big Question"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Reconstruct and evaluate classic philosophical arguments, distinguish valid from invalid reasoning, and defend a position in writing with reasons, not just opinion. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-14)"
+ },
+ "PHIL210": {
+  "modules": [
+   {
+    "module_title": "Foundations of Ethical Thought",
+    "lessons": [
+     "Why Be Moral? The Central Question",
+     "Moral Language and Moral Facts",
+     "Cultural Relativism and Its Critics",
+     "Subjectivism, Objectivism and the Middle Ground",
+     "How to Read a Case Ethically"
+    ]
+   },
+   {
+    "module_title": "Consequentialism and Duty",
+    "lessons": [
+     "Utilitarianism: Bentham and Mill",
+     "Objections to Utilitarianism",
+     "Kant: Duty, the Categorical Imperative, Respect",
+     "Rights, Rules and Rule-Utilitarianism",
+     "Case Study: Sacrificing One to Save Many"
+    ]
+   },
+   {
+    "module_title": "Virtue, Care and the Good Life",
+    "lessons": [
+     "Aristotle: Virtue and Human Flourishing",
+     "Care Ethics and Relationships",
+     "Natural Law and Human Nature",
+     "Contractarianism and Fairness",
+     "Ethics and Character: Who Do You Want to Be?"
+    ]
+   },
+   {
+    "module_title": "Applied Ethics",
+    "lessons": [
+     "Bioethics: Beginning and End of Life",
+     "Environmental Ethics: Duties to Nature",
+     "Business Ethics and Professional Life",
+     "Justice, Inequality and the Law",
+     "Final Project: A Reasoned Position Paper on a Live Moral Issue"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Apply major ethical frameworks to real cases, identify the strongest objection to your own view, and write a position paper that weighs competing reasons fairly. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-14)"
+ },
+ "POLS101": {
+  "modules": [
+   {
+    "module_title": "Foundations of American Government",
+    "lessons": [
+     "What Government Does and Why It Exists",
+     "The Constitution: Design and Purpose",
+     "Federalism: Who Decides What",
+     "Separation of Powers and Checks and Balances",
+     "Civil Liberties vs. Civil Rights"
+    ]
+   },
+   {
+    "module_title": "Institutions",
+    "lessons": [
+     "Congress: Representation and Lawmaking",
+     "The Presidency: Powers and Limits",
+     "The Federal Judiciary and Judicial Review",
+     "The Bureaucracy: The Government You Meet",
+     "State and Local Government"
+    ]
+   },
+   {
+    "module_title": "Participation and Public Opinion",
+    "lessons": [
+     "Public Opinion: What It Is and How It's Measured",
+     "Political Parties and Polarization",
+     "Elections, Campaigns and Voting",
+     "Interest Groups and Lobbying",
+     "Media and the Information Environment"
+    ]
+   },
+   {
+    "module_title": "Policy and the Citizen",
+    "lessons": [
+     "How a Bill Becomes a Law (Really)",
+     "Domestic Policy: Budgets, Health, Education",
+     "Foreign Policy and National Security",
+     "Civil Rights Movements and the Courts",
+     "Final Project: Track a Real Bill Through Congress"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Explain how American institutions work and check each other, analyze an election or policy debate using evidence, and trace a real bill through the legislative process. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-14)"
+ },
+ "ART101": {
+  "modules": [
+   {
+    "module_title": "Seeing Art: The Visual Language",
+    "lessons": [
+     "What Counts as Art?",
+     "Line, Shape and Form",
+     "Color: Hue, Value, Saturation",
+     "Texture, Space and Composition",
+     "How to Look at a Work for Ten Minutes"
+    ]
+   },
+   {
+    "module_title": "Media and Methods",
+    "lessons": [
+     "Drawing and Printmaking",
+     "Painting: Oil, Watercolor, Acrylic",
+     "Sculpture and Installation",
+     "Architecture: Form and Function",
+     "Photography, Film and New Media"
+    ]
+   },
+   {
+    "module_title": "Art in History",
+    "lessons": [
+     "Art of the Ancient World",
+     "The Renaissance and Baroque",
+     "Modernism: Breaking the Rules",
+     "Contemporary Art and Global Voices",
+     "Art, Power and Patronage"
+    ]
+   },
+   {
+    "module_title": "Art and Meaning",
+    "lessons": [
+     "Art and Identity",
+     "Art and Social Change",
+     "Art and Religion",
+     "Museums: Who Decides What Matters?",
+     "Final Project: Curate Your Own Mini-Exhibition"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": false,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Analyze works using the elements and principles of art, place them in historical context, and curate and justify a small exhibition with a written rationale. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-14)"
+ },
+ "HUM201": {
+  "modules": [
+   {
+    "module_title": "What Are the Humanities?",
+    "lessons": [
+     "Humanities vs. Sciences: Different Questions",
+     "Culture as a Shared Conversation",
+     "Myth and Story as Human Knowledge",
+     "Reading Across Disciplines",
+     "The Humanities and the Examined Life"
+    ]
+   },
+   {
+    "module_title": "Literature and Philosophy",
+    "lessons": [
+     "The Epic: Gilgamesh to the Odyssey",
+     "Shakespeare and the Human Condition",
+     "The Novel and the Inner Life",
+     "Philosophy in Literature",
+     "Poetry: Compression and Ambiguity"
+    ]
+   },
+   {
+    "module_title": "Visual Art, Music and Film",
+    "lessons": [
+     "Art as Argument",
+     "Music: Structure and Feeling",
+     "Film as a Humanities Text",
+     "Architecture and Sacred Space",
+     "Popular Culture as Humanities"
+    ]
+   },
+   {
+    "module_title": "Cultures in Conversation",
+    "lessons": [
+     "East and West: Comparing Worldviews",
+     "Religion and the Humanities",
+     "Gender, Race and Representation",
+     "Tradition and Modernity",
+     "Final Project: A Humanities Portrait of One Culture"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": false,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Compare works across cultures and media, connect artistic and philosophical ideas to their historical moment, and write a cross-disciplinary analysis. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-14)"
+ },
+ "SPAN101": {
+  "modules": [
+   {
+    "module_title": "First Steps in Spanish",
+    "lessons": [
+     "Sounds and Pronunciation",
+     "Greetings, Introductions, Courtesy",
+     "Numbers, Days, Time",
+     "The Verb Ser and Estar: A First Look",
+     "Talking About Yourself and Others"
+    ]
+   },
+   {
+    "module_title": "Present Tense and Everyday Life",
+    "lessons": [
+     "Regular -AR, -ER, -IR Verbs",
+     "Irregular Verbs You Need First",
+     "Nouns, Articles and Adjective Agreement",
+     "Talking About Family and Daily Routines",
+     "Asking and Answering Questions"
+    ]
+   },
+   {
+    "module_title": "Describing the World",
+    "lessons": [
+     "Describing People, Places and Things",
+     "Talking About the Weather and Seasons",
+     "Food, Shopping and Restaurants",
+     "Directions and Getting Around",
+     "Mini-Project: A Guided Tour in Spanish"
+    ]
+   },
+   {
+    "module_title": "Culture and Conversation",
+    "lessons": [
+     "Spanish-Speaking Cultures: A First Tour",
+     "Formal vs. Informal: T\u00fa and Usted",
+     "Expressing Likes, Wants and Plans",
+     "Past Tense: A First Look",
+     "Final Conversation Assessment and Reflection"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Hold a basic conversation in Spanish about yourself, family, daily life and surroundings; read and write simple paragraphs with correct agreement and present-tense verbs. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-14)"
+ },
+ "ECON201": {
+  "modules": [
+   {
+    "module_title": "Thinking Like an Economist",
+    "lessons": [
+     "Scarcity, Choice and Opportunity Cost",
+     "Incentives and Marginal Analysis",
+     "The Production Possibilities Frontier",
+     "Comparative Advantage and Trade",
+     "Positive vs. Normative Economics"
+    ]
+   },
+   {
+    "module_title": "Supply, Demand and Markets",
+    "lessons": [
+     "Demand: What Moves It",
+     "Supply: What Moves It",
+     "Market Equilibrium and Price Changes",
+     "Elasticity: How Much Do People Respond?",
+     "Price Controls: Floors, Ceilings and Their Consequences"
+    ]
+   },
+   {
+    "module_title": "Firms, Costs and Market Structures",
+    "lessons": [
+     "Production and Costs in the Short and Long Run",
+     "Perfect Competition",
+     "Monopoly: Power and Regulation",
+     "Oligopoly and Game Theory Basics",
+     "Monopolistic Competition and Advertising"
+    ]
+   },
+   {
+    "module_title": "Market Failures and the Role of Government",
+    "lessons": [
+     "Externalities: Pollution and Public Goods",
+     "Information Problems and Adverse Selection",
+     "Income Distribution and Poverty",
+     "International Trade: Winners and Losers",
+     "Final Project: Analyze a Real Market in the News"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Use supply and demand to explain price changes, compare market structures, and evaluate a real policy or market event with economic reasoning. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-14)"
  }
 }
