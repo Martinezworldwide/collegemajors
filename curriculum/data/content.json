@@ -2129,5 +2129,525 @@
   },
   "mastery_rubric": "Use supply and demand to explain price changes, compare market structures, and evaluate a real policy or market event with economic reasoning. Final grade 70% or higher.",
   "source": "Martinez original syllabus (authored 2026-11-14)"
+ },
+ "ECON202": {
+  "modules": [
+   {
+    "module_title": "Measuring the Macroeconomy",
+    "lessons": [
+     "GDP: What It Measures and What It Misses",
+     "Unemployment: Types and Measurement",
+     "Inflation and the Price Level",
+     "Business Cycles: Expansions and Recessions",
+     "The Circular Flow of Income"
+    ]
+   },
+   {
+    "module_title": "The Aggregate Economy",
+    "lessons": [
+     "Aggregate Demand and Aggregate Supply",
+     "Short-Run vs. Long-Run Equilibrium",
+     "The Multiplier Effect",
+     "The Phillips Curve Debate",
+     "Economic Growth: Sources and Policies"
+    ]
+   },
+   {
+    "module_title": "Money, Banking and Monetary Policy",
+    "lessons": [
+     "What Money Is and How Banks Create It",
+     "The Federal Reserve and Its Tools",
+     "How Monetary Policy Moves the Economy",
+     "Interest Rates and Investment",
+     "Financial Crises and the Lender of Last Resort"
+    ]
+   },
+   {
+    "module_title": "Fiscal Policy and the Global Economy",
+    "lessons": [
+     "Government Spending, Taxes and the Budget Deficit",
+     "Fiscal Policy: Stimulus and Austerity",
+     "Public Debt: Costs and Limits",
+     "International Trade and Exchange Rates",
+     "Final Project: A Macro Diagnosis of the Current U.S. Economy"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Read GDP, unemployment and inflation data, explain how fiscal and monetary policy move the aggregate economy, and diagnose a real economy using official statistics. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-15)"
+ },
+ "PHYS201": {
+  "modules": [
+   {
+    "module_title": "Kinematics and Vectors",
+    "lessons": [
+     "Motion in One Dimension: Position, Velocity, Acceleration",
+     "Vectors and Motion in Two Dimensions",
+     "Projectile Motion",
+     "Relative Motion and Frames of Reference",
+     "Problem-Solving: Turning Words into Equations"
+    ]
+   },
+   {
+    "module_title": "Newton's Laws and Forces",
+    "lessons": [
+     "Newton's First and Second Laws",
+     "Free-Body Diagrams",
+     "Friction: Static and Kinetic",
+     "Newton's Third Law and Action-Reaction Pairs",
+     "Circular Motion and Centripetal Force"
+    ]
+   },
+   {
+    "module_title": "Work, Energy and Momentum",
+    "lessons": [
+     "Work and the Work-Energy Theorem",
+     "Potential Energy and Conservation of Energy",
+     "Momentum and Impulse",
+     "Collisions: Elastic and Inelastic",
+     "Center of Mass"
+    ]
+   },
+   {
+    "module_title": "Rotation and Gravitation",
+    "lessons": [
+     "Rotational Kinematics and Torque",
+     "Moment of Inertia and Angular Momentum",
+     "Rolling Motion",
+     "Universal Gravitation and Orbits",
+     "Lab Final: Measure g Two Different Ways"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": false
+  },
+  "mastery_rubric": "Solve multi-step mechanics problems using vectors, Newton's laws, energy and momentum conservation, and rotational dynamics, showing clear free-body diagrams and units at each step. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-15)"
+ },
+ "PHYS202": {
+  "modules": [
+   {
+    "module_title": "Electric Charge and Fields",
+    "lessons": [
+     "Electric Charge and Coulomb's Law",
+     "The Electric Field",
+     "Gauss's Law",
+     "Electric Potential and Potential Energy",
+     "Capacitors and Dielectrics"
+    ]
+   },
+   {
+    "module_title": "Circuits",
+    "lessons": [
+     "Current, Resistance and Ohm's Law",
+     "Series and Parallel Circuits",
+     "Kirchhoff's Rules",
+     "RC Circuits and Time Constants",
+     "Household Wiring and Electrical Safety"
+    ]
+   },
+   {
+    "module_title": "Magnetism",
+    "lessons": [
+     "Magnetic Forces on Moving Charges",
+     "The Magnetic Field of a Current",
+     "Ampere's Law and Solenoids",
+     "Electromagnetic Induction and Faraday's Law",
+     "Generators, Motors and Transformers"
+    ]
+   },
+   {
+    "module_title": "Waves and Light",
+    "lessons": [
+     "Wave Motion and the Wave Equation",
+     "Electromagnetic Waves and the Spectrum",
+     "Reflection, Refraction and Lenses",
+     "Interference and Diffraction",
+     "Final Lab Project: Build and Measure a Simple Circuit"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": false
+  },
+  "mastery_rubric": "Apply Gauss's law, Kirchhoff's rules and Faraday's law to real circuits and fields, and explain how electromagnetic waves and optics connect to everyday technology. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-15)"
+ },
+ "CHEM102": {
+  "modules": [
+   {
+    "module_title": "Chemical Kinetics",
+    "lessons": [
+     "Reaction Rates and Rate Laws",
+     "Order, Half-Life and Integrated Rate Laws",
+     "Collision Theory and Activation Energy",
+     "Catalysts and Reaction Mechanisms",
+     "The Arrhenius Equation"
+    ]
+   },
+   {
+    "module_title": "Equilibrium",
+    "lessons": [
+     "The Equilibrium Constant",
+     "Le Chatelier's Principle",
+     "Solving Equilibrium Problems (ICE Tables)",
+     "Acids and Bases: Ka, Kb, pH",
+     "Buffers and Titrations"
+    ]
+   },
+   {
+    "module_title": "Thermodynamics and Electrochemistry",
+    "lessons": [
+     "Enthalpy, Entropy and Gibbs Free Energy",
+     "Spontaneity and Equilibrium",
+     "Redox Reactions and Oxidation States",
+     "Galvanic Cells and Standard Potentials",
+     "Electrolysis and Batteries"
+    ]
+   },
+   {
+    "module_title": "Beyond the Basics",
+    "lessons": [
+     "Solubility and Ksp",
+     "Coordination Compounds and Ligands",
+     "Nuclear Chemistry: Radioactivity and Half-Life",
+     "Organic Chemistry: A First Look at Functional Groups",
+     "Final Problem Set: Chemistry in the Real World"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": false
+  },
+  "mastery_rubric": "Calculate rates, equilibrium concentrations and cell potentials, predict Le Chatelier shifts, and apply thermodynamics to decide whether a reaction proceeds. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-15)"
+ },
+ "BIO102": {
+  "modules": [
+   {
+    "module_title": "Evolution and the Diversity of Life",
+    "lessons": [
+     "Evidence for Evolution",
+     "Natural Selection and Adaptation",
+     "Speciation and the Tree of Life",
+     "The History of Life on Earth",
+     "Classification and the Domains of Life"
+    ]
+   },
+   {
+    "module_title": "Plant Form and Function",
+    "lessons": [
+     "Plant Anatomy: Roots, Stems, Leaves",
+     "Photosynthesis in Depth",
+     "Water and Nutrient Transport",
+     "Plant Responses and Hormones",
+     "Plant Reproduction and Life Cycles"
+    ]
+   },
+   {
+    "module_title": "Animal Form and Function",
+    "lessons": [
+     "Body Plans and Tissues",
+     "Nutrition and Digestion",
+     "Circulation and Respiration",
+     "The Nervous and Endocrine Systems",
+     "Homeostasis and Feedback Loops"
+    ]
+   },
+   {
+    "module_title": "Ecology and Conservation",
+    "lessons": [
+     "Populations and Communities",
+     "Ecosystems and Energy Flow",
+     "Biogeochemical Cycles",
+     "Human Impacts: Climate, Habitat Loss, Biodiversity",
+     "Final Project: A Field Study of a Local Ecosystem"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Explain evolutionary mechanisms and the tree of life, compare plant and animal systems, and analyze an ecosystem using population and energy-flow concepts. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-15)"
+ },
+ "PSY201": {
+  "modules": [
+   {
+    "module_title": "The Developing Person: Beginnings",
+    "lessons": [
+     "Methods for Studying Development",
+     "Prenatal Development and Birth",
+     "Infancy: Sensation, Perception, Attachment",
+     "Theories of Development: Piaget, Vygotsky, Erikson",
+     "Language Development"
+    ]
+   },
+   {
+    "module_title": "Childhood and Adolescence",
+    "lessons": [
+     "Cognitive Development in Childhood",
+     "Social and Emotional Development",
+     "Play, Peers and School",
+     "Adolescence: Identity and the Teen Brain",
+     "Parenting Styles and Their Effects"
+    ]
+   },
+   {
+    "module_title": "Adulthood and Aging",
+    "lessons": [
+     "Early Adulthood: Work, Love, Identity",
+     "Middle Adulthood: Generativity and Change",
+     "Late Adulthood: Cognition and Memory",
+     "Aging, Health and Well-Being",
+     "Death, Dying and Grief"
+    ]
+   },
+   {
+    "module_title": "Development in Context",
+    "lessons": [
+     "Culture and Development",
+     "Poverty, Stress and Resilience",
+     "Developmental Disorders in Brief",
+     "Lifespan Research: What Holds Up?",
+     "Final Project: A Lifespan Case Study"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Trace physical, cognitive and social development from prenatal life to old age, compare classic developmental theories, and evaluate a lifespan case with evidence. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-15)"
+ },
+ "PSY210": {
+  "modules": [
+   {
+    "module_title": "Foundations of Psychological Research",
+    "lessons": [
+     "Why Research Methods Matter",
+     "Hypotheses, Variables and Operational Definitions",
+     "Validity and Reliability",
+     "Ethics in Human Research: IRB, Consent, Debriefing",
+     "Reading a Journal Article"
+    ]
+   },
+   {
+    "module_title": "Descriptive Methods",
+    "lessons": [
+     "Naturalistic Observation and Case Studies",
+     "Surveys and Sampling",
+     "Correlation: Strength, Direction, Limits",
+     "Descriptive Statistics in Brief",
+     "The Replication Crisis and Open Science"
+    ]
+   },
+   {
+    "module_title": "Experimental Methods",
+    "lessons": [
+     "Experimental vs. Correlational Design",
+     "Independent and Dependent Variables",
+     "Random Assignment and Control Groups",
+     "Quasi-Experiments and Confounds",
+     "Designing Your Own Experiment"
+    ]
+   },
+   {
+    "module_title": "Analysis and Communication",
+    "lessons": [
+     "Basic Inferential Statistics: p Values and Effect Sizes",
+     "Interpreting Tables, Graphs and Results",
+     "Writing an APA-Style Research Report",
+     "Evaluating Claims in the Media",
+     "Final Project: A Complete Research Proposal"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Design a study with clear variables and controls, identify confounds and validity threats, and write an APA-style proposal that a peer could replicate. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-15)"
+ },
+ "PSY220": {
+  "modules": [
+   {
+    "module_title": "Describing Data",
+    "lessons": [
+     "Why Psychologists Need Statistics",
+     "Frequency Distributions and Graphs",
+     "Measures of Central Tendency",
+     "Variability: Range, Variance, Standard Deviation",
+     "The Normal Curve and z Scores"
+    ]
+   },
+   {
+    "module_title": "Probability and Inference",
+    "lessons": [
+     "Probability Basics for Psychologists",
+     "Sampling Distributions and the Central Limit Theorem",
+     "Confidence Intervals",
+     "Hypothesis Testing: The Logic of NHST",
+     "Type I and Type II Errors"
+    ]
+   },
+   {
+    "module_title": "Comparing Groups",
+    "lessons": [
+     "The t Test: One Sample and Independent Samples",
+     "Paired-Samples t Tests",
+     "Effect Size and Practical Significance",
+     "One-Way ANOVA",
+     "Post Hoc Tests and Multiple Comparisons"
+    ]
+   },
+   {
+    "module_title": "Relationships and Prediction",
+    "lessons": [
+     "Correlation and Regression",
+     "Chi-Square Tests",
+     "Choosing the Right Test: A Decision Guide",
+     "Reading Statistics in Published Research",
+     "Final Project: Analyze a Real Dataset and Write It Up"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Summarize data with appropriate descriptives, run and interpret t tests, ANOVA, correlation and chi-square, and judge whether a published claim is supported by its statistics. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-15)"
+ },
+ "BUS201": {
+  "modules": [
+   {
+    "module_title": "The Legal System and Business",
+    "lessons": [
+     "Sources of Law: Constitution, Statutes, Common Law",
+     "The Court System and Dispute Resolution",
+     "Business Ethics vs. the Law",
+     "Administrative Law and Regulation",
+     "Reading a Case: IRAC in Brief"
+    ]
+   },
+   {
+    "module_title": "Contracts",
+    "lessons": [
+     "What Makes a Contract Enforceable",
+     "Offer, Acceptance and Consideration",
+     "Capacity, Legality and Genuine Assent",
+     "Breach and Remedies",
+     "The UCC and Sales Contracts"
+    ]
+   },
+   {
+    "module_title": "Torts, Property and Business Organizations",
+    "lessons": [
+     "Torts: Negligence and Product Liability",
+     "Intellectual Property: Patents, Trademarks, Copyrights",
+     "Agency and Employment Law Basics",
+     "Forms of Business Organization and Liability",
+     "Corporate Governance and the Board"
+    ]
+   },
+   {
+    "module_title": "The Business Legal Environment",
+    "lessons": [
+     "Securities Regulation and Insider Trading",
+     "Antitrust Law",
+     "Consumer Protection Law",
+     "International Business Law Basics",
+     "Final Project: A Legal Risk Memo for a Small Business"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Identify the legal issue in a business scenario, apply contract and tort principles, and write a memo that flags real legal risks and practical next steps. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-15)"
+ },
+ "BUS210": {
+  "modules": [
+   {
+    "module_title": "Data and Business Decisions",
+    "lessons": [
+     "Why Statistics Drives Business",
+     "Types of Business Data",
+     "Describing Data with Tables and Graphs",
+     "The Normal Distribution in Business",
+     "Sampling and Business Surveys"
+    ]
+   },
+   {
+    "module_title": "Estimation and Testing",
+    "lessons": [
+     "Confidence Intervals for Means and Proportions",
+     "Hypothesis Tests for Business Claims",
+     "Comparing Two Groups: A/B Testing",
+     "Chi-Square and Categorical Data",
+     "Avoiding Common Statistical Traps"
+    ]
+   },
+   {
+    "module_title": "Relationships and Forecasting",
+    "lessons": [
+     "Correlation in Business Contexts",
+     "Simple Linear Regression",
+     "Multiple Regression Basics",
+     "Time Series and Forecasting",
+     "Index Numbers and Seasonal Adjustment"
+    ]
+   },
+   {
+    "module_title": "Decision Tools",
+    "lessons": [
+     "Decision Trees and Expected Value",
+     "Quality Control and Control Charts",
+     "An Introduction to Big Data and Dashboards",
+     "Ethics of Data Use",
+     "Final Project: A Data-Driven Recommendation for a Real Company"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Summarize business data, test a business claim with confidence intervals and hypothesis tests, and build a regression-based forecast with a written recommendation. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-15)"
  }
 }
