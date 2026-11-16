@@ -2649,5 +2649,526 @@
   },
   "mastery_rubric": "Summarize business data, test a business claim with confidence intervals and hypothesis tests, and build a regression-based forecast with a written recommendation. Final grade 70% or higher.",
   "source": "Martinez original syllabus (authored 2026-11-15)"
+ },
+ "CS102": {
+  "modules": [
+   {
+    "module_title": "Object-Oriented Programming",
+    "lessons": [
+     "Classes and Objects: From Data to Design",
+     "Constructors, Fields and Methods",
+     "Encapsulation and Information Hiding",
+     "Inheritance and Polymorphism",
+     "Abstract Classes and Interfaces",
+     "Mini-Project: A Small Class Hierarchy"
+    ]
+   },
+   {
+    "module_title": "Collections and Generics",
+    "lessons": [
+     "Arrays, ArrayLists and Resizable Storage",
+     "Iterators and the For-Each Loop",
+     "Generic Types and Type Safety",
+     "Searching and Sorting with Collections",
+     "When to Choose Which Collection"
+    ]
+   },
+   {
+    "module_title": "Recursion and File Input/Output",
+    "lessons": [
+     "Thinking Recursively: Base Cases and Reduction",
+     "Recursive Patterns: Lists, Trees, Fractals",
+     "Reading and Writing Text Files",
+     "Handling Errors with Exceptions",
+     "Mini-Project: A Recursive File Explorer"
+    ]
+   },
+   {
+    "module_title": "Testing, Debugging and Putting It Together",
+    "lessons": [
+     "Writing Unit Tests That Catch Real Bugs",
+     "Debugging Strategies: Trace, Isolate, Reproduce",
+     "Documentation and Readable Code",
+     "Designing a Program from a Specification",
+     "Final Project: A Text-Based Game or Data Manager"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Design and implement object-oriented programs with inheritance, generics and recursion, handle files and exceptions, and test code systematically. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-16)"
+ },
+ "CS201": {
+  "modules": [
+   {
+    "module_title": "Analysis and the Abstract Data Type",
+    "lessons": [
+     "What a Data Structure Is \u2014 and Why Choice Matters",
+     "Big-O Notation: Measuring Growth",
+     "Best, Average and Worst Cases",
+     "Amortized Analysis in Plain Language",
+     "The ADT Idea: Interface Before Implementation"
+    ]
+   },
+   {
+    "module_title": "Linear Structures",
+    "lessons": [
+     "Arrays and Dynamic Arrays",
+     "Linked Lists: Singly, Doubly, Circular",
+     "Stacks: LIFO and Its Uses",
+     "Queues and Priority Queues",
+     "Choosing Between Array and Linked Storage"
+    ]
+   },
+   {
+    "module_title": "Trees, Heaps and Hashing",
+    "lessons": [
+     "Binary Trees and Traversals",
+     "Binary Search Trees and Balance",
+     "Heaps and Heapsort",
+     "Hash Tables: Hash Functions and Collision Handling",
+     "Tries and Sets in Practice"
+    ]
+   },
+   {
+    "module_title": "Sorting, Searching and Graphs",
+    "lessons": [
+     "Comparison Sorts: Insertion, Merge, Quick",
+     "Lower Bounds: Why Sorting Costs n log n",
+     "Graphs: Representations and Traversals (BFS/DFS)",
+     "Shortest Paths and Spanning Trees",
+     "Final Project: Build and Benchmark a Data Structure Library"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Implement and analyze stacks, queues, linked lists, trees, hash tables and graphs, choose the right structure for a problem, and prove running time with Big-O. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-16)"
+ },
+ "CS210": {
+  "modules": [
+   {
+    "module_title": "Numbers, Logic and the Machine",
+    "lessons": [
+     "Binary, Hex and Two's Complement",
+     "Boolean Algebra and Logic Gates",
+     "Combinational Circuits: Adders and Multiplexers",
+     "Sequential Circuits: Latches and Flip-Flops",
+     "From Gates to a Working CPU"
+    ]
+   },
+   {
+    "module_title": "Assembly Language and the Instruction Set",
+    "lessons": [
+     "The Von Neumann Model and the Fetch-Execute Cycle",
+     "Registers, Memory and Addressing Modes",
+     "Writing Assembly: Arithmetic, Branches, Loops",
+     "Subroutines, the Stack and Calling Conventions",
+     "From Assembly to Machine Code"
+    ]
+   },
+   {
+    "module_title": "The Processor and Performance",
+    "lessons": [
+     "Datapath Design: ALU, Control Unit, Pipeline",
+     "Pipelining and Hazards",
+     "Measuring Performance: CPI, Clock Rate, Amdahl's Law",
+     "Instruction-Level Parallelism in Brief",
+     "Lab: Trace a Program Through the Datapath"
+    ]
+   },
+   {
+    "module_title": "Memory, Storage and I/O",
+    "lessons": [
+     "The Memory Hierarchy: Cache, RAM, Disk",
+     "How Caches Work: Mapping and Replacement",
+     "Virtual Memory and Paging",
+     "Input/Output and Interrupts",
+     "Final Project: Build a Simple CPU in a Simulator"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Translate between high-level code, assembly and machine code, explain pipelining and the memory hierarchy, and predict how hardware choices change performance. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-16)"
+ },
+ "CS220": {
+  "modules": [
+   {
+    "module_title": "What a Programming Language Is",
+    "lessons": [
+     "Syntax, Semantics and Pragmatics",
+     "How Languages Are Implemented: Compilers and Interpreters",
+     "A Brief History: From FORTRAN to Rust",
+     "Paradigms at a Glance: Imperative, Functional, Logic, OOP",
+     "Why Language Design Choices Matter"
+    ]
+   },
+   {
+    "module_title": "Names, Types and Binding",
+    "lessons": [
+     "Variables, Scope and Lifetime",
+     "Static vs. Dynamic Typing",
+     "Type Inference and Type Checking",
+     "Strong vs. Weak Typing",
+     "Composite Types: Records, Arrays, Pointers"
+    ]
+   },
+   {
+    "module_title": "Control, Abstraction and Functions",
+    "lessons": [
+     "Expressions, Statements and Control Flow",
+     "First-Class Functions and Closures",
+     "Recursion and Higher-Order Functions",
+     "Exceptions and Error Handling Across Languages",
+     "Modules, Namespaces and Separate Compilation"
+    ]
+   },
+   {
+    "module_title": "Paradigms in Depth",
+    "lessons": [
+     "Object-Oriented Languages: Classes, Inheritance, Dispatch",
+     "Functional Languages: Immutability and Map/Reduce",
+     "Logic and Declarative Programming",
+     "Concurrency Models: Threads, Actors, Channels",
+     "Final Project: Compare Three Languages on One Problem"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Compare languages by their type system, scoping, abstraction and concurrency models, and justify a language choice for a given problem. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-16)"
+ },
+ "CS301": {
+  "modules": [
+   {
+    "module_title": "Foundations of Algorithm Analysis",
+    "lessons": [
+     "Correctness: Invariants and Proof Sketches",
+     "Asymptotic Notation Revisited: O, Omega, Theta",
+     "Recurrences and the Master Theorem",
+     "Amortized Analysis for Real Algorithms",
+     "Lower Bounds and Adversary Arguments"
+    ]
+   },
+   {
+    "module_title": "Divide and Conquer and Greedy Methods",
+    "lessons": [
+     "Merge Sort, Quick Sort and Their Analysis",
+     "Binary Search and Its Generalizations",
+     "Greedy Choice: When It Works and When It Fails",
+     "Interval Scheduling and Huffman Coding",
+     "Closest Pair and Other Classic Divides"
+    ]
+   },
+   {
+    "module_title": "Dynamic Programming and Graphs",
+    "lessons": [
+     "Memoization vs. Tabulation",
+     "Classic DP: Knapsack, Edit Distance, LCS",
+     "Graph Algorithms: BFS, DFS, Dijkstra, Bellman-Ford",
+     "Minimum Spanning Trees: Kruskal and Prim",
+     "Flow Networks and Max-Flow Min-Cut"
+    ]
+   },
+   {
+    "module_title": "Hard Problems and Approximation",
+    "lessons": [
+     "Decision Problems and Polynomial Time",
+     "NP-Completeness: Reduction in Plain Language",
+     "Classic NP-Complete Problems",
+     "Approximation Algorithms and Heuristics",
+     "Final Project: Design, Implement and Analyze an Algorithm"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Prove correctness and running time, design divide-and-conquer, greedy and dynamic-programming solutions, and recognize and handle NP-hard problems. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-16)"
+ },
+ "CS310": {
+  "modules": [
+   {
+    "module_title": "Processes and Threads",
+    "lessons": [
+     "What an Operating System Does",
+     "Processes: States, Creation, Termination",
+     "Threads and Multithreading",
+     "Scheduling: FCFS, Round Robin, Priority",
+     "Inter-Process Communication"
+    ]
+   },
+   {
+    "module_title": "Synchronization and Deadlock",
+    "lessons": [
+     "Race Conditions and Critical Sections",
+     "Locks, Semaphores and Monitors",
+     "Classic Problems: Producer-Consumer, Readers-Writers",
+     "Deadlock: Conditions, Detection, Prevention",
+     "Lab: Build a Thread-Safe Bounded Buffer"
+    ]
+   },
+   {
+    "module_title": "Memory Management",
+    "lessons": [
+     "Address Spaces and Protection",
+     "Paging and Page Replacement",
+     "Segmentation and Virtual Memory",
+     "Thrashing and Working Sets",
+     "Memory Allocation in the Kernel"
+    ]
+   },
+   {
+    "module_title": "File Systems, I/O and Security",
+    "lessons": [
+     "Files, Directories and Inodes",
+     "Disk Scheduling and RAID",
+     "I/O, Interrupts and Drivers",
+     "Protection, Authentication and Access Control",
+     "Final Project: A Mini Shell or Scheduler Simulation"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Explain process scheduling, synchronization and virtual memory, diagnose deadlocks and race conditions, and describe how an OS manages files, I/O and security. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-16)"
+ },
+ "CS320": {
+  "modules": [
+   {
+    "module_title": "Requirements and the Software Lifecycle",
+    "lessons": [
+     "Why Software Projects Fail",
+     "Eliciting and Writing Requirements",
+     "User Stories and Use Cases",
+     "Lifecycle Models: Waterfall, Agile, Spiral",
+     "Estimating Effort and Managing Scope"
+    ]
+   },
+   {
+    "module_title": "Design: From Requirements to Architecture",
+    "lessons": [
+     "Modularity, Cohesion and Coupling",
+     "Design Patterns: The Essential Few",
+     "UML Diagrams That Actually Help",
+     "Architectural Styles: Layered, Client-Server, Microservices",
+     "Designing an API People Can Use"
+    ]
+   },
+   {
+    "module_title": "Testing, Quality and Version Control",
+    "lessons": [
+     "Unit, Integration and System Testing",
+     "Test-Driven Development",
+     "Code Review and Static Analysis",
+     "Git Workflows: Branches, Pull Requests, Releases",
+     "Continuous Integration in Practice"
+    ]
+   },
+   {
+    "module_title": "Teams, Process and Delivery",
+    "lessons": [
+     "Agile in Practice: Sprints, Standups, Retrospectives",
+     "Managing Technical Debt",
+     "Documentation Users Read",
+     "Deployment, Monitoring and Maintenance",
+     "Final Project: Build and Ship a Team Application"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Run a small team project from requirements to delivery: write testable requirements, design with patterns, test systematically, and ship with version control and CI. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-16)"
+ },
+ "CS330": {
+  "modules": [
+   {
+    "module_title": "The Relational Model",
+    "lessons": [
+     "Why Databases: Data Independence and Integrity",
+     "Tables, Keys and the Relational Algebra",
+     "SQL: Selecting, Filtering and Joining",
+     "Aggregation and Grouping",
+     "Views and Subqueries"
+    ]
+   },
+   {
+    "module_title": "Designing Good Schemas",
+    "lessons": [
+     "Entity-Relationship Modeling",
+     "Functional Dependencies",
+     "Normalization: 1NF, 2NF, 3NF, BCNF",
+     "Denormalization: When and Why",
+     "Lab: Design a Schema for a Real Domain"
+    ]
+   },
+   {
+    "module_title": "Transactions and Concurrency",
+    "lessons": [
+     "ACID Properties",
+     "Isolation Levels and Anomalies",
+     "Locking and Optimistic Concurrency",
+     "Recovery: Logs, Checkpoints, Backups",
+     "Stored Procedures and Triggers"
+    ]
+   },
+   {
+    "module_title": "Indexes, Performance and Beyond Relational",
+    "lessons": [
+     "How Indexes Work: B-Trees and Hash Indexes",
+     "Query Planning and Optimization",
+     "Document, Key-Value and Graph Stores",
+     "CAP Theorem and Eventual Consistency",
+     "Final Project: A Database-Backed Application"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Write complex SQL, design a normalized schema, explain transactions and isolation, and choose between relational and NoSQL stores for a real application. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-16)"
+ },
+ "CS340": {
+  "modules": [
+   {
+    "module_title": "Networks and the Layered Model",
+    "lessons": [
+     "What a Network Is: Hosts, Links, Switches",
+     "The OSI and TCP/IP Models",
+     "Packets, Frames and Encapsulation",
+     "Delay, Loss and Throughput",
+     "Network Tools: Ping, Traceroute, Wireshark"
+    ]
+   },
+   {
+    "module_title": "The Application Layer",
+    "lessons": [
+     "Client-Server and Peer-to-Peer",
+     "HTTP and the Web",
+     "DNS: How Names Become Addresses",
+     "Email, FTP and Other Application Protocols",
+     "Sockets: Writing a Network Program"
+    ]
+   },
+   {
+    "module_title": "Transport and Network Layers",
+    "lessons": [
+     "UDP vs. TCP: Trade-Offs",
+     "TCP: Reliability, Flow and Congestion Control",
+     "IP Addressing and Subnetting",
+     "Routing: Distance Vector and Link State",
+     "IPv6 and NAT in Brief"
+    ]
+   },
+   {
+    "module_title": "Link Layer, Wireless and Security",
+    "lessons": [
+     "Ethernet, Wi-Fi and the Link Layer",
+     "Switches, VLANs and Broadcast Domains",
+     "Network Security: Firewalls, TLS, VPNs",
+     "Common Attacks and Defenses",
+     "Final Project: A Small Client-Server Application"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Trace a request through the protocol layers, explain TCP reliability and IP routing, and build a socket program with basic security awareness. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-16)"
+ },
+ "CS350": {
+  "modules": [
+   {
+    "module_title": "Regular Languages and Finite Automata",
+    "lessons": [
+     "Alphabets, Strings and Languages",
+     "Deterministic Finite Automata",
+     "Nondeterministic Finite Automata",
+     "Regular Expressions and Their Equivalence to DFAs",
+     "Non-Regular Languages and the Pumping Lemma"
+    ]
+   },
+   {
+    "module_title": "Context-Free Languages",
+    "lessons": [
+     "Context-Free Grammars",
+     "Parse Trees and Ambiguity",
+     "Pushdown Automata",
+     "The Pumping Lemma for Context-Free Languages",
+     "Where Context-Free Languages Show Up: Parsers"
+    ]
+   },
+   {
+    "module_title": "Turing Machines and Decidability",
+    "lessons": [
+     "The Turing Machine Model",
+     "Variants and the Church-Turing Thesis",
+     "Decidable vs. Recognizable Languages",
+     "The Halting Problem",
+     "Reductions and Undecidability Proofs"
+    ]
+   },
+   {
+    "module_title": "Complexity Classes",
+    "lessons": [
+     "Time Complexity and the Class P",
+     "Nondeterminism and the Class NP",
+     "NP-Completeness and the Cook-Levin Theorem",
+     "Space Complexity: PSPACE and Beyond",
+     "Final Project: Prove a Language Regular, Context-Free, or Undecidable"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": false
+  },
+  "mastery_rubric": "Build automata and grammars for languages, prove regularity or non-regularity, show undecidability by reduction, and place problems in P, NP and NP-complete. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-16)"
  }
 }
