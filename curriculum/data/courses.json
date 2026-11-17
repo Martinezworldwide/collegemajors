@@ -294,7 +294,7 @@
    "type": "martinez-original",
    "status": "needs-original-queued"
   },
-  "modules_status": "FULL content in LMS (4 modules, 24 lessons)"
+  "modules_status": "written-lessons-live"
  },
  "MATH102": {
   "course_id": "MATH102",
@@ -313,7 +313,7 @@
    "type": "martinez-original",
    "status": "needs-original-queued"
   },
-  "modules_status": "FULL content in LMS (4 modules, 22 lessons)"
+  "modules_status": "written-lessons-live"
  },
  "MATH201": {
   "course_id": "MATH201",
@@ -332,7 +332,7 @@
    "type": "martinez-original",
    "status": "needs-original-queued"
   },
-  "modules_status": "FULL content in LMS (5 modules, 33 lessons)"
+  "modules_status": "written-lessons-live"
  },
  "MATH202": {
   "course_id": "MATH202",
@@ -351,7 +351,7 @@
    "type": "martinez-original",
    "status": "needs-original-queued"
   },
-  "modules_status": "FULL content in LMS (6 modules, 27 lessons)"
+  "modules_status": "written-lessons-live"
  },
  "MATH203": {
   "course_id": "MATH203",
@@ -370,7 +370,7 @@
    "type": "martinez-original",
    "status": "needs-original-queued"
   },
-  "modules_status": "FULL content in LMS (6 modules, 25 lessons)"
+  "modules_status": "written-lessons-live"
  },
  "MATH204": {
   "course_id": "MATH204",
@@ -408,7 +408,7 @@
    "type": "martinez-original",
    "status": "needs-original-queued"
   },
-  "modules_status": "FULL content in LMS (4 modules, 16 lessons)"
+  "modules_status": "written-lessons-live"
  },
  "MATH211": {
   "course_id": "MATH211",
@@ -718,7 +718,7 @@
    "type": "open",
    "status": "linked-open-text"
   },
-  "modules_status": "FULL content in LMS (4 modules, 22 lessons)"
+  "modules_status": "written-lessons-live"
  },
  "CS102": {
   "course_id": "CS102",
