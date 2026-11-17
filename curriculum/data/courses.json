@@ -1163,7 +1163,7 @@
    "type": "open",
    "status": "linked-open-text"
   },
-  "modules_status": "outline-in-pilot; full modules in later batches"
+  "modules_status": "FULL content in LMS (4 modules, 22 lessons)"
  },
  "ACCT202": {
   "course_id": "ACCT202",
@@ -1188,7 +1188,7 @@
    "type": "open",
    "status": "linked-open-text"
   },
-  "modules_status": "outline-in-pilot; full modules in later batches"
+  "modules_status": "FULL content in LMS (4 modules, 22 lessons)"
  },
  "BUS101": {
   "course_id": "BUS101",
@@ -1280,7 +1280,7 @@
    "type": "open",
    "status": "linked-open-text"
   },
-  "modules_status": "outline-in-pilot; full modules in later batches"
+  "modules_status": "FULL content in LMS (4 modules, 21 lessons)"
  },
  "MKTG301": {
   "course_id": "MKTG301",
@@ -1303,7 +1303,7 @@
    "type": "open",
    "status": "linked-open-text"
   },
-  "modules_status": "outline-in-pilot; full modules in later batches"
+  "modules_status": "FULL content in LMS (4 modules, 20 lessons)"
  },
  "FIN301": {
   "course_id": "FIN301",
@@ -1329,7 +1329,7 @@
    "type": "open",
    "status": "linked-open-text"
   },
-  "modules_status": "outline-in-pilot; full modules in later batches"
+  "modules_status": "FULL content in LMS (4 modules, 21 lessons)"
  },
  "BUS310": {
   "course_id": "BUS310",
@@ -1354,7 +1354,7 @@
    "type": "open",
    "status": "linked-open-text"
   },
-  "modules_status": "outline-in-pilot; full modules in later batches"
+  "modules_status": "FULL content in LMS (4 modules, 21 lessons)"
  },
  "BUS320": {
   "course_id": "BUS320",
@@ -1375,7 +1375,7 @@
    "type": "open",
    "status": "linked-open-text"
   },
-  "modules_status": "outline-in-pilot; full modules in later batches"
+  "modules_status": "FULL content in LMS (4 modules, 21 lessons)"
  },
  "BUS330": {
   "course_id": "BUS330",
@@ -1398,7 +1398,7 @@
    "type": "open",
    "status": "linked-open-text"
   },
-  "modules_status": "outline-in-pilot; full modules in later batches"
+  "modules_status": "FULL content in LMS (4 modules, 21 lessons)"
  },
  "ENTR340": {
   "course_id": "ENTR340",
@@ -1421,7 +1421,7 @@
    "type": "martinez-original",
    "status": "needs-original-queued"
   },
-  "modules_status": "outline-in-pilot; full modules in later batches"
+  "modules_status": "FULL content in LMS (4 modules, 21 lessons)"
  },
  "MGMT410": {
   "course_id": "MGMT410",
@@ -2214,6 +2214,6 @@
    "type": "open",
    "status": "linked-open-text"
   },
-  "modules_status": "outline-in-pilot; full modules in later batches"
+  "modules_status": "FULL content in LMS (4 modules, 21 lessons)"
  }
 }

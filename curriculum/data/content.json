@@ -3170,5 +3170,536 @@
   },
   "mastery_rubric": "Build automata and grammars for languages, prove regularity or non-regularity, show undecidability by reduction, and place problems in P, NP and NP-complete. Final grade 70% or higher.",
   "source": "Martinez original syllabus (authored 2026-11-16)"
+ },
+ "ACCT201": {
+  "modules": [
+   {
+    "module_title": "Accounting Foundations",
+    "lessons": [
+     "The Language of Business: Why Accounting Matters",
+     "The Accounting Equation: Assets, Liabilities and Equity",
+     "The Double-Entry System",
+     "Debits and Credits in Practice",
+     "The Accounting Cycle at a Glance",
+     "Ethics in Financial Reporting"
+    ]
+   },
+   {
+    "module_title": "Recording Transactions and Adjusting",
+    "lessons": [
+     "Journal Entries and the General Ledger",
+     "Trial Balances: Finding Errors Early",
+     "Accruals and Deferrals",
+     "Adjusting Entries",
+     "Closing Entries and the Post-Closing Trial Balance"
+    ]
+   },
+   {
+    "module_title": "The Financial Statements",
+    "lessons": [
+     "The Income Statement",
+     "The Balance Sheet",
+     "The Statement of Cash Flows",
+     "The Statement of Retained Earnings",
+     "Reading and Interpreting Financial Statements"
+    ]
+   },
+   {
+    "module_title": "Assets, Liabilities and Analysis",
+    "lessons": [
+     "Cash and Internal Controls",
+     "Receivables and Bad Debts",
+     "Inventory Methods: FIFO, LIFO and Average Cost",
+     "Long-Term Assets and Depreciation",
+     "Liabilities, Bonds and Equity",
+     "Ratio Analysis and Financial Statement Analysis"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": false
+  },
+  "mastery_rubric": "Record and adjust transactions using double-entry accounting, prepare the four financial statements, and analyze them with ratios. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-17)"
+ },
+ "ACCT202": {
+  "modules": [
+   {
+    "module_title": "Managerial Accounting Foundations",
+    "lessons": [
+     "Managerial vs. Financial Accounting",
+     "Cost Classifications: Fixed, Variable and Mixed",
+     "Cost Behavior and the Relevant Range",
+     "The Contribution Margin Income Statement",
+     "Cost-Volume-Profit Analysis"
+    ]
+   },
+   {
+    "module_title": "Costing Systems",
+    "lessons": [
+     "Job-Order Costing",
+     "Process Costing",
+     "Activity-Based Costing",
+     "Cost Allocation and Overhead Rates",
+     "Joint Costs and By-Products",
+     "Lean Accounting in Brief"
+    ]
+   },
+   {
+    "module_title": "Planning, Budgets and Decisions",
+    "lessons": [
+     "The Master Budget",
+     "Flexible Budgets and Variance Analysis",
+     "Standard Costs",
+     "Capital Budgeting: NPV and IRR",
+     "Decision Making: Make-or-Buy and Special Orders"
+    ]
+   },
+   {
+    "module_title": "Performance Measurement",
+    "lessons": [
+     "Responsibility Centers",
+     "Return on Investment and Residual Income",
+     "The Balanced Scorecard",
+     "Transfer Pricing",
+     "Ethics and Incentives in Performance Measurement",
+     "Final Project: Budget and Cost Analysis for a Small Business"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Classify and analyze costs, build budgets and variance reports, apply capital-budgeting tools, and evaluate performance with ROI and the balanced scorecard. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-17)"
+ },
+ "MGMT301": {
+  "modules": [
+   {
+    "module_title": "Management Foundations",
+    "lessons": [
+     "What Managers Do: Planning, Organizing, Leading, Controlling",
+     "Management Levels and Skills",
+     "The Evolution of Management Thought",
+     "Management in a Global Environment",
+     "Ethics and Social Responsibility"
+    ]
+   },
+   {
+    "module_title": "Planning and Decision Making",
+    "lessons": [
+     "Strategic Planning and the SWOT Analysis",
+     "Setting Goals and Objectives",
+     "Decision-Making Models",
+     "Managing Risk and Uncertainty",
+     "Planning Tools and Techniques"
+    ]
+   },
+   {
+    "module_title": "Organizing and Leading",
+    "lessons": [
+     "Organizational Structure and Design",
+     "Job Design and Work Teams",
+     "Motivation Theories: Maslow, Herzberg, Expectancy",
+     "Leadership Styles and Situational Leadership",
+     "Communication in Organizations"
+    ]
+   },
+   {
+    "module_title": "Controlling and the Modern Workplace",
+    "lessons": [
+     "The Control Process",
+     "Measuring Performance",
+     "Managing Change and Innovation",
+     "Diversity and Inclusion",
+     "The Future of Management",
+     "Final Project: A Management Plan for a Real Organization"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Apply the four management functions, plan strategically, design organizations, motivate and lead teams, and control performance ethically. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-17)"
+ },
+ "MKTG301": {
+  "modules": [
+   {
+    "module_title": "Marketing Foundations",
+    "lessons": [
+     "What Marketing Is and Why It Matters",
+     "The Marketing Concept and Customer Value",
+     "The Marketing Environment",
+     "Consumer Buying Behavior",
+     "Market Segmentation, Targeting and Positioning"
+    ]
+   },
+   {
+    "module_title": "Product and Brand",
+    "lessons": [
+     "The Product Life Cycle",
+     "Product Lines, Mixes and Branding",
+     "New Product Development",
+     "Services Marketing",
+     "Packaging and Labeling"
+    ]
+   },
+   {
+    "module_title": "Price, Place and Promotion",
+    "lessons": [
+     "Pricing Objectives and Strategies",
+     "Distribution Channels and Logistics",
+     "Integrated Marketing Communications",
+     "Advertising and Public Relations",
+     "Personal Selling and Sales Promotion"
+    ]
+   },
+   {
+    "module_title": "Digital Marketing and Ethics",
+    "lessons": [
+     "Digital and Social Media Marketing",
+     "Marketing Analytics and Metrics",
+     "Global Marketing",
+     "Marketing Ethics and Social Responsibility",
+     "Final Project: A Full Marketing Plan for a Product"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Analyze buyers and markets, segment and position an offering, and build a complete marketing mix with digital and ethical awareness. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-17)"
+ },
+ "FIN301": {
+  "modules": [
+   {
+    "module_title": "Finance Foundations",
+    "lessons": [
+     "The Role of Finance in the Firm",
+     "Financial Markets and Institutions",
+     "Time Value of Money: Present and Future Value",
+     "Annuities and Perpetuities",
+     "Interest Rates and the Yield Curve"
+    ]
+   },
+   {
+    "module_title": "Valuation and Risk",
+    "lessons": [
+     "Bond Valuation",
+     "Stock Valuation and the Dividend Discount Model",
+     "Risk and Return",
+     "Portfolio Theory and Diversification",
+     "The Capital Asset Pricing Model"
+    ]
+   },
+   {
+    "module_title": "Capital Budgeting",
+    "lessons": [
+     "The Capital Budgeting Decision",
+     "Net Present Value and Internal Rate of Return",
+     "Payback and the Profitability Index",
+     "Cash Flow Estimation",
+     "Risk in Capital Budgeting"
+    ]
+   },
+   {
+    "module_title": "Financing and Working Capital",
+    "lessons": [
+     "Cost of Capital and WACC",
+     "Capital Structure",
+     "Dividend Policy",
+     "Working Capital Management",
+     "Financial Statement Analysis and Planning",
+     "Final Project: Investment and Financing Analysis"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Apply time value of money, value bonds and stocks, evaluate projects with NPV and IRR, and explain cost of capital and capital structure. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-17)"
+ },
+ "BUS310": {
+  "modules": [
+   {
+    "module_title": "Operations Foundations",
+    "lessons": [
+     "What Operations Management Is",
+     "The Transformation Process",
+     "Operations Strategy and Competitiveness",
+     "Process Design and Analysis",
+     "Service Operations"
+    ]
+   },
+   {
+    "module_title": "Capacity and Facilities",
+    "lessons": [
+     "Capacity Planning",
+     "Facility Location Decisions",
+     "Facility Layout: Product, Process, Cellular",
+     "Work Design and Measurement",
+     "Lean Operations and Waste Reduction"
+    ]
+   },
+   {
+    "module_title": "Inventory and Supply Chains",
+    "lessons": [
+     "Inventory Fundamentals: EOQ and Safety Stock",
+     "Just-in-Time and Kanban",
+     "Supply Chain Management",
+     "Procurement and Supplier Relationships",
+     "Logistics and Distribution"
+    ]
+   },
+   {
+    "module_title": "Quality and Scheduling",
+    "lessons": [
+     "Total Quality Management",
+     "Statistical Process Control",
+     "Six Sigma",
+     "Aggregate Planning and Master Scheduling",
+     "Project Management: CPM and PERT",
+     "Final Project: An Operations Improvement Plan"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Design and improve processes, plan capacity and facilities, manage inventory and supply chains, and control quality with statistical tools. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-17)"
+ },
+ "BUS320": {
+  "modules": [
+   {
+    "module_title": "Individuals in Organizations",
+    "lessons": [
+     "The Field of Organizational Behavior",
+     "Personality and Individual Differences",
+     "Perception and Attribution",
+     "Attitudes and Job Satisfaction",
+     "Learning and Reinforcement"
+    ]
+   },
+   {
+    "module_title": "Motivation and Performance",
+    "lessons": [
+     "Content Theories of Motivation",
+     "Process Theories: Expectancy and Equity",
+     "Job Design and Enrichment",
+     "Goal Setting and Feedback",
+     "Performance Management"
+    ]
+   },
+   {
+    "module_title": "Groups and Teams",
+    "lessons": [
+     "Group Dynamics and Norms",
+     "Team Effectiveness",
+     "Decision Making in Groups",
+     "Conflict and Negotiation",
+     "Power, Politics and Influence"
+    ]
+   },
+   {
+    "module_title": "Leadership and Organizational Culture",
+    "lessons": [
+     "Leadership Theories: Trait, Behavioral, Contingency",
+     "Transformational Leadership",
+     "Organizational Culture",
+     "Change Management",
+     "Stress and Well-Being at Work",
+     "Final Project: An Organizational Diagnosis"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Explain individual, group and organizational behavior, apply motivation and leadership theories, and diagnose an organization with evidence. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-17)"
+ },
+ "BUS330": {
+  "modules": [
+   {
+    "module_title": "Information Systems Foundations",
+    "lessons": [
+     "What Information Systems Are",
+     "The Components of an IS",
+     "Data, Information and Knowledge",
+     "Types of Information Systems",
+     "The Role of IS in Competitive Advantage"
+    ]
+   },
+   {
+    "module_title": "Technology Infrastructure",
+    "lessons": [
+     "Hardware and Software Essentials",
+     "Databases and Data Management",
+     "Networks and the Internet",
+     "Cloud Computing",
+     "Enterprise Systems: ERP, CRM, SCM"
+    ]
+   },
+   {
+    "module_title": "Business Intelligence and Analytics",
+    "lessons": [
+     "Data Warehouses and Data Mining",
+     "Business Analytics and Decision Support",
+     "Artificial Intelligence in Business",
+     "Dashboards and Visualization",
+     "Big Data in Brief"
+    ]
+   },
+   {
+    "module_title": "Security, Ethics and Emerging Trends",
+    "lessons": [
+     "Information Security and Risk",
+     "Privacy and Ethical Issues",
+     "E-Commerce and Digital Business Models",
+     "Emerging Technologies",
+     "Managing IS Projects",
+     "Final Project: An IS Solution Proposal"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Describe IS infrastructure and enterprise systems, use analytics to support decisions, and assess security, privacy and ethics of business technology. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-17)"
+ },
+ "ENTR340": {
+  "modules": [
+   {
+    "module_title": "The Entrepreneurial Mindset",
+    "lessons": [
+     "What Entrepreneurship Is",
+     "Opportunity Recognition",
+     "Entrepreneurial Traits and Motivation",
+     "The Lean Startup Method",
+     "Creativity and Idea Generation"
+    ]
+   },
+   {
+    "module_title": "From Idea to Business Model",
+    "lessons": [
+     "The Business Model Canvas",
+     "Customer Discovery and Validation",
+     "Market Research for Startups",
+     "Value Propositions and Competitive Advantage",
+     "Feasibility Analysis"
+    ]
+   },
+   {
+    "module_title": "Launching the Venture",
+    "lessons": [
+     "Legal Forms and Formation",
+     "Financing: Bootstrapping, Angels, Venture Capital",
+     "The Business Plan",
+     "Building the Team",
+     "Marketing on a Startup Budget"
+    ]
+   },
+   {
+    "module_title": "Growth and Exit",
+    "lessons": [
+     "Scaling the Business",
+     "Managing Growth and Cash Flow",
+     "Franchising and Licensing",
+     "Exit Strategies: Sale, IPO, Succession",
+     "Social Entrepreneurship",
+     "Final Project: A Complete Business Plan and Pitch"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Recognize and validate an opportunity, build a business model, plan financing and launch, and pitch a complete business plan. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-17)"
+ },
+ "BUS440": {
+  "modules": [
+   {
+    "module_title": "Globalization and the International Environment",
+    "lessons": [
+     "Globalization: Drivers and Debates",
+     "Cultural Differences and Cross-Cultural Management",
+     "Political and Legal Environments",
+     "Economic Systems and Development",
+     "Ethics in International Business"
+    ]
+   },
+   {
+    "module_title": "International Trade and Investment",
+    "lessons": [
+     "Theories of International Trade",
+     "Trade Barriers and Trade Agreements",
+     "Foreign Direct Investment",
+     "Regional Economic Integration",
+     "The Global Monetary System"
+    ]
+   },
+   {
+    "module_title": "International Strategy and Entry",
+    "lessons": [
+     "International Business Strategy",
+     "Market Entry Modes: Exporting, Licensing, Joint Ventures",
+     "Global Marketing Strategy",
+     "Global Human Resource Management",
+     "Managing International Operations"
+    ]
+   },
+   {
+    "module_title": "Managing Across Borders",
+    "lessons": [
+     "Global Leadership and Teams",
+     "Negotiating Across Cultures",
+     "Risk Management in International Business",
+     "Sustainability and Corporate Social Responsibility",
+     "The Future of Global Business",
+     "Final Project: A Market Entry Plan for a Foreign Market"
+    ]
+   }
+  ],
+  "assessments": {
+   "quizzes": 4,
+   "midterm": true,
+   "final": true,
+   "project": true
+  },
+  "mastery_rubric": "Analyze cultural, political and economic environments, compare entry modes, and build a market-entry plan for a foreign market. Final grade 70% or higher.",
+  "source": "Martinez original syllabus (authored 2026-11-17)"
  }
 }
