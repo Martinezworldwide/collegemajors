@@ -6202,41 +6202,622 @@
    {
     "module_title": "Rhetoric and the Writing Process",
     "lessons": [
-     "What Rhetoric Is: Audience, Purpose, Context",
-     "Invention: Finding Something to Say",
-     "Drafting Without Editing Too Soon",
-     "Paragraphs: Unity and Coherence",
-     "Voice, Tone and Style"
+     {
+      "title": "What Rhetoric Is: Audience, Purpose, Context",
+      "intro": "Every piece of writing is a conversation with a reader who is not in the room. Rhetoric is the study of how writing works on its audience: who you are writing for, what you want the writing to do, and the situation it enters. Get those three right and the rest of the course \u2014 drafting, arguing, revising \u2014 has a compass.",
+      "concepts": [
+       "Audience \u2014 the real people who will read your words. A memo to your boss, a letter to a city council, and a post for classmates all need different evidence, tone, and length because the readers differ.",
+       "Purpose \u2014 what the writing should DO: inform, persuade, explain, entertain, or move someone to act. A purpose you can state in one sentence ('convince the committee to fund the lab') keeps a draft on track.",
+       "Context \u2014 the situation around the writing: occasion, genre, timing, and what the audience already believes. The same argument lands differently in a classroom essay than in a newspaper op-ed.",
+       "The rhetorical situation \u2014 audience, purpose, and context together. Before writing a word, name all three; every later decision (word choice, evidence, structure) flows from them."
+      ],
+      "example": {
+       "q": "Two students write about campus parking. One addresses the student newspaper, the other the university parking office. How should their pieces differ?",
+       "steps": [
+        "Audience: newspaper readers are fellow students who share the frustration; the parking office can actually change the policy but needs data, not complaints.",
+        "Purpose: the newspaper piece persuades readers that the problem is real and shared; the office letter asks for a specific change (more evening permits).",
+        "Context: the newspaper piece can use humor and anecdotes; the office letter should be formal, brief, and include facts \u2014 number of cars, wait times, costs.",
+        "Conclusion: same topic, different rhetoric. The writer who ignores audience and purpose writes a good rant that changes nothing."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Name the audience, purpose, and context for a cover letter applying for a summer internship.",
+        "a": "Audience: the hiring manager. Purpose: persuade them to interview you. Context: a competitive application pile, a formal genre, limited time per letter \u2014 so it must be short, specific, and tailored to that employer."
+       },
+       {
+        "q": "Why does the same sentence ('This policy is unfair') work in a protest speech but fail in a formal report?",
+        "a": "Context and audience differ: a speech rallies people who already agree, while a report must convince skeptical decision-makers with evidence, not just a claim."
+       }
+      ],
+      "takeaway": "Before you write, name your audience, your purpose, and your context \u2014 they decide everything that follows."
+     },
+     {
+      "title": "Invention: Finding Something to Say",
+      "intro": "The blank page is not a talent problem; it is an invention problem. Invention is the set of techniques writers use to find ideas before they draft: asking questions, freewriting, listing, and mapping. The goal is not a perfect idea but raw material \u2014 more than you need, so you can choose.",
+      "concepts": [
+       "Freewriting \u2014 write nonstop for 10 minutes without stopping, correcting, or judging. Most of it is junk; the usable sentence hides inside it.",
+       "Listing and clustering \u2014 dump every idea about the topic in a list, then group related ones. Clusters reveal the pattern your essay will follow.",
+       "Asking questions \u2014 who, what, when, where, why, how, and 'what if?' Questions turn a vague topic ('social media') into a writable one ('how does social media change how teenagers argue?').",
+       "Talking it out \u2014 explain your idea aloud to a real person. The places you stumble are the places your thinking is still thin."
+      ],
+      "example": {
+       "q": "You must write 750 words on 'the library' and have no ideas. Use invention to get started.",
+       "steps": [
+        "Freewrite 10 minutes: the library as a study hall, as a free resource, as a quiet place in a noisy house, as the only place with reliable Wi-Fi.",
+        "Cluster: 'quiet place' and 'reliable Wi-Fi' belong together \u2014 the library as equalizer for students without good study space at home.",
+        "Ask questions: who relies on the library most? What would happen if its hours were cut? Now you have an angle: 'The library is the campus's most important classroom.'",
+        "Result: a thesis candidate, found in 15 minutes of invention instead of an hour of staring."
+       ]
+      },
+      "practice": [
+       {
+        "q": "You have the topic 'remote work' and nothing else. Give three invention questions that could narrow it.",
+        "a": "Examples: Who benefits most from remote work \u2014 and who is left out? What does a remote worker lose that an office worker keeps? How does remote work change a manager's job?"
+       },
+       {
+        "q": "Why is freewriting done without editing?",
+        "a": "Because the inner editor kills ideas before they form; invention separates generating (fast, messy) from judging (later, careful)."
+       }
+      ],
+      "takeaway": "Ideas are found, not waited for \u2014 freewrite, list, question, and talk until the angle appears."
+     },
+     {
+      "title": "Drafting Without Editing Too Soon",
+      "intro": "A first draft is not a bad essay; it is a discovery tool. Drafting and editing use different parts of your brain \u2014 drafting generates, editing judges \u2014 and doing both at once produces the worst of both: slow writing and a timid draft. This lesson teaches you to draft fast, then edit later.",
+      "concepts": [
+       "Drafting mode \u2014 get the ideas down in rough order. Spelling, grammar, and elegance can wait; a sentence that is ugly but true is progress.",
+       "The inner editor \u2014 the voice that stops you mid-sentence to fix a comma. In drafting, it is the enemy: it trades momentum for polish you will throw away anyway.",
+       "The zero draft \u2014 a deliberately messy first pass, sometimes just notes and half-sentences, whose only job is to show you what you actually think.",
+       "Momentum rules \u2014 write in timed blocks (25 minutes), leave [TK] markers where you need a fact, and never end a session at a dead stop; leave a half-finished sentence to resume easily."
+      ],
+      "example": {
+       "q": "Maya spends two hours on her opening paragraph and has written nothing else. What is wrong, and what should she do?",
+       "steps": [
+        "Diagnosis: she is editing while drafting \u2014 polishing a paragraph whose role she does not yet know, since the rest of the essay does not exist.",
+        "Fix: write the whole draft first, even with a placeholder intro ('Intro goes here \u2014 parking is bad because\u2026').",
+        "Then revise: once the argument is visible, the introduction can be written to match it \u2014 in 15 minutes, not two hours.",
+        "Result: a complete draft exists, and the opening paragraph she finally writes will be better because it serves a finished argument."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What does a [TK] marker do in a draft?",
+        "a": "It marks a gap ('[TK: find the 2024 enrollment figure]') so you keep drafting instead of stopping to research mid-sentence."
+       },
+       {
+        "q": "A friend says 'I can't start because my first sentence has to be perfect.' Give a one-sentence reply.",
+        "a": "Write the worst first sentence you can, finish the draft, and let the real opening sentence reveal itself once you know what the essay actually says."
+       }
+      ],
+      "takeaway": "Draft first, edit later \u2014 a finished rough draft beats a perfect first paragraph every time."
+     },
+     {
+      "title": "Paragraphs: Unity and Coherence",
+      "intro": "A paragraph is one idea, fully developed. Readers navigate an essay paragraph by paragraph, so each one needs a clear point (unity) and sentences that connect to each other (coherence). When a paragraph wanders, the reader loses the thread \u2014 even if every sentence is well written.",
+      "concepts": [
+       "Unity \u2014 every sentence in a paragraph serves one controlling idea. A sentence that belongs to another idea belongs in another paragraph.",
+       "Topic sentence \u2014 the sentence that states the paragraph's point, usually first. It is a promise; the rest of the paragraph keeps it.",
+       "Coherence \u2014 sentences linked by logic: repetition of key words, pronouns that point clearly, and transitions (however, for example, as a result) that signal the relationship between ideas.",
+       "Development \u2014 a point is not made by stating it but by supporting it: evidence, example, explanation, or detail, usually 4\u20138 sentences in college writing."
+      ],
+      "example": {
+       "q": "Read this paragraph and find the unity problem: 'Campus food is expensive. Many students skip lunch to save money. The dining hall was renovated in 2019. Meal plans cost $2,400 a semester. Students on financial aid struggle most.'",
+       "steps": [
+        "The controlling idea is cost \u2014 expensive food and its effect on students.",
+        "The sentence about the 2019 renovation is about the building, not the cost. It breaks unity.",
+        "Fix: delete it, or move it to a paragraph about dining-hall facilities.",
+        "Check coherence: the remaining sentences connect \u2014 expensive \u2192 skipping meals \u2192 meal-plan price \u2192 financial-aid students hit hardest \u2014 in a clear chain."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Write a topic sentence for a paragraph whose point is that group projects teach skills lectures cannot.",
+        "a": "Example: 'Group projects teach negotiation and compromise \u2014 skills no lecture can deliver.' (Any sentence that states that one point clearly counts.)"
+       },
+       {
+        "q": "A paragraph has a good topic sentence but feels jumpy. What is most likely missing?",
+        "a": "Coherence devices \u2014 transitions and repeated key words that show how each sentence relates to the one before it."
+       }
+      ],
+      "takeaway": "One paragraph, one idea \u2014 state it, support it, and link every sentence to the next."
+     },
+     {
+      "title": "Voice, Tone and Style",
+      "intro": "Voice is who the reader hears; tone is the attitude toward the subject; style is the set of choices \u2014 word length, sentence length, formality \u2014 that create both. College writing needs a voice that is clear, confident, and appropriate to the audience, not a stiff imitation of a textbook.",
+      "concepts": [
+       "Voice \u2014 the personality in the prose: direct, curious, skeptical, warm. It comes from choices, not from 'talent': active verbs, concrete nouns, and sentences that sound like a real person thinking.",
+       "Tone \u2014 the stance toward the subject and reader: respectful, urgent, ironic, neutral. Tone must match purpose \u2014 a complaint letter and a lab report need different tones.",
+       "Style \u2014 sentence variety (short sentences for punch, long ones for explanation), plain words over jargon, and the active voice as the default.",
+       "Audience-appropriate formality \u2014 academic writing is formal but not frozen: avoid slang and texting shorthand, but do not hide behind 'it is widely believed that' when you mean 'I argue that'."
+      ],
+      "example": {
+       "q": "Which version has a stronger academic voice? A: 'It is thought by many that social media is bad.' B: 'Social media rewires attention: the average user checks a phone 96 times a day.'",
+       "steps": [
+        "A hides behind passive voice ('it is thought') and a vague claim ('bad') \u2014 no one is speaking, and nothing specific is said.",
+        "B has a named actor, a concrete claim, and a number. The voice is confident because the evidence is specific.",
+        "Lesson: voice is not decoration. It is the result of specific claims, active verbs, and real evidence.",
+        "A writer with a strong voice still respects the audience: B would need a source for the 96-times figure in a real essay (Module 4)."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Rewrite this in active voice: 'The experiment was conducted by the students.'",
+        "a": "'The students conducted the experiment.'"
+       },
+       {
+        "q": "Give one sign that a paper's tone does not match its audience.",
+        "a": "Examples: slang or jokes in a formal report to a dean; cold, distant language in a personal reflective letter; or 'you' commands in a neutral research summary."
+       }
+      ],
+      "takeaway": "Voice comes from specific claims and active sentences \u2014 write like a person who knows what they think."
+     }
     ]
    },
    {
     "module_title": "Reading Critically and Summarizing",
     "lessons": [
-     "Active Reading and Annotation",
-     "Summary vs. Response",
-     "Identifying Claims and Evidence",
-     "Logical Fallacies in Everyday Writing",
-     "Writing a Summary-Response Essay"
+     {
+      "title": "Active Reading and Annotation",
+      "intro": "Reading for a writing course is not the same as reading for pleasure: you read to use the text. Active reading means engaging with the page \u2014 marking it, questioning it, arguing with it \u2014 so that when you sit down to write, the ideas are already yours to work with, not a blur you half remember.",
+      "concepts": [
+       "Annotation \u2014 writing in the margins: underline claims, circle key terms, and add short notes ('evidence?', 'agrees with Smith', 'weak example'). A marked page is a page you have thought about.",
+       "Reading with a question \u2014 enter a text asking something specific ('what does the author claim causes this?'). A question focuses attention; aimless reading drifts.",
+       "The two-pass read \u2014 first pass: get the shape (thesis, structure, conclusion). Second pass: slow down on the parts that matter for your essay.",
+       "Dialogue with the text \u2014 agree, disagree, ask 'how do you know that?' in the margin. Writing begins when you stop merely receiving a text and start responding to it."
+      ],
+      "example": {
+       "q": "Two students read the same article on remote work. One highlights every sentence; the other writes 12 margin notes and underlines 4 sentences. Who will write the better essay?",
+       "steps": [
+        "Highlighting everything is the same as highlighting nothing \u2014 no choices were made, so no thinking happened.",
+        "The second student chose: 4 key sentences, and 12 notes record reactions ('supports my thesis', 'contradicts the 2023 study').",
+        "When drafting, the second student has a map: claims, evidence, and her own responses, all findable in seconds.",
+        "Rule: annotate selectively. If more than a third of the page is marked, you are coloring, not reading."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What is the difference between a good margin note and a bad one?",
+        "a": "A good note adds thinking ('this assumes X, but what about Y?'); a bad note just repeats the text ('remote work is growing'). Notes should record your response, not copy the page."
+       },
+       {
+        "q": "Why read a difficult text twice instead of once slowly?",
+        "a": "Because the first pass builds the map \u2014 where the argument goes \u2014 so the slow second pass can focus on the parts that matter instead of getting lost in details."
+       }
+      ],
+      "takeaway": "Read with a pen and a question \u2014 a marked-up page is the first draft of your response."
+     },
+     {
+      "title": "Summary vs. Response",
+      "intro": "A summary reports what a text says; a response says what you think about it. College writing constantly asks for both \u2014 often in the same essay \u2014 and the most common beginner error is mixing them up: smuggling your opinion into a summary, or merely repeating a text when a response was asked for.",
+      "concepts": [
+       "Summary \u2014 a fair, condensed restatement of the author's main ideas in your own words, without your opinion. It answers: what does the text claim, and how does it support it?",
+       "Response \u2014 your reasoned reaction: agree, disagree, qualify, extend. It answers: is the claim convincing, and what does it mean?",
+       "Neutral language in summaries \u2014 report verbs (argues, claims, shows) keep the summary attributed to the author; 'obviously' and 'wrongly' leak your judgment in.",
+       "The summary-response structure \u2014 summarize first, then respond. Readers trust a response only when they can see you understood the text first."
+      ],
+      "example": {
+       "q": "An article argues that homework harms learning. Write one summary sentence and one response sentence.",
+       "steps": [
+        "Summary: 'Cooper argues that homework beyond a modest amount shows no benefit for achievement and increases student stress.' \u2014 attributed, neutral, no opinion.",
+        "Response: 'Cooper's data is strong for elementary students, but he understates how homework builds the study habits college demands.' \u2014 your judgment, with a reason.",
+        "If the response sentence appeared inside the summary, the reader could no longer tell what Cooper says from what you say.",
+        "Check: can a reader separate the author's claims from yours at every sentence? If yes, the summary-response boundary is holding."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Which sentence is a summary and which is a response? (a) 'Lee claims the policy cut costs by 20%.' (b) 'Lee's 20% figure ignores the layoffs that produced it.'",
+        "a": "(a) is a summary \u2014 it reports Lee's claim neutrally. (b) is a response \u2014 it evaluates the claim."
+       },
+       {
+        "q": "Why summarize before responding in an essay?",
+        "a": "Because a response to a text you have not fairly represented looks like a straw man; readers trust your judgment only after they see you understood the original."
+       }
+      ],
+      "takeaway": "Summary reports the text; response judges it \u2014 keep them separate and in that order."
+     },
+     {
+      "title": "Identifying Claims and Evidence",
+      "intro": "Every argument is a claim plus the evidence offered for it. Learning to separate the two \u2014 to spot the claim, then ask 'what proves it?' \u2014 is the single most useful reading skill in this course. It is also how you will build your own essays: claim first, evidence second, never a claim standing alone.",
+      "concepts": [
+       "Claim \u2014 an assertion the author wants you to accept ('homework harms learning'). Claims come in types: fact, value (good/bad), and policy (we should\u2026).",
+       "Evidence \u2014 what supports the claim: data, studies, examples, expert testimony, logical reasoning. A claim with no evidence is an opinion, not an argument.",
+       "Warrants \u2014 the unstated link between evidence and claim ('this study applies to our students'). Weak arguments often fail here, not in the data.",
+       "Signal phrases \u2014 'research shows', 'for example', 'according to' mark evidence; 'therefore', 'so', 'this means' mark the claim being drawn from it."
+      ],
+      "example": {
+       "q": "Find the claim and the evidence: 'Campus parking is a crisis. Last semester, 400 students were waitlisted for permits, and the average commute grew by 25 minutes.'",
+       "steps": [
+        "Claim: 'Campus parking is a crisis.' (A value/policy claim \u2014 it says the situation is bad enough to act on.)",
+        "Evidence: 400 waitlisted permits and a 25-minute longer commute \u2014 numbers that can be checked.",
+        "Warrant: more waitlists and longer commutes mean the system is failing students \u2014 the link the writer assumes.",
+        "Test: would the evidence still support the claim if the numbers were small? If 4 students were waitlisted, 'crisis' would collapse \u2014 so the claim's strength depends entirely on the evidence."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Is 'chocolate is delicious' a claim that needs evidence in an essay?",
+        "a": "It is a claim of taste, not an arguable claim \u2014 no evidence could prove or disprove it, so it cannot anchor an argument. Arguable claims are the ones evidence can settle."
+       },
+       {
+        "q": "A writer cites a study of 12 people to claim a national trend. Where is the weakness \u2014 claim, evidence, or warrant?",
+        "a": "Evidence and warrant: 12 people is too small a sample, and the warrant that a tiny sample represents a nation is unjustified."
+       }
+      ],
+      "takeaway": "Read every argument as claim + evidence + link \u2014 and build your own essays the same way."
+     },
+     {
+      "title": "Logical Fallacies in Everyday Writing",
+      "intro": "A fallacy is a pattern of reasoning that looks persuasive but does not actually support its conclusion. You will meet them in ads, social media, politics \u2014 and in your own drafts. Naming them is not pedantry; it is how you stop being moved by bad arguments, including your own.",
+      "concepts": [
+       "Ad hominem \u2014 attacking the person instead of the argument ('you can't trust her parking plan; she failed algebra'). The person's record is irrelevant to whether the plan works.",
+       "Straw man \u2014 restating the other side in a weaker form, then knocking that down ('critics of the parking plan want students to walk 10 miles in the snow').",
+       "False dilemma \u2014 pretending only two options exist ('either we build a garage or students drop out'). Most problems have more than two options.",
+       "Hasty generalization and slippery slope \u2014 a tiny sample treated as a trend ('my roommate failed, so the course is impossible'); a chain of unlikely consequences presented as certain ('if we raise fees, enrollment collapses, the college closes')."
+      ],
+      "example": {
+       "q": "A post says: 'The dean wants to cut library hours. First the library, then the whole humanities department. Soon there will be no college at all.' What is the fallacy?",
+       "steps": [
+        "This is a slippery slope: each step (library hours \u2192 humanities \u2192 no college) is presented as inevitable, but no evidence links them.",
+        "Test it: ask 'what would have to happen for step 2 to follow from step 1?' If the answer is speculation, the argument is speculation.",
+        "The fair version: argue about library hours on their own merits \u2014 cost, usage, alternatives \u2014 without borrowing fear from later steps.",
+        "Note: a slippery slope is not always wrong \u2014 if each step is documented, it is a chain of evidence. The fallacy is the undocumented chain."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Name the fallacy: 'You should ignore his climate argument \u2014 he flies to conferences.'",
+        "a": "Ad hominem (and specifically tu quoque \u2014 attacking the person's consistency instead of the argument's evidence)."
+       },
+       {
+        "q": "Name the fallacy: 'Either we ban phones in class or students will never learn anything.'",
+        "a": "False dilemma \u2014 it ignores middle options like phone-free zones, designated phone breaks, or using phones as learning tools."
+       }
+      ],
+      "takeaway": "Fallacies are shortcuts that skip evidence \u2014 name them, and the argument has to earn its conclusion."
+     },
+     {
+      "title": "Writing a Summary-Response Essay",
+      "intro": "The summary-response essay is the first full essay of the course, and the template for much of college writing: read carefully, represent fairly, then respond with your own reasoned judgment. It has a simple shape \u2014 introduction, fair summary, response, conclusion \u2014 but the discipline is in the boundary between the two halves.",
+      "concepts": [
+       "Introduction \u2014 names the text and author, states the text's central claim in one sentence, and ends with your thesis: your overall response ('I argue that\u2026').",
+       "The summary section \u2014 one or two paragraphs, present tense, attributed throughout ('Lee argues\u2026'), covering the main claim and its key evidence \u2014 nothing more.",
+       "The response section \u2014 the longer half: agree, disagree, or qualify, with reasons and evidence of your own. One response point per paragraph, each with a topic sentence.",
+       "Conclusion \u2014 restates your thesis in light of the response, and says what follows: what the text gets right, what it misses, and why it matters."
+      ],
+      "example": {
+       "q": "Outline a summary-response essay on an article claiming 'open-book exams produce better learning.'",
+       "steps": [
+        "Intro: name the article and author; state its claim; thesis: 'The article is right about stress but wrong that open-book exams measure understanding.'",
+        "Summary: one paragraph \u2014 the study, the comparison (open-book vs. closed-book scores), the author's conclusion.",
+        "Response paragraph 1: agree \u2014 lower stress is real, and stress hurts performance (evidence: your own experience + a cited study).",
+        "Response paragraph 2: disagree \u2014 open-book exams reward finding answers, not knowing them; in a job you cannot always look it up (example: a nurse in an emergency).",
+        "Conclusion: open-book exams are a useful tool, not a replacement \u2014 the article's claim overreaches."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Your summary of a 2,000-word article runs 800 words. What is the likely problem?",
+        "a": "You are retelling details instead of condensing: a summary should cover the main claim and key evidence only, usually a quarter or less of the original's length."
+       },
+       {
+        "q": "Where does your thesis belong in a summary-response essay, and why?",
+        "a": "At the end of the introduction \u2014 it tells the reader your overall judgment before the summary, so they can watch you earn it in the response."
+       }
+      ],
+      "takeaway": "Summary first, fairly; response second, with reasons \u2014 that order is what makes the essay trustworthy."
+     }
     ]
    },
    {
     "module_title": "The Argument Essay",
     "lessons": [
-     "Thesis Statements That Take a Position",
-     "Organizing an Argument",
-     "Evidence, Quotation and Paraphrase",
-     "Counterargument and Rebuttal",
-     "Introductions and Conclusions That Work"
+     {
+      "title": "Thesis Statements That Take a Position",
+      "intro": "A thesis is the essay's promise: one sentence that states the position the whole essay will defend. A weak thesis states a fact ('parking is a problem') or a topic ('this essay is about parking'); a strong thesis takes a position a reasonable person could disagree with \u2014 and therefore needs an essay to prove.",
+      "concepts": [
+       "Arguable \u2014 a thesis must be something someone could dispute. 'The library is open late' is a fact; 'the library should stay open until midnight during finals' is a position.",
+       "Specific \u2014 a thesis names the subject AND the claim about it. 'Social media is bad' is vague; 'social media rewards outrage, which makes public debate worse' is specific enough to argue.",
+       "One idea \u2014 a thesis makes one central claim. Two claims need two essays (or one becomes a supporting point).",
+       "The 'so what?' test \u2014 after reading your thesis, a reader should know why it matters. If the answer is 'who cares?', narrow or raise the stakes."
+      ],
+      "example": {
+       "q": "Improve this thesis: 'This essay will discuss campus food.'",
+       "steps": [
+        "Problem 1: it announces a topic instead of taking a position \u2014 nothing to prove.",
+        "Problem 2: no stakes. Even if the essay is good, the reader does not know what it wants them to believe.",
+        "Revision: 'Campus meal plans overcharge students for food most of them do not eat, so the college should offer a pay-per-meal option.'",
+        "Check: arguable (the college could disagree), specific (meal plans, pay-per-meal), one idea (the plan is unfair and should change). It passes."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Which is a stronger thesis? (a) 'Exercise is good for you.' (b) 'Colleges should require a physical-activity course because exercise improves grades and retention.'",
+        "a": "(b) \u2014 it is arguable, specific, and gives reasons the essay can develop; (a) is a fact no one disputes."
+       },
+       {
+        "q": "Apply the 'so what?' test to this thesis: 'Many students use laptops in class.'",
+        "a": "It fails \u2014 it states a fact with no position and no stakes. A thesis needs a claim: 'Laptops in class divide attention, so professors should set laptop-free zones during discussion.'"
+       }
+      ],
+      "takeaway": "A thesis is one arguable, specific sentence \u2014 a position someone could dispute and an essay could prove."
+     },
+     {
+      "title": "Organizing an Argument",
+      "intro": "An argument is not a pile of points; it is a route. The reader should always know where they are, where they are going, and why the next step follows. Good organization is invisible when it works and the first thing a reader notices when it fails.",
+      "concepts": [
+       "The standard route \u2014 introduction (thesis) \u2192 supporting points in an order that builds \u2192 counterargument \u2192 conclusion. Each body paragraph makes one point, in service of the thesis.",
+       "Ordering points \u2014 weakest to strongest (build to a climax), strongest first (for impatient readers), or chronological/logical order (for processes). Choose deliberately; never random.",
+       "Transitions as signposts \u2014 words and sentences that tell the reader the relationship between paragraphs: 'The cost is one problem; a second is access.'",
+       "Outlining before drafting \u2014 a 10-line outline (thesis + one line per paragraph) saves hours of rewriting, because structural problems are cheap to fix on one page and expensive to fix in a draft."
+      ],
+      "example": {
+       "q": "Order these points for an essay arguing the college should offer a pay-per-meal option: (a) meal plans cost $2,400, (b) students skip meals to save money, (c) food waste is high because unused meals expire.",
+       "steps": [
+        "Weakest-to-strongest order: start with waste (a system problem), then cost (the student's problem), then skipped meals (the human consequence) \u2014 each point raises the stakes.",
+        "Check the transitions: 'The waste is bad enough; the price makes it worse; the real cost is students going hungry.'",
+        "Alternative: strongest first if the audience is impatient \u2014 lead with skipped meals, then cost, then waste.",
+        "Either order works; what fails is no order \u2014 three points in the sequence you happened to think of them."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Your essay's paragraphs are individually strong but the essay feels scattered. What is the most likely cause?",
+        "a": "No organizing principle \u2014 the points are in random order with no transitions showing how each relates to the thesis and to the next point."
+       },
+       {
+        "q": "Why outline before drafting instead of after?",
+        "a": "Because moving a paragraph in an outline costs seconds, while moving it in a finished draft means rewriting transitions and rebalancing the whole essay."
+       }
+      ],
+      "takeaway": "Organize deliberately: one point per paragraph, in an order that builds, with signposts at every turn."
+     },
+     {
+      "title": "Evidence, Quotation and Paraphrase",
+      "intro": "Claims convince; evidence proves. In college writing, evidence usually comes from sources \u2014 and the skill is not finding a quote but using it well: choosing the right evidence, integrating it into your sentence, and explaining what it shows. A dropped-in quote with no explanation is decoration, not argument.",
+      "concepts": [
+       "Types of evidence \u2014 statistics, expert testimony, examples, and cases. Match the evidence to the claim: numbers for scale, experts for authority, examples for illustration.",
+       "Quotation \u2014 the author's exact words, in quotation marks, used when the wording itself matters or is especially vivid. Keep quotes short \u2014 a phrase or a sentence, rarely a block.",
+       "Paraphrase \u2014 the idea in your own words, used when the content matters more than the wording. A good paraphrase changes the sentence structure, not just a few words \u2014 and still needs a citation.",
+       "Integration \u2014 introduce the evidence ('According to the 2024 campus survey\u2026'), present it, then explain it: 'This shows that\u2026' A quote never ends a paragraph; your analysis does."
+      ],
+      "example": {
+       "q": "A student writes: 'The meal plan is bad. \"Students waste 40% of their meals.\"' What is wrong?",
+       "steps": [
+        "The quote is dropped in with no introduction \u2014 the reader does not know who said it, where it comes from, or what it proves.",
+        "Fix the integration: 'According to the college's own 2024 dining audit, students waste 40% of the meals they pay for.'",
+        "Then explain: 'That waste is not a student failure; it is the plan's design \u2014 students pay for meals they cannot use.'",
+        "Result: the evidence now has a source, a claim it supports, and an explanation of what it means. That is a paragraph, not a decoration."
+       ]
+      },
+      "practice": [
+       {
+        "q": "When should you quote instead of paraphrase?",
+        "a": "When the exact wording matters \u2014 a striking phrase, a definition, or language you are analyzing. Otherwise paraphrase: it shows you understood the idea and keeps your voice in charge."
+       },
+       {
+        "q": "Is this a good paraphrase of 'The plan wastes money'? Original: 'The meal plan squanders student funds.'",
+        "a": "No \u2014 it only swaps synonyms. A real paraphrase restates the idea in a new structure: 'Under the current plan, students pay for meals they never eat.'"
+       }
+      ],
+      "takeaway": "Evidence needs a source, an introduction, and your explanation \u2014 a quote alone proves nothing."
+     },
+     {
+      "title": "Counterargument and Rebuttal",
+      "intro": "The strongest essays argue against themselves first. A counterargument \u2014 the best objection to your position \u2014 shows the reader you have thought seriously, and a good rebuttal makes your thesis stronger, not weaker. Ignoring the other side does not make it go away; it makes your reader bring it up instead.",
+      "concepts": [
+       "Counterargument \u2014 the strongest objection a reasonable opponent would raise. Find the real one, not a straw man: ask 'what would a smart person who disagrees say?'",
+       "Concession \u2014 admitting a point where the other side is partly right ('it is true that a pay-per-meal system costs more to administer'). Concession builds credibility.",
+       "Rebuttal \u2014 answering the objection with evidence or reasoning: show the objection is wrong, smaller than it looks, or outweighed by your point.",
+       "Placement \u2014 usually after your supporting points and before the conclusion, so your case is fully made before you face the objection."
+      ],
+      "example": {
+       "q": "You argue for pay-per-meal. The college replies: 'It would cost more to administer.' Build the counterargument and rebuttal.",
+       "steps": [
+        "State it fairly: 'The college is right that tracking individual meals costs more than selling flat plans \u2014 that is a real expense.' (concession)",
+        "Rebuttal with evidence: 'But the dining audit shows unused meals already waste $600,000 a year \u2014 far more than the tracking system would cost.'",
+        "Reframe: 'The question is not whether administration costs something; it is whether it costs more than the waste it prevents. It does not.'",
+        "Result: the objection is answered, not dodged \u2014 and the reader trusts the argument more because it survived contact with the other side."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why should you state the counterargument in its strongest form?",
+        "a": "Because defeating a weak version proves nothing, and readers who hold the strong version will think you never understood them \u2014 a straw man costs credibility."
+       },
+       {
+        "q": "What is the difference between a concession and giving up?",
+        "a": "A concession admits one limited point ('administration costs more') while holding the thesis; giving up abandons the thesis. Concession strengthens the argument by showing fairness."
+       }
+      ],
+      "takeaway": "Face the strongest objection, concede what is true, and answer the rest \u2014 an argument that survives its critic is the one readers trust."
+     },
+     {
+      "title": "Introductions and Conclusions That Work",
+      "intro": "Introductions and conclusions are the two places readers remember. An introduction must do three jobs in a few sentences \u2014 hook the reader, give the context, and state the thesis. A conclusion must do the opposite of repeating the essay: it should show why the argument matters now that it has been made.",
+      "concepts": [
+       "The hook \u2014 an opening that earns attention: a surprising fact, a brief scene, a sharp question. It must connect to the thesis; a random joke is worse than a plain start.",
+       "Context \u2014 the background a reader needs to understand the thesis: what the problem is, who it affects, why now. Two or three sentences, not a history lesson.",
+       "Thesis placement \u2014 at the end of the introduction, so the reader meets the claim after understanding the problem.",
+       "Conclusions that do work \u2014 restate the thesis in fresh words, synthesize (what the points add up to), and answer 'so what?': the implication, the next step, or the bigger question. Never introduce new evidence here."
+      ],
+      "example": {
+       "q": "Improve this conclusion: 'In conclusion, meal plans are bad. I have shown they cost too much, waste food, and make students skip meals.'",
+       "steps": [
+        "Problem: it only repeats the points. A reader who read the essay already knows them.",
+        "Restate with synthesis: 'The meal plan fails on its own terms: it charges students for food they do not eat, wastes what it buys, and leaves the poorest students hungry.'",
+        "Add the 'so what?': 'A pay-per-meal option is not a luxury \u2014 it is the difference between a dining system that serves students and one that profits from their absence.'",
+        "Result: the conclusion gives the reader something to carry away, not something to re-read."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Write a hook for an essay arguing that libraries should stay open later during finals.",
+        "a": "Example: 'At 11 p.m. during finals week, 200 students are turned out of the library into the dark \u2014 many with nowhere else to study.' (A concrete scene tied directly to the thesis.)"
+       },
+       {
+        "q": "Why should a conclusion never introduce new evidence?",
+        "a": "Because new evidence needs its own paragraph and analysis; dropping it at the end leaves the reader with an unsupported claim and no chance to weigh it."
+       }
+      ],
+      "takeaway": "Open with a hook and context, close with synthesis and stakes \u2014 the reader should leave knowing why the argument matters."
+     }
     ]
    },
    {
     "module_title": "Research, Citation and Revision",
     "lessons": [
-     "Finding and Evaluating Sources",
-     "MLA In-Text Citation and Works Cited",
-     "Avoiding Plagiarism",
-     "Revision vs. Editing: Two Different Passes",
-     "Final Portfolio and Reflective Letter"
+     {
+      "title": "Finding and Evaluating Sources",
+      "intro": "Research is not collecting links; it is judging them. A college essay needs sources a skeptical reader would trust, and that means knowing where to look and how to tell a strong source from a slick one. The skill is evaluation, not volume \u2014 three solid sources beat thirty weak ones.",
+      "concepts": [
+       "Where to look first \u2014 the library's databases and catalog, Google Scholar, and government or university sites. A general web search is the last resort, not the first.",
+       "Currency \u2014 when was it published, and does the topic change fast? A 2015 article on social media is history; a 2015 article on Shakespeare is current.",
+       "Authority \u2014 who wrote it, and what qualifies them? A professor of nutrition on nutrition; a food company on nutrition is marketing, not evidence.",
+       "The CRAAP test \u2014 Currency, Relevance, Authority, Accuracy, Purpose. A source that fails two of these does not belong in your essay, however convenient it is."
+      ],
+      "example": {
+       "q": "You need a source on whether homework helps learning. Two candidates: (a) a 2023 peer-reviewed study in Review of Educational Research; (b) a blog post by a tutoring company, 'Why Homework Works (And Why You Need Our Tutors)'. Evaluate both.",
+       "steps": [
+        "Currency: both recent. Relevance: both on topic.",
+        "Authority: (a) is peer-reviewed research by specialists; (b) is written by a company that sells tutoring \u2014 its purpose is sales, not truth.",
+        "Accuracy: (a) shows methods and data you can check; (b) cites no study and uses vague claims ('students love homework').",
+        "Verdict: use (a) as evidence; (b) could be cited only as an example of how the industry markets homework \u2014 never as proof that homework works."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A source is from a .gov site but was published in 2011 about smartphone use. Should you use it?",
+        "a": "Probably not as evidence about current use \u2014 the topic changes too fast, so it fails currency. It might still work for the history of early smartphones."
+       },
+       {
+        "q": "Why is a library database usually a better starting point than a general web search?",
+        "a": "Because databases filter for peer-reviewed and published sources, while a web search returns everything \u2014 including ads, blogs, and content farms \u2014 ranked by popularity, not quality."
+       }
+      ],
+      "takeaway": "Judge every source on currency, relevance, authority, accuracy, and purpose \u2014 three trustworthy sources beat thirty weak ones."
+     },
+     {
+      "title": "MLA In-Text Citation and Works Cited",
+      "intro": "Citation is how you show your work. MLA style \u2014 the format used in most humanities courses \u2014 has two parts that work together: a brief in-text citation that points to a source, and a Works Cited list that gives the full details. Done right, a reader can find every source you used in seconds.",
+      "concepts": [
+       "In-text citation \u2014 (Author page) after a quote or paraphrase: (Cooper 12). No comma, no 'p.', and the period goes after the parenthesis.",
+       "The Works Cited entry \u2014 author, title, container, publisher, date: Cooper, Harris. 'The Battle over Homework.' Review of Educational Research, vol. 94, no. 2, 2024, pp. 112\u2013130.",
+       "Matching \u2014 every in-text citation must have a Works Cited entry, and every entry must be cited in the text. An unmatched citation is a loose end.",
+       "Formatting the page \u2014 'Works Cited' centered at the top, entries in alphabetical order by author, hanging indent (first line flush left, the rest indented)."
+      ],
+      "example": {
+       "q": "Cite this in MLA: a paraphrase of a claim by Harris Cooper on page 12 of 'The Battle over Homework,' Review of Educational Research, vol. 94, no. 2, 2024, pages 112\u2013130.",
+       "steps": [
+        "In text: 'Homework beyond a modest amount shows no benefit for achievement (Cooper 12).'",
+        "Works Cited entry: Cooper, Harris. 'The Battle over Homework.' Review of Educational Research, vol. 94, no. 2, 2024, pp. 112\u2013130.",
+        "Check: the name in the parenthesis matches the first word of the entry, so a reader can find it instantly.",
+        "Common error: writing (Cooper, p. 12) \u2014 MLA uses no comma and no 'p.'."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Where does the period go in this sentence: 'Homework shows no benefit (Cooper 12)'.",
+        "a": "After the parenthesis: 'Homework shows no benefit (Cooper 12).' The citation is part of the sentence, so the period closes the whole sentence."
+       },
+       {
+        "q": "You quote a source but have no Works Cited entry for it. What is the problem?",
+        "a": "The reader cannot find the source \u2014 the citation points nowhere. Every cited source needs a matching Works Cited entry."
+       }
+      ],
+      "takeaway": "Cite in text, list at the end, and make every citation match an entry \u2014 a reader should find any source in seconds."
+     },
+     {
+      "title": "Avoiding Plagiarism",
+      "intro": "Plagiarism is presenting someone else's words or ideas as your own \u2014 whether you meant to or not. It is the most serious academic offense because it breaks the trust that makes grades and degrees meaningful. The good news: every form of plagiarism is preventable with three habits \u2014 cite, quote, and paraphrase properly.",
+      "concepts": [
+       "Direct plagiarism \u2014 copying words without quotation marks or citation. Even one copied sentence counts.",
+       "Patchwriting \u2014 changing a few words in a source sentence and calling it your own. It is still the author's sentence structure and ideas, and it still needs quotation or a real paraphrase.",
+       "Idea plagiarism \u2014 using someone's idea, argument, or data without citation, even in your own words. Ideas need citations too, not just quotations.",
+       "Common knowledge \u2014 facts no one owns ('Paris is the capital of France') need no citation. Anything arguable, specific, or discovered by someone does."
+      ],
+      "example": {
+       "q": "A student writes: 'Cooper found that homework beyond a modest amount shows no benefit.' No citation. Is this plagiarism?",
+       "steps": [
+        "The sentence is in the student's own words, so it is not direct copying \u2014 but the finding is Cooper's, discovered by his research.",
+        "Without a citation, the reader assumes the student found this. That is idea plagiarism.",
+        "Fix: add the citation \u2014 'Cooper found that homework beyond a modest amount shows no benefit (12).'",
+        "Rule of thumb: if you learned it from a source, cite the source. When in doubt, cite \u2014 an extra citation never hurt anyone."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Is it plagiarism to reuse a paragraph you wrote for another class?",
+        "a": "Yes \u2014 self-plagiarism. Most courses require original work for that course; submitting the same work twice misrepresents it as new. Ask the instructor first."
+       },
+       {
+        "q": "You paraphrase a source correctly but forget the citation. Is that plagiarism?",
+        "a": "Yes \u2014 the words are yours but the idea is the source's, and without the citation the reader cannot tell. A good paraphrase still needs a citation."
+       }
+      ],
+      "takeaway": "If you learned it from a source, cite it \u2014 quote exact words, paraphrase honestly, and never present another's idea as your own."
+     },
+     {
+      "title": "Revision vs. Editing: Two Different Passes",
+      "intro": "Revision and editing sound alike, but they are different jobs done at different times. Revision asks 'does this argument work?' \u2014 big questions about thesis, structure, and evidence. Editing asks 'is this sentence correct?' \u2014 small questions about grammar and punctuation. Do them in the wrong order and you will polish sentences you end up deleting.",
+      "concepts": [
+       "Revision (re-seeing) \u2014 big-picture questions: Is the thesis clear and arguable? Does each paragraph serve it? Is the evidence sufficient? Is the counterargument answered? Revision can mean cutting a whole paragraph.",
+       "Editing \u2014 sentence-level correctness: grammar, punctuation, spelling, word choice, citation format. Editing is the last pass, never the first.",
+       "The order matters \u2014 revise first, edit last. Editing a paragraph you will cut is wasted work; revising after editing means re-editing everything you changed.",
+       "Revision tools \u2014 read the essay aloud (awkward sentences reveal themselves), reverse-outline (list each paragraph's point \u2014 gaps and repeats become visible), and get a reader: a fresh eye catches what yours skips."
+      ],
+      "example": {
+       "q": "Jordan's essay has a weak thesis, two off-topic paragraphs, and several comma errors. In what order should she fix them?",
+       "steps": [
+        "First, revision: fix the thesis, then cut or rewrite the off-topic paragraphs. The essay's argument comes first.",
+        "Second, check structure: reverse-outline the remaining paragraphs \u2014 does each one serve the new thesis?",
+        "Last, editing: fix the commas and spelling, now that the sentences are final.",
+        "If she edited first, she would have polished commas in paragraphs she then deleted \u2014 wasted effort, and a worse essay."
+       ]
+      },
+      "practice": [
+       {
+        "q": "You finish a draft and immediately run a spellchecker. What did you skip, and why does it matter?",
+        "a": "Revision \u2014 the spellchecker cannot tell you the thesis is weak, a paragraph is off-topic, or the evidence is thin. Correct sentences in a broken argument are still a broken argument."
+       },
+       {
+        "q": "What is a reverse outline, and what does it reveal?",
+        "a": "A list of what each paragraph actually says (one line each). It reveals paragraphs with no clear point, repeated points, and gaps where a point the thesis needs is missing."
+       }
+      ],
+      "takeaway": "Revise the argument first, edit the sentences last \u2014 never polish what you are about to cut."
+     },
+     {
+      "title": "Final Portfolio and Reflective Letter",
+      "intro": "The course ends with a portfolio: your best revised work, plus a reflective letter in which you explain what you learned and how your writing changed. The portfolio is not a scrapbook \u2014 it is an argument about your own growth, and the letter is its thesis.",
+      "concepts": [
+       "Selecting work \u2014 choose pieces that show range and growth: your strongest essay, the one that changed most in revision, and one that shows a skill you built (research, argument, style).",
+       "Revising for the portfolio \u2014 these are not the drafts you turned in; they are the best versions you can now produce, with everything this course taught you applied.",
+       "The reflective letter \u2014 addressed to your reader, it names specific changes ('my thesis statements moved from announcing topics to taking positions'), with evidence from your own drafts.",
+       "Honest reflection \u2014 a good letter admits what is still hard ('I still over-quote when I am unsure of a source') as well as what improved. Growth, not perfection, is the point."
+      ],
+      "example": {
+       "q": "Draft the opening of a reflective letter for a student whose thesis statements improved most this semester.",
+       "steps": [
+        "Open with the change, not a greeting: 'When this course began, my thesis statements announced topics. They now take positions \u2014 and that change rewired how I write.'",
+        "Give evidence: 'My first thesis was \"This essay will discuss campus food.\" My last was \"Meal plans overcharge students for food they do not eat.\"'",
+        "Name the mechanism: 'Learning to test a thesis for arguability \u2014 could a reasonable person disagree? \u2014 is what made the difference.'",
+        "Close the opening by previewing the portfolio: 'The essays in this portfolio show that change, and the places where it is still unfinished.'"
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why include an essay that changed a lot in revision, rather than only your best essay?",
+        "a": "Because a portfolio argues growth, and the most-revised essay is the clearest evidence of learning \u2014 it shows the process, not just the product."
+       },
+       {
+        "q": "Your reflective letter says 'I improved a lot.' What is missing?",
+        "a": "Specifics and evidence \u2014 which skill improved, how, and where in the portfolio the reader can see it. 'I improved' is a claim; the letter needs the evidence for it."
+       }
+      ],
+      "takeaway": "A portfolio is an argument about your growth \u2014 select the evidence, revise it to your best, and reflect honestly on the change."
+     }
     ]
    }
   ],
@@ -6247,7 +6828,7 @@
    "project": true
   },
   "mastery_rubric": "Produce clear, organized essays with a defensible thesis, credible evidence, correct MLA citation, and a demonstrated revision process. Portfolio grade 70% or higher.",
-  "source": "Martinez original syllabus (authored 2026-11-14)"
+  "source": "Martinez original \u2014 written lessons (authored 2026-11-18)"
  },
  "COMM101": {
   "modules": [
