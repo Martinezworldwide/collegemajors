@@ -6835,41 +6835,643 @@
    {
     "module_title": "Foundations of Communication",
     "lessons": [
-     "The Communication Process and Models",
-     "Listening: The Forgotten Half of Speaking",
-     "Speech Anxiety and Confidence",
-     "Ethics and Credibility as a Speaker",
-     "Your First Speech: The Introduction Speech"
+     {
+      "title": "The Communication Process and Models",
+      "intro": "Every speech is a message traveling from a speaker to listeners through a channel, with feedback coming back the other way. Communication is not a one-way broadcast: the audience is always sending signals \u2014 nods, frowns, phone-checking \u2014 that change what the speaker does next. Understanding the parts of the process is the first step to controlling them instead of being controlled by them.",
+      "concepts": [
+       "Sender and receiver \u2014 the speaker encodes an idea into words and the listener decodes it. Both sides can misunderstand, so the speaker's job is to make the message easy to decode: clear words, concrete examples, one idea at a time.",
+       "Message and channel \u2014 the message is what you say; the channel is how it travels (voice, slides, a handout). A mismatch \u2014 a complex chart read aloud instead of shown \u2014 loses the message even when the words are right.",
+       "Feedback \u2014 the audience's response, verbal or nonverbal. A good speaker reads feedback live and adjusts: slows down when faces look lost, skips ahead when heads nod.",
+       "Noise \u2014 anything that interferes: a loud hallway, a confusing slide, the listener's own worries, or the speaker's jargon. Most noise is preventable by the speaker.",
+       "Models \u2014 the linear model (speaker \u2192 listener) is too simple; the transactional model treats both sides as senders and receivers at once, which is how real speeches actually work."
+      ],
+      "example": {
+       "q": "A student gives a clear speech, but half the audience is on their phones by minute three. Where did the communication process break down?",
+       "steps": [
+        "Check the message: was it one idea at a time, or a wall of facts? Phone-checking usually means the message was hard to follow, not that the audience is rude.",
+        "Check the channel: was a key point spoken when it should have been shown? A diagram on a slide beats a paragraph read aloud.",
+        "Check feedback: the phones ARE feedback. The speaker ignored it and kept reading at the same pace instead of pausing, asking a question, or telling a story.",
+        "Fix: add a hook every two minutes \u2014 a question, an example, a change of pace \u2014 so the audience has a reason to keep decoding."
+       ]
+      },
+      "practice": [
+       {
+        "q": "In a speech, who is the sender and who is the receiver \u2014 and why is that split misleading?",
+        "a": "The speaker sends and the audience receives, but the audience also sends feedback constantly (nods, puzzled looks), so both sides are senders and receivers at once \u2014 the transactional model."
+       },
+       {
+        "q": "Give one example of noise that comes from the speaker, not the room.",
+        "a": "Jargon the audience does not know, a monotone voice, or a slide packed with text \u2014 all interfere with the message before the room does anything."
+       }
+      ],
+      "takeaway": "A speech is a two-way process: send a clear message, watch the feedback, and cut the noise."
+     },
+     {
+      "title": "Listening: The Forgotten Half of Speaking",
+      "intro": "Speaking well starts with listening well. You cannot answer a question you did not hear, read a room you did not watch, or adapt to an audience you did not observe. Yet most people listen at about 25% efficiency \u2014 they hear the words, plan their reply, and miss the meaning. Good speakers are trained listeners first.",
+      "concepts": [
+       "Hearing vs listening \u2014 hearing is automatic; listening is active and deliberate. A speaker who only hears feedback misses the frowns, the shifting seats, the question hiding inside a comment.",
+       "The four listening stages \u2014 receiving, understanding, remembering, and responding. A breakdown at any stage (distracted, confused, forgot, answered the wrong thing) breaks communication.",
+       "Listening barriers \u2014 prejudging the speaker, listening only for facts, letting emotions hijack attention, and rehearsing your reply while someone is still talking.",
+       "Critical listening \u2014 evaluating claims as you hear them: Is the evidence real? Is the source credible? Does the conclusion follow? Audiences do this to you; do it to yourself first.",
+       "Listening as a speaker skill \u2014 during Q&A, listen to the whole question before answering; repeat it back if needed. Answering half a question is worse than pausing."
+      ],
+      "example": {
+       "q": "During Q&A, an audience member asks a long, rambling question that ends with '...so do you think the policy is fair?' The speaker answers the last sentence only. What went wrong?",
+       "steps": [
+        "The speaker listened for the ending, not the whole question \u2014 the middle of the ramble probably contained the real concern (cost, fairness to part-timers).",
+        "Result: the answer sounds evasive even if it was honest, because it does not address what the person actually cared about.",
+        "Fix: listen to the full question, then restate it \u2014 'So your concern is whether part-time students pay the same fee for less access \u2014 is that right?' \u2014 and let them confirm before answering.",
+        "The restatement buys thinking time and proves you heard them, which is half the answer."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why is rehearsing your reply while someone talks a listening barrier?",
+        "a": "Because attention is limited: while you compose your answer you stop receiving new information, so you respond to the first sentence and miss the rest."
+       },
+       {
+        "q": "Name the four stages of listening in order.",
+        "a": "Receiving, understanding, remembering, and responding."
+       }
+      ],
+      "takeaway": "Listen to the whole message before you answer \u2014 half-heard questions get half-right answers."
+     },
+     {
+      "title": "Speech Anxiety and Confidence",
+      "intro": "Nearly everyone feels nervous before speaking \u2014 surveys regularly find public speaking feared more than death. The anxiety is not a sign you cannot speak; it is adrenaline, the same chemical athletes use before a game. The goal is not to eliminate nerves but to channel them into energy and focus.",
+      "concepts": [
+       "Why the body reacts \u2014 the brain treats an audience as a threat: heart rate rises, hands shake, mouth dries. It is a fight-or-flight response, not a verdict on your ability.",
+       "Reframing \u2014 nervousness and excitement feel almost identical in the body. Telling yourself 'I am excited' instead of 'I am calm' actually works better, because it matches the arousal you feel.",
+       "Preparation as the cure \u2014 most anxiety is uncertainty: not knowing the material, the order, or what happens if you forget a line. Rehearsing out loud three times cuts anxiety more than any breathing trick.",
+       "Grounding techniques \u2014 slow breathing before you start, feet planted, a glass of water nearby, and a strong first sentence memorized so the opening runs on autopilot while nerves settle.",
+       "The audience is on your side \u2014 listeners want you to succeed; a nervous speaker gets sympathy, not judgment. The audience forgets small stumbles within seconds."
+      ],
+      "example": {
+       "q": "Maya's hands shake and her voice wobbles for the first 30 seconds of every speech, then she settles and does well. What should she change?",
+       "steps": [
+        "Nothing about her content \u2014 the pattern shows the anxiety peaks at the start and fades, which is normal.",
+        "Memorize the first two sentences cold, so the opening is automatic while adrenaline is highest.",
+        "Plant her feet, hold a note card (it hides shaking hands and gives the hands something to do), and take one slow breath before the first word.",
+        "Reframe: 'I am excited to tell them this' instead of 'I am terrified.' The body cannot tell the difference, but the mind performs better with the first label.",
+        "After three speeches with this routine, the first-30-seconds wobble usually shrinks on its own."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why does rehearsing out loud reduce anxiety more than reading notes silently?",
+        "a": "Because it removes uncertainty: you learn the order, the transitions, and where you stumble \u2014 so there are fewer surprises for anxiety to feed on, and your mouth has already said the hard sentences once."
+       },
+       {
+        "q": "A classmate says the only way to beat nerves is to picture the audience naked. Is that good advice?",
+        "a": "No \u2014 it distracts you from your message and the audience. Better: picture the audience as allies who want you to do well, and focus on your first sentence."
+       }
+      ],
+      "takeaway": "Nerves are fuel, not failure \u2014 prepare out loud, memorize your opening, and let the adrenaline work for you."
+     },
+     {
+      "title": "Ethics and Credibility as a Speaker",
+      "intro": "A speaker's power rests on trust. One fabricated statistic or one plagiarized paragraph can end a career faster than a bad delivery ever could. Ethics in speaking is not abstract philosophy \u2014 it is the practical rule that your audience must be able to believe you, check you, and disagree with you honestly.",
+      "concepts": [
+       "Credibility (ethos) \u2014 the audience's belief that you are competent, honest, and well-intentioned. It is earned before the speech (reputation), during it (accuracy, fairness), and after it (whether your claims hold up).",
+       "Honesty about sources \u2014 cite where numbers and quotes come from, and say when evidence is uncertain. 'Studies suggest' is honest; 'studies prove' is usually not.",
+       "Fairness to the other side \u2014 present opposing views accurately before answering them. A straw man (a weak, distorted version of the other side) may win applause but destroys trust with anyone who knows the issue.",
+       "Free speech vs responsible speech \u2014 you have the right to speak, and the audience has the right to judge you for it. Hate speech, deliberate lies, and plagiarism are legal or ethical failures, not exercises of freedom.",
+       "Plagiarism \u2014 presenting someone else's words or ideas as your own, including uncited paraphrases and uncredited images. In speeches it is just as serious as in essays."
+      ],
+      "example": {
+       "q": "A speaker says '90% of students support the new policy' but the survey actually showed 90% of the 40 students who answered an online poll. Is the claim ethical?",
+       "steps": [
+        "The number is technically real but the claim is misleading: 40 self-selected respondents are not 'students' in general.",
+        "Ethical fix: 'In a small online poll of 40 students, 36 supported the policy \u2014 a suggestive result, not a campus-wide finding.'",
+        "The honest version is weaker, but it survives checking. The strong version collapses the moment anyone asks for the source \u2014 and with it, the speaker's credibility.",
+        "Rule: if a claim cannot survive the audience looking it up, do not make it."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What is a straw man, and why does it hurt credibility?",
+        "a": "A distorted, weakened version of the opposing view that is easy to knock down. It hurts credibility because anyone who knows the real argument sees the speaker as dishonest or uninformed."
+       },
+       {
+        "q": "You find a perfect quote online with no author listed. Can you use it in your speech?",
+        "a": "Only with a clear label that the source is unknown \u2014 and better to find a sourced version or drop it. Using it as if it were your own words is plagiarism; using it without a source weakens your evidence."
+       }
+      ],
+      "takeaway": "Credibility is the speech: cite honestly, present the other side fairly, and never claim more than your evidence supports."
+     },
+     {
+      "title": "Your First Speech: The Introduction Speech",
+      "intro": "The introduction speech \u2014 a short talk introducing yourself, or introducing a classmate \u2014 is the gentlest first speech there is: you already know the material, because the material is a person. Its real purpose is practice: standing up, speaking to the room, and surviving the experience so the next speech feels possible.",
+      "concepts": [
+       "Why start here \u2014 the topic needs no research, so all your attention goes to delivery: posture, voice, eye contact, and finishing on time. It isolates the skills that matter.",
+       "Structure still applies \u2014 even a two-minute speech needs an opening (who this is), a body (two or three points: background, an interest, a goal), and a close (why it matters or what to remember).",
+       "Choosing details \u2014 pick the specific over the generic. 'I work weekends at a bakery and once frosted 400 cupcakes before dawn' beats 'I like baking.' Specifics are memorable; generics are forgettable.",
+       "Delivery basics \u2014 stand still, plant your feet, speak to the back row, look up from your notes, and pause between points. The audience forgives a pause; it punishes mumbling.",
+       "Time discipline \u2014 a 2-minute speech that runs 4 minutes teaches the wrong lesson. Practice with a timer and cut, do not speed up."
+      ],
+      "example": {
+       "q": "Two introduction speeches: one says 'Hi, I'm Jordan, I'm a biology major, I like music and hanging out.' The other says 'I'm Jordan. I grew up next to a wildlife refuge, so I spent my childhood counting herons \u2014 that's why I'm here studying biology.' Which works and why?",
+       "steps": [
+        "The second works: one specific image (counting herons) tells the audience who Jordan is and why biology matters to him.",
+        "The first is all generics \u2014 'music and hanging out' could describe anyone in the room, so nothing sticks.",
+        "Structure check: the second has an opening (who), a body (the heron story), and an implied close (biology is the goal). The first has a list, not a speech.",
+        "Lesson: in a short speech, one vivid detail beats five vague ones."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Your introduction speech is 3 minutes long but the limit is 2. What do you cut?",
+        "a": "Cut a whole point, not a little from everywhere \u2014 drop the least memorable detail (usually the generic hobby list) and keep one strong story plus your goal. Never just talk faster."
+       },
+       {
+        "q": "Why is the introduction speech a good first assignment even though it needs no research?",
+        "a": "Because it isolates delivery: with the content already known, the speaker can focus entirely on standing, speaking clearly, and making eye contact."
+       }
+      ],
+      "takeaway": "Start with what you know \u2014 one vivid detail, a clear structure, and a strong finish."
+     }
     ]
    },
    {
     "module_title": "Audience, Topic and Research",
     "lessons": [
-     "Analyzing Your Audience",
-     "Choosing and Narrowing a Topic",
-     "Finding Credible Support",
-     "Quoting, Statistics and Examples Without Boring People",
-     "Avoiding Plagiarism in Speeches"
+     {
+      "title": "Analyzing Your Audience",
+      "intro": "The same speech can thrill one audience and bore another. A joke that lands with classmates falls flat with a faculty panel; a technical explanation that impresses engineers confuses first-years. Audience analysis \u2014 learning who will listen before you write a word \u2014 is what turns a generic talk into a speech for these people, in this room, today.",
+      "concepts": [
+       "Demographics \u2014 age, background, education, and role shape what an audience knows and cares about. A room of nursing students and a room of business majors need different examples for the same point.",
+       "Knowledge level \u2014 what does the audience already know? Start too basic and you insult them; start too advanced and you lose them in the first minute. Aim one step above what they know.",
+       "Attitudes and beliefs \u2014 does the audience agree, disagree, or not care? A friendly audience needs inspiration; a hostile one needs evidence and respect; an indifferent one needs a reason to care in the first 30 seconds.",
+       "Situational factors \u2014 size of the room, time of day, whether attendance is required, and what happened just before you speak. A Friday-afternoon audience needs energy; a morning seminar needs clarity.",
+       "Adaptation \u2014 analysis is useless without change: swap examples, adjust vocabulary, reorder points, and choose the arguments this audience will actually find persuasive."
+      ],
+      "example": {
+       "q": "You must persuade two audiences to support a campus bike-share program: the student senate (friendly) and the facilities budget committee (skeptical about cost). How does the speech change?",
+       "steps": [
+        "Student senate: lead with convenience and sustainability \u2014 the values they already hold \u2014 and ask for a resolution of support.",
+        "Budget committee: lead with numbers \u2014 cost per ride, comparison with shuttle costs, and a pilot with a capped budget. Their concern is money, not vibes.",
+        "Same proposal, different evidence: the senate gets stories of students missing class; the committee gets a spreadsheet.",
+        "What stays the same: the core claim and the honesty. What changes: which reasons come first and which examples prove them."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Your audience is required to attend and mostly indifferent. What is your first job as a speaker?",
+        "a": "Give them a reason to care in the opening \u2014 a surprising fact, a question that affects them, or a story \u2014 before any background. Indifferent audiences decide in 30 seconds whether to listen."
+       },
+       {
+        "q": "Why ask about the audience's knowledge level before choosing examples?",
+        "a": "Because examples only work if the audience recognizes them: an example from a field they do not know explains nothing, and one below their level bores them."
+       }
+      ],
+      "takeaway": "Know who is listening before you decide what to say \u2014 the audience chooses the evidence."
+     },
+     {
+      "title": "Choosing and Narrowing a Topic",
+      "intro": "The most common speech failure is a topic too big for the time: 'climate change' in five minutes, 'the history of music' in three. A good topic is narrow enough to say something real and interesting enough that you care about it. Narrowing is not shrinking your ambition \u2014 it is focusing it until it can actually land.",
+      "concepts": [
+       "The time test \u2014 a 5-minute speech holds one main idea with two or three supporting points. If your topic needs ten points, it is three speeches, not one.",
+       "Narrowing by angle \u2014 'exercise' is too broad; 'why 10 minutes of walking after lunch helps students focus' is a speech. Narrow by audience, place, time, or a single question.",
+       "Your interest matters \u2014 you will research, rehearse, and deliver this topic. Pick something you are curious about; the audience can tell the difference between genuine interest and a topic chosen at random.",
+       "Purpose first \u2014 are you informing, persuading, or entertaining? The same topic serves different purposes differently: 'electric cars' as information is a survey; as persuasion it is an argument for one choice.",
+       "The brainstorm funnel \u2014 list ten topics, cross out the boring and the too-big, and test the survivors: can I say it in the time? Do I care? Will this audience care?"
+      ],
+      "example": {
+       "q": "A student picks 'social media' for a 5-minute informative speech. How should they narrow it?",
+       "steps": [
+        "Test: 'social media' needs a book, not five minutes. Narrow by question: 'How does social media change how teenagers argue?' \u2014 still broad.",
+        "Narrow by audience and place: 'How does TikTok change what first-year students expect from a lecture?' Now it is specific, local, and the audience is in the room.",
+        "Check the time test: one claim (short-form video trains us to expect constant novelty) plus two examples (lecture attention, reading habits) fits five minutes.",
+        "Check interest: if the student actually wonders about this, the speech will have energy. If not, pick another survivor from the funnel."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Turn the broad topic 'healthy eating on campus' into a narrow speech topic for a 4-minute talk.",
+        "a": "Example: 'Why the dining hall's cheapest meal is also its healthiest \u2014 and how to build it.' One claim, one place, one audience, fits the time."
+       },
+       {
+        "q": "Why is 'pick something you care about' practical advice, not just encouragement?",
+        "a": "Because research and rehearsal are work: interest sustains the hours, and the audience reads genuine curiosity as energy and credibility."
+       }
+      ],
+      "takeaway": "A speech topic must fit the time \u2014 narrow by question, place, and audience until one clear claim remains."
+     },
+     {
+      "title": "Finding Credible Support",
+      "intro": "Claims without support are opinions; support without credibility is noise. A speech stands or falls on its evidence: where it came from, how recent it is, and whether the audience can trust it. Learning to find and judge support is the difference between sounding informed and actually being informed.",
+      "concepts": [
+       "Types of support \u2014 statistics, examples, testimony (expert quotes), and analogies. Different claims need different support: a trend needs numbers; a human cost needs a story; a technical claim needs an expert.",
+       "Credibility tests \u2014 who said it (expertise and bias), when (recency), and where (a peer-reviewed journal beats a random blog; a government dataset beats a marketing page).",
+       "Primary vs secondary sources \u2014 the original study beats a news article about the study. If you can only find the article, say so \u2014 do not present secondhand numbers as firsthand.",
+       "The library is still the shortcut \u2014 databases, librarians, and .edu/.gov sources filter out most junk before you start. A search engine gives you everything; a library gives you the good stuff first.",
+       "Currency \u2014 a 2012 statistic about phone use is history, not evidence. Check the date, especially for technology, health, and policy topics."
+      ],
+      "example": {
+       "q": "You find two sources: a 2024 CDC report saying teen vaping fell 25%, and a 2019 blog post from a vape company saying vaping is harmless. Which do you use, and how?",
+       "steps": [
+        "Use the CDC report as your main evidence: a government health agency, recent, based on national survey data.",
+        "The blog post fails the tests \u2014 old, biased source (a seller), and its claim contradicts the CDC. Do not cite it as evidence.",
+        "You may still mention it \u2014 'the industry argues vaping is harmless, but the CDC's 2024 data shows...' \u2014 as the opposing view you answer, not as support.",
+        "Rule: when sources disagree, trust the one that survives the credibility tests, and tell the audience why."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A statistic comes from a 2015 study. When is it still usable in a 2026 speech?",
+        "a": "When the topic is stable (a historical fact, a classic experiment) or when you label it as old \u2014 'as of 2015' \u2014 and no newer data exists. For fast-moving topics like technology, find something current."
+       },
+       {
+        "q": "What is wrong with citing a news article about a study instead of the study itself?",
+        "a": "The article may simplify, misread, or cherry-pick the findings. It is a secondary source: usable, but weaker \u2014 and you should say the numbers come 'as reported' rather than presenting them as your own reading of the research."
+       }
+      ],
+      "takeaway": "Support is only as strong as its source \u2014 check who, when, and where before you quote it."
+     },
+     {
+      "title": "Quoting, Statistics and Examples Without Boring People",
+      "intro": "Evidence should make a speech more interesting, not less \u2014 but a speech that reads like a spreadsheet loses the room. The skill is not finding numbers; it is translating them into something the audience can feel: one vivid example, one surprising number, one short quote, each placed where it earns its keep.",
+      "concepts": [
+       "The one-number rule \u2014 an audience remembers one statistic per point, not five. Pick the most surprising or most relevant number and drop the rest into a handout.",
+       "Translate numbers into people \u2014 '40% of students' is abstract; 'two out of every five students in this room' is visible. Scale numbers to the audience in front of you.",
+       "Quotes: short and sourced \u2014 a quote should be one or two sentences, in the speaker's own voice or a striking original phrase, with the source named. Long quotes make the audience listen to someone who is not there.",
+       "Examples: specific beats general \u2014 'Maria, a sophomore, waited 40 minutes for a bus that never came' beats 'students face transportation problems.' One named person outweighs a paragraph of generalities.",
+       "Pacing \u2014 cluster evidence inside points, not in a block. A statistic, then a story, then the point: the evidence serves the idea, not the other way around."
+      ],
+      "example": {
+       "q": "A speaker says: 'According to the 2024 campus survey, 62.4% of respondents reported moderate to severe sleep deprivation, with a mean of 5.8 hours per night, and 31% reported falling asleep in class at least once per week.' Why does the audience glaze over?",
+       "steps": [
+        "Three numbers in one sentence \u2014 the audience cannot hold them all, so it holds none.",
+        "Fix: keep one \u2014 'Nearly a third of students here have fallen asleep in class this week' \u2014 and let it land.",
+        "Then add the human example: 'That is the student next to you nodding off in the 8 a.m. lecture.' Now the number has a face.",
+        "The other numbers go in a handout or a single follow-up line. The speech keeps its pulse."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Rewrite this for a live audience: 'The program reduced dropout rates by 18.7% over three academic years.'",
+        "a": "Example: 'In three years, the program kept nearly one in five at-risk students in school \u2014 students who would otherwise have left.' One number, translated into people."
+       },
+       {
+        "q": "When is a long quotation acceptable in a speech?",
+        "a": "Almost never \u2014 unless the exact wording is the point (a famous line, a legal text). Otherwise paraphrase and quote only the sharpest sentence."
+       }
+      ],
+      "takeaway": "One number, one story, one quote per point \u2014 evidence should be felt, not just heard."
+     },
+     {
+      "title": "Avoiding Plagiarism in Speeches",
+      "intro": "Plagiarism in a speech is the same offense as in an essay, but easier to commit by accident: a striking sentence you read once and repeat as your own, a statistic with no source, a slide image lifted from a search. Because speeches are spoken, audiences cannot check footnotes \u2014 so the speaker's oral citations have to do the work.",
+      "concepts": [
+       "What counts \u2014 copying words, paraphrasing ideas, using data, images, or structure without credit. Changing a few words in a sentence is still plagiarism if the idea and wording are someone else's.",
+       "Oral citation \u2014 name the source as you speak: 'According to the CDC's 2024 report...' or 'As Professor Lee writes in her book on memory...' The audience hears the credit; no footnote needed.",
+       "Common knowledge vs cited \u2014 'Paris is the capital of France' needs no source; 'Paris cut traffic deaths 40% with a 30 km/h limit' does. When in doubt, cite.",
+       "Accidental plagiarism \u2014 the most common kind: notes that mix your words with a source's words until you cannot tell them apart. Fix it at the note-taking stage by marking quotes clearly.",
+       "Images and media \u2014 photos, charts, and video clips have owners too. Use your own, openly licensed, or clearly credited media; a Google image search is not a license."
+      ],
+      "example": {
+       "q": "A student writes in her notes: 'Sleep consolidates memory \u2014 the brain replays the day's learning during deep sleep.' She says exactly that in her speech without naming a source. Is it plagiarism?",
+       "steps": [
+        "It depends on where the sentence came from: if she read it in a textbook and copied the phrasing, yes \u2014 the idea and the wording are someone else's.",
+        "Fix at the note stage: mark the sentence as a quote with its source, then either cite it aloud ('Neuroscientist Matthew Walker explains that...') or rewrite it fully in her own words and still credit the finding.",
+        "If the idea is genuinely common knowledge in the field (sleep helps memory), she can state it in her own words without a citation \u2014 but the copied sentence still needs rewriting.",
+        "Rule: if you cannot tell whether a line is yours or a source's, it is the source's. Rewrite or cite."
+       ]
+      },
+      "practice": [
+       {
+        "q": "How do you cite a source in a speech if there are no footnotes?",
+        "a": "Say it aloud as you use it: name the author or organization, the year or publication, and what they found \u2014 'A 2024 CDC survey found...' \u2014 so the audience hears the credit."
+       },
+       {
+        "q": "You paraphrase a paragraph from a book so thoroughly that no words match. Do you still need to cite it?",
+        "a": "Yes \u2014 plagiarism covers ideas, not just words. A full paraphrase still needs the source named."
+       }
+      ],
+      "takeaway": "If the words or the idea are not yours, say whose they are \u2014 out loud, in the moment."
+     }
     ]
    },
    {
     "module_title": "Organizing and Outlining",
     "lessons": [
-     "The Three-Part Speech Structure",
-     "Main Points and Signposting",
-     "Introductions That Earn Attention",
-     "Conclusions That Land",
-     "Building a Speaking Outline and Note Cards"
+     {
+      "title": "The Three-Part Speech Structure",
+      "intro": "Every good speech, from a two-minute introduction to a keynote, has the same skeleton: an introduction that earns attention, a body that makes the case, and a conclusion that tells the audience what to remember. Structure is not a formality \u2014 it is how a listener who cannot rewind follows your thinking in real time.",
+      "concepts": [
+       "Introduction \u2014 orient the audience: get attention, state the topic and why it matters, preview the main points, and establish your credibility. About 10\u201315% of the speech.",
+       "Body \u2014 the argument itself, usually two to four main points in a clear order (chronological, problem\u2013solution, topical, or cause\u2013effect). Each point gets its own evidence and its own moment.",
+       "Conclusion \u2014 signal the ending, summarize the main points, and close with something memorable: a call to action, a return to the opening story, or a final line worth quoting. About 10% of the speech.",
+       "Why three parts work \u2014 listeners remember beginnings and endings best (the primacy\u2013recency effect) and can hold about three points in working memory. Structure matches how memory actually works.",
+       "Transitions \u2014 the bridges between parts ('Now that we have seen the problem, let's look at the solution...'). Without them, a speech is a list; with them, it is an argument."
+      ],
+      "example": {
+       "q": "A student gives a speech on food waste with this order: a statistic, a story about a dining hall, a history of farming, a joke, a second statistic, and 'thanks.' What is wrong?",
+       "steps": [
+        "There is no structure: points arrive in random order, the audience cannot tell what matters, and the ending ('thanks') wastes the most memorable moment.",
+        "Rebuild: introduction \u2014 the dining-hall story plus the statistic, previewing three points (how much, why it happens, what to do).",
+        "Body \u2014 three points in problem\u2013cause\u2013solution order, each with its own evidence.",
+        "Conclusion \u2014 summarize the three points and end with the call to action (a trayless-dining pilot), not a mumble of thanks.",
+        "Same material, new skeleton: now the audience can follow, remember, and act."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why should the introduction be only 10\u201315% of the speech?",
+        "a": "Because its job is to orient, not to argue: too long an introduction delays the substance, and the audience's attention peak at the start is wasted on background."
+       },
+       {
+        "q": "Name the four common orders for main points in the body.",
+        "a": "Chronological (time), problem\u2013solution, topical (categories), and cause\u2013effect."
+       }
+      ],
+      "takeaway": "Introduction, body, conclusion \u2014 one skeleton for every speech, because listeners remember beginnings, endings, and about three points."
+     },
+     {
+      "title": "Main Points and Signposting",
+      "intro": "A speech's main points are its load-bearing walls: two to four claims that together prove the thesis and can each stand on their own evidence. Signposts are the labels you hang on them \u2014 'first,' 'the second reason,' 'finally' \u2014 so the audience always knows where it is. Without clear points and signposts, even good material sounds like a ramble.",
+      "concepts": [
+       "One idea per point \u2014 each main point should be a single, complete sentence the audience could repeat: 'The current bus schedule strands evening students.' If a point needs an 'and' to state, it is two points.",
+       "Parallel form \u2014 points should match in grammar and weight ('It costs too much, it runs too rarely, it stops too early'), which makes them easier to hear, remember, and preview.",
+       "Subpoints support, never compete \u2014 each main point gets two or three subpoints of evidence. If a subpoint is more interesting than its main point, promote it or cut it.",
+       "Signposts \u2014 preview ('Today I will show you three problems...'), internal summaries ('So the cost is the first problem'), and transitions ('The second problem is time'). Say them out loud; the audience cannot see your outline.",
+       "Balance \u2014 points should be roughly equal in importance and time. A 30-second point next to a 3-minute point tells the audience the structure is lying."
+      ],
+      "example": {
+       "q": "A speaker previews three points \u2014 cost, safety, convenience \u2014 but then spends 4 minutes on cost, 30 seconds on safety, and never mentions convenience. What happens to the audience?",
+       "steps": [
+        "The audience trusted the preview and waits for 'safety' and 'convenience'; when they never arrive, listeners feel cheated and stop trusting the speaker's roadmap.",
+        "The imbalance also signals that cost is the real argument and the other two were padding \u2014 the speech would be stronger as one point, honestly presented.",
+        "Fix: either balance the three (roughly equal time and evidence) or cut to two real points and preview two.",
+        "Rule: the preview is a promise. Break it and the audience stops following your signposts."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Is this a good main point: 'Buses and also parking and also the new bike lanes'? Why or why not?",
+        "a": "No \u2014 it is three ideas in one sentence, with no single claim. Split it into separate parallel points ('Buses run too rarely', 'Parking costs too much') or pick one."
+       },
+       {
+        "q": "Why say signposts out loud instead of relying on the audience to follow your logic?",
+        "a": "Because listeners cannot rewind or see your outline: spoken signposts are the only map they have, and they also help the speaker stay on track."
+       }
+      ],
+      "takeaway": "Two to four parallel main points, each one sentence, each signposted \u2014 the audience should always know where it is."
+     },
+     {
+      "title": "Introductions That Earn Attention",
+      "intro": "The first 30 seconds decide whether the audience listens or waits for the speech to end. An introduction has four jobs \u2014 get attention, state the topic, show why it matters, and preview the points \u2014 and the attention-getter is the hardest: it must be relevant, honest, and aimed at this audience, not a generic joke or a throat-clearing apology.",
+      "concepts": [
+       "Attention-getters that work \u2014 a surprising statistic, a short story, a question the audience must answer in their heads, a vivid image, or a relevant quote. All five work; all five fail when they have nothing to do with the topic.",
+       "Attention-getters that fail \u2014 apologies ('I'm not really good at this'), unrelated jokes, and 'Webster's defines...' openings. The audience forgives a plain start far sooner than a gimmick.",
+       "The relevance test \u2014 after the hook, the audience should be able to see the bridge to the topic in one sentence. If you need three sentences to connect them, the hook was wrong.",
+       "Thesis and preview \u2014 state the central claim in one sentence, then preview the main points: 'I will show you the cost, the safety risk, and the fix.' The audience now has a map.",
+       "Credibility in the intro \u2014 one line about why you can speak on this (you researched it, you lived it) earns the right to be heard. Modest and specific beats boastful."
+      ],
+      "example": {
+       "q": "Two openings for a speech on campus food waste. A: 'Hi, um, sorry, I'm nervous, but food waste is a big problem.' B: 'Last Tuesday the dining hall threw away 300 pounds of edible food \u2014 enough to feed every student in this room for a week.' Which earns attention, and why?",
+       "steps": [
+        "B earns it: a specific number, a place the audience knows, and a scale they can picture (this room, one week).",
+        "A spends its opening on an apology, which tells the audience the speaker expects to fail \u2014 and gives them permission to tune out.",
+        "B also passes the relevance test: the statistic IS the topic, so no bridge is needed. The preview can follow immediately.",
+        "Lesson: the best attention-getter is usually a fact from your own research, sharpened to one sentence."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why is starting with a dictionary definition usually a weak opening?",
+        "a": "Because it is generic \u2014 it could open any speech on the topic \u2014 and it tells the audience nothing they did not know. A specific fact or story does the same job with energy."
+       },
+       {
+        "q": "Your hook is a funny story, but it takes a minute to tell and only loosely connects to the topic. Keep it or cut it?",
+        "a": "Cut it or shorten it to two sentences: a hook that delays the topic costs more attention than it earns. The topic must arrive within about 30 seconds."
+       }
+      ],
+      "takeaway": "Earn the first 30 seconds with something specific and relevant \u2014 then state your claim and preview the map."
+     },
+     {
+      "title": "Conclusions That Land",
+      "intro": "Audiences remember endings. The conclusion is the last thing they hear, so it carries the memory of the whole speech \u2014 yet most speakers waste it on 'um, so yeah, that's it.' A good conclusion signals the end, summarizes the points, and closes with something worth carrying out of the room.",
+      "concepts": [
+       "Signal the ending \u2014 'In conclusion,' 'To sum up,' or a return to the opening story tells the audience to switch from listening to remembering. Do not surprise them with the end.",
+       "Summarize, do not repeat \u2014 restate the main points in one sentence each, in the same order as the body. The summary is the speech in miniature, not a second speech.",
+       "The memorable close \u2014 a call to action ('Sign the petition before Friday'), a return to the opening image, a short quotation, or a final line that restates the thesis as a challenge. Pick one; do not stack three.",
+       "What not to do \u2014 never introduce new evidence, never apologize for the speech, and never trail off. New material in a conclusion confuses; apologies erase the good work before them.",
+       "The final sentence \u2014 write it out word for word and memorize it. The last thing the audience hears should be deliberate, not improvised."
+      ],
+      "example": {
+       "q": "A speech on the campus bus system ends like this: '...and, uh, the buses are bad, so, yeah, thanks, I guess, any questions?' What went wrong, and how would you fix it?",
+       "steps": [
+        "No signal, no summary, no close \u2014 the ending is a shrug. The audience leaves remembering the shrug, not the argument.",
+        "Fix: signal \u2014 'So the buses cost too much, run too rarely, and strand evening students.' (Summary, three points, one sentence.)",
+        "Close with the call to action: 'The student senate votes Thursday. Tell your senator to fund the evening route.'",
+        "Memorize that last sentence. The audience should leave with a task, not a mumble."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why is introducing a new statistic in the conclusion a mistake?",
+        "a": "Because the audience has no time to evaluate it and no following argument to place it in \u2014 it raises a question the speech cannot answer, and it steals attention from the summary."
+       },
+       {
+        "q": "A speaker ends by returning to the story she opened with. Why does that work?",
+        "a": "Because it closes the circle: the audience recognizes the image, feels the speech is complete, and remembers the story \u2014 and the point attached to it."
+       }
+      ],
+      "takeaway": "Signal the end, summarize the points, and close with one deliberate final line."
+     },
+     {
+      "title": "Building a Speaking Outline and Note Cards",
+      "intro": "A speaking outline is not an essay and not a script: it is a map you can glance at in two seconds and keep talking. The difference between a speaker who reads and a speaker who speaks is usually the outline \u2014 too much text and you read; too little and you wander. Note cards are the physical form of that balance.",
+      "concepts": [
+       "Preparation outline vs speaking outline \u2014 the preparation outline is the full, detailed plan (complete sentences, sources). The speaking outline is the condensed version you carry: key words, phrases, and cues only.",
+       "Key-word notes \u2014 write 'bus cost $2.40 \u2192 students skip meals' instead of a paragraph. Your brain remembers the sentence; the card only needs the trigger.",
+       "Structure on the card \u2014 number the cards, mark the main points in the margin, and write transitions and the final sentence in full. If you drop the cards, the numbers put them back in order.",
+       "Delivery cues \u2014 mark where to pause, slow down, show a slide, or make eye contact: '[PAUSE]', '[SLIDE 3]', '[LOOK UP]'. A cue on the card replaces a decision in the moment.",
+       "Rehearse from the outline \u2014 practice with the cards you will actually use, out loud, on your feet. If you need the full script to rehearse, the outline is not ready."
+      ],
+      "example": {
+       "q": "A student's note cards contain her full speech typed in 11-point font, 12 cards, no numbers. She reads every card and runs 3 minutes over. What should change?",
+       "steps": [
+        "Cut each card to key words and short phrases \u2014 one main point per card, with the statistic and the example trigger only.",
+        "Number the cards and write the final sentence in full on the last card, so a dropped stack is recoverable and the ending is deliberate.",
+        "Add delivery cues: where to pause after the statistic, when to advance the slide.",
+        "Rehearse from the new cards twice out loud. If she can speak from the key words, the cards work; if she freezes, add one more trigger phrase \u2014 not a paragraph."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why is a full manuscript a bad speaking outline, even if you know it well?",
+        "a": "Because it tempts you to read instead of speak: eyes stay down, voice flattens, and any lost place costs seconds to recover. Key-word notes keep your eyes on the audience."
+       },
+       {
+        "q": "What belongs written out in full on a speaking outline?",
+        "a": "Only the parts that must be exact: direct quotations, statistics, and the final sentence. Everything else is key words and triggers."
+       }
+      ],
+      "takeaway": "Carry a map, not a script \u2014 key words, numbered cards, and your final sentence in full."
+     }
     ]
    },
    {
     "module_title": "Delivery and Persuasion",
     "lessons": [
-     "Vocal Delivery: Pace, Pause, Emphasis",
-     "Body Language and Eye Contact",
-     "Visual Aids That Help Instead of Distract",
-     "The Persuasive Speech: Problem, Solution, Call to Action",
-     "Final Speech and Self-Evaluation"
+     {
+      "title": "Vocal Delivery: Pace, Pause, Emphasis",
+      "intro": "The voice is the speaker's instrument, and most speakers play only one note: a steady, medium pace at a steady, medium volume. Vocal variety \u2014 changes in pace, pauses that let a point land, emphasis on the words that matter \u2014 is what makes a speech sound alive instead of read aloud. The good news: it is a set of learnable moves, not a talent.",
+      "concepts": [
+       "Pace \u2014 the average speaking rate is about 150 words per minute, but good speakers vary it: faster for excitement, slower for weight. Nervous speakers speed up; the fix is to deliberately slow the first minute.",
+       "Pause \u2014 silence is the most powerful vocal tool. A two-second pause after a key claim lets it land; a pause before a number tells the audience to listen. Audiences remember what follows a pause.",
+       "Emphasis \u2014 stress the words that carry the meaning: 'We need MORE buses, not FEWER' changes the sentence. Emphasize the new information, not every word.",
+       "Volume and pitch \u2014 project to the back row without shouting, and let pitch rise and fall with the sentence. A flat pitch sounds bored even when the content is not.",
+       "Fillers \u2014 'um,' 'like,' 'you know' fill silence because the speaker fears it. Replace them with pauses: record yourself, count the fillers, and practice the same passage until the pauses replace them."
+      ],
+      "example": {
+       "q": "A speaker races through her conclusion at 200 words per minute, and the audience remembers nothing of it. What vocal changes would fix the ending?",
+       "steps": [
+        "Slow down deliberately for the conclusion \u2014 aim for 120 words per minute, so the summary has weight.",
+        "Pause two seconds before the final sentence, and say it at full volume with emphasis on the call to action: 'Vote THURSDAY.'",
+        "The pause signals importance; the slower pace gives the audience time to encode the summary; the emphasis marks the one thing to do.",
+        "Rehearse the ending separately, out loud, three times \u2014 endings are where pace discipline matters most."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why does a pause after a statistic work better than rushing on to the next point?",
+        "a": "Because the audience needs a beat to process the number and connect it to the claim; without the pause, the statistic passes before it registers."
+       },
+       {
+        "q": "You say 'um' every few seconds when nervous. What is the practical fix?",
+        "a": "Practice replacing fillers with silence: rehearse the passage out loud, and every time you feel an 'um' coming, pause instead. Recording yourself makes the habit visible."
+       }
+      ],
+      "takeaway": "Vary pace, pause on purpose, and stress the words that matter \u2014 silence is a tool, not a gap."
+     },
+     {
+      "title": "Body Language and Eye Contact",
+      "intro": "The audience watches the speaker as much as it listens. Posture, gestures, movement, and eye contact carry as much meaning as the words \u2014 sometimes more. A speaker who stands still, reads notes, and never looks up tells the audience the speech does not matter, whatever the words say.",
+      "concepts": [
+       "Posture \u2014 stand tall, feet planted shoulder-width apart, weight balanced. It reads as confidence and opens the lungs for projection. Swaying, leaning on the podium, or hiding behind a laptop reads as fear.",
+       "Gestures \u2014 use hands to show size, number, and direction ('three reasons' with three fingers, a rising hand for growth). Gestures should match the words; random hand-waving distracts, and hands in pockets signal disengagement.",
+       "Movement with purpose \u2014 move to mark a transition (a step toward the audience for a new point) and then stop. Pacing back and forth is the body version of 'um.'",
+       "Eye contact \u2014 look at the audience in 3\u20135 second holds, one person or section at a time, across the whole room. It creates connection and lets you read feedback. Reading notes or staring at slides breaks it.",
+       "Facial expression \u2014 your face should match your message: serious for a serious point, warm for a story. A frozen face makes every point sound the same."
+      ],
+      "example": {
+       "q": "A speaker delivers a passionate speech about food insecurity while staring at his notes, hands in pockets, voice flat. The audience rates the speech as 'boring.' Why?",
+       "steps": [
+        "The words said 'this matters' but the body said 'I do not care': no eye contact, closed posture, flat face. The audience believed the body.",
+        "Fix the highest-leverage item first: eye contact \u2014 look up, hold a section for a few seconds, and use the notes only as a glance.",
+        "Then posture: hands out of pockets, feet planted, one gesture per main point.",
+        "The content was already good; the body just needed to agree with it. Delivery is not decoration \u2014 it is half the message."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why hold eye contact for 3\u20135 seconds instead of scanning the room quickly?",
+        "a": "Because a quick scan feels like looking at no one: a 3\u20135 second hold makes one person or section feel addressed, which creates real connection \u2014 and it gives you time to read their reaction."
+       },
+       {
+        "q": "When is moving during a speech a good idea, and when is it a problem?",
+        "a": "Good when it marks a transition or emphasizes a point, then you stop. A problem when it is constant pacing, which distracts the audience and signals nervousness."
+       }
+      ],
+      "takeaway": "Your body is half the message \u2014 stand tall, gesture with purpose, and look at the people you are talking to."
+     },
+     {
+      "title": "Visual Aids That Help Instead of Distract",
+      "intro": "A good visual aid does what words cannot: show a trend, a place, or a process. A bad one does what words should not: dump a paragraph on a slide and make the audience read while you talk. The rule is simple \u2014 the aid serves the speech, never the other way around \u2014 but most slides break it.",
+      "concepts": [
+       "When visuals help \u2014 data (charts), geography (maps), processes (diagrams), and images that create feeling. If a point can be said in one sentence, it does not need a slide.",
+       "The 6\u00d76 guideline \u2014 no more than six lines per slide, six words per line. A slide the audience must read is a slide that competes with you \u2014 and reading always wins over listening.",
+       "Design basics \u2014 large type (at least 24pt), high contrast, one idea per slide, and images big enough to see from the back row. Decorative clip art and busy backgrounds are noise.",
+       "Talk to the audience, not the screen \u2014 face the room, glance at the slide only to advance it, and never read the slide aloud word for word. The slide is a backdrop, not a script.",
+       "Backup plan \u2014 technology fails: know your key points without the slides, carry a PDF backup, and keep talking if the projector dies. The speech must survive without its aids."
+      ],
+      "example": {
+       "q": "A speaker's slide shows a table of 12 numbers in 10-point type. She reads each number aloud while the audience squints. What should the slide be instead?",
+       "steps": [
+        "One chart showing the trend \u2014 the single pattern the numbers prove (e.g., bus ridership falling after 6 p.m.) \u2014 with the headline as the slide title: 'Evening ridership fell 40% after the route cut.'",
+        "The other 11 numbers go in a handout, not on the screen. The audience needs the pattern, not the raw table.",
+        "She should face the room, point once at the chart's key moment, and let the audience look for three seconds before continuing.",
+        "Result: the visual proves the point in one glance instead of competing with her voice for a minute."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Your slide has a full paragraph of text. What do you do?",
+        "a": "Cut it to the one sentence that matters \u2014 the claim \u2014 and say the rest aloud. If the paragraph is essential, put it in a handout and keep the slide to the headline."
+       },
+       {
+        "q": "The projector fails two minutes into your speech. What do you do?",
+        "a": "Keep going: describe the one key visual in words ('Imagine a chart falling steeply after 6 p.m....'), and carry on. The speech was never the slides."
+       }
+      ],
+      "takeaway": "One idea per slide, big and simple \u2014 the aid illustrates the speech; it never replaces it."
+     },
+     {
+      "title": "The Persuasive Speech: Problem, Solution, Call to Action",
+      "intro": "Persuasion is the most demanding speech type: you must change minds, not just inform them. The classic structure \u2014 problem, solution, call to action \u2014 works because it mirrors how people decide: first they must feel the problem, then believe the solution, then know exactly what to do. Skip any step and the speech fails at that step.",
+      "concepts": [
+       "The problem \u2014 make it real and urgent: who is hurt, how badly, and why now. A problem the audience cannot feel is a problem they will not act on. Use a story plus a number.",
+       "The solution \u2014 present a specific, workable fix, not a wish. Show it solves the problem (evidence, examples from elsewhere), that it is affordable, and that it is feasible. Answer the obvious objections before the audience raises them.",
+       "The call to action \u2014 one concrete step, with a when and a how: 'Email the dean by Friday using the form linked in the handout.' Vague calls ('we should do something') produce nothing.",
+       "Persuasive appeals \u2014 logos (evidence and logic), pathos (emotion and story), and ethos (your credibility). Strong speeches use all three; a speech with only emotion is manipulation, and only logic is a lecture.",
+       "Handling objections \u2014 name the strongest counterargument and answer it fairly. An unanswered objection follows the audience out of the room; an answered one becomes your evidence."
+      ],
+      "example": {
+       "q": "A speaker argues for a campus composting program: she proves food waste is a problem and describes composting in detail, but ends with 'I hope you'll think about it.' Why does nothing happen?",
+       "steps": [
+        "The call to action is missing: 'think about it' is not a step, has no deadline, and asks for no commitment.",
+        "Fix the ending: 'Sign the petition at the back of the room before you leave \u2014 we need 200 signatures by Friday to get on the senate agenda.' One action, one place, one deadline.",
+        "Check the solution step too: did she show composting works elsewhere (another campus's numbers) and what it costs? If not, add one example and one cost figure.",
+        "Problem felt + solution believed + action specified = a speech that moves people. Any missing link breaks the chain."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why answer the strongest objection yourself instead of hoping nobody raises it?",
+        "a": "Because the audience is already thinking it: naming and answering it fairly builds credibility and removes the objection before it hardens into resistance."
+       },
+       {
+        "q": "Which appeal is missing from a speech that is all statistics and no stories?",
+        "a": "Pathos \u2014 emotion. Statistics prove the problem exists; a story makes the audience feel it, and feeling is what moves people to act."
+       }
+      ],
+      "takeaway": "Make them feel the problem, prove the solution, and name one concrete step \u2014 persuasion needs all three."
+     },
+     {
+      "title": "Final Speech and Self-Evaluation",
+      "intro": "The final speech is the course in miniature: a full-length persuasive or informative speech, delivered from an outline, with visual aids, in front of the class. But the speech is only half the assignment \u2014 the self-evaluation that follows is where the learning locks in, because speakers who can judge their own performance keep improving after the course ends.",
+      "concepts": [
+       "Choosing the final topic \u2014 pick something you care about, narrow it to one claim, and make sure the evidence exists. A topic you chose in week 2 may need narrowing now that you know what a full speech requires.",
+       "The full checklist \u2014 attention-getting introduction, clear thesis and preview, two to four main points with evidence, a memorable conclusion, vocal variety, eye contact, and visual aids that help. Every skill in the course appears here.",
+       "Rehearsal \u2014 at least three full out-loud run-throughs, timed, on your feet, with the aids. The final speech is not the time to discover that the conclusion runs two minutes long.",
+       "Self-evaluation \u2014 watch or listen to a recording of yourself and judge honestly: What worked? Where did you lose the audience? What would you change? Specific observations ('I rushed the second point') beat general ones ('It went okay').",
+       "Feedback as data \u2014 peer and instructor feedback is information, not judgment. Compare it with your own evaluation: the gaps between what you felt and what they saw are the most useful lessons."
+      ],
+      "example": {
+       "q": "After his final speech, a student writes: 'It went pretty well. I think the audience liked it.' Why is this self-evaluation useless, and what should it say instead?",
+       "steps": [
+        "It is vague and unmeasurable: no specific strength, no specific weakness, no plan.",
+        "Better: 'My introduction hooked the room \u2014 heads came up at the statistic. But I rushed the second point (45 seconds instead of 2 minutes) and never made eye contact with the left side.'",
+        "Then the plan: 'Next time I will rehearse the second point separately and mark [LOOK LEFT] on my cards.'",
+        "Self-evaluation is only useful if it names one thing to keep and one thing to fix \u2014 with a concrete next step."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why watch a recording of your own speech instead of relying on how it felt?",
+        "a": "Because feelings lie: a speech that felt terrible often looks fine, and a speech that felt smooth may have rushed the key point. The recording shows what the audience actually saw."
+       },
+       {
+        "q": "Your peers say your conclusion was strong but your second point was confusing. Your own feeling was the opposite. Which do you trust?",
+        "a": "Trust the overlap and investigate the gap: the audience's experience is the result that counts, so re-watch the second point to find what confused them \u2014 your feeling of clarity may have come from knowing the material, not communicating it."
+       }
+      ],
+      "takeaway": "The final speech shows what you can do; the honest self-evaluation shows what you will do next."
+     }
     ]
    }
   ],
@@ -6880,7 +7482,7 @@
    "project": true
   },
   "mastery_rubric": "Deliver organized informative and persuasive speeches with audible structure, credible support, and controlled delivery. Final speech rubric 70% or higher.",
-  "source": "Martinez original syllabus (authored 2026-11-14)"
+  "source": "Martinez original \u2014 written lessons (authored 2026-11-19)"
  },
  "SOC101": {
   "modules": [
