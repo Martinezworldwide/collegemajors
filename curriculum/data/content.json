@@ -7489,42 +7489,673 @@
    {
     "module_title": "The Sociological Perspective",
     "lessons": [
-     "What Sociology Studies",
-     "The Founders: Durkheim, Weber, Marx",
-     "Theory in Plain Language: Three Lenses",
-     "Research Methods and Ethics",
-     "Correlation, Causation and Common Sense Traps"
+     {
+      "title": "What Sociology Studies",
+      "intro": "Sociology is the study of how people live together \u2014 the groups, rules, and patterns that shape what we do even when we think we are acting alone. A sociologist looks at a crowded subway, a family dinner, or a protest and asks the same question: what social forces are at work here that no single person chose? The sociological imagination, a term from C. Wright Mills, is the habit of connecting personal troubles to public issues.",
+      "concepts": [
+       "The sociological imagination \u2014 the ability to see the link between a personal experience (losing a job) and a larger social pattern (a recession, an industry collapsing). Private troubles often have public causes.",
+       "Society vs the individual \u2014 people make choices, but they make them inside structures: laws, economies, families, and cultures that reward some choices and punish others. Sociology studies the structures, not just the choosers.",
+       "Social patterns \u2014 when millions of people act independently yet produce regular results (most people marry someone of a similar background, crime rises in recessions), a pattern is social, not coincidence.",
+       "Micro and macro \u2014 micro-sociology studies face-to-face interaction (a conversation, a classroom); macro-sociology studies whole systems (the economy, a nation's laws). Good sociology moves between the two levels.",
+       "Common sense is not enough \u2014 common sense says people are poor because they do not work hard, or crime happens because criminals are bad people. Sociology tests those claims against evidence and usually finds the story is more complicated."
+      ],
+      "example": {
+       "q": "Two students from the same town apply to the same college. One gets in with a tutor, test prep, and a polished essay; the other works nights and applies alone. The second student says 'I just wasn't good enough.' How would a sociologist respond?",
+       "steps": [
+        "First, separate the personal from the social: effort matters, but the two students did not face the same conditions. One had paid help; the other had a night shift.",
+        "Second, name the pattern: family income predicts college admission far better than effort alone, because money buys preparation, time, and connections.",
+        "Third, apply the sociological imagination: the student's disappointment is real and personal, but its cause is partly public \u2014 unequal access to preparation.",
+        "Conclusion: sociology does not deny personal responsibility; it adds the missing half of the story, the structures that made one student's path easier than the other's."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What is the sociological imagination, in one sentence?",
+        "a": "The ability to connect a personal trouble to the larger public issue behind it \u2014 seeing how social forces shape individual lives."
+       },
+       {
+        "q": "Why does sociology study patterns across many people instead of single cases?",
+        "a": "Because a single case could be chance, but a regular pattern across thousands of people points to a social force at work."
+       }
+      ],
+      "takeaway": "Sociology connects personal lives to public patterns \u2014 the sociological imagination turns a private trouble into a question about society."
+     },
+     {
+      "title": "The Founders: Durkheim, Weber, Marx",
+      "intro": "Sociology was born in the 1800s, when industrialization, cities, and revolutions were remaking Europe so fast that old explanations stopped working. Three thinkers built the field's foundations, and they disagreed with each other in ways that still shape every sociology course today: Emile Durkheim, Max Weber, and Karl Marx.",
+      "concepts": [
+       "Durkheim and social facts \u2014 Durkheim argued that society is real and has forces of its own, which he called social facts: norms, laws, and values that exist outside any one person and push people to act in certain ways. His study of suicide showed even the most personal act follows social patterns.",
+       "Durkheim and solidarity \u2014 in small societies people are held together by likeness (mechanical solidarity); in large, specialized societies they are held together by interdependence (organic solidarity). Modern life runs on the second kind.",
+       "Weber and meaning \u2014 Weber insisted that sociology must understand the meaning people give their actions. A person chopping wood and a person performing a ritual may look alike, but the meaning is completely different.",
+       "Weber and rationalization \u2014 Weber warned that modern life was becoming a cage of rules, paperwork, and efficiency (the 'iron cage'): rational systems that are efficient but can feel empty and dehumanizing.",
+       "Marx and conflict \u2014 Marx argued that history is driven by conflict over who owns and controls the means of production. Capitalists own the factories; workers sell their labor; the tension between them shapes laws, ideas, and politics."
+      ],
+      "example": {
+       "q": "A factory introduces a new rule: every worker must clock in with a fingerprint scan, log every bathroom break, and follow a 40-page procedure manual. Which founder's ideas best explain what is happening \u2014 and what would each of the other two say?",
+       "steps": [
+        "Weber's idea fits first: this is rationalization \u2014 rules, measurement, and efficiency taken to an extreme, the iron cage in miniature. The system is rational, but workers may feel like cogs.",
+        "Durkheim would ask about solidarity: does the new system build interdependence and shared norms, or does it break the bonds between workers and make each person isolated?",
+        "Marx would ask who benefits: the rules increase the owner's control over labor time, so the change serves the people who own the factory more than the people who work in it.",
+        "Conclusion: one event, three lenses \u2014 and a good sociologist can use all three at once instead of picking a favorite."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What did Durkheim mean by a social fact?",
+        "a": "A way of acting, thinking, or feeling that exists outside the individual and exerts pressure on them \u2014 like a law, a norm, or a shared value."
+       },
+       {
+        "q": "How did Weber's approach differ from Durkheim's?",
+        "a": "Durkheim studied society as a force above individuals; Weber insisted sociology must also understand the subjective meaning people attach to their actions."
+       }
+      ],
+      "takeaway": "Durkheim saw society as a force, Weber saw meaning and rationalization, Marx saw conflict over resources \u2014 together they built the field."
+     },
+     {
+      "title": "Theory in Plain Language: Three Lenses",
+      "intro": "Sociological theory sounds intimidating, but it is just three different lenses for looking at the same world. Functionalism asks what holds society together. Conflict theory asks who benefits and who loses. Symbolic interactionism asks what things mean to the people involved. None of them is the whole truth; each catches something the others miss.",
+      "concepts": [
+       "Functionalism \u2014 society is like a body: each institution (family, school, government) is an organ doing a job that keeps the whole alive. A functionalist asks what a practice does for society, even a practice that looks harmful.",
+       "Manifest and latent functions \u2014 a manifest function is the intended result (school teaches reading); a latent function is the unintended one (school also teaches punctuality and obedience to schedules). Both matter.",
+       "Conflict theory \u2014 society is shaped by struggle over scarce resources: money, power, status. Institutions often serve the powerful, and change comes from conflict, not from smooth cooperation.",
+       "Symbolic interactionism \u2014 society is built from everyday interactions and the meanings people attach to symbols: a wedding ring, a uniform, a nod. Change the meaning and you change the behavior.",
+       "Using all three \u2014 a school can be analyzed as a functioning system (functionalism), as a place where rich districts get more funding (conflict), and as a room where a teacher's label changes how a student sees herself (interactionism)."
+      ],
+      "example": {
+       "q": "A town's high school starts a strict dress code. Students protest, parents argue, and the principal says it will 'build discipline.' Analyze the dress code through all three lenses.",
+       "steps": [
+        "Functionalism: the manifest function is order and discipline; a latent function may be signaling which students 'belong' and preparing them for workplace dress norms.",
+        "Conflict theory: ask who wrote the code and who pays the cost \u2014 if the banned items are mostly styles worn by poorer or minority students, the code may enforce one group's norms over another's.",
+        "Symbolic interactionism: a hoodie means comfort to a student and defiance to a teacher. The fight is partly over what the clothing means, not just what it is.",
+        "Conclusion: the three lenses do not cancel each other out \u2014 together they give a fuller picture than any one alone."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A functionalist asks what a social practice does for society. What does a conflict theorist ask instead?",
+        "a": "Who benefits from the practice and who loses \u2014 how it reflects or reinforces unequal power and resources."
+       },
+       {
+        "q": "Give one latent function of a wedding ceremony.",
+        "a": "Beyond the intended legal and public commitment, it publicly signals the couple's status, strengthens family alliances, and marks the couple as adults in the community."
+       }
+      ],
+      "takeaway": "Functionalism sees what holds society together, conflict theory sees who benefits, interactionism sees what things mean \u2014 use all three."
+     },
+     {
+      "title": "Research Methods and Ethics",
+      "intro": "Sociologists do not just argue about society \u2014 they gather evidence. The field uses surveys, interviews, observations, and experiments, and each method trades something for something else: reach for depth, control for realism. And because the subjects are real people, ethics is not a footnote \u2014 it is the first rule of the job.",
+      "concepts": [
+       "Surveys \u2014 questionnaires given to many people, ideal for finding patterns across a large population. Strength: breadth. Weakness: people may answer what sounds good rather than what is true, and a bad sample misleads.",
+       "Interviews and ethnography \u2014 deep conversations or long observation inside a group. Strength: rich understanding of meaning and context. Weakness: small samples, hard to generalize, and the researcher's presence can change behavior.",
+       "Experiments \u2014 change one variable and watch what happens, with a control group for comparison. Strength: the best evidence for cause and effect. Weakness: lab settings are artificial, and many social questions cannot be tested experimentally.",
+       "Existing data \u2014 census records, government statistics, historical documents. Cheap and large-scale, but the data was collected for someone else's purpose and may miss what you need.",
+       "Ethics \u2014 informed consent, confidentiality, and doing no harm. Famous past studies (like Milgram's obedience experiments) would not pass a modern ethics review, because they deceived and distressed participants."
+      ],
+      "example": {
+       "q": "A researcher wants to know whether students cheat more when exams are online. She surveys 2,000 students, and 8% admit to cheating. Her colleague says the real number is probably higher. Who is right, and what should she do next?",
+       "steps": [
+        "The colleague has a point: surveys on cheating suffer from social desirability bias \u2014 people under-report behavior they are ashamed of, even on anonymous surveys.",
+        "The 8% is still useful as a floor: at least 8% cheat, and the pattern across groups (which majors, which years) may still be valid even if the total is low.",
+        "Next step: triangulate. Compare the survey with other evidence \u2014 plagiarism-detection reports, exam-score anomalies, or anonymous interviews where students explain their reasoning.",
+        "Conclusion: no single method settles a question. Strong research combines methods so each one's weakness is covered by another's strength."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why is a random sample better than asking whoever volunteers?",
+        "a": "Volunteers differ from everyone else in systematic ways (more opinionated, more available), so their answers do not represent the whole population; a random sample gives every person an equal chance of being chosen."
+       },
+       {
+        "q": "Name two ethical requirements for research with human participants.",
+        "a": "Informed consent \u2014 participants know what the study involves and agree freely \u2014 and confidentiality \u2014 their identities and answers are protected."
+       }
+      ],
+      "takeaway": "Surveys show breadth, interviews show depth, experiments show cause \u2014 and ethics governs all of them."
+     },
+     {
+      "title": "Correlation, Causation and Common Sense Traps",
+      "intro": "Two things can rise together without one causing the other. Ice cream sales and drownings both peak in summer, but ice cream does not cause drowning \u2014 heat causes both. Sociology is full of these traps, because social life is tangled: everything correlates with everything, and common sense keeps jumping to the wrong cause.",
+      "concepts": [
+       "Correlation \u2014 two variables move together. It is a clue, not a conclusion. A strong correlation is worth investigating, but it never proves cause by itself.",
+       "Causation \u2014 one variable actually produces a change in another. To claim it, a researcher needs the cause to come before the effect, a plausible mechanism, and no better explanation.",
+       "Spurious correlation \u2014 a third variable causes both. Shoe size correlates with reading ability in children \u2014 but age causes both. The link disappears once age is controlled.",
+       "Reverse causation \u2014 sometimes the supposed effect causes the supposed cause: people who are depressed may withdraw socially, so loneliness looks like the cause of depression when it may be the result.",
+       "Selection bias \u2014 the people in a group may differ from everyone else before the study starts. A program that 'works' may simply have attracted the most motivated participants."
+      ],
+      "example": {
+       "q": "A study finds that towns with more churches have higher crime rates. A commentator concludes that religion causes crime. What is wrong with this conclusion?",
+       "steps": [
+        "First, check the third variable: larger towns have both more churches and more crime, simply because they have more people. Population size is the hidden cause of both.",
+        "Second, consider reverse causation: high-crime areas may attract more churches because churches open missions and outreach programs where need is greatest.",
+        "Third, ask about the mechanism: what would the causal chain even be \u2014 that attending church makes people commit crimes? No plausible mechanism exists, which is a warning sign.",
+        "Conclusion: the correlation is real, the causal claim is not. Control for population size and the link likely vanishes."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Students who attend tutoring score higher on exams. Why might tutoring not be the cause?",
+        "a": "Selection bias: motivated students are both more likely to attend tutoring and more likely to study hard, so motivation \u2014 not the tutoring alone \u2014 may explain the higher scores."
+       },
+       {
+        "q": "What three things does a researcher need before claiming causation?",
+        "a": "The cause precedes the effect in time, a plausible mechanism linking them, and the ruling out of other explanations (especially a third variable)."
+       }
+      ],
+      "takeaway": "Correlation is a clue, not a cause \u2014 always ask what third variable or reverse story could explain the link."
+     }
     ]
    },
    {
     "module_title": "Culture and Socialization",
     "lessons": [
-     "Culture: Values, Norms and Symbols",
-     "Socialization Across the Life Course",
-     "Agents of Socialization: Family, School, Media",
-     "Groups, Networks and Organizations",
-     "Deviance and Social Control"
+     {
+      "title": "Culture: Values, Norms and Symbols",
+      "intro": "Culture is the shared toolkit a society uses to make life intelligible: the values we hold, the norms we follow, the symbols we read without thinking. You cannot see culture directly \u2014 you see it when someone breaks it, like a tourist who does not know which side of the escalator to stand on, or when you travel and suddenly your normal is someone else's strange.",
+      "concepts": [
+       "Values \u2014 broad ideas about what is good and desirable (freedom, honesty, family). Values are abstract; many cultures share them but rank them differently.",
+       "Norms \u2014 the specific rules that turn values into behavior. Folkways are everyday customs (saying please); mores are moral rules with serious sanctions (do not steal); laws are mores written down and enforced by the state.",
+       "Symbols \u2014 anything that carries shared meaning: words, gestures, flags, uniforms. A symbol works only because people agree on what it means, and meanings can shift over time.",
+       "Material and nonmaterial culture \u2014 material culture is the physical stuff (phones, buildings, food); nonmaterial culture is the ideas, beliefs, and rules. The two change at different speeds, which causes strain.",
+       "Cultural lag and ethnocentrism \u2014 cultural lag is when material change outruns the norms that govern it (new technology, old rules). Ethnocentrism is judging another culture by your own standards instead of on its own terms."
+      ],
+      "example": {
+       "q": "A new office introduces a messaging app that lets anyone message the CEO directly at any hour. Within a month, junior staff are messaging at midnight and managers are annoyed. What cultural concepts explain the mess?",
+       "steps": [
+        "The material culture changed (new tool) faster than the nonmaterial culture (norms about when it is okay to message a boss) \u2014 classic cultural lag.",
+        "The norms were unwritten: nobody agreed whether a direct message to the CEO was bold, rude, or normal, so people guessed \u2014 and guessed differently.",
+        "The symbol problem: a message at midnight means 'urgent' to one person and 'I am working hard' to another. Same symbol, different meanings.",
+        "Fix: write the norm down \u2014 expected response times, off-hours rules \u2014 so the nonmaterial culture catches up with the tool."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What is the difference between a folkway and a more?",
+        "a": "A folkway is an everyday custom with mild social consequences (eating with the wrong fork); a more is a moral rule whose violation brings serious disapproval or punishment (theft, assault)."
+       },
+       {
+        "q": "Why is ethnocentrism a problem for sociologists?",
+        "a": "It judges another culture by your own culture's standards, so you misread practices whose meaning only makes sense inside their own cultural context."
+       }
+      ],
+      "takeaway": "Culture is values, norms, and symbols \u2014 invisible until broken, and it changes unevenly, which is where the friction lives."
+     },
+     {
+      "title": "Socialization Across the Life Course",
+      "intro": "Nobody is born knowing how to be a member of society. Socialization is the lifelong process of learning the norms, values, and skills of your culture \u2014 and it never really stops. The child learning to say thank you, the teenager learning the unspoken rules of a first job, the retiree learning to live without a work schedule: all of it is socialization.",
+      "concepts": [
+       "Primary socialization \u2014 the first and deepest learning, in childhood, mostly in the family: language, basic norms, what is right and wrong. It sticks because it happens before we can question it.",
+       "The looking-glass self \u2014 Charles Cooley: we form our self-image by imagining how others see us. A child who is constantly told she is clever starts to act clever \u2014 and the label becomes true.",
+       "Mead's stages \u2014 George Herbert Mead: children first imitate others (play stage), then learn to take the role of a specific other (game stage, with rules), then internalize the generalized other \u2014 society's viewpoint as a whole.",
+       "Resocialization \u2014 unlearning old norms and learning new ones, often in total institutions (the military, a monastery, prison) that strip away the old identity and rebuild it.",
+       "Anticipatory socialization \u2014 learning the norms of a group you want to join before you join it: a student dressing like a professional before her first internship, a recruit studying the handbook before boot camp."
+      ],
+      "example": {
+       "q": "A new employee joins a company where everyone eats lunch at their desk and never takes a real break. After two weeks, she does the same \u2014 even though she used to take a full lunch hour. What happened, sociologically?",
+       "steps": [
+        "She is being socialized into the workplace: the norm was never written down, but she read it from watching others and from the subtle signals (a raised eyebrow when someone left for lunch).",
+        "The looking-glass self is at work: she imagines colleagues seeing her as lazy if she leaves, so she adjusts to match the image she wants them to have.",
+        "This is also anticipatory socialization in reverse \u2014 she is learning the group's norms in order to belong, not because she agrees with them.",
+        "Conclusion: socialization is not only for children. Adults are resocialized every time they enter a new group with its own unwritten rules."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What is the generalized other in Mead's theory?",
+        "a": "The internalized viewpoint of society as a whole \u2014 the ability to see yourself as the group sees you and to act according to shared norms."
+       },
+       {
+        "q": "Why is the military an example of a total institution?",
+        "a": "It controls nearly every part of daily life \u2014 sleep, dress, food, schedule \u2014 and deliberately strips away the old civilian identity to rebuild a soldier's identity."
+       }
+      ],
+      "takeaway": "Socialization never ends: we learn society's rules in childhood and keep relearning them in every new group we join."
+     },
+     {
+      "title": "Agents of Socialization: Family, School, Media",
+      "intro": "Socialization does not happen by itself \u2014 it is done by agents, the people and institutions that teach us the rules. Family comes first, school comes second, and peers and media grow more powerful as we age. When agents disagree \u2014 the family says one thing, the media says another \u2014 the tension itself is a lesson in how society works.",
+      "concepts": [
+       "Family \u2014 the first agent: it teaches language, basic values, manners, and where we stand in the world. Families also pass on social class, religion, and expectations without ever announcing them.",
+       "School \u2014 the hidden curriculum: alongside reading and math, school teaches punctuality, obedience to authority, competition, and how to wait your turn. The hidden curriculum is rarely written down but everyone learns it.",
+       "Peers \u2014 as children grow, friends become the reference group that matters most. Peer groups teach slang, fashion, and what counts as cool \u2014 and they can override the family on a given day.",
+       "Media \u2014 television, social media, games, and news now socialize constantly: they model relationships, beauty, success, and danger. The effect is strongest when the message is repeated and nobody names it as teaching.",
+       "Conflicting agents \u2014 when the family, school, peers, and media send different messages, the person must choose. Those conflicts are where individuality and social change begin."
+      ],
+      "example": {
+       "q": "A teenager's parents say college is the only path; her friends say college is a waste of money; her favorite influencer says she dropped out and got rich. She is stressed and cannot decide. Analyze this through agents of socialization.",
+       "steps": [
+        "Three agents are giving three different scripts: family (college = security), peers (college = debt), media (dropout = freedom). Each agent is credible in its own world.",
+        "The hidden curriculum matters too: school has taught her that success is measured by grades and admissions, which quietly sides with the family's message.",
+        "Her stress is not indecision \u2014 it is a real conflict between socialization agents, and whichever she chooses, she is choosing a group to belong to, not just a fact to believe.",
+        "Conclusion: when agents conflict, people do not just pick the 'right' answer; they weigh which group's approval matters most to them."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What is the hidden curriculum of school?",
+        "a": "The unwritten lessons schools teach alongside academics \u2014 punctuality, obedience to authority, competition, and how to behave in a hierarchy."
+       },
+       {
+        "q": "Why does media count as an agent of socialization?",
+        "a": "Because it repeatedly models norms, roles, and values \u2014 how relationships, success, and beauty should look \u2014 and people absorb those models even when no one calls it teaching."
+       }
+      ],
+      "takeaway": "Family, school, peers, and media all teach us the rules \u2014 and when they disagree, that conflict shapes who we become."
+     },
+     {
+      "title": "Groups, Networks and Organizations",
+      "intro": "Humans live in groups, and groups have a logic of their own. A pair behaves differently from a trio; a crowd behaves differently from a committee. Sociology maps these patterns \u2014 primary groups that give us belonging, secondary groups that get things done, and the networks that quietly decide who hears about a job first.",
+      "concepts": [
+       "Primary groups \u2014 small, close, long-term relationships (family, close friends) that give emotional support and identity. They are ends in themselves, not means to something else.",
+       "Secondary groups \u2014 larger, impersonal, goal-oriented groups (a workplace, a class) where relationships are means to an end. You can leave a secondary group without losing your identity.",
+       "Dyads and triads \u2014 in a two-person group, one person leaving ends the group; in a three-person group, two can form a coalition against the third. Group size changes the dynamics completely.",
+       "In-groups and out-groups \u2014 we define 'us' by defining 'them.' In-group loyalty can build solidarity, but it also breeds stereotyping of the out-group.",
+       "Bureaucracy \u2014 Weber's model of rational organization: hierarchy, written rules, specialization, and impersonality. It is efficient and predictable \u2014 and can become rigid, slow, and dehumanizing when rules replace judgment."
+      ],
+      "example": {
+       "q": "A small startup of 8 people feels like a family. After it grows to 200, employees complain it feels cold and bureaucratic, with forms for everything. What changed, sociologically?",
+       "steps": [
+        "The group shifted from primary to secondary: at 8 people, relationships were personal and informal; at 200, the organization needs formal roles, rules, and hierarchy to function.",
+        "Bureaucracy arrived for a reason \u2014 you cannot coordinate 200 people on personal trust alone \u2014 but the impersonality that makes it efficient also makes people feel like numbers.",
+        "In-groups formed: old-timers vs newcomers, engineers vs sales. Each side now defines itself partly against the other.",
+        "Conclusion: growth changes the group's structure, and structure changes the experience. The 'coldness' is not anyone's fault \u2014 it is what happens when a primary group becomes a bureaucracy."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why is a dyad more fragile than a triad?",
+        "a": "In a dyad, if one person leaves, the group ceases to exist; in a triad, the group can survive one departure and two members can form a coalition."
+       },
+       {
+        "q": "Name one strength and one weakness of a bureaucracy.",
+        "a": "Strength: efficiency and predictability \u2014 everyone knows the rules and their role. Weakness: rigidity \u2014 rules can replace judgment, and the system can become slow and impersonal."
+       }
+      ],
+      "takeaway": "Group size and structure shape behavior: small groups bond, large groups bureaucratize, and every group draws a line between us and them."
+     },
+     {
+      "title": "Deviance and Social Control",
+      "intro": "Deviance is not a quality of an act \u2014 it is a label a society applies. Drinking coffee is normal in one place and deviant in another; what counts as crime changes with time, place, and power. Sociology asks who gets to define deviance, why people break the rules, and what social control actually achieves.",
+      "concepts": [
+       "Deviance is relative \u2014 an act is deviant only if a group defines it that way. Body piercing was deviant a generation ago and is fashion now; the act did not change, the label did.",
+       "Labeling theory \u2014 being labeled deviant can become a self-fulfilling prophecy: a student labeled a troublemaker is watched more closely, punished more, and may eventually accept the identity.",
+       "Strain theory \u2014 Robert Merton: when society tells everyone to succeed but blocks legitimate paths for some, people adapt \u2014 by innovating (crime), retreating (dropping out), or rebelling (trying to change the system).",
+       "Control theory \u2014 most people do not commit crimes because of their bonds to society: attachment to family, commitment to a job, involvement in activities, and belief in the rules. Weak bonds mean weak restraint.",
+       "Social control \u2014 formal control (laws, police, courts) and informal control (shame, gossip, praise). Informal control does most of the daily work; formal control is the backup."
+      ],
+      "example": {
+       "q": "Two teenagers shoplift the same item from the same store. One is the mayor's son and gets a warning; the other is from a poor neighborhood and gets charged. Both did the same act. Explain this with labeling theory.",
+       "steps": [
+        "The act is identical; the label is not. The mayor's son is treated as a good kid who made a mistake; the other teenager is treated as a delinquent.",
+        "Labeling theory predicts the second teenager now faces a different future: a record, closer surveillance at school, and adults who expect trouble from him.",
+        "The label can become self-fulfilling: if everyone treats him as a criminal, the legitimate paths narrow and the criminal identity becomes the available one.",
+        "Conclusion: deviance is not just about what people do \u2014 it is about who has the power to decide what an act means."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What does strain theory say causes crime?",
+        "a": "A gap between culturally approved goals (like wealth and success) and the legitimate means available to reach them \u2014 when legal paths are blocked, some people turn to illegitimate ones."
+       },
+       {
+        "q": "Give one example of informal social control.",
+        "a": "A disapproving look from a neighbor, gossip, being excluded from a group, or praise for following the rules \u2014 control exercised without laws or police."
+       }
+      ],
+      "takeaway": "Deviance is a label, not just an act \u2014 who gets labeled, and what the label does to them, matters as much as the rule-breaking itself."
+     }
     ]
    },
    {
     "module_title": "Social Institutions",
     "lessons": [
-     "Family and Marriage in Change",
-     "Education and Inequality of Opportunity",
-     "Religion in Society",
-     "Government, Power and the Economy",
-     "Health, Medicine and Society"
+     {
+      "title": "Family and Marriage in Change",
+      "intro": "The family is the oldest institution in the world and one of the fastest-changing. In a single lifetime, the typical American family has gone from a two-parent household with a stay-at-home mother to a landscape of dual-earner couples, single parents, blended families, same-sex parents, and adults living alone. Sociology tracks what is changing, what is not, and what the changes mean for children.",
+      "concepts": [
+       "Functions of the family \u2014 families provide care, socialization, economic support, and emotional belonging. When the form changes, the question is whether the functions still get done, not whether the form looks traditional.",
+       "The second shift \u2014 Arlie Hochschild: when both partners work full-time, women still do most of the unpaid housework and childcare \u2014 a second shift after the paid one. The gap has narrowed but has not closed.",
+       "Marriage trends \u2014 people marry later, divorce is common (about 40-50% of first marriages end in divorce), and cohabitation before marriage is now normal. Marriage has shifted from economic necessity toward personal fulfillment.",
+       "Single-parent and blended families \u2014 about a quarter of American children live with one parent. Outcomes depend less on the family form than on income, stability, and support.",
+       "Family and inequality \u2014 wealthy families can buy childcare, tutoring, and safe neighborhoods; poor families face the same expectations with fewer resources. Family is where inequality is inherited."
+      ],
+      "example": {
+       "q": "A couple both work full-time. Each evening, she cooks, helps with homework, and does laundry; he mows the lawn on weekends and says they split chores equally. Who is right?",
+       "steps": [
+        "Count the hours, not the tasks: daily, repetitive, invisible work (cooking, cleaning, homework) takes far more time than weekly visible work (mowing, repairs).",
+        "This is the second shift: her paid workday is followed by a large unpaid one, while his unpaid work is smaller and more visible \u2014 which is why he honestly believes the split is fair.",
+        "The point is not blame but measurement: when couples log their hours for a week, the imbalance becomes visible to both partners.",
+        "Conclusion: family inequality often hides in work that is never counted. Making it visible is the first step to renegotiating it."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What is the second shift?",
+        "a": "The unpaid housework and childcare that employed women still do after their paid workday \u2014 a second, invisible shift at home."
+       },
+       {
+        "q": "Why do sociologists say family outcomes depend more on resources than on family form?",
+        "a": "Because children in single-parent, blended, or two-parent homes do better when the family has stable income, time, and support \u2014 and worse when it does not, regardless of the form."
+       }
+      ],
+      "takeaway": "Families are changing form faster than function \u2014 the real question is whether care, stability, and support still reach the children."
+     },
+     {
+      "title": "Education and Inequality of Opportunity",
+      "intro": "School is supposed to be the great equalizer \u2014 the place where talent, not birth, decides your future. The data tells a more complicated story: children from wealthy families are far more likely to graduate, attend selective colleges, and land high-paying jobs. Education opens doors, but it also reproduces the inequality it is meant to erase.",
+      "concepts": [
+       "The promise and the reality \u2014 schools teach skills and certify ability, but they also sort students. The sorting is not neutral: it tracks family income, neighborhood, and race.",
+       "Cultural capital \u2014 Pierre Bourdieu: the unspoken knowledge of the educated class (how to talk to a teacher, what to put on an application, which books matter). Schools reward it without teaching it, so children who arrive with it look 'naturally' gifted.",
+       "Tracking \u2014 sorting students into ability groups or tracks. It can help advanced students, but it often locks lower-track students into lower expectations, weaker teaching, and less learning.",
+       "Funding gaps \u2014 American schools are funded largely by local property taxes, so rich neighborhoods have rich schools and poor neighborhoods have poor ones. The zip code a child is born in predicts the school they attend.",
+       "Credentialism \u2014 the growing demand for degrees as a ticket to jobs that once needed none. When everyone needs a degree, the degree itself becomes a gate, and the gate is hardest for those with the least money."
+      ],
+      "example": {
+       "q": "Two students with identical test scores apply to the same selective college. One's parents hired an admissions consultant and paid for three SAT attempts; the other is the first in her family to apply and did it alone. The first is admitted, the second is not. Is this meritocracy?",
+       "steps": [
+        "On paper, the process is merit-based: same scores, one decision. In practice, the inputs were unequal \u2014 coaching, retakes, and insider knowledge about what the application should look like.",
+        "Cultural capital explains the gap: the first student knew the unspoken rules (which essay topic works, how to frame an activity) because her family already knew them.",
+        "Tracking and funding add up earlier: the two students likely attended different schools with different resources long before the application.",
+        "Conclusion: education can reward talent, but when preparation is bought, the result measures family resources as much as student ability."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What is cultural capital?",
+        "a": "The unspoken knowledge, tastes, and manners of the educated class that schools reward but do not teach \u2014 like how to speak to authority, what counts as a good essay, or which activities impress admissions."
+       },
+       {
+        "q": "How does local school funding create inequality?",
+        "a": "Schools funded by local property taxes get more money in wealthy areas, so children in rich neighborhoods attend better-funded schools with smaller classes and more resources than children in poor ones."
+       }
+      ],
+      "takeaway": "Education promises equal opportunity but often reproduces inequality \u2014 because preparation, funding, and unspoken rules are not equally distributed."
+     },
+     {
+      "title": "Religion in Society",
+      "intro": "Religion is one of humanity's oldest institutions \u2014 and one of the most argued about. It comforts the grieving, binds communities, and inspires charity; it has also justified wars, defended slavery, and resisted change. Sociology does not ask whether a religion is true. It asks what religion does: how it holds groups together, how it changes, and why it persists in a scientific age.",
+      "concepts": [
+       "Durkheim on religion \u2014 religion is society worshipping itself: shared rituals and sacred symbols create solidarity. The sacred is whatever a group sets apart and treats with reverence, whether it is a god, a flag, or a text.",
+       "Weber on religion \u2014 ideas matter: Weber argued that Protestant ethics (hard work, thrift, calling) helped create modern capitalism. Beliefs can change economies, not just reflect them.",
+       "Marx on religion \u2014 religion is the 'opium of the people': it soothes suffering in this world while distracting from the causes of that suffering. For Marx, it serves the powerful by making inequality feel divinely ordained.",
+       "Secularization \u2014 the long decline of religious authority in public life in many Western countries. It is uneven: the US remains far more religious than Western Europe, and religion is growing in much of the world.",
+       "Religious markets \u2014 in countries with many competing faiths, religions behave like firms competing for members, often becoming more energetic and participatory. Monopolies breed complacency; competition breeds effort."
+      ],
+      "example": {
+       "q": "A small town's annual religious festival draws the whole community \u2014 believers and non-believers alike \u2014 for food, music, and a parade. A sociologist calls the festival important even for people who do not believe. Why?",
+       "steps": [
+        "Durkheim's answer: the festival's real function is solidarity. Shared ritual \u2014 eating together, marching together \u2014 binds the community whether or not anyone believes the theology.",
+        "The sacred here is the community itself: the parade route, the old church, the shared meal are set apart and treated with reverence by everyone.",
+        "Even the non-believers participate in the ritual, which means the social function (belonging) works independently of the belief function (faith).",
+        "Conclusion: religion's social power is not only in what people believe, but in what they do together \u2014 and that is why festivals outlast faith in many places."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What did Durkheim mean when he said religion is society worshipping itself?",
+        "a": "Religious rituals and sacred symbols create group solidarity \u2014 the community's shared reverence binds people together, and the 'sacred' is whatever the group sets apart."
+       },
+       {
+        "q": "How does secularization differ between the US and Western Europe?",
+        "a": "Western Europe has seen a steep decline in church attendance and religious authority, while the US remains much more religious \u2014 showing secularization is uneven, not universal."
+       }
+      ],
+      "takeaway": "Sociology studies what religion does \u2014 binding communities, shaping economies, soothing or legitimizing \u2014 not whether its claims are true."
+     },
+     {
+      "title": "Government, Power and the Economy",
+      "intro": "Who rules, who decides, and who gets what \u2014 these are the questions of political sociology and economic sociology, and they are inseparable. Governments set the rules of the economy, economies fund governments, and power flows through both. The key sociological insight is that power is not only in laws and armies: it is also in who gets to define what counts as a problem.",
+      "concepts": [
+       "Power and authority \u2014 power is the ability to get others to do what you want; authority is power that people accept as legitimate. Weber's three types: traditional (a king), charismatic (a revolutionary leader), and rational-legal (a constitution).",
+       "The state \u2014 the institution with a monopoly on legitimate force in a territory. It makes laws, collects taxes, and enforces order \u2014 and its form (democracy, authoritarianism) shapes everything else.",
+       "Pluralism vs power elite \u2014 pluralists say power is spread among many competing groups; power-elite theorists (C. Wright Mills) say a small interlocking elite of political, military, and corporate leaders makes the big decisions.",
+       "The economy as a social institution \u2014 markets are not natural laws; they are built on laws, trust, norms, and networks. What can be bought and sold, and by whom, is a social decision.",
+       "Welfare and the state \u2014 modern states redistribute income through taxes, schools, healthcare, and pensions. How much they redistribute is one of the biggest political divides in any society."
+      ],
+      "example": {
+       "q": "A city council votes to rezone a poor neighborhood for luxury apartments. Residents protest that they were never consulted; developers say the project brings jobs and tax revenue. Analyze the conflict with two theories of power.",
+       "steps": [
+        "Pluralism would look for the competition: residents, developers, and the council all have a voice, and the outcome depends on who organizes best and who shows up.",
+        "Power-elite theory would look for the connections: developers who fund campaigns, council members who later join development firms, and a process where residents' protests are heard but not heeded.",
+        "The sociological question is not just who won the vote, but who set the agenda: who decided rezoning was the issue, and who decided that 'jobs and tax revenue' was the frame?",
+        "Conclusion: both theories may be partly right \u2014 pluralism explains the open contest, power-elite theory explains why the contest is rarely equal."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What is the difference between power and authority?",
+        "a": "Power is the ability to get others to act as you wish, even against resistance; authority is power that people accept as legitimate \u2014 they obey because they believe they should."
+       },
+       {
+        "q": "Why do sociologists say markets are social institutions?",
+        "a": "Because markets depend on laws, trust, norms, and networks \u2014 what can be bought, who can trade, and how contracts are enforced are all social arrangements, not laws of nature."
+       }
+      ],
+      "takeaway": "Power is not only force \u2014 it is legitimate authority, agenda-setting, and the rules that decide who gets what."
+     },
+     {
+      "title": "Health, Medicine and Society",
+      "intro": "Illness feels private \u2014 your body, your pain. But who gets sick, who gets treated, and who dies young are profoundly social facts. The same disease kills the poor far more often than the rich, in every country and every era. The sociology of health asks why, and what medicine \u2014 itself a powerful institution \u2014 does about it.",
+      "concepts": [
+       "The social gradient of health \u2014 health improves step by step with income and education, not just between rich and poor but at every rung of the ladder. Stress, housing, food, and safety explain most of the gap.",
+       "The sick role \u2014 Talcott Parsons: when you are sick, society excuses you from normal duties \u2014 but expects you to want to get better and to seek proper help. The role is a bargain between the patient and society.",
+       "Medicalization \u2014 turning human problems into medical ones: shyness becomes social anxiety disorder, restlessness becomes ADHD. Medicalization brings treatment, but also labels and drugs where social change might help.",
+       "Health inequality \u2014 race, gender, and class shape access to care, quality of care, and outcomes. Black Americans, for example, face higher maternal mortality than white Americans at every income level.",
+       "Medicine as an institution \u2014 doctors hold enormous authority (the power to define illness, prescribe, and certify). That authority helps patients, but it can also silence them \u2014 which is why patient advocacy and second opinions matter."
+      ],
+      "example": {
+       "q": "Two neighborhoods in the same city have a 15-year gap in life expectancy. The richer one has grocery stores and parks; the poorer one has fast food, a highway, and a closed clinic. A doctor says the gap is because poor people make bad health choices. What is the sociological response?",
+       "steps": [
+        "The gradient is the clue: a 15-year gap is too large to be explained by individual choices alone \u2014 it points to conditions, not character.",
+        "Check the environment: fresh food, safe places to walk, clean air, and a clinic are not choices the residents made \u2014 they are features of the neighborhood that shape every choice.",
+        "Chronic stress matters: living with noise, danger, and financial insecurity keeps the body's stress system switched on, which damages health over years.",
+        "Conclusion: choices matter, but choices are made inside conditions. Fix the conditions \u2014 food access, safety, care \u2014 and the choices change with them."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What is the sick role?",
+        "a": "Parsons' idea that a sick person is excused from normal duties but is expected to want to recover and to seek competent medical help \u2014 a social bargain, not just a biological state."
+       },
+       {
+        "q": "What is medicalization, and why is it controversial?",
+        "a": "Defining a human problem as a medical condition. It brings treatment and legitimacy, but it can also turn social or normal problems into diseases that need drugs instead of social change."
+       }
+      ],
+      "takeaway": "Health is social: the same disease strikes differently by class, race, and neighborhood \u2014 because conditions, not just choices, decide who gets sick."
+     }
     ]
    },
    {
     "module_title": "Inequality and Social Change",
     "lessons": [
-     "Social Stratification and Class",
-     "Race and Ethnicity",
-     "Gender and Society",
-     "Global Stratification",
-     "Social Movements and Social Change",
-     "Final Project: A Sociological Look at Your Own Community"
+     {
+      "title": "Social Stratification and Class",
+      "intro": "Every society ranks its members \u2014 by wealth, by power, by prestige \u2014 and the ranking shapes almost everything: where you live, how long you live, who you marry, and what your children can become. Stratification is the system that produces those ranks. The question is not whether ranking exists, but how open or closed it is, and what it does to the people at the bottom.",
+      "concepts": [
+       "Class systems vs caste \u2014 a class system allows movement (you can rise or fall); a caste system fixes your rank at birth. Most modern societies are class systems, but movement is harder than the myth suggests.",
+       "Wealth vs income \u2014 income is what you earn in a year; wealth is what you own. Wealth is far more unequal than income, and it is what really buys security, education, and opportunity.",
+       "Status and prestige \u2014 not all ranking is about money: a teacher may earn less than a plumber but hold higher prestige. Wealth, power, and prestige usually overlap but can come apart.",
+       "Social mobility \u2014 movement up or down the ladder. Intergenerational mobility compares children to their parents; structural mobility happens when the economy itself changes (new industries create new middle-class jobs).",
+       "The poverty trap \u2014 poverty is not just low income: it is the package of unstable housing, poor schools, expensive credit, and constant stress that makes escaping harder the longer you are in it."
+      ],
+      "example": {
+       "q": "A janitor's daughter and a surgeon's daughter both graduate from the same high school with the same grades. Ten years later, one is a manager and the other is still in low-wage work. A friend says the manager just worked harder. What does stratification theory say?",
+       "steps": [
+        "Start with wealth, not income: the surgeon's family could fund unpaid internships, a car, and a move to a job-rich city; the janitor's daughter could not afford to work for free.",
+        "Add networks: the surgeon's daughter grew up meeting professionals; the janitor's daughter's network is mostly low-wage workers. Jobs come through contacts as often as through applications.",
+        "Add cultural capital: knowing how to interview, how to dress, how to talk to a boss \u2014 all learned at home, all rewarded at work, none of it taught in school.",
+        "Conclusion: effort matters, but it operates on an uneven field. Mobility exists, but the odds are stacked by the resources a family can pass on."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why is wealth more important than income for understanding inequality?",
+        "a": "Wealth is accumulated assets \u2014 it buys security, education, and opportunity, cushions crises, and is passed to children; income stops when the paycheck stops."
+       },
+       {
+        "q": "What is the difference between intergenerational and structural mobility?",
+        "a": "Intergenerational mobility is a child's rank compared with their parents'; structural mobility is change caused by the economy itself, like new industries creating middle-class jobs."
+       }
+      ],
+      "takeaway": "Stratification ranks everyone by wealth, power, and prestige \u2014 and the resources your family can pass on shape your odds more than effort alone."
+     },
+     {
+      "title": "Race and Ethnicity",
+      "intro": "Race is one of the most powerful forces in social life \u2014 and biologically, it is almost meaningless. Human genetic variation does not line up with racial categories; the categories are social inventions. But the consequences are brutally real: race shapes where you live, how you are treated by police and employers, and how long you live. Sociology studies race as a social construction with real effects.",
+      "concepts": [
+       "Race as a social construction \u2014 racial categories were invented to justify slavery and colonialism, and they change over time and place: the same person can be 'white' in one country and not in another, and the US census categories have changed repeatedly.",
+       "Ethnicity vs race \u2014 ethnicity is shared culture, language, and ancestry (Irish, Mexican, Korean); race is a category imposed largely by physical appearance and social definition. A person can share an ethnicity with people of different races.",
+       "Prejudice vs discrimination \u2014 prejudice is an attitude (a belief about a group); discrimination is an action (treating someone differently). You can be prejudiced without discriminating, and you can discriminate without personal prejudice, through rules that hit one group harder.",
+       "Institutional racism \u2014 patterns built into institutions: redlining that denied mortgages to Black neighborhoods, school funding tied to property taxes, hiring that runs through segregated networks. No single bigot is required for the pattern to persist.",
+       "Intersectionality \u2014 Kimberle Crenshaw: race, gender, and class do not act separately. A Black woman faces a different combination of barriers than a Black man or a white woman, and the effects multiply."
+      ],
+      "example": {
+       "q": "A company says it hires purely on merit and never considers race. Yet its workforce is 90% white in a city that is 50% white, because it hires mainly through employee referrals. Is this discrimination?",
+       "steps": [
+        "No individual hiring manager needs to be prejudiced for this outcome to happen: the referral system reproduces the existing workforce, which is the definition of an institutional pattern.",
+        "The mechanism is network segregation: people's friends and family tend to share their race, so a referral system quietly favors the majority group without ever mentioning race.",
+        "This is discrimination in effect, not in intent \u2014 sociologists call it institutional discrimination, and it persists precisely because nobody feels responsible for it.",
+        "Fix: change the structure \u2014 open applications, blind resume review, outreach to underrepresented communities \u2014 not just the attitudes."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why do sociologists say race is a social construction?",
+        "a": "Because racial categories were created by societies, change across time and place, and do not match biological genetic variation \u2014 yet they have very real social consequences."
+       },
+       {
+        "q": "What is the difference between prejudice and discrimination?",
+        "a": "Prejudice is an attitude or belief about a group; discrimination is acting on it \u2014 treating people differently because of their group membership."
+       }
+      ],
+      "takeaway": "Race is invented by society but real in its effects \u2014 and much of its power works through institutions, not just individual attitudes."
+     },
+     {
+      "title": "Gender and Society",
+      "intro": "Sex is biological; gender is what society does with it. From the moment a baby is wrapped in pink or blue, the world starts teaching what it means to be a girl or a boy \u2014 what to play with, how to speak, what jobs to want. Gender shapes pay, power, safety, and everyday life, and it is enforced by rewards for fitting in and penalties for stepping out.",
+      "concepts": [
+       "Sex vs gender \u2014 sex refers to biological differences; gender refers to the social roles, behaviors, and expectations attached to being male, female, or nonbinary. Gender varies across cultures and history.",
+       "Gender socialization \u2014 children learn gender from family, school, peers, and media: toys, clothes, praise for being 'tough' or 'nice.' The lessons are so early and constant they feel natural.",
+       "The gender pay gap \u2014 women earn about 80 cents for every dollar men earn in the US. Part is occupational segregation (women concentrated in lower-paid fields); part is the motherhood penalty; part is outright discrimination.",
+       "The glass ceiling and the glass escalator \u2014 women face invisible barriers to top jobs (the ceiling); men in female-dominated fields are often promoted faster than their female colleagues (the escalator).",
+       "Doing gender \u2014 Candace West: gender is not something you are but something you do, performed in everyday interaction. Because it is performed, it can be performed differently \u2014 which is how change happens."
+      ],
+      "example": {
+       "q": "A hospital's nursing staff is 90% women. A male nurse is promoted to supervisor after two years, faster than female nurses with five years of experience. The manager says he was simply the best candidate. What does sociology see here?",
+       "steps": [
+        "The glass escalator: men in female-dominated professions are often fast-tracked into leadership, while women in male-dominated fields face the opposite \u2014 the glass ceiling.",
+        "The mechanism is partly stereotype: leadership is culturally coded as masculine, so a man in a caring profession is read as 'management material' while women are read as 'natural carers.'",
+        "Occupational segregation set the stage: nursing is undervalued partly because it is coded as women's work, which holds down pay for everyone in it.",
+        "Conclusion: individual merit is real, but it is judged through a gendered lens. The pattern across many hospitals, not one promotion, is the evidence."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What is the difference between sex and gender?",
+        "a": "Sex is biological (chromosomes, anatomy); gender is the social roles, expectations, and behaviors a society attaches to being male, female, or nonbinary."
+       },
+       {
+        "q": "What is occupational segregation, and how does it feed the pay gap?",
+        "a": "The concentration of women in lower-paid fields (care, teaching, service) and men in higher-paid ones (engineering, finance). Because 'women's work' is paid less, segregation itself lowers women's average pay."
+       }
+      ],
+      "takeaway": "Gender is learned, performed, and enforced \u2014 and it structures pay, promotion, and power in ways that look personal but are patterned."
+     },
+     {
+      "title": "Global Stratification",
+      "intro": "Inequality does not stop at national borders. The gap between the richest and poorest countries is wider than the gap between the richest and poorest people inside most countries. A child born in one country can expect 80 years of life; a child born in another, 55. Global stratification asks why whole nations are rich or poor \u2014 and whether the system itself keeps them that way.",
+      "concepts": [
+       "Core, semi-periphery, periphery \u2014 world-systems theory (Immanuel Wallerstein): wealthy core nations dominate trade and finance; semi-peripheral nations manufacture and struggle upward; peripheral nations supply raw materials and cheap labor, and stay poor.",
+       "Colonialism's legacy \u2014 many poor nations were colonies whose economies were built to export raw materials to Europe. Independence changed the flag, not the economic structure \u2014 and the debts and borders left behind still shape them.",
+       "Modernization theory \u2014 the older view that poor nations are simply 'behind' and will develop by following the rich nations' path: industrialize, educate, urbanize. Critics say it blames the victim and ignores exploitation.",
+       "Dependency theory \u2014 the counter-view: poor nations are poor because the global system extracts value from them \u2014 cheap labor, raw materials, debt payments \u2014 and transfers it to the core. Development requires changing the rules, not just working harder.",
+       "Globalization's double edge \u2014 trade and technology have lifted hundreds of millions out of extreme poverty, but the gains are uneven: factory workers in one country gain jobs while workers in another lose them, and the profits concentrate at the top."
+      ],
+      "example": {
+       "q": "A country exports raw cocoa beans for a few cents a pound; a company in a rich country turns them into chocolate bars sold for dollars. The cocoa country stays poor despite growing more cocoa every year. Which theory explains this best?",
+       "steps": [
+        "Dependency theory fits: the cocoa country is in the periphery, supplying raw materials while the core captures the value by processing, branding, and selling the finished product.",
+        "Modernization theory would say the country should industrialize and move up the chain \u2014 build its own chocolate factories \u2014 which is correct as advice but ignores the barriers: capital, trade rules, and debt.",
+        "World-systems theory adds the structure: the global division of labor assigns the low-profit stage to the periphery, and moving up requires fighting the rules that keep it there.",
+        "Conclusion: growing more of the same raw material will not close the gap. The question is who controls the profitable stages of production."
+       ]
+      },
+      "practice": [
+       {
+        "q": "In world-systems theory, what distinguishes core nations from peripheral ones?",
+        "a": "Core nations dominate high-profit manufacturing, finance, and technology; peripheral nations supply raw materials and cheap labor and capture little of the value."
+       },
+       {
+        "q": "Why do dependency theorists criticize modernization theory?",
+        "a": "Because it treats poor nations as merely 'behind' and blames their culture or effort, while ignoring how the global system extracts value from them to the core."
+       }
+      ],
+      "takeaway": "Global inequality is a system, not a scoreboard \u2014 core nations capture the value, peripheral nations supply the raw material, and history set the rules."
+     },
+     {
+      "title": "Social Movements and Social Change",
+      "intro": "Societies do not only change slowly \u2014 sometimes they change because ordinary people organize and demand it. The civil rights movement, the women's suffrage movement, the labor movement: none of them were inevitable, and none of them were the work of a single hero. Social movements are how people who lack power in institutions create power together.",
+      "concepts": [
+       "What makes a movement \u2014 a shared grievance, a sense of injustice, organization, and resources. Grievance alone is not enough: people have been angry for centuries without a movement forming.",
+       "Resource mobilization \u2014 movements succeed when they gather money, people, media attention, and allies. The civil rights movement had churches, lawyers, and national media; that infrastructure was the engine.",
+       "Political opportunity \u2014 movements win when the system opens: a sympathetic court, a divided elite, an election year. Timing matters as much as passion.",
+       "Framing \u2014 how a movement names the problem decides who joins. 'Civil rights' framed segregation as a constitutional issue; 'states' rights' framed the same conflict as federal overreach. The frame is the fight.",
+       "Outcomes and backlash \u2014 movements change laws, norms, and lives, but success often triggers backlash: new rules, new resistance, new movements in the other direction. Change is a process, not a finish line."
+      ],
+      "example": {
+       "q": "For decades, a city's bus system required Black riders to sit at the back. Then, within a year, the rule was gone. A textbook says 'attitudes changed.' Why is that explanation incomplete?",
+       "steps": [
+        "Attitudes alone do not change laws: people had disliked the rule for decades. What changed was organization \u2014 a boycott that lasted over a year, with carpools, churches, and donations sustaining it.",
+        "Resource mobilization: the boycott had money, leaders, lawyers, and national press. Without those resources, the grievance stayed private.",
+        "Political opportunity: a court case and a divided political establishment opened a window, and the movement was ready when it opened.",
+        "Conclusion: social change needs grievance plus organization plus opportunity. 'Attitudes changed' is the story told afterward; the movement is what made it happen."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why is grievance alone not enough to create a social movement?",
+        "a": "Because many people feel aggrieved without organizing; a movement also needs resources, organization, allies, and a political opening to act on the grievance."
+       },
+       {
+        "q": "What is framing, and why does it matter?",
+        "a": "How a movement names and explains a problem. The frame decides who sees the issue as theirs, who joins, and what solutions seem reasonable."
+       }
+      ],
+      "takeaway": "Change is organized: grievance plus resources plus an opening \u2014 movements are how people without institutional power make it."
+     },
+     {
+      "title": "Final Project: A Sociological Look at Your Own Community",
+      "intro": "This course ends where sociology begins: with your own eyes. Your final project is a small study of your own community \u2014 a neighborhood, a workplace, a campus, a family \u2014 using the tools of the course. Pick one question, gather real evidence, and explain what you find with theory. You are not writing a report about sociology; you are doing it.",
+      "concepts": [
+       "Pick a question you can actually answer \u2014 'Why do people in my building never talk to each other?' is answerable; 'Why is society unfair?' is not. A good question is small, specific, and observable.",
+       "Use the three lenses \u2014 analyze your findings with functionalism (what holds this group together?), conflict theory (who benefits?), and interactionism (what do things mean here?). A project that uses all three is stronger than one that uses one.",
+       "Gather evidence honestly \u2014 observe for a week and keep notes, run a short survey of ten people, or interview three neighbors. Record what people actually say and do, not what you expected.",
+       "Mind the ethics \u2014 tell people you are observing or interviewing them for a class project, keep names out of the final write-up, and do not study anyone in a way that could harm them.",
+       "Write it like a sociologist \u2014 describe the pattern, name the concepts that explain it, admit what your evidence cannot prove, and end with one thing you would change and how."
+      ],
+      "example": {
+       "q": "A student studies her apartment building: nobody uses the shared laundry room after 6pm, though the rules allow it until 10pm. She interviews three neighbors and finds they are afraid of one man who loiters there in the evenings. What is the sociological story?",
+       "steps": [
+        "The pattern is real and observable: an empty room after 6pm is a social fact, not a coincidence.",
+        "Interactionism: the laundry room means 'unsafe' to residents after dark, even though nothing has happened there \u2014 the meaning drives the behavior.",
+        "Conflict theory: one person's behavior controls a shared resource, and the people with the least power (renters, women, older residents) pay the cost by changing their routines.",
+        "Functionalism asks what the pattern does: it keeps the peace by avoiding confrontation, but at the cost of the residents' use of a space they pay for.",
+        "Conclusion: a small observation, read through three lenses, becomes a real sociological finding \u2014 and it points to a fix (lighting, a lock, a schedule) rather than just a complaint."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why is a small, specific question better than a big, general one for this project?",
+        "a": "Because a small question can be answered with real evidence you can gather in a week \u2014 observation, a few interviews, a short survey \u2014 while a big question needs data you cannot collect."
+       },
+       {
+        "q": "What must you do ethically when interviewing neighbors for your project?",
+        "a": "Tell them it is for a class project, get their agreement, keep their names out of the write-up, and avoid questions or observations that could embarrass or harm them."
+       }
+      ],
+      "takeaway": "Sociology is a way of seeing: ask a small question, gather real evidence, read it through the three lenses, and say what you found."
+     }
     ]
    }
   ],
@@ -7535,7 +8166,7 @@
    "project": true
   },
   "mastery_rubric": "Apply the three classic sociological lenses to real situations, distinguish correlation from causation, and explain how institutions shape individual outcomes. Final grade 70% or higher.",
-  "source": "Martinez original syllabus (authored 2026-11-14)"
+  "source": "Martinez original \u2014 written lessons (authored 2026-11-20)"
  },
  "BUS101": {
   "modules": [
