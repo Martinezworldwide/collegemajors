@@ -8173,41 +8173,652 @@
    {
     "module_title": "The Business Environment",
     "lessons": [
-     "What a Business Is and Why It Exists",
-     "Economic Systems and the Business Cycle",
-     "Forms of Ownership: Sole Proprietor, Partnership, Corporation",
-     "Business Ethics and Social Responsibility",
-     "Global Business and Trade Basics"
+     {
+      "title": "What a Business Is and Why It Exists",
+      "intro": "A business is an organization that creates value by providing goods or services people want, in exchange for money. That sounds simple, but it explains almost everything in the economy: the corner bakery, the app on your phone, and the airline that flew you here are all businesses doing the same basic job \u2014 solving somebody's problem at a price that keeps the organization alive. Businesses exist because people need things they cannot efficiently make for themselves, and because organizing work beats doing everything alone.",
+      "concepts": [
+       "Goods vs services \u2014 goods are tangible things you can hold (a phone, a sandwich); services are intangible actions done for you (a haircut, a ride, a repair). Most modern businesses sell a mix of both.",
+       "Value creation \u2014 a business earns its revenue by making something worth more to the customer than it cost to produce. The gap between what customers will pay and what it costs to deliver is where profit lives.",
+       "Profit and purpose \u2014 profit is revenue minus costs. It is the reward for risk and the fuel for growth, but a business that only chases profit and ignores its customers, workers, and community usually does not last.",
+       "Stakeholders \u2014 everyone affected by a business: owners, employees, customers, suppliers, lenders, the local community, and the government. Good businesses balance these interests instead of serving only one group.",
+       "The business cycle of exchange \u2014 a business buys inputs (materials, labor, capital), transforms them into an offering, sells it, and reinvests the return. When any link in that chain breaks, the business struggles."
+      ],
+      "example": {
+       "q": "Maya bakes cakes at home and sells them to neighbors for $40 each. Her ingredients, boxes, and electricity cost $18 per cake, and she sells 10 cakes a week. Is this a business, and how much profit does she make in a week?",
+       "steps": [
+        "First, check the definition: she provides a good (cakes) people want, in exchange for money, on a repeated basis. Yes \u2014 this is a business, even though it runs from her kitchen.",
+        "Second, compute revenue: 10 cakes \u00d7 $40 = $400 per week.",
+        "Third, compute costs: 10 cakes \u00d7 $18 = $180 per week.",
+        "Profit = revenue \u2212 costs = $400 \u2212 $180 = $220 per week. That $220 is her reward for her time, skill, and risk \u2014 and the money she could reinvest in a bigger oven or advertising."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What is the difference between a good and a service? Give one example of each.",
+        "a": "A good is a tangible product you can hold, like a bicycle; a service is an intangible action done for you, like a bike repair. Many businesses sell both."
+       },
+       {
+        "q": "A food truck takes in $900 in a day and spends $520 on ingredients, fuel, and wages. What is its profit for the day, and what could it do with that profit?",
+        "a": "Profit = $900 \u2212 $520 = $380. It could keep it as the owner's income, save it, or reinvest it in better equipment or a second location."
+       }
+      ],
+      "takeaway": "A business creates value by turning inputs into goods or services people will pay for \u2014 profit is the difference between revenue and cost, and the reward for doing that well."
+     },
+     {
+      "title": "Economic Systems and the Business Cycle",
+      "intro": "No business operates in a vacuum. Every business works inside an economic system \u2014 the rules a society uses to decide what gets produced, how, and for whom \u2014 and inside a business cycle of expansions and recessions that no single firm controls. A bakery that thrives in a boom can starve in a recession selling the exact same bread. Understanding the system and the cycle is what lets a business plan instead of merely react.",
+      "concepts": [
+       "Market economy \u2014 decisions are made mostly by private individuals and firms responding to prices. Competition and consumer choice drive what gets produced. The United States is largely a market economy.",
+       "Command economy \u2014 the government decides what is produced and at what price. Rare in pure form today, but governments everywhere still set rules, taxes, and safety nets.",
+       "Mixed economy \u2014 every real economy blends markets and government. The question is not which system, but how much of each \u2014 and where the line is drawn.",
+       "The business cycle \u2014 economies expand and contract in waves: expansion (growth, hiring), peak, contraction or recession (falling output, rising unemployment), and trough, then recovery. A recession is commonly defined as two consecutive quarters of falling GDP.",
+       "How the cycle hits businesses \u2014 in expansions customers spend freely and credit is easy; in recessions they cut back, starting with luxuries. Smart businesses watch indicators like unemployment, interest rates, and consumer confidence, and keep cash reserves for the lean months."
+      ],
+      "example": {
+       "q": "A furniture store sees sales fall 30% over two quarters while unemployment in its town rises. Is the store's problem bad management, or something bigger \u2014 and what should it do?",
+       "steps": [
+        "First, look beyond the store: when unemployment rises and the whole economy contracts, furniture \u2014 a big, postponable purchase \u2014 is one of the first things households delay. This looks like the business cycle, not just bad management.",
+        "Second, separate what it controls from what it does not: it cannot fix unemployment, but it can control costs, inventory, and which products it pushes.",
+        "Third, adapt to the cycle: promote repairs and smaller items people still buy, offer financing, and cut inventory of big-ticket pieces until demand returns.",
+        "Conclusion: cycles punish businesses that assume good times last forever. Cash reserves and a flexible product mix are the preparation."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Name the four phases of the business cycle in order.",
+        "a": "Expansion, peak, contraction (recession), and trough \u2014 then the cycle repeats with recovery into a new expansion."
+       },
+       {
+        "q": "Why do luxury goods and big-ticket items suffer first in a recession?",
+        "a": "Because households cut postponable, non-essential spending first when income is uncertain, while still buying necessities like food and basic services."
+       }
+      ],
+      "takeaway": "Businesses operate inside an economic system and a repeating cycle of expansion and recession \u2014 you cannot control the cycle, but you can prepare for it."
+     },
+     {
+      "title": "Forms of Ownership: Sole Proprietor, Partnership, Corporation",
+      "intro": "Before a business can open its doors, someone has to choose its legal form \u2014 and that choice decides who is liable when things go wrong, who pays what taxes, and how easy it is to raise money. The three classic forms are the sole proprietorship, the partnership, and the corporation. Each one trades simplicity for protection, and there is no single best choice \u2014 only the best fit for a particular business at a particular size.",
+      "concepts": [
+       "Sole proprietorship \u2014 one person owns the whole business. It is the simplest and cheapest to start, the owner keeps all profits and makes all decisions, but the owner is personally liable for all debts \u2014 the business and the owner are legally the same person.",
+       "Partnership \u2014 two or more people share ownership, profits, and decisions. It brings more money and more skills than one person alone, but partners are generally liable for each other's business actions, so trust and a written agreement matter enormously.",
+       "Corporation \u2014 a separate legal person owned by shareholders. Owners' liability is limited to what they invested, and the corporation can raise money by selling stock \u2014 but it costs more to set up, faces more regulation, and profits can be taxed twice (once at the company, once as dividends).",
+       "Limited liability \u2014 the key protection of corporations (and LLCs): if the business fails, creditors generally cannot take the owners' personal homes or savings. This is why high-risk businesses usually incorporate.",
+       "LLC \u2014 the limited liability company, a popular middle ground: limited liability like a corporation, but taxed like a partnership and simpler to run. Many small businesses choose an LLC for exactly that balance."
+      ],
+      "example": {
+       "q": "Two friends want to open a food truck together. One suggests a partnership because it is simple; the other wants an LLC because she worries about being sued if someone gets sick. Who is right, and what should they weigh?",
+       "steps": [
+        "First, list what a partnership gives them: cheap setup, shared costs, both owners decide. What it costs: each partner is personally liable, including for the other's mistakes.",
+        "Second, list what an LLC gives them: both owners' personal assets are protected if the business is sued, and taxes stay simple (profits pass through to the owners).",
+        "Third, weigh the trade-off: an LLC costs more to form and maintain, but a food business carries real liability risk \u2014 food safety, a truck accident, a customer injury.",
+        "Conclusion: for a food business with public liability exposure, the LLC's protection is usually worth the extra paperwork. The partnership's simplicity is the wrong saving."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why would a founder choose a corporation even though it is more expensive and more regulated?",
+        "a": "For limited liability and the ability to raise large amounts of money by selling shares to many investors \u2014 essential for businesses that need major capital to grow."
+       },
+       {
+        "q": "A sole proprietor's business owes $50,000 it cannot pay. What happens to the owner's personal savings?",
+        "a": "Because the owner and the business are legally the same, creditors can go after the owner's personal assets, including savings \u2014 that is the main risk of a sole proprietorship."
+       }
+      ],
+      "takeaway": "Ownership form is a trade-off: sole proprietorships and partnerships are simple but leave owners personally liable, while corporations and LLCs protect personal assets at the cost of more paperwork and regulation."
+     },
+     {
+      "title": "Business Ethics and Social Responsibility",
+      "intro": "Ethics is the question of what a business should do, not just what it can get away with. Laws set the floor \u2014 you cannot lie in advertising, dump toxic waste, or steal wages \u2014 but ethics covers the large space above the floor, where the law is silent and a decision still matters. A company that cuts corners may win a quarter and lose its customers for good. Social responsibility goes one step further: the idea that a business owes something to the community it profits from.",
+      "concepts": [
+       "Ethics vs law \u2014 the law is the minimum a society enforces; ethics is what a business chooses when nobody is watching. Something can be legal and still unethical, like exploiting a loophole to mislead customers.",
+       "Stakeholder ethics \u2014 decisions are judged by their effect on all stakeholders, not just shareholders. Laying off workers to hit a quarterly target may please investors and devastate a town.",
+       "Codes of conduct \u2014 written standards a company adopts for its employees: no bribes, honest reporting, safe products, respectful workplaces. A code only works if leadership actually follows it and enforces it.",
+       "Corporate social responsibility (CSR) \u2014 the idea that businesses should contribute to society: fair wages, environmental care, honest products, community investment. CSR is increasingly a customer expectation, not a bonus.",
+       "Whistleblowing \u2014 when an employee reports wrongdoing inside their own company. Ethical companies protect whistleblowers; unethical ones punish them, which is how small problems become scandals."
+      ],
+      "example": {
+       "q": "A clothing brand discovers its supplier uses child labor. Switching suppliers will raise costs by 15% and delay a launch. The practice is legal in the supplier's country. What is the ethical choice, and why does it also make business sense?",
+       "steps": [
+        "First, separate legal from ethical: 'legal there' does not make it right, and customers in the brand's home market will judge the brand by their own standards.",
+        "Second, weigh stakeholders: the children, the brand's customers, its employees, and its reputation are all affected \u2014 only the short-term profit line benefits from staying.",
+        "Third, think long-term: if the story breaks \u2014 and in a connected world it usually does \u2014 the brand loses far more in sales and trust than the 15% it saved.",
+        "Conclusion: switch suppliers, disclose the change, and turn it into a standard. Ethics is not charity here; it is risk management and brand protection."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Give an example of a business decision that is legal but unethical.",
+        "a": "Hiding fees in fine print, selling a product you know is defective but not yet recalled, or using a legal tax loophole to pay nothing while publicly claiming to support the community."
+       },
+       {
+        "q": "Why do companies write codes of conduct if they already have to follow the law?",
+        "a": "Because the law only sets a minimum. A code covers the grey areas \u2014 gifts, conflicts of interest, honest communication \u2014 and tells employees what the company actually expects of them."
+       }
+      ],
+      "takeaway": "Ethics is what a business does when the law is silent, and social responsibility is what it gives back \u2014 both protect trust, and trust is what keeps customers coming back."
+     },
+     {
+      "title": "Global Business and Trade Basics",
+      "intro": "Your phone was designed in one country, assembled in another, from parts made in a dozen more \u2014 and that is normal now. Global business means companies buy, sell, and operate across borders, and even a small local business is affected: its competitors may be overseas, its suppliers may be foreign, and its customers may include tourists and online buyers from anywhere. Trade makes goods cheaper and choices wider, but it also exposes every business to currency swings, shipping delays, and other countries' politics.",
+      "concepts": [
+       "Why countries trade \u2014 comparative advantage: a country exports what it produces relatively efficiently and imports the rest, so both sides end up with more than if each tried to make everything itself.",
+       "Exports and imports \u2014 exports are goods and services sold abroad; imports are bought from abroad. A trade deficit means a country imports more than it exports; a surplus means the reverse.",
+       "Trade barriers \u2014 tariffs (taxes on imports), quotas (limits on import quantities), and regulations that protect domestic industries but raise prices for consumers. Free-trade agreements reduce these barriers between member countries.",
+       "Exchange rates \u2014 the price of one currency in terms of another. A strong dollar makes imports cheap and exports expensive; a weak dollar does the opposite. Businesses that trade internationally must manage this risk.",
+       "Going global \u2014 companies expand abroad by exporting, licensing, franchising, joint ventures, or direct investment (building or buying operations overseas). Each step means more control \u2014 and more risk and cost."
+      ],
+      "example": {
+       "q": "A small US coffee roaster buys beans from Brazil. The dollar weakens sharply against the Brazilian real, and shipping costs rise. What happens to the roaster's costs, and what can it do?",
+       "steps": [
+        "First, trace the currency effect: beans are priced in reais, so a weaker dollar means each dollar buys fewer reais \u2014 the same beans now cost more in dollars.",
+        "Second, add shipping: higher freight costs raise the landed cost further, squeezing the roaster's margin on every bag.",
+        "Third, list the options: raise retail prices (and risk losing customers), absorb the cost temporarily, buy beans forward at a locked price, or source some beans from a country whose currency moved less.",
+        "Conclusion: global trade gives the roaster great beans, but ties its costs to forces it does not control. Hedging and flexible sourcing are the defenses."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What is comparative advantage, in one sentence?",
+        "a": "A country should specialize in what it produces at a lower opportunity cost than others and trade for the rest, so both sides gain."
+       },
+       {
+        "q": "A tariff is placed on imported steel. Who benefits and who pays?",
+        "a": "Domestic steel producers benefit from less competition; domestic manufacturers who buy steel and their customers pay, through higher prices."
+       }
+      ],
+      "takeaway": "Trade lets every country specialize and consumers enjoy more choice at lower prices \u2014 but it ties every business, even a local one, to global currencies, shipping, and politics."
+     }
     ]
    },
    {
     "module_title": "Management and Organization",
     "lessons": [
-     "The Four Functions of Management",
-     "Organizational Structure",
-     "Leadership Styles That Actually Work",
-     "Motivation and Team Building",
-     "Introduction to Operations and Supply Chains"
+     {
+      "title": "The Four Functions of Management",
+      "intro": "Management is the work of getting things done through other people \u2014 and it breaks down into four functions that every manager performs, from a shift supervisor to a CEO: planning, organizing, leading, and controlling. They form a loop, not a ladder: you plan, you organize people and resources to carry out the plan, you lead them, you check results, and the check feeds the next plan. A manager who skips any one of the four is flying partly blind.",
+      "concepts": [
+       "Planning \u2014 deciding what to do and how: setting goals, choosing strategies, and laying out the steps and timeline. A plan turns a vague hope ('grow sales') into a target with a deadline and a method.",
+       "Organizing \u2014 arranging people, money, and materials so the plan can happen: assigning roles, setting up reporting lines, and making sure the right resources reach the right tasks.",
+       "Leading \u2014 motivating and guiding people: communicating the vision, coaching, resolving conflict, and setting the example. Plans fail without people who want to carry them out.",
+       "Controlling \u2014 measuring results against the plan and correcting course: tracking sales, quality, and costs, then fixing what is off track. Control is not punishment \u2014 it is feedback.",
+       "The loop \u2014 the four functions repeat continuously. Control reveals that a plan is not working, which triggers new planning. Good management is a cycle, not a one-time event."
+      ],
+      "example": {
+       "q": "A restaurant manager wants to cut food waste by 20% in three months. Walk through the four management functions for this goal.",
+       "steps": [
+        "Planning: set the target (20% less waste in three months), decide how to measure it (weigh waste daily), and choose tactics (smaller prep batches, a daily special using surplus ingredients).",
+        "Organizing: assign the head cook to track prep waste, give servers a script for the special, and set up a simple log sheet by the bin.",
+        "Leading: explain why waste matters (cost and the environment), praise the team when the numbers improve, and ask cooks for their own ideas instead of just issuing orders.",
+        "Controlling: review the waste log weekly against the target, and if waste is only down 5% after a month, adjust \u2014 smaller batches, a new use for surplus, or retraining on portioning."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A manager notices sales are 15% below target but does nothing except tell the team to 'work harder.' Which function is missing, and what should she do instead?",
+        "a": "Controlling is missing \u2014 she measured the gap but did not diagnose or correct it. She should find the cause (pricing, staffing, product mix) and change something specific."
+       },
+       {
+        "q": "Why is planning useless without organizing?",
+        "a": "A plan without people, roles, and resources assigned is just a wish \u2014 nobody knows who does what, with what, or by when, so nothing happens."
+       }
+      ],
+      "takeaway": "Management is a loop of four functions \u2014 plan, organize, lead, control \u2014 and each one feeds the next; skip one and the loop breaks."
+     },
+     {
+      "title": "Organizational Structure",
+      "intro": "Organizational structure is the skeleton of a business: who reports to whom, who decides what, and how work is divided. A three-person startup can run on a group chat; a company with ten thousand employees needs a formal chart, or decisions stall and nobody knows who is responsible for what. The structure a business chooses shapes how fast it moves, how creative it can be, and how much it costs to run.",
+      "concepts": [
+       "Chain of command \u2014 the line of authority from the top to the bottom. Each employee has a manager, and each manager has a boss, so instructions and accountability flow in a known path.",
+       "Span of control \u2014 how many people report to one manager. A narrow span (few reports) means close supervision but many layers of management; a wide span means flatter, cheaper, faster organizations \u2014 but managers can get overloaded.",
+       "Centralized vs decentralized \u2014 centralized organizations keep decisions at the top (consistent, but slow); decentralized ones push decisions down to the people closest to the problem (fast and flexible, but harder to keep consistent).",
+       "Functional structure \u2014 people grouped by specialty: marketing, finance, operations. Efficient for stable businesses, but departments can become silos that barely talk to each other.",
+       "Divisional and matrix structures \u2014 divisional groups people by product or region (each division is almost a mini-company); matrix has people report to two bosses (a function and a project). Matrix adds flexibility and complexity in equal measure."
+      ],
+      "example": {
+       "q": "A growing bakery chain has 12 shops. The owner currently approves every menu change, every hire, and every local promotion herself, and decisions now take weeks. What is the structural problem, and what should change?",
+       "steps": [
+        "First, diagnose: the structure is extremely centralized with a span of control of 12-plus \u2014 every decision funnels through one person, who has become the bottleneck.",
+        "Second, choose the fix: decentralize routine decisions. Let shop managers hire their own staff and run local promotions within a budget; keep only brand-level decisions (menu core, pricing ranges) at the top.",
+        "Third, add a layer: appoint two regional managers so the owner manages 2 people instead of 12, and the regions manage the shops.",
+        "Conclusion: the business outgrew its structure. Growth usually forces a move from centralized control toward delegation \u2014 the owner gives up deciding everything to keep the whole thing moving."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A manager supervises 25 employees directly. What is the likely problem, and what is the term for it?",
+        "a": "The span of control is too wide \u2014 one manager cannot supervise, coach, and review 25 people well. The fix is to add team leads and narrow the span."
+       },
+       {
+        "q": "When would a company choose a divisional structure over a functional one?",
+        "a": "When it sells very different products or serves very different regions \u2014 each division can then focus on its own market instead of one marketing department serving unrelated products."
+       }
+      ],
+      "takeaway": "Structure decides who decides: the right shape balances control against speed, and a growing business must restructure as it outgrows the old one."
+     },
+     {
+      "title": "Leadership Styles That Actually Work",
+      "intro": "Management is about systems; leadership is about people. A leader's style \u2014 how they make decisions, give direction, and treat their team \u2014 sets the tone for the whole workplace, and the research is clear on one point: no single style wins everywhere. The best leaders read the situation and adapt, because the style that saves a crisis would suffocate a creative team, and vice versa.",
+      "concepts": [
+       "Autocratic leadership \u2014 the leader decides alone and expects obedience. Fast and clear in a crisis, but it kills initiative and morale if used every day.",
+       "Democratic (participative) leadership \u2014 the leader invites input and then decides. Slower, but it builds commitment and better decisions when the team has expertise the leader lacks.",
+       "Laissez-faire leadership \u2014 the leader steps back and lets the team run itself. It works with skilled, motivated experts \u2014 and fails completely with a team that needs direction.",
+       "Transformational leadership \u2014 the leader inspires people toward a bigger purpose, challenges them to grow, and earns loyalty through vision rather than orders. Strong for change, but it needs a genuine vision, not slogans.",
+       "Servant leadership \u2014 the leader's first job is to serve the team: remove obstacles, develop people, and put their needs ahead of the leader's ego. It builds deep trust and is hard to fake."
+      ],
+      "example": {
+       "q": "A warehouse is behind on shipments and the team is arguing about the new sorting system. The manager calls a meeting, listens to the crew's complaints, then decides on a revised layout and explains exactly why. Which styles is she using, and why does the mix work?",
+       "steps": [
+        "First, she is democratic in gathering input: the crew works the floor every day and knows where the bottlenecks are \u2014 ignoring them would waste that knowledge and breed resentment.",
+        "Second, she is decisive \u2014 mildly autocratic \u2014 in the final call: after listening, someone has to choose, or the argument never ends and shipments stay late.",
+        "Third, she explains the why, which is transformational: people accept a decision they disagreed with when they understand the reasoning and feel heard.",
+        "Conclusion: situational leadership. She matched the style to the moment \u2014 input first, decision second, explanation always."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A fire breaks out in a store. Which leadership style is appropriate in that moment, and why?",
+        "a": "Autocratic \u2014 in an emergency there is no time for a vote. Clear, fast orders save lives; participation can wait until everyone is safe."
+       },
+       {
+        "q": "Why does laissez-faire leadership fail with a new, inexperienced team?",
+        "a": "Because the team does not yet have the skill or confidence to direct itself \u2014 without guidance they guess, duplicate work, and make avoidable mistakes."
+       }
+      ],
+      "takeaway": "There is no one best leadership style \u2014 the best leaders adapt: autocratic in a crisis, democratic for decisions that need buy-in, and inspirational when people need a reason to stretch."
+     },
+     {
+      "title": "Motivation and Team Building",
+      "intro": "You can hire talented people and still get poor results if they do not care \u2014 and you can get remarkable results from an ordinary team that does. Motivation is what makes people put in effort, stay, and do their best work, and team building is what turns a group of individuals into a unit that trusts each other. Pay matters, but study after study shows it is not the whole story: people also work for recognition, growth, autonomy, and belonging.",
+      "concepts": [
+       "Intrinsic vs extrinsic motivation \u2014 extrinsic motivators are external rewards (pay, bonuses, praise); intrinsic motivators come from the work itself (mastery, purpose, enjoyment). Extrinsic rewards get people started; intrinsic motivation keeps them going.",
+       "Maslow's hierarchy \u2014 people are driven by a ladder of needs: basic survival, safety, belonging, esteem, and finally self-actualization (becoming their best self). A worker worried about being fired cannot focus on creativity.",
+       "Herzberg's two factors \u2014 hygiene factors (pay, working conditions, job security) prevent dissatisfaction but do not motivate; motivators (recognition, responsibility, growth) actually drive effort. Fix the hygiene first, then add the motivators.",
+       "Team building \u2014 shared goals, clear roles, trust, and communication. Teams perform when members know what the goal is, what their part is, and that their teammates will do theirs.",
+       "Recognition and feedback \u2014 specific, timely praise ('your handling of that complaint saved the account') beats generic praise, and regular feedback beats an annual review. People repeat what gets noticed."
+      ],
+      "example": {
+       "q": "A call center has high turnover. Pay is average for the area, but workers say the job feels pointless and nobody notices good work. The manager has a small budget. What should she change first?",
+       "steps": [
+        "First, diagnose with Herzberg: pay is average, so hygiene is roughly okay \u2014 the problem is a lack of motivators: no recognition, no growth, no sense of purpose.",
+        "Second, spend the small budget on recognition, not pizza parties: a weekly shout-out for the best customer save, with the story shared to the team, costs almost nothing and is specific and timely.",
+        "Third, add growth: a simple skill ladder \u2014 new agents handle basic calls, experienced ones handle escalations and mentor newcomers \u2014 gives people a path to be proud of.",
+        "Fourth, connect the work to purpose: share one customer story a week showing how a good call actually helped someone, so the job stops feeling pointless.",
+        "Conclusion: motivation is not just money. When the hygiene basics are met, recognition, growth, and purpose are the cheaper and stronger levers."
+       ]
+      },
+      "practice": [
+       {
+        "q": "According to Herzberg, why does raising pay sometimes fail to motivate employees?",
+        "a": "Pay is a hygiene factor \u2014 it prevents dissatisfaction when fair, but once it is adequate, more pay does not create enthusiasm. Motivators like recognition and growth are what drive extra effort."
+       },
+       {
+        "q": "What is the difference between a group and a team?",
+        "a": "A group is people who happen to work near each other; a team shares a goal, clear roles, and mutual accountability \u2014 members depend on each other to succeed."
+       }
+      ],
+      "takeaway": "People work for more than pay: fair basics stop dissatisfaction, but recognition, growth, purpose, and a team they trust are what make people give their best."
+     },
+     {
+      "title": "Introduction to Operations and Supply Chains",
+      "intro": "Operations is the part of a business that actually makes and delivers the product \u2014 the kitchen, the factory floor, the warehouse, the delivery van. The supply chain is everything that feeds it: suppliers, transport, storage, and the flow of materials from raw input to the customer's hands. Customers never see most of this, but they feel it instantly when it breaks: the item is out of stock, the order is late, or the quality slips.",
+      "concepts": [
+       "Operations management \u2014 planning and running the process that turns inputs (materials, labor, equipment) into outputs (products or services), as efficiently and reliably as possible.",
+       "The supply chain \u2014 the whole network: suppliers \u2192 manufacturer \u2192 distributor \u2192 retailer \u2192 customer, plus the information and money flowing back the other way. A chain is only as strong as its weakest link.",
+       "Inventory \u2014 the stock a business holds. Too little means stockouts and lost sales; too much ties up cash and risks spoilage or obsolescence. Just-in-time systems keep inventory low but depend on perfectly reliable suppliers.",
+       "Quality control \u2014 checking that outputs meet standards, from inspecting raw materials to testing finished goods. Catching a defect early is far cheaper than fixing it after a customer complains.",
+       "Logistics \u2014 moving and storing goods: warehousing, transport, and delivery. Good logistics is invisible; bad logistics is the reason the package arrives three days late."
+      ],
+      "example": {
+       "q": "A small electronics shop orders phones from one overseas supplier. The supplier's factory shuts down for a month, and the shop's shelves empty. What went wrong, and how should the shop redesign its supply chain?",
+       "steps": [
+        "First, name the flaw: single-sourcing \u2014 the entire supply depended on one supplier in one place, so one disruption stopped the whole business.",
+        "Second, add a second source: qualify a backup supplier, even if its prices are slightly higher, so an outage becomes a delay rather than a shutdown.",
+        "Third, hold a buffer: keep a small safety stock of the best-selling models, enough to cover a few weeks of a disruption, and treat it as insurance rather than waste.",
+        "Fourth, watch the signals: track supplier lead times and delivery reliability, so the shop sees trouble coming instead of discovering an empty shelf.",
+        "Conclusion: a resilient supply chain costs a little more in good times and saves the business in bad ones."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why is holding too much inventory a problem, even though it prevents stockouts?",
+        "a": "Inventory ties up cash that could be used elsewhere, costs money to store, and can become obsolete, damaged, or spoiled before it sells."
+       },
+       {
+        "q": "What is the difference between operations and the supply chain?",
+        "a": "Operations is the internal process of making or delivering the product; the supply chain is the whole network of suppliers, transport, and distributors that feeds operations and gets the product to the customer."
+       }
+      ],
+      "takeaway": "Operations turns inputs into products, and the supply chain feeds it \u2014 a business that manages both well delivers on time, at good quality, and survives disruptions."
+     }
     ]
    },
    {
     "module_title": "Marketing and the Customer",
     "lessons": [
-     "The Marketing Mix: Product, Price, Place, Promotion",
-     "Understanding the Customer",
-     "Branding and Positioning",
-     "Digital Marketing and Social Media",
-     "Sales and Customer Relationships"
+     {
+      "title": "The Marketing Mix: Product, Price, Place, Promotion",
+      "intro": "Marketing is not just advertising \u2014 it is the full set of choices a business makes to get the right product to the right customer at the right price, in the right place, with the right message. Marketers call those four choices the marketing mix, or the four Ps: Product, Price, Place, Promotion. Change any one of them and the others have to adjust: a luxury product needs a premium price, a selective place to sell it, and a message that says quality, not bargain.",
+      "concepts": [
+       "Product \u2014 what you sell, including its features, quality, design, brand, packaging, and warranty. The product is the core promise; the other Ps support it.",
+       "Price \u2014 what you charge, and the strategy behind it: premium pricing signals quality, penetration pricing (low at launch) wins market share fast, and discounts move stock but can cheapen the brand.",
+       "Place \u2014 where and how customers get the product: stores, websites, distributors, delivery. A product customers cannot find or cannot get easily might as well not exist.",
+       "Promotion \u2014 how you communicate: advertising, social media, sales, public relations, and personal selling. Promotion tells the story; the other Ps have to make the story true.",
+       "The mix must fit together \u2014 a budget product sold at a luxury price, or a premium product promoted with a coupon blast, sends a confused message and customers notice."
+      ],
+      "example": {
+       "q": "A startup makes a high-quality handmade backpack that costs $45 to produce. It wants to sell it as a premium product. Walk through the four Ps \u2014 and spot the mistake if it prices the bag at $49 and sells it in a discount store.",
+       "steps": [
+        "Product: handmade, durable, premium materials \u2014 the product supports a premium position.",
+        "Price: at $49 the margin is only $4 and the price signals 'cheap,' not 'premium.' A premium price like $120\u2013$150 would match the quality story and leave room for profit.",
+        "Place: a discount store puts the bag next to $20 backpacks, destroying the premium image. It belongs in outdoor shops, its own website, and curated boutiques.",
+        "Promotion: the message should show craftsmanship and durability \u2014 maker stories, lifetime repair guarantees \u2014 not discount coupons.",
+        "Conclusion: the $49 discount-store plan contradicts the product. Fix price and place first, then let promotion tell the true story."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A company launches a new energy drink at a low price to win customers quickly from bigger brands. Which pricing strategy is this?",
+        "a": "Penetration pricing \u2014 a low introductory price to gain market share fast, with the risk that raising the price later is hard."
+       },
+       {
+        "q": "Why is 'Place' part of marketing, not just logistics?",
+        "a": "Because where a product is sold shapes who buys it and what they expect \u2014 a product in a luxury boutique and the same product in a dollar store reach different customers and carry different meanings."
+       }
+      ],
+      "takeaway": "The four Ps \u2014 Product, Price, Place, Promotion \u2014 are one connected decision: a premium product needs a premium price, the right shelves, and a message that matches."
+     },
+     {
+      "title": "Understanding the Customer",
+      "intro": "Businesses fail when they build something nobody wants, and they succeed when they understand their customer better than the competition does. Understanding the customer means knowing who they are, what problem they are trying to solve, what they value, and how they decide. It is research, not guessing \u2014 and the businesses that do it well treat every customer interaction as data.",
+      "concepts": [
+       "Target market \u2014 the specific group of customers a business aims to serve. No product serves everyone well; a clear target lets a business focus its product, price, and message.",
+       "Market segmentation \u2014 dividing a broad market into groups by age, income, location, lifestyle, or behavior, so each group can be served differently. A gym segments differently for students and for retirees.",
+       "Needs vs wants \u2014 needs are basic requirements (food, shelter, safety); wants are specific ways of satisfying them (a particular brand of food). Marketing shapes wants; it cannot create needs.",
+       "The buying decision process \u2014 customers move through stages: recognize a problem, search for information, evaluate options, buy, then judge the purchase afterward. Marketing can help at every stage.",
+       "Customer research \u2014 surveys, interviews, reviews, sales data, and observation. Small businesses can learn a lot simply by asking customers why they bought \u2014 and why they almost did not."
+      ],
+      "example": {
+       "q": "A coffee shop near a university is losing customers to a chain across the street. The owner assumes her coffee is worse. How should she find out what is really happening before changing anything?",
+       "steps": [
+        "First, ask the people who left: a short survey or a friendly question at the door \u2014 'What would bring you back?' \u2014 beats guessing.",
+        "Second, segment the answers: students may care about price and Wi-Fi, while office workers care about speed in the morning. Different groups, different problems.",
+        "Third, check the buying process: maybe the chain wins on convenience (an app, a drive-through) rather than taste \u2014 then the fix is ordering ahead, not a new bean.",
+        "Fourth, test small: try one change (a student discount, faster morning service) and measure whether those customers return before spending on a big overhaul.",
+        "Conclusion: the problem might not be the product at all. Research first, then fix the real problem."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A company sells the same sneaker to teenagers and to retirees with the same ad. What is it doing wrong?",
+        "a": "It is ignoring segmentation \u2014 teenagers and retirees have different needs, values, and media habits, so one message will miss both groups."
+       },
+       {
+        "q": "Why does the post-purchase stage matter to a business?",
+        "a": "Because a disappointed customer does not come back and may warn others, while a satisfied one returns, buys more, and recommends the business \u2014 the cheapest marketing there is."
+       }
+      ],
+      "takeaway": "Know exactly who your customer is, what problem they are solving, and how they decide \u2014 then build the product, price, and message around that person, not around a guess."
+     },
+     {
+      "title": "Branding and Positioning",
+      "intro": "Two bottles of water can be identical inside and sell for $1 and $5. The difference is the brand \u2014 the name, story, and feeling a customer attaches to a product \u2014 and positioning, the specific place that brand occupies in the customer's mind compared with competitors. A brand is not a logo; it is a promise repeated so consistently that customers can predict what they will get before they buy.",
+      "concepts": [
+       "Brand \u2014 the identity of a product or company: name, logo, design, voice, and reputation. Strong brands let a business charge more, because customers are paying for trust, not just the item.",
+       "Brand equity \u2014 the extra value a brand name adds. When customers choose a known brand over an identical cheaper unknown, that premium is brand equity at work.",
+       "Positioning \u2014 how a brand wants to be seen relative to competitors: the cheapest, the most luxurious, the most reliable, the most fun. A brand that tries to be everything ends up meaning nothing.",
+       "Differentiation \u2014 the real difference behind the positioning: better quality, a unique feature, better service, a better story. Positioning without differentiation is just a slogan.",
+       "Consistency \u2014 a brand is built by repetition: the same quality, the same tone, the same experience, every time. One broken promise can undo years of brand building."
+      ],
+      "example": {
+       "q": "A new phone case company wants to position itself as 'the toughest case on the market.' Its cases are genuinely strong, but its ads look like every other brand's. How should it build the positioning so customers believe it?",
+       "steps": [
+        "First, prove the differentiation: publish drop-test videos, show the case surviving real accidents, and offer a lifetime replacement guarantee \u2014 evidence beats claims.",
+        "Second, make the brand look the part: rugged design, bold packaging, and a tone that sounds tough and direct, not soft and generic.",
+        "Third, choose the right place: sell where durability matters \u2014 outdoor stores and repair shops \u2014 not next to fashion cases.",
+        "Fourth, stay consistent: every ad, every package, and every customer reply should repeat the same promise, 'toughest,' until customers associate the name with toughness.",
+        "Conclusion: positioning is earned. A claim plus proof plus consistency is what turns a slogan into a brand."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why can a strong brand charge a higher price than an unknown competitor for a similar product?",
+        "a": "Because customers trust the brand to deliver consistent quality, and they pay a premium for that certainty \u2014 that trust is brand equity."
+       },
+       {
+        "q": "A brand positions itself as both 'the cheapest' and 'the highest quality.' What is the problem?",
+        "a": "The two claims contradict each other in customers' minds \u2014 cheapest suggests corners cut, highest quality suggests premium cost. The positioning is confused, so customers believe neither claim."
+       }
+      ],
+      "takeaway": "A brand is a promise customers trust, and positioning is the one clear place it owns in their minds \u2014 earn it with real differences, prove it, and repeat it consistently."
+     },
+     {
+      "title": "Digital Marketing and Social Media",
+      "intro": "Digital marketing is how most businesses now reach their customers: search engines, social media, email, and websites, all measurable down to the click. Unlike a billboard, a digital ad can be shown only to the people most likely to buy, and the business can see exactly what worked. But the same tools are available to every competitor, so winning online takes the same fundamentals \u2014 a clear customer, a good offer, and a message worth stopping for \u2014 plus respect for privacy and honesty.",
+      "concepts": [
+       "Search marketing (SEO and paid search) \u2014 SEO is earning a high ranking in free search results by being relevant and useful; paid search buys the top spot for chosen keywords. Both aim to be found when a customer is already looking.",
+       "Social media marketing \u2014 building an audience and a relationship on platforms where customers already spend time. The goal is engagement and trust, not just follower counts \u2014 a small loyal audience beats a large indifferent one.",
+       "Content marketing \u2014 attracting customers by being genuinely useful: guides, videos, and answers that solve their problems. Good content earns attention; a sales pitch interrupts it.",
+       "Email marketing \u2014 still one of the highest-return channels when done with permission: welcome messages, offers, and updates to people who asked to hear from you. Bought lists and spam destroy trust.",
+       "Analytics and measurement \u2014 digital marketing's superpower: track clicks, conversions, and cost per customer, then spend more on what works and stop what does not. A campaign without measurement is a guess."
+      ],
+      "example": {
+       "q": "A local bike shop spends $500 a month on social media ads and gets lots of likes but almost no sales. What is probably wrong, and how should it fix the campaign?",
+       "steps": [
+        "First, check the target: likes from people across the country are useless \u2014 the ads should target people within a few miles of the shop who ride bikes.",
+        "Second, check the offer: a pretty photo of a bike is not a reason to visit. Offer something concrete \u2014 a free tune-up check, a test ride, a weekend sale.",
+        "Third, check the measurement: track how many ad clicks become store visits or bookings, not how many likes the post got. Likes are not sales.",
+        "Fourth, test and compare: run two versions \u2014 one with a discount, one with a free service \u2014 and put the next month's budget behind the winner.",
+        "Conclusion: digital marketing fails when it chases vanity numbers. Target the right people, give them a reason to act, and measure the action, not the applause."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What is the difference between SEO and paid search?",
+        "a": "SEO earns free, organic rankings by making pages relevant and useful; paid search buys ad placement at the top of results for chosen keywords and stops the moment you stop paying."
+       },
+       {
+        "q": "Why is a small, engaged social media audience more valuable than a huge, passive one?",
+        "a": "Because engaged followers actually see, trust, and act on the business's posts \u2014 buying, visiting, and recommending \u2014 while passive followers scroll past and never convert."
+       }
+      ],
+      "takeaway": "Digital marketing's power is targeting and measurement: reach the right people, give them a reason to act, and spend more only on what measurably works."
+     },
+     {
+      "title": "Sales and Customer Relationships",
+      "intro": "Marketing brings people to the door; sales turns them into customers, and customer relationships turn one-time buyers into repeat buyers who recommend you. A sale is not a trick \u2014 it is helping a customer decide well, honestly matching their problem to the right solution. And the relationship after the sale is where most of a business's profit lives: keeping an existing customer costs far less than finding a new one.",
+      "concepts": [
+       "The sales process \u2014 prospecting (finding potential buyers), qualifying (checking they need and can afford it), presenting, handling objections, closing, and following up. Skipping steps is how salespeople waste time on the wrong people.",
+       "Consultative selling \u2014 asking questions to understand the customer's real problem before pitching anything. The best salespeople listen more than they talk.",
+       "Objections \u2014 a customer's concerns ('too expensive,' 'not sure it fits') are not rejections; they are requests for more information. Answering them honestly builds trust and often closes the sale.",
+       "Customer retention \u2014 keeping customers through good service, follow-up, loyalty programs, and fixing problems fast. A customer whose complaint is handled well often becomes more loyal than one who never had a problem.",
+       "Customer lifetime value \u2014 the total profit a customer brings over the whole relationship. It explains why a business can afford to spend money winning a customer and why losing one quietly costs far more than one sale."
+      ],
+      "example": {
+       "q": "A software company sells a $200-a-month tool. Its sales team closes plenty of deals, but half the customers cancel within three months. What is the real problem, and what should change?",
+       "steps": [
+        "First, separate sales from retention: the sales team is doing its job \u2014 the product or the onboarding is failing after the sale, and no amount of new deals fixes a leaky bucket.",
+        "Second, find the cause: survey the cancellations. If customers say 'too complicated to set up,' the fix is onboarding help, not more sales calls.",
+        "Third, change the incentive: pay the sales team partly on customers who stay past three months, so they sell to people who genuinely fit instead of anyone who will sign.",
+        "Fourth, add follow-up: a check-in call at week one and week four, plus a quick-start guide, turns confused new users into confident regulars.",
+        "Conclusion: sales is the beginning of the relationship, not the end. A business that only measures deals signed will keep refilling a leaking bucket."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why is it usually cheaper to keep a customer than to find a new one?",
+        "a": "Keeping a customer needs only good service and follow-up, while finding a new one costs advertising, sales time, and offers \u2014 and the existing customer already trusts you."
+       },
+       {
+        "q": "A customer says 'your price is too high.' How should a good salesperson respond?",
+        "a": "Treat it as a question, not a rejection: ask what they are comparing it to, explain the value and what is included, and check whether a smaller package or different terms would fit \u2014 never just slash the price."
+       }
+      ],
+      "takeaway": "Sales is honest problem-solving, and the real profit is in the relationship after the sale \u2014 keep customers, and they will keep coming back and bring others with them."
+     }
     ]
    },
    {
     "module_title": "Money, Accounting and Starting Up",
     "lessons": [
-     "Reading Financial Statements at a Basic Level",
-     "Accounting: The Language of Business",
-     "Finance: Where the Money Comes From",
-     "Entrepreneurship and the Business Plan",
-     "Careers in Business and Your First Business Idea (Final Project)"
+     {
+      "title": "Reading Financial Statements at a Basic Level",
+      "intro": "Financial statements are the report card of a business \u2014 three documents that answer three different questions: what does the business own and owe, did it make money, and where did the cash actually go? You do not need to be an accountant to read them. If you can follow a household budget, you can follow a balance sheet, an income statement, and a cash flow statement \u2014 and once you can, you can judge any business, including one you might start, work for, or invest in.",
+      "concepts": [
+       "The balance sheet \u2014 a snapshot at one moment: Assets = Liabilities + Owner's Equity. Assets are what the business owns (cash, inventory, equipment); liabilities are what it owes (loans, bills); equity is the owners' stake. It must always balance.",
+       "The income statement \u2014 a movie over a period: Revenue \u2212 Expenses = Net Income (profit) or Net Loss. It shows whether the business made money, but remember it includes non-cash items like depreciation.",
+       "The cash flow statement \u2014 where the cash actually went: cash from operations, investing, and financing. A business can show a profit on paper and still run out of cash \u2014 the cash flow statement is where that truth appears.",
+       "Profit vs cash \u2014 profit is an accounting result; cash is what pays the rent. A business that sells on credit can be profitable and broke at the same time.",
+       "Key ratios, simply \u2014 current ratio (current assets \u00f7 current liabilities) shows whether short-term bills can be paid; profit margin (net income \u00f7 revenue) shows how much of each dollar becomes profit."
+      ],
+      "example": {
+       "q": "A small gym reports $20,000 in monthly revenue, $17,000 in expenses, and a $3,000 profit \u2014 but its bank balance fell by $2,000 that month. How can it be profitable and lose cash at the same time?",
+       "steps": [
+        "First, check the income statement: revenue $20,000 \u2212 expenses $17,000 = $3,000 profit. The profit figure is real, on paper.",
+        "Second, look at cash: the gym bought $5,000 of new equipment this month and paid cash for it. Equipment is an asset, not an expense, so it does not reduce the reported profit \u2014 but the cash still left the bank.",
+        "Third, do the cash math: $3,000 profit in operations, minus $5,000 equipment purchase = \u2212$2,000 cash change. The bank balance falls even though the business is profitable.",
+        "Conclusion: that is exactly why the cash flow statement exists. A business can be healthy and profitable yet run short of cash if it spends heavily on equipment or lets customers pay late."
+       ]
+      },
+      "practice": [
+       {
+        "q": "On a balance sheet, assets are $100,000 and liabilities are $60,000. What is the owner's equity?",
+        "a": "Equity = Assets \u2212 Liabilities = $100,000 \u2212 $60,000 = $40,000."
+       },
+       {
+        "q": "A business has a profit margin of 10%. If it earns $50,000 in revenue, how much net income does it make?",
+        "a": "Net income = 10% \u00d7 $50,000 = $5,000."
+       }
+      ],
+      "takeaway": "Three statements tell the whole story: the balance sheet shows what a business owns and owes, the income statement shows whether it made money, and the cash flow statement shows whether it has cash \u2014 and profit is not the same as cash."
+     },
+     {
+      "title": "Accounting: The Language of Business",
+      "intro": "Accounting is often called the language of business, and like any language, it has a grammar: every transaction is recorded twice, once as a debit and once as a credit, so the books always balance. The point is not the bookkeeping itself \u2014 it is that the records give owners, lenders, and the tax authorities a trustworthy picture of the business. A business that cannot account for its money cannot manage it, borrow against it, or prove anything about it.",
+      "concepts": [
+       "Double-entry bookkeeping \u2014 every transaction affects at least two accounts, with equal debits and credits. Buy $500 of inventory with cash: inventory goes up $500, cash goes down $500. The system is self-checking by design.",
+       "Debits and credits, simply \u2014 debit means left side, credit means right side. Assets and expenses increase with debits; liabilities, equity, and revenue increase with credits. The words are directions, not good and bad.",
+       "The accounting equation \u2014 Assets = Liabilities + Owner's Equity, always. Every transaction keeps it balanced, which is why it is called the balance sheet.",
+       "Accrual vs cash accounting \u2014 cash accounting records money when it moves; accrual accounting records revenue when earned and expenses when incurred, even if cash moves later. Accrual gives a truer picture of a period's performance.",
+       "Why records matter \u2014 taxes, loans, and investors all depend on the books. Clean records get a business cheaper loans and faster tax filings; messy records get audits, penalties, and rejected loan applications."
+      ],
+      "example": {
+       "q": "A landscaping business does a $1,200 job in June but the customer pays in July. Under cash accounting and under accrual accounting, in which month is the revenue recorded \u2014 and why does it matter?",
+       "steps": [
+        "First, cash accounting: revenue is recorded when cash arrives, so the $1,200 counts in July, and June looks like a zero month.",
+        "Second, accrual accounting: revenue is recorded when earned, so the $1,200 counts in June, with a $1,200 receivable (money owed to the business) sitting on the books until July.",
+        "Third, why it matters: under cash accounting, June looks like a failure and July looks like a windfall, even though the work was steady. Accrual shows the true pattern of the business.",
+        "Conclusion: accrual accounting matches revenue to the work that produced it, which is why most real businesses use it \u2014 and why lenders and the tax system expect it."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A business buys $800 of supplies on credit. Which two accounts change, and in which direction?",
+        "a": "Supplies (an asset) increases by $800 with a debit, and accounts payable (a liability) increases by $800 with a credit \u2014 the equation stays balanced."
+       },
+       {
+        "q": "Why do accountants insist every transaction has equal debits and credits?",
+        "a": "Because the double-entry system makes the books self-checking: if debits and credits do not match, a mistake was made somewhere, and the error is easy to find."
+       }
+      ],
+      "takeaway": "Accounting records every transaction twice so the books always balance \u2014 it is the language that lets a business prove what it earned, what it owes, and what it is worth."
+     },
+     {
+      "title": "Finance: Where the Money Comes From",
+      "intro": "Every business needs money before it makes money: to buy equipment, rent space, and pay people while the first customers are still deciding. Finance is the study of where that money comes from, what it costs, and how to use it wisely. The two big sources are debt (borrowing) and equity (selling a stake), and the choice between them shapes who controls the business and what happens if things go wrong.",
+      "concepts": [
+       "Debt financing \u2014 borrowing money that must be repaid with interest: bank loans, credit lines, bonds. The lender does not own the business, but the payments are due whether the business succeeds or not.",
+       "Equity financing \u2014 raising money by selling ownership: to partners, investors, or the public through stock. No repayment is required, but owners give up a share of control and future profits.",
+       "Interest and risk \u2014 interest is the price of borrowing, and it rises with risk. A lender charges a new, unproven business far more than an established one, because the chance of not being repaid is higher.",
+       "Bootstrapping \u2014 funding a business from personal savings and early revenue, without outside money. Slower growth, but the founder keeps full control and owes nobody.",
+       "The time value of money \u2014 a dollar today is worth more than a dollar next year, because today's dollar can be invested and earn a return. This is why businesses discount future cash flows when judging investments."
+      ],
+      "example": {
+       "q": "A food truck owner needs $40,000 for a second truck. A bank offers a loan at 9% interest; an investor offers $40,000 for 25% of the business. Which is better \u2014 and what should the owner weigh?",
+       "steps": [
+        "First, price the loan: 9% on $40,000 is $3,600 a year in interest, and the loan must be repaid even in a bad year. But the owner keeps 100% of the business.",
+        "Second, price the investor: no repayment is due, but the investor takes 25% of all future profits forever. If the business earns $80,000 a year in profit, that is $20,000 a year to the investor \u2014 far more than the loan's interest.",
+        "Third, weigh control: the investor may want a say in decisions; the bank only wants its payments.",
+        "Fourth, weigh risk: if the second truck fails, the loan still has to be repaid, while the investor shares the loss.",
+        "Conclusion: if the owner is confident the truck will earn well, the loan is cheaper in the long run. If the outcome is uncertain, the investor's shared risk may be worth the price."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What is the main difference between debt and equity financing?",
+        "a": "Debt is borrowed money that must be repaid with interest and gives the lender no ownership; equity is money raised by selling part of the business, with no repayment but a permanent share of profits and control."
+       },
+       {
+        "q": "Why is a dollar today worth more than a dollar a year from now?",
+        "a": "Because today's dollar can be invested and earn a return, so by next year it would be worth more than a dollar \u2014 and because inflation and risk reduce the value of waiting."
+       }
+      ],
+      "takeaway": "Money comes from debt, equity, or your own savings \u2014 debt is cheaper when things go well but must be repaid, equity shares the risk and the rewards, and bootstrapping keeps control."
+     },
+     {
+      "title": "Entrepreneurship and the Business Plan",
+      "intro": "An entrepreneur is someone who spots an opportunity and organizes the resources to pursue it, accepting the risk that it might fail. Most new businesses fail \u2014 not because the idea was bad, but because the founder never tested it, never planned the money, or never found enough customers. The business plan is the tool that forces those questions before the money is spent: what are you selling, to whom, how will you make money, and what could go wrong?",
+      "concepts": [
+       "Opportunity recognition \u2014 seeing a problem customers will pay to solve. The best opportunities usually come from noticing a frustration firsthand, not from chasing a trend.",
+       "The business plan \u2014 a written document covering the idea, the market, the product, the marketing, the operations, the team, and the finances. Its value is the thinking it forces, not the document itself.",
+       "The lean approach \u2014 test the idea small and cheap first: talk to customers, build a minimum version, and measure whether anyone pays. A plan that survives contact with real customers is worth more than a perfect plan nobody tested.",
+       "Funding the startup \u2014 personal savings, friends and family, bank loans, investors, grants, and crowdfunding. Each source has a different cost and a different expectation.",
+       "Risk and failure \u2014 most startups fail, and failure is data, not disgrace. Smart entrepreneurs limit the downside (start small, keep a runway) so one failure does not end their ability to try again."
+      ],
+      "example": {
+       "q": "Jordan wants to open a meal-prep service for busy parents. She has $10,000 in savings and a full-time job. How should she test the idea before quitting her job and spending the savings?",
+       "steps": [
+        "First, talk to customers: interview 20 busy parents about what they actually buy, what they pay, and what frustrates them \u2014 before cooking a single meal.",
+        "Second, run a tiny pilot: cook for 5 families for 2 weeks, charge real money, and see if they reorder. Free testers tell you nothing; paying customers tell you everything.",
+        "Third, do the math from the pilot: food cost per meal, time per meal, delivery cost \u2014 then check whether the price parents will pay leaves a profit after those costs.",
+        "Fourth, write the plan from real numbers, not guesses: how many customers she needs, what she will spend on marketing, and how many months her $10,000 lasts if sales are slow.",
+        "Conclusion: she should quit her job only after the pilot proves people will pay and the numbers work. The plan is a test, not a leap."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why do experienced investors care more about whether customers will pay than about how clever the idea is?",
+        "a": "Because a clever idea with no paying customers is a hobby. Willingness to pay is the only proof an opportunity is real."
+       },
+       {
+        "q": "What is a minimum viable product (MVP), and why does it matter?",
+        "a": "The simplest version of a product that real customers can use and pay for. It lets an entrepreneur test the idea cheaply and learn from real behavior before investing heavily."
+       }
+      ],
+      "takeaway": "Entrepreneurship is spotting a problem people will pay to solve \u2014 and the business plan is how you test the idea, the numbers, and the risks before betting your savings on it."
+     },
+     {
+      "title": "Careers in Business and Your First Business Idea (Final Project)",
+      "intro": "Business is one of the broadest fields you can study, because every organization \u2014 a hospital, a sports team, a charity, a tech startup \u2014 needs people who can manage, market, count, and lead. This final lesson maps the careers a business degree opens, and then turns the whole course into your first real project: take one business idea of your own and build it into a one-page plan, using everything from the previous nineteen lessons.",
+      "concepts": [
+       "Core business careers \u2014 management, marketing, accounting, finance, operations, sales, and human resources. Each is a whole career path, and the skills transfer across industries.",
+       "Growing fields \u2014 data analytics, digital marketing, supply chain management, and sustainability roles are growing fast, because businesses now compete on data, delivery speed, and social responsibility.",
+       "Skills employers actually pay for \u2014 communication, problem-solving, basic financial literacy, teamwork, and the ability to learn new tools. Degrees open doors; skills get you hired and promoted.",
+       "Entrepreneurship vs employment \u2014 you do not have to start a business to be entrepreneurial. Intrapreneurs bring new ideas inside existing companies, and many founders spend years learning inside someone else's business first.",
+       "The final project \u2014 your one-page business plan: the problem, the customer, the product, the four Ps, the money (costs, price, profit), and the first three steps you would take. One page forces clarity."
+      ],
+      "example": {
+       "q": "Alex loves sports and wants a business career, but does not want to be an athlete. Using what this course taught, sketch a realistic path \u2014 and a first business idea to go with it.",
+       "steps": [
+        "First, pick a lane: sports marketing or sports management fits Alex's interest and uses this course's marketing and management lessons directly.",
+        "Second, build the skills: a business degree with marketing courses, plus experience \u2014 volunteering at a local club's social media, or an internship with a team.",
+        "Third, design the first business idea: a service helping small local sports clubs run their social media and sell merchandise online \u2014 a real problem, a clear customer, and low startup cost.",
+        "Fourth, test it with the four Ps: product (social media + online store setup), price (a monthly fee per club), place (online, local clubs), promotion (show one club's results and let referrals do the rest).",
+        "Fifth, write the money: costs are mostly Alex's time plus software subscriptions; if three clubs pay $300 a month, that is $900 a month against a few hundred in costs \u2014 a real, testable plan.",
+        "Conclusion: a career and a business idea are the same skill set applied twice \u2014 find a problem, know the customer, and build the plan."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Name three business career paths and one skill each one depends on most.",
+        "a": "Marketing \u2014 understanding customers and communicating clearly; accounting \u2014 attention to detail and financial accuracy; operations \u2014 organizing processes and solving problems under pressure. (Any three sensible paths with a matching skill count.)"
+       },
+       {
+        "q": "What must your one-page business plan include, at minimum?",
+        "a": "The problem, the customer, the product, the four Ps (product, price, place, promotion), and the money \u2014 costs, price, and profit \u2014 plus the first steps you would take."
+       }
+      ],
+      "takeaway": "Business skills work everywhere \u2014 in a company, a charity, or your own startup. Your final project is the proof: one idea, one page, and every lesson in this course behind it."
+     }
     ]
    }
   ],
@@ -8218,7 +8829,7 @@
    "project": true
   },
   "mastery_rubric": "Explain how the major functions of a business fit together, read a basic income statement and balance sheet, and draft a one-page business concept. Final grade 70% or higher.",
-  "source": "Martinez original syllabus (authored 2026-11-14)"
+  "source": "Martinez original \u2014 written lessons (authored 2026-11-21)"
  },
  "PSY101": {
   "modules": [
