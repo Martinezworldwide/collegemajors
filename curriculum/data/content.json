@@ -8836,42 +8836,673 @@
    {
     "module_title": "Psychology as a Science",
     "lessons": [
-     "What Psychology Is: Mind, Brain, Behavior",
-     "Major Perspectives: Behavioral, Cognitive, Biological, Humanistic",
-     "Research Methods and Critical Thinking",
-     "Ethics in Psychological Research",
-     "Correlation Is Not Causation (Again, Because It Matters)"
+     {
+      "title": "What Psychology Is: Mind, Brain, Behavior",
+      "intro": "Psychology is the scientific study of mind and behavior \u2014 what people think, feel, and do, and why. It is a science, not a collection of opinions: psychologists form hypotheses, test them with systematic observation, and revise their ideas when the evidence says otherwise. The field covers everything from a single neuron firing to the way whole cultures shape personality, which is why its methods range from brain scans to surveys to experiments with rats, pigeons, and people.",
+      "concepts": [
+       "Mind and behavior \u2014 the mind is the private world of thoughts, feelings, and memories; behavior is what a person does that can be observed. Psychology studies both, because behavior reveals the mind and the mind explains behavior.",
+       "Levels of analysis \u2014 the same question can be answered at different levels: biological (brain chemistry), individual (personality and learning history), and social-cultural (norms and relationships). A good explanation usually needs more than one level.",
+       "Science, not pop psychology \u2014 claims in psychology are tested, replicated, and open to falsification. A catchy idea from a magazine or a social-media post is not a finding until it survives peer review and replication.",
+       "Basic vs applied psychology \u2014 basic research seeks knowledge for its own sake (how does memory work?), while applied psychology uses that knowledge to solve problems (how can we design better study methods or safer workplaces?).",
+       "The biopsychosocial approach \u2014 most human behavior is best explained by combining biological, psychological, and social-cultural factors, rather than by any one of them alone."
+      ],
+      "example": {
+       "q": "A student says, 'I failed my exam because I'm just bad at tests.' A psychologist would not accept that explanation as it stands. Why not \u2014 and what would a scientific explanation look like instead?",
+       "steps": [
+        "First, spot the problem: 'I'm just bad at tests' is a vague, untestable claim about a fixed trait. It cannot be measured, compared, or proven wrong \u2014 so it is not a scientific explanation.",
+        "Second, break it into testable parts: how many hours did the student study, how did they study (rereading vs self-testing), how much sleep did they get, and how anxious were they during the exam?",
+        "Third, gather evidence: compare their score with their study log, or test the same student under two study methods and see which produces a higher score.",
+        "Conclusion: a scientific explanation replaces a label with measurable factors that can be checked and changed \u2014 and that is exactly what makes psychology useful rather than just descriptive."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What is the difference between basic research and applied research in psychology? Give one example of each.",
+        "a": "Basic research seeks knowledge for its own sake, such as studying how the brain stores memories; applied research uses knowledge to solve a practical problem, such as designing study techniques that improve exam scores."
+       },
+       {
+        "q": "Why is the biopsychosocial approach more useful than explaining behavior with biology alone?",
+        "a": "Because most behavior has biological, psychological, and social causes at the same time \u2014 biology alone misses learning history, beliefs, and culture, which can change the outcome even when biology is identical."
+       }
+      ],
+      "takeaway": "Psychology is the scientific study of mind and behavior: it tests explanations with evidence, works at biological, individual, and social levels, and replaces labels with measurable causes you can actually do something about."
+     },
+     {
+      "title": "Major Perspectives: Behavioral, Cognitive, Biological, Humanistic",
+      "intro": "Psychologists do not all look at behavior the same way. A perspective is a lens \u2014 a set of assumptions about what causes behavior and what counts as evidence. The behavioral perspective looks at observable actions and their rewards; the cognitive perspective looks at mental processes like attention and memory; the biological perspective looks at the brain, genes, and hormones; and the humanistic perspective looks at growth, free will, and the drive to fulfill one's potential. None of them is the whole truth; each one is most useful for certain questions.",
+      "concepts": [
+       "Behavioral perspective \u2014 behavior is learned through conditioning and reinforcement. Ask what a person was rewarded or punished for, and you can often predict what they will do next. Associated with Pavlov, Skinner, and Watson.",
+       "Cognitive perspective \u2014 behavior is shaped by how people perceive, remember, and think. Two people can face the same event and react differently because they interpret it differently. Associated with Piaget and modern cognitive science.",
+       "Biological perspective \u2014 behavior is rooted in the nervous system, genes, hormones, and evolution. Ask how the brain works, what genes are involved, and what a trait did for survival. Associated with neuroscience and behavioral genetics.",
+       "Humanistic perspective \u2014 people are motivated by growth, meaning, and self-actualization, and have free will to choose their path. It emphasizes subjective experience and personal responsibility. Associated with Maslow and Rogers.",
+       "Psychodynamic perspective \u2014 a fifth classic lens: behavior is influenced by unconscious drives and early childhood experiences, associated with Freud. It is less dominant today, but it introduced the idea that much mental life happens outside awareness."
+      ],
+      "example": {
+       "q": "A student is terrified of giving class presentations. How would each perspective explain the fear, and what would each one suggest doing about it?",
+       "steps": [
+        "Behavioral: the fear was learned \u2014 perhaps an embarrassing presentation was followed by laughter, which punished speaking. Fix it by gradual exposure: speak to one friend, then a small group, rewarding each step.",
+        "Cognitive: the fear comes from thoughts like 'everyone will think I'm stupid.' Fix it by testing that thought \u2014 surveying classmates, or noticing that audiences are usually supportive \u2014 and replacing the catastrophic prediction.",
+        "Biological: the fear involves the amygdala's threat response and adrenaline. Fix it with relaxation training or, in severe cases, medication prescribed by a doctor, alongside the other approaches.",
+        "Humanistic: the fear blocks the student's growth toward self-expression. Fix it by building self-acceptance and a supportive environment where mistakes are treated as learning, not failure.",
+        "Conclusion: the perspectives disagree about the cause, but they often agree about the cure \u2014 and in practice a good therapist combines them."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A child studies hard after getting praise for a good grade. Which perspective best explains this, and why?",
+        "a": "The behavioral perspective: praise is a reward (reinforcement) that makes the praised behavior \u2014 studying \u2014 more likely to happen again."
+       },
+       {
+        "q": "Why do psychologists keep several perspectives instead of picking one 'correct' one?",
+        "a": "Because human behavior has many causes \u2014 learned rewards, mental processes, biology, and personal meaning \u2014 and each perspective explains some behaviors better than others. No single lens covers everything."
+       }
+      ],
+      "takeaway": "Perspectives are lenses, not rivals: behavior is learned, thought about, rooted in biology, and driven by growth \u2014 and the best explanations often combine more than one lens."
+     },
+     {
+      "title": "Research Methods and Critical Thinking",
+      "intro": "Psychology's power comes from its methods. An experiment can show that one thing causes another; a survey can show what many people think; a case study can reveal what a single unusual mind looks like from the inside. But every method has a weakness, and part of learning psychology is learning to judge evidence critically \u2014 to ask who was studied, how they were measured, and whether the conclusion really follows. That skill protects you far beyond this course: it is how you read news, health claims, and anything else that says 'studies show.'",
+      "concepts": [
+       "The scientific method \u2014 observe, form a hypothesis (a testable prediction), test it, analyze the results, and revise or replicate. A hypothesis must be falsifiable: there must be a possible result that would prove it wrong.",
+       "Experiments \u2014 the researcher manipulates one variable (the independent variable) and measures its effect on another (the dependent variable), while controlling everything else. Only experiments can show causation, because random assignment makes the groups equal at the start.",
+       "Correlational studies \u2014 measure how two variables change together, without manipulating either. Useful when experiments would be unethical or impossible, but they cannot prove causation.",
+       "Surveys and naturalistic observation \u2014 surveys ask large groups about their thoughts or behavior; naturalistic observation watches behavior in its natural setting. Both describe what happens, but both can be biased by who responds or who is watched.",
+       "Operational definitions and validity \u2014 an operational definition says exactly how a concept is measured ('stress = score on this questionnaire'), and validity is whether the measurement actually captures what it claims to. A study is only as good as its definitions."
+      ],
+      "example": {
+       "q": "A headline says, 'Study finds people who drink coffee live longer.' A friend concludes coffee causes a longer life. What should a critical thinker check before agreeing?",
+       "steps": [
+        "First, check the method: was it an experiment or a correlation? You cannot randomly assign people to drink coffee for decades, so it is almost certainly correlational \u2014 coffee drinkers may also exercise more, earn more, or differ in other ways.",
+        "Second, check the sample: who was studied, how many, and do they resemble the general population? A study of 500 healthy young adults says little about older adults with heart disease.",
+        "Third, check the measurement: how was 'coffee drinking' defined, and how was 'living longer' tracked? Self-reported coffee intake is noisy, and 'longer life' needs years of follow-up.",
+        "Conclusion: the headline describes an association, not a cause. A critical thinker says 'interesting \u2014 now show me the method,' not 'I knew it, pass the coffee.'"
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why is random assignment the key feature that lets experiments show causation?",
+        "a": "Random assignment makes the groups equal on average before the treatment, so the only systematic difference between them is the independent variable \u2014 any difference in outcome can then be attributed to it."
+       },
+       {
+        "q": "A study measures 'happiness' by asking people to rate it from 1 to 10. What is this called, and what is one problem with it?",
+        "a": "It is an operational definition of happiness. One problem is that people may interpret the scale differently or answer in a socially desirable way, so the measure may not fully capture real happiness."
+       }
+      ],
+      "takeaway": "Methods decide what a study can claim: experiments show causation, correlations show association, and every result deserves the question 'who was studied, how was it measured, and does the conclusion follow?'"
+     },
+     {
+      "title": "Ethics in Psychological Research",
+      "intro": "Psychology studies people \u2014 sometimes vulnerable people, sometimes in ways that could harm them. That is why the field has strict ethics rules, and why every study must be approved before it begins. The modern rules were written in the shadow of real abuses: the Milgram obedience studies, in which participants were led to believe they were shocking another person, and the Stanford prison experiment, in which a simulated prison spiraled out of control. Those studies taught psychology important lessons, but they also showed that knowledge is never worth more than the people who provide it.",
+      "concepts": [
+       "Informed consent \u2014 participants must be told what a study involves, including any risks, and must agree freely. They must also be told they can leave at any time without penalty.",
+       "Deception and debriefing \u2014 deception is allowed only when it is essential to the study and no other method would work, and participants must be told the truth afterward in a debriefing, with any harm repaired as far as possible.",
+       "Protection from harm \u2014 researchers must minimize physical and psychological risk, and stop a study if harm appears. The welfare of participants always outranks the value of the data.",
+       "Confidentiality \u2014 participants' identities and data must be kept private, and results are reported for groups, not individuals, unless the person consents to be identified.",
+       "Institutional Review Boards (IRBs) \u2014 independent committees that review research proposals before any data is collected, weighing the value of the knowledge against the risks to participants. No IRB approval, no study."
+      ],
+      "example": {
+       "q": "A researcher wants to study how people react to being publicly embarrassed, by having a confederate insult them in front of a group. Can this study go ahead, and what would the ethics board require?",
+       "steps": [
+        "First, check informed consent: participants cannot be told the real purpose in advance, or the study would not work \u2014 so the researcher must justify deception to the IRB as essential, with no harmless alternative.",
+        "Second, check harm: public embarrassment can cause real distress, so the researcher must show the risk is minimal and temporary, with safeguards \u2014 for example, stopping if a participant becomes visibly upset.",
+        "Third, plan the debriefing: afterwards, participants must be told the insult was staged, that their reactions were normal, and be offered support if they feel upset.",
+        "Conclusion: the study might be approved only if the IRB judges the knowledge worth a carefully managed, temporary deception \u2014 and if any of those safeguards fails, the study must stop."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why is debriefing required after a study that used deception?",
+        "a": "Because participants were misled, they need the truth afterward \u2014 what really happened, why deception was necessary, and reassurance \u2014 so the experience does not leave them distressed or misinformed."
+       },
+       {
+        "q": "A participant in a memory experiment decides halfway through that they want to leave. What must the researcher do?",
+        "a": "Let them leave immediately, without penalty and without pressure to stay \u2014 informed consent includes the right to withdraw at any time."
+       }
+      ],
+      "takeaway": "Ethics come before data: informed consent, minimal harm, confidentiality, and IRB review exist because psychology studies real people \u2014 and no finding is worth a harmed participant."
+     },
+     {
+      "title": "Correlation Is Not Causation (Again, Because It Matters)",
+      "intro": "If this course teaches you one phrase, it is this one: correlation is not causation. A correlation says two things change together; causation says one thing makes the other happen. The trap is everywhere \u2014 in headlines, in advertising, in your own thinking. People who carry lighters get lung cancer more often, but lighters do not cause cancer; both are linked to smoking. Ice-cream sales and drownings rise together, but ice cream does not cause drowning; both rise in summer. The third variable \u2014 the hidden common cause \u2014 is the most common reason a correlation misleads.",
+      "concepts": [
+       "Positive and negative correlation \u2014 a positive correlation means two variables rise and fall together; a negative correlation means one rises as the other falls. The correlation coefficient (r) runs from \u22121 to +1, and its size tells you the strength of the relationship.",
+       "The third-variable problem \u2014 a correlation between A and B can exist because some third factor C causes both. Ice cream and drowning share summer; lighters and cancer share smoking.",
+       "Directionality problem \u2014 even without a third variable, a correlation does not say which way the arrow points. Do violent video games cause aggression, or do aggressive people prefer violent games? A correlation alone cannot tell you.",
+       "Illusory correlation \u2014 the tendency to see a relationship that is not there, usually because two unusual or dramatic events happen together once and stick in memory. Superstitions are often illusory correlations.",
+       "What CAN show causation \u2014 an experiment with random assignment and a control group, where the researcher changes one variable and watches the effect. That is the gold standard, and it is the only design that rules out the third variable and the directionality problem."
+      ],
+      "example": {
+       "q": "A study finds that students who listen to classical music while studying earn higher grades. A school starts playing classical music in every classroom. What is wrong with this decision?",
+       "steps": [
+        "First, name the design: this is a correlation \u2014 music listening and grades move together, but nobody manipulated the music or assigned students randomly.",
+        "Second, find the third variable: students who choose classical music while studying may already be more conscientious, come from homes with more books, or attend better schools. The music might be a marker of something else.",
+        "Third, check directionality: maybe higher-achieving students simply prefer classical music, rather than the music causing the achievement.",
+        "Conclusion: the school spent money on a cause it never proved. The right move is a small experiment: randomly assign some classes to music and some to silence, then compare grades."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A study finds a strong positive correlation between shoe size and reading ability in children. Does shoe size cause reading ability? Explain.",
+        "a": "No. Both are caused by a third variable \u2014 age. Older children have bigger feet and read better. The correlation is real, but the causation is not."
+       },
+       {
+        "q": "What is an illusory correlation, and why do superstitions often come from them?",
+        "a": "An illusory correlation is perceiving a relationship that does not exist. If a rare event (a big win) coincides once with a rare action (wearing lucky socks), the coincidence sticks in memory and feels like a pattern, even though the data show no link."
+       }
+      ],
+      "takeaway": "Two things moving together is a clue, not a cause: always ask about the third variable and the direction of the arrow before you believe a headline."
+     }
     ]
    },
    {
     "module_title": "Brain, Sensation and Perception",
     "lessons": [
-     "Neurons and the Nervous System",
-     "Brain Structures and What They Do",
-     "Sensation: How the Senses Take In the World",
-     "Perception: How the Brain Builds the World",
-     "Consciousness, Sleep and Dreams"
+     {
+      "title": "Neurons and the Nervous System",
+      "intro": "Every thought you have, every memory you keep, every movement you make is produced by about 86 billion neurons \u2014 brain cells that communicate with electrochemical signals. A neuron receives signals through its dendrites, integrates them in its cell body, and sends a signal down its axon to the next cell. When that signal arrives, chemicals called neurotransmitters cross the tiny gap between cells, the synapse, and the message continues. Psychology begins here because everything mental is also neural \u2014 but understanding the wiring is only the start of understanding the mind.",
+      "concepts": [
+       "Neuron structure \u2014 dendrites receive incoming signals, the cell body (soma) integrates them, the axon carries the outgoing signal, and the axon terminals release neurotransmitters into the synapse.",
+       "The action potential \u2014 a brief electrical charge that travels down the axon when a neuron fires. It follows the all-or-none law: a neuron either fires at full strength or not at all; stronger stimuli cause more frequent firing, not bigger signals.",
+       "Neurotransmitters \u2014 chemical messengers such as serotonin (mood), dopamine (reward and motivation), acetylcholine (memory and muscle movement), and GABA (calming). Many psychiatric drugs work by changing how these chemicals act.",
+       "The central and peripheral nervous systems \u2014 the central nervous system is the brain and spinal cord; the peripheral nervous system is everything else, split into the somatic system (voluntary movement) and the autonomic system (heart, digestion, arousal).",
+       "The autonomic system's two branches \u2014 the sympathetic branch prepares the body for action (fight or flight: faster heart, more adrenaline), while the parasympathetic branch calms it down (rest and digest). Both run automatically."
+      ],
+      "example": {
+       "q": "A student touches a hot stove and pulls their hand away before they have time to think. Trace the signal from the stove to the hand pulling away, and explain why it happens so fast.",
+       "steps": [
+        "First, sensory neurons in the hand detect the heat and fire action potentials toward the spinal cord.",
+        "Second, in the spinal cord an interneuron passes the signal directly to a motor neuron \u2014 a reflex arc that does not wait for the brain. The motor neuron fires, the arm muscle contracts, and the hand pulls away.",
+        "Third, only afterwards does the signal continue up to the brain, where the student becomes consciously aware of the pain.",
+        "Conclusion: the reflex bypasses the brain on purpose \u2014 the shortest path wins when injury is at stake. The brain is informed, but it is not consulted first."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What is the difference between the sympathetic and parasympathetic nervous systems, and when is each active?",
+        "a": "The sympathetic system activates the body for action (fight or flight) during threat or excitement; the parasympathetic system calms the body down (rest and digest) after the threat passes."
+       },
+       {
+        "q": "If a drug blocks dopamine receptors, which functions would you expect it to affect, and why?",
+        "a": "Reward, motivation, and movement, because dopamine is the main neurotransmitter involved in those functions \u2014 blocking it would blunt pleasure and motivation and can cause movement problems."
+       }
+      ],
+      "takeaway": "Neurons speak in electrochemical signals \u2014 dendrites listen, axons fire all-or-none, neurotransmitters carry the message across the synapse \u2014 and reflexes prove the nervous system can act before the brain even knows."
+     },
+     {
+      "title": "Brain Structures and What They Do",
+      "intro": "The brain is not one organ doing one job; it is a collection of specialized structures that evolved at different times and work together. The brainstem keeps you alive, the limbic system handles emotion and memory, the cerebellum coordinates movement, and the cerebral cortex \u2014 the wrinkled outer layer \u2014 handles the thinking that makes humans human. Modern brain imaging lets psychologists watch these structures at work, but the maps come with a warning: no mental function lives in exactly one spot, and every structure does more than one job.",
+      "concepts": [
+       "Brainstem \u2014 the medulla, pons, and midbrain control the basics of staying alive: breathing, heartbeat, and sleep-wake cycles. Damage here is life-threatening.",
+       "Limbic system \u2014 the amygdala flags threats and drives fear and aggression; the hippocampus forms new long-term memories; the hypothalamus regulates hunger, thirst, body temperature, and hormones.",
+       "Cerebellum \u2014 the 'little brain' at the back, essential for coordinated movement, balance, and the timing of learned motor skills like riding a bike.",
+       "Cerebral cortex and its lobes \u2014 the frontal lobe plans and decides, the parietal lobe processes touch and spatial awareness, the temporal lobe handles hearing and memory, and the occipital lobe processes vision.",
+       "Plasticity \u2014 the brain changes with experience throughout life: new connections form when you learn, and after injury, other areas can sometimes take over a lost function. The adult brain is far less fixed than textbooks once claimed."
+      ],
+      "example": {
+       "q": "A patient can remember events from before a brain injury but cannot form any new long-term memories. Which structure is most likely damaged, and why does the pattern of spared old memories make sense?",
+       "steps": [
+        "First, match the symptom to the structure: forming new long-term memories is the hippocampus's job, so damage there fits \u2014 this is the classic case of patient H.M., whose hippocampi were removed in surgery.",
+        "Second, explain the spared old memories: memories already formed and consolidated elsewhere in the cortex do not need the hippocampus to be retrieved, so old memories survive.",
+        "Third, note what else is spared: the patient can still learn new motor skills (like mirror drawing), because that kind of learning uses the cerebellum and basal ganglia, not the hippocampus.",
+        "Conclusion: memory is not one system but several, and the hippocampus is the gateway for new facts and events \u2014 not the warehouse where they are stored."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why is the amygdala important for fear, and what would happen if it were damaged?",
+        "a": "The amygdala detects threats and triggers the fear response. Damage to it reduces fear and threat detection \u2014 a person might not recognize danger or feel afraid in situations that should be frightening."
+       },
+       {
+        "q": "What does brain plasticity mean for someone recovering from a stroke?",
+        "a": "It means the brain can reorganize: surviving areas can form new connections and take over functions from damaged areas, especially with rehabilitation and practice \u2014 recovery is possible because the brain keeps changing."
+       }
+      ],
+      "takeaway": "The brain is a team of specialists \u2014 brainstem for survival, limbic system for emotion and memory, cortex for thought \u2014 and plasticity means the team can reorganize and relearn throughout life."
+     },
+     {
+      "title": "Sensation: How the Senses Take In the World",
+      "intro": "Sensation is the raw data: light hitting the retina, sound waves vibrating the eardrum, chemicals binding to receptors on the tongue. Before you can perceive anything \u2014 before you recognize a face or understand a sentence \u2014 your sense organs must first detect energy from the world and convert it into neural signals, a process called transduction. Sensation has limits, and those limits are measurable: there is a faintest detectable stimulus, and a smallest noticeable difference between two stimuli. Understanding those limits explains why you cannot hear a dog whistle and why a room feels darker after you step in from bright sunlight.",
+      "concepts": [
+       "Transduction \u2014 the conversion of physical energy (light, sound, pressure, chemicals) into neural signals that the brain can process. Each sense has its own receptor cells built for one kind of energy.",
+       "Absolute threshold \u2014 the minimum intensity of a stimulus that can be detected 50% of the time. It is not a fixed line: expectations, attention, and motivation shift it, which is why signal detection theory matters.",
+       "Difference threshold and Weber's law \u2014 the smallest detectable difference between two stimuli (the just noticeable difference) is proportional to the size of the original stimulus: the bigger the starting amount, the bigger the change needed to notice it.",
+       "Sensory adaptation \u2014 receptors reduce their firing to a constant, unchanging stimulus, which is why you stop noticing the feeling of your clothes or the hum of a refrigerator after a few minutes.",
+       "The senses beyond five \u2014 in addition to vision, hearing, smell, taste, and touch, humans sense balance (the vestibular system), body position (proprioception), temperature, and pain, each with its own receptors."
+      ],
+      "example": {
+       "q": "You walk into a dark movie theater from a sunny street and at first you can barely see, but after a few minutes you can make out the seats. Then someone's phone lights up and it feels blinding. Explain all three effects with sensation concepts.",
+       "steps": [
+        "First, the initial blindness: in bright sun your pupils are small and your photoreceptors are adapted to high light, so the dark theater is below your absolute threshold for detail.",
+        "Second, the gradual improvement: dark adaptation \u2014 your pupils widen, and your rod photoreceptors regenerate their light-sensitive pigment over minutes, lowering your threshold until you can see in the dim light.",
+        "Third, the blinding phone: the bright screen is far above the dim background, and the difference threshold is relative (Weber's law) \u2014 a small light is a huge proportional jump in a dark room, so it feels intense.",
+        "Conclusion: sensation is not a camera recording the world as it is; it is a system constantly adjusting its sensitivity to whatever the world just gave it."
+       ]
+      },
+      "practice": [
+       {
+        "q": "According to Weber's law, would you more easily notice a 1-pound difference in a 10-pound weight or a 100-pound weight? Why?",
+        "a": "In the 10-pound weight, because the just noticeable difference is proportional to the original stimulus \u2014 1 pound is 10% of 10 pounds but only 1% of 100 pounds, so it is much easier to detect in the lighter weight."
+       },
+       {
+        "q": "Why do you stop noticing the feeling of your watch after wearing it for an hour?",
+        "a": "Sensory adaptation: the touch receptors reduce their firing to a constant, unchanging stimulus, so the brain stops registering it \u2014 this frees attention for new, potentially important changes."
+       }
+      ],
+      "takeaway": "Sensation converts the world's energy into neural signals, but it is a moving target: thresholds shift with context, differences are relative, and constant stimuli fade from awareness."
+     },
+     {
+      "title": "Perception: How the Brain Builds the World",
+      "intro": "Sensation gives the brain raw signals; perception turns them into a world. You do not see a pattern of light on your retina \u2014 you see a chair, a friend, a doorway you can walk through. The brain achieves this by organizing sensory input into meaningful objects, using rules that usually work brilliantly and sometimes produce illusions. Perception is not a passive recording: it is an active construction, shaped by your expectations, your past experience, and the context around the stimulus. That is why two people can look at the same picture and see different things.",
+      "concepts": [
+       "Gestalt principles \u2014 the brain organizes input into whole objects using rules like proximity (things close together group together), similarity, continuity, closure (filling in gaps), and figure-ground (separating an object from its background).",
+       "Top-down vs bottom-up processing \u2014 bottom-up processing builds perception from the raw sensory input; top-down processing uses expectations, knowledge, and context to interpret it. Reading a word in a sentence you predicted is top-down; noticing an unexpected sound is bottom-up.",
+       "Perceptual constancy \u2014 the brain keeps objects looking stable even when the sensory input changes: a door still looks rectangular when it is half open, and a white shirt still looks white under yellow light. Size, shape, and color constancy let us recognize the world across changing conditions.",
+       "Depth perception \u2014 the brain uses binocular cues (retinal disparity between the two eyes) and monocular cues (relative size, overlap, linear perspective, texture gradient) to judge distance in a flat retinal image.",
+       "Perceptual illusions \u2014 when the brain's shortcuts misfire, as in the M\u00fcller-Lyer illusion (two lines of equal length look different) or the moon illusion. Illusions are not mistakes to be embarrassed about; they reveal the rules the system normally uses."
+      ],
+      "example": {
+       "q": "In the M\u00fcller-Lyer illusion, two lines of the same length look different \u2014 one with arrow fins pointing out looks longer than one with fins pointing in. Why does the brain get fooled?",
+       "steps": [
+        "First, notice what the brain is doing: it does not just measure the line, it interprets the fins as depth cues \u2014 fins pointing out look like the far inside corner of a room, fins pointing in look like the near outside corner of a building.",
+        "Second, apply size constancy: the brain assumes that if two things cast the same image on the retina but one is farther away, the farther one must be physically bigger \u2014 so it perceives the 'far' line as longer.",
+        "Third, check the reality: measure both lines and they are identical. The error is not in the eyes but in the brain's depth interpretation.",
+        "Conclusion: illusions expose the brain's strategy \u2014 it guesses the world from cues, and when the cues are misleading, the guess is wrong. Perception is inference, not a photograph."
+       ]
+      },
+      "practice": [
+       {
+        "q": "You recognize a friend's voice in a noisy cafeteria. Is this top-down or bottom-up processing, and why?",
+        "a": "Top-down processing: you use your knowledge of your friend's voice and your expectation that they are nearby to pick their voice out of the noise, rather than building the sound up from raw input alone."
+       },
+       {
+        "q": "Why does a white piece of paper still look white in a room lit by yellow lamps?",
+        "a": "Color constancy: the brain compensates for the color of the lighting and judges the paper by its reflectance relative to its surroundings, so the object keeps its perceived color."
+       }
+      ],
+      "takeaway": "Perception is construction, not recording: the brain groups, predicts, and corrects the raw input \u2014 and illusions show the rules it uses, because they show what happens when the rules misfire."
+     },
+     {
+      "title": "Consciousness, Sleep and Dreams",
+      "intro": "Consciousness is your awareness of yourself and your surroundings \u2014 the thoughts, feelings, and perceptions you can report right now. It feels continuous and unified, but psychology has shown it is neither: much of what the brain does happens outside awareness, and consciousness itself changes dramatically across the day. Sleep is the biggest of those changes. Far from being 'off,' the sleeping brain cycles through stages, consolidates memories, and produces dreams \u2014 and losing sleep measurably damages attention, memory, mood, and even physical health.",
+      "concepts": [
+       "Consciousness \u2014 awareness of internal states and the external world, including selective attention (focusing on one stream of input while ignoring others) and the limits of that attention, shown by inattentional blindness.",
+       "Sleep stages \u2014 sleep cycles through light sleep (N1, N2), deep slow-wave sleep (N3), and REM sleep, roughly every 90 minutes. Deep sleep restores the body; REM sleep, with rapid eye movements and vivid dreams, is linked to memory and emotion.",
+       "Circadian rhythm \u2014 the roughly 24-hour internal clock, driven by the suprachiasmatic nucleus and light exposure, that regulates sleep, hormones, and alertness. Jet lag and shift work are circadian mismatches.",
+       "Functions of sleep \u2014 sleep consolidates memories (the day's learning is replayed and strengthened), clears metabolic waste from the brain, regulates mood, and supports the immune system. Chronic short sleep raises the risk of obesity, depression, and accidents.",
+       "Dreams and sleep disorders \u2014 dreams are most vivid in REM sleep; Freud saw them as disguised wishes, while the activation-synthesis theory sees them as the brain making sense of random neural firing during REM. Common disorders include insomnia, sleep apnea (breathing stops during sleep), and narcolepsy (sudden sleep attacks)."
+      ],
+      "example": {
+       "q": "A student pulls an all-nighter before an exam, cramming until 4 a.m., then scores worse than classmates who slept eight hours. Explain why the all-nighter backfired, using what sleep does for memory.",
+       "steps": [
+        "First, note what cramming gives: the material is in short-term memory at 4 a.m., but it was never consolidated \u2014 the transfer to durable long-term memory happens largely during sleep, especially slow-wave and REM sleep.",
+        "Second, add the cost: sleep deprivation impairs attention, working memory, and the prefrontal cortex's ability to retrieve what is there. Even material that was learned is harder to access when exhausted.",
+        "Third, consider the timing: the exam tests recall hours later, after the sleep-deprived brain has had no chance to replay and strengthen the new memories.",
+        "Conclusion: sleep is not time off from learning; it is part of learning. Studying earlier and sleeping is a better strategy than studying later and skipping sleep."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What is the difference between slow-wave sleep and REM sleep, and what is each one mainly linked to?",
+        "a": "Slow-wave (deep) sleep is the deepest stage, with slow brain waves, linked to physical restoration and memory consolidation; REM sleep has fast brain activity, rapid eye movements, and vivid dreams, linked to emotional memory and learning."
+       },
+       {
+        "q": "Why does flying across many time zones make you feel terrible for days?",
+        "a": "Because your circadian rhythm \u2014 the internal 24-hour clock \u2014 is still set to the old time zone, so your body wants to sleep when it is daytime and be alert at night, until light exposure resets the clock."
+       }
+      ],
+      "takeaway": "Consciousness is selective and changeable, and sleep is not switched-off time \u2014 it is when the brain consolidates memory, restores itself, and dreams, so skipping it costs you the learning you stayed up to get."
+     }
     ]
    },
    {
     "module_title": "Learning, Memory and Cognition",
     "lessons": [
-     "Classical Conditioning",
-     "Operant Conditioning and Reinforcement",
-     "Memory: Encoding, Storage, Retrieval \u2014 and Forgetting",
-     "Thinking, Language and Problem Solving",
-     "Intelligence and Testing"
+     {
+      "title": "Classical Conditioning",
+      "intro": "Classical conditioning is learning by association \u2014 the process Pavlov discovered when his dogs began salivating to a bell that had been paired with food. The animal (or person) learns that one stimulus predicts another, and the response to the first transfers to the second. It explains far more than dog training: why a song can make you nostalgic, why a dentist's waiting room can make your stomach tighten, and why a recovering alcoholic can relapse on the street where they used to drink. The learning is automatic, and it happens whether you intend it or not.",
+      "concepts": [
+       "Unconditioned stimulus and response \u2014 the unconditioned stimulus (US, e.g., food) naturally triggers the unconditioned response (UR, e.g., salivation) without any learning.",
+       "Conditioned stimulus and response \u2014 after pairing, the previously neutral stimulus (the bell) becomes the conditioned stimulus (CS) and triggers the conditioned response (CR, salivation to the bell alone).",
+       "Acquisition, extinction, and spontaneous recovery \u2014 acquisition is the learning phase; extinction is the weakening of the CR when the CS is presented without the US; spontaneous recovery is the brief return of the CR after a rest period.",
+       "Generalization and discrimination \u2014 generalization is responding to stimuli similar to the CS (Little Albert feared other furry things, not just the rat); discrimination is learning to respond to the CS but not to similar stimuli.",
+       "Higher-order conditioning \u2014 a CS can itself be used to condition a new stimulus, building chains of associations (a bell predicts food, a light predicts the bell, so the light alone triggers salivation)."
+      ],
+      "example": {
+       "q": "Every time Maya's phone buzzes with a message from her crush, she feels a rush of excitement. Now her heart races the moment she hears any phone buzz, even a spam alert. Walk through the classical conditioning at work.",
+       "steps": [
+        "First, identify the unconditioned pair: the message from her crush is the unconditioned stimulus, and the excitement is the unconditioned response \u2014 it needs no learning.",
+        "Second, find the pairing: the buzz sound repeatedly preceded the crush's messages, so the buzz became the conditioned stimulus.",
+        "Third, note the conditioned response: the buzz alone now triggers the racing heart, even before she checks the phone.",
+        "Fourth, spot generalization: her heart races at any buzz, including spam alerts, because the new buzz is similar to the conditioned one. Extinction would occur if buzzes repeatedly arrived with no crush messages \u2014 eventually the racing would fade."
+       ]
+      },
+      "practice": [
+       {
+        "q": "In Pavlov's experiment, what is the conditioned stimulus and what is the conditioned response?",
+        "a": "The conditioned stimulus is the bell (originally neutral, paired with food); the conditioned response is salivation to the bell alone."
+       },
+       {
+        "q": "A child who was bitten by a dog now feels afraid of all dogs, even friendly ones. What is this called, and how could discrimination be taught?",
+        "a": "This is generalization \u2014 fear spreading to stimuli similar to the original. Discrimination could be taught by pairing friendly dogs with safe, pleasant experiences so the child learns to respond differently to different dogs."
+       }
+      ],
+      "takeaway": "Classical conditioning is learning that one stimulus predicts another: a neutral signal paired with a natural trigger inherits the response \u2014 and the learning spreads, fades, and can return, just like real fears and cravings."
+     },
+     {
+      "title": "Operant Conditioning and Reinforcement",
+      "intro": "Classical conditioning is about what predicts what. Operant conditioning is about what follows what: behavior is shaped by its consequences. If an action is followed by something rewarding, you do it more; if it is followed by something unpleasant, you do it less. Skinner showed this with rats pressing levers for food, but the same law governs homework, exercise, social media, and job performance. The tricky part is the details \u2014 reinforcement and punishment are not the same as reward and punishment in everyday language, and schedules of reinforcement explain why some habits are so hard to break.",
+      "concepts": [
+       "Reinforcement vs punishment \u2014 reinforcement increases a behavior; punishment decreases it. Positive means adding something; negative means removing something. So negative reinforcement (removing something unpleasant) increases behavior, while positive punishment (adding something unpleasant) decreases it.",
+       "Primary vs secondary reinforcers \u2014 primary reinforcers satisfy a biological need (food, water); secondary reinforcers are learned (money, praise, grades) because they predict primary ones.",
+       "Schedules of reinforcement \u2014 continuous reinforcement rewards every response (fast learning, fast extinction); partial schedules reward only sometimes. Fixed-ratio rewards after a set number of responses, variable-ratio after an unpredictable number \u2014 variable-ratio produces the highest, most persistent responding, which is why slot machines and social media are so addictive.",
+       "Shaping \u2014 reinforcing successive approximations toward a target behavior, step by step, so a complex behavior can be built from simple ones (how animals are trained, and how a teacher builds a skill).",
+       "Learned helplessness \u2014 when an organism learns that its actions have no effect on outcomes, it stops trying even when escape becomes possible. Seligman's dogs, and students who have failed repeatedly, show the same pattern."
+      ],
+      "example": {
+       "q": "A student checks their phone every few minutes while studying, even though they know it hurts their focus. Use operant conditioning to explain why this habit is so persistent \u2014 and why simply deciding to stop rarely works.",
+       "steps": [
+        "First, identify the reinforcement: each check sometimes delivers a reward \u2014 a like, a funny message, a reply \u2014 and sometimes nothing. That is a variable-ratio schedule, the most powerful schedule for maintaining behavior.",
+        "Second, note the immediacy: the reward arrives in seconds, while the cost (a worse exam grade) arrives weeks later. Immediate consequences shape behavior far more strongly than delayed ones.",
+        "Third, notice the partial reinforcement effect: because the reward is unpredictable, the behavior resists extinction \u2014 the student keeps checking 'just in case this time' there is something good.",
+        "Conclusion: willpower alone fights a well-engineered reinforcement schedule. The fix is environmental: make checking harder (phone in another room) and make studying itself more immediately rewarding (short timed goals with a real break)."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A parent takes away a teenager's chores for a week after the teenager cleans their room without being asked. Is this positive or negative reinforcement?",
+        "a": "Negative reinforcement: removing an unpleasant thing (chores) increases the behavior (cleaning the room). It is reinforcement, not punishment, because the behavior becomes more likely."
+       },
+       {
+        "q": "Why does a variable-ratio schedule produce more persistent behavior than a fixed-ratio schedule?",
+        "a": "Because the reward is unpredictable, the learner cannot tell when the next reward is coming, so they keep responding at a high rate \u2014 and when rewards stop, they keep going longer, since a dry spell is normal on a variable schedule."
+       }
+      ],
+      "takeaway": "Behavior follows its consequences: reinforcement builds habits, punishment suppresses them, and unpredictable rewards \u2014 the variable-ratio schedule \u2014 build the habits that are hardest to break."
+     },
+     {
+      "title": "Memory: Encoding, Storage, Retrieval \u2014 and Forgetting",
+      "intro": "Memory is not a video recorder. It is a construction built in three stages \u2014 encoding (getting information in), storage (keeping it), and retrieval (getting it back out) \u2014 and each stage can fail. The classic model splits memory into sensory memory (a fraction of a second), short-term or working memory (about 7 items, about 20 seconds without rehearsal), and long-term memory (potentially unlimited, lasting years). Forgetting is not a flaw in the system; it is part of how the system works, and understanding it tells you how to study so that what you learn actually stays.",
+      "concepts": [
+       "Encoding \u2014 getting information into memory. Deep processing (meaning, connections, elaboration) encodes far better than shallow processing (appearance, sound). This is the levels-of-processing effect, and it is why explaining a concept beats rereading it.",
+       "Storage \u2014 sensory memory holds raw input briefly; short-term/working memory holds a few items actively; long-term memory stores facts (explicit/declarative memory) and skills (implicit/procedural memory) for the long term.",
+       "Retrieval and cues \u2014 retrieval works best when the cues at recall match the cues at encoding (encoding specificity), which is why studying in the same conditions as the exam can help, and why a smell or song can unlock a forgotten memory.",
+       "Forgetting \u2014 Ebbinghaus's forgetting curve shows rapid loss soon after learning, slowing over time. Causes include decay, interference (old memories blocking new ones and vice versa), and retrieval failure (the memory exists but the cue is missing).",
+       "False memories \u2014 memory is reconstructive, so it can be distorted by suggestion, leading questions, or imagination. The misinformation effect shows that what people are told after an event can change what they remember about it."
+      ],
+      "example": {
+       "q": "Two students study the same chapter. One rereads it three times; the other reads it once, closes the book, and tries to recall the key points from memory, checking what they missed. Who will remember more on the exam a week later, and why?",
+       "steps": [
+        "First, compare the encoding: rereading is shallow processing \u2014 the words feel familiar, but the student is not building connections. Retrieval practice forces deep processing: the brain must reconstruct the meaning, which strengthens the memory trace.",
+        "Second, consider the testing effect: practicing retrieval is itself a form of learning. Each successful recall makes the next recall easier, while rereading adds almost nothing after the first pass.",
+        "Third, apply the forgetting curve: both students will forget, but the retrieval-practice student starts from a stronger trace and loses less, especially if they space the practice over several days.",
+        "Conclusion: the student who practiced recalling will remember more, a week later, from less total study time. Feeling fluent while rereading is a poor guide to what you actually know."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What is the difference between explicit and implicit memory? Give one example of each.",
+        "a": "Explicit memory is conscious recall of facts and events, like remembering your first day of school; implicit memory is unconscious, like riding a bike or typing without thinking about where the keys are."
+       },
+       {
+        "q": "Why does a leading question like 'How fast was the car going when it smashed into the other car?' change eyewitness memory?",
+        "a": "Because of the misinformation effect: the word 'smashed' suggests a more violent crash, and the suggestion gets incorporated into the memory, so witnesses later remember the car going faster than it actually did."
+       }
+      ],
+      "takeaway": "Memory is built in stages \u2014 encode deeply, store in long-term memory, retrieve with matching cues \u2014 and it is reconstructive, so the best study method is not rereading but practicing recall, spaced over time."
+     },
+     {
+      "title": "Thinking, Language and Problem Solving",
+      "intro": "Thinking is the brain's way of working with information: forming concepts, making decisions, solving problems, and reasoning about the world. It is powerful but full of shortcuts \u2014 heuristics that usually help and sometimes mislead \u2014 and biases that make even smart people predictably wrong. Language is thinking's partner: it lets us share ideas, and it shapes how we categorize the world, though it does not imprison thought the way early theories claimed. Understanding how thinking works, and where it goes wrong, is the most practical part of psychology \u2014 it is the skill that improves every decision you make.",
+      "concepts": [
+       "Concepts and categories \u2014 mental groupings of similar things, organized around prototypes (the most typical example). We judge membership by similarity to the prototype, which is fast but can be wrong for unusual cases.",
+       "Heuristics \u2014 mental shortcuts: the availability heuristic (judging likelihood by how easily examples come to mind), the representativeness heuristic (judging by similarity to a stereotype), and anchoring (over-relying on the first number you hear).",
+       "Problem solving \u2014 strategies include trial and error, algorithms (step-by-step procedures that guarantee a solution), and insight (a sudden restructuring of the problem). Obstacles include mental set (sticking with a strategy that worked before) and functional fixedness (seeing an object only in its usual role).",
+       "Language \u2014 a system of symbols with rules (phonemes, morphemes, syntax, semantics). The language acquisition device and critical periods explain how children learn language so quickly; the Sapir-Whorf hypothesis says language influences thought, but does not determine it.",
+       "Reasoning errors \u2014 confirmation bias (seeking evidence that supports what you already believe), the framing effect (the same choice looks different depending on how it is worded), and overconfidence (overestimating the accuracy of your own judgments)."
+      ],
+      "example": {
+       "q": "After a plane crash is covered on the news for a week, many people say flying is dangerous and choose to drive instead \u2014 even though driving is statistically far more dangerous per mile. What thinking error is at work, and why does it feel so convincing?",
+       "steps": [
+        "First, name the heuristic: the availability heuristic \u2014 plane crashes are vivid, dramatic, and easy to recall, so they feel common; car crashes are routine and forgettable, so they feel rare.",
+        "Second, check the base rates: the actual probability of dying in a car trip is much higher than in a flight, but base rates are abstract and hard to picture, while a burning plane on television is unforgettable.",
+        "Third, note the confirmation bias: once a person believes flying is dangerous, they notice every news story about planes and ignore the millions of safe flights \u2014 the belief filters the evidence.",
+        "Conclusion: the feeling of risk is a bad guide to actual risk. The cure is to ask for the numbers \u2014 the base rate \u2014 before trusting the feeling that the vivid example creates."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A person needs to hang a picture but has no hammer, only a heavy book. They cannot think of using the book as a hammer. What is this called?",
+        "a": "Functional fixedness \u2014 seeing an object only in its usual role (a book is for reading) and failing to see a new use for it."
+       },
+       {
+        "q": "What is confirmation bias, and how can you fight it in your own thinking?",
+        "a": "Confirmation bias is the tendency to seek, notice, and remember evidence that supports what you already believe. You fight it by deliberately asking what evidence would prove you wrong, and by seeking out the strongest argument for the other side."
+       }
+      ],
+      "takeaway": "Thinking runs on shortcuts \u2014 prototypes, heuristics, and framing \u2014 that are usually efficient and sometimes predictably wrong; the defense is to check base rates and ask what would prove you wrong."
+     },
+     {
+      "title": "Intelligence and Testing",
+      "intro": "Intelligence is one of psychology's most studied and most argued-about ideas. Everyone agrees it exists; nobody agrees exactly what it is. Is it one general ability (Spearman's g), or many separate abilities (Gardner's multiple intelligences, Sternberg's triarchic theory)? The debate matters because tests based on these ideas decide who gets into programs, who gets diagnosed, and who gets labeled. A good test must be reliable (consistent results), valid (measures what it claims to), and standardized (same conditions for everyone) \u2014 and even then, a score is a snapshot of performance on one day, not a verdict on a person's worth.",
+      "concepts": [
+       "General intelligence (g) \u2014 Spearman's finding that scores on different mental tests correlate, suggesting one underlying general ability. Modern models keep g but add specific abilities like verbal, spatial, and processing speed.",
+       "Multiple intelligences \u2014 Gardner proposed eight relatively independent intelligences (linguistic, logical-mathematical, spatial, musical, bodily-kinesthetic, interpersonal, intrapersonal, naturalistic); Sternberg proposed analytical, creative, and practical intelligence. These models are popular in education but harder to test than g.",
+       "IQ tests \u2014 standardized tests such as the Wechsler scales (WAIS, WISC) produce an IQ score with a mean of 100 and a standard deviation of 15. The Flynn effect is the steady rise in average IQ scores across generations, mostly from better nutrition, schooling, and test familiarity.",
+       "Reliability and validity \u2014 reliability is consistency (the same person scores similarly on retesting); validity is accuracy (the test measures what it claims to, and predicts what it should, like school performance). A test can be reliable without being valid.",
+       "Heritability and environment \u2014 intelligence is influenced by both genes and environment. Heritability estimates (often around 50\u201380% for IQ) describe variation within a group, not how much of an individual's intelligence comes from genes \u2014 and they do not mean the trait cannot change."
+      ],
+      "example": {
+       "q": "A school uses a single IQ score to decide which students get into its gifted program. A student scores 128 one year and 118 the next. What does this tell you about the test \u2014 and about the policy of using one score?",
+       "steps": [
+        "First, remember reliability: no test is perfectly consistent, and IQ scores have a standard error of measurement \u2014 a 10-point swing can reflect measurement noise, a bad day, or unfamiliarity with the items, not a real change in ability.",
+        "Second, consider validity: an IQ test measures some kinds of thinking well (verbal and quantitative reasoning) and others poorly (creativity, motivation, practical skill). A single score is a narrow picture of a broad trait.",
+        "Third, weigh fairness: test scores are influenced by schooling, language background, and familiarity with test formats, so a single cutoff can systematically exclude students who would thrive in the program.",
+        "Conclusion: one score should never be the whole decision. Good practice uses multiple measures \u2014 teacher recommendations, work samples, and retesting \u2014 and treats a score as a range, not a precise number."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What is the difference between reliability and validity in a psychological test?",
+        "a": "Reliability is consistency \u2014 the test gives similar results when repeated; validity is accuracy \u2014 the test actually measures what it claims to measure and predicts what it should predict."
+       },
+       {
+        "q": "If IQ is about 70% heritable in a population, does that mean 70% of one person's intelligence comes from their genes? Explain.",
+        "a": "No. Heritability describes how much of the variation between people in a group is associated with genetic differences; it says nothing about one individual's intelligence, and it does not mean the trait is fixed or unchangeable."
+       }
+      ],
+      "takeaway": "Intelligence is best seen as a general ability with many specific parts, measured by tests that must be reliable, valid, and standardized \u2014 and a score is a snapshot with a margin of error, never a final verdict on a person."
+     }
     ]
    },
    {
     "module_title": "The Person: Development, Personality and Disorders",
     "lessons": [
-     "Development Across the Lifespan",
-     "Personality: Traits and the Big Five",
-     "Psychological Disorders: An Evidence-Based Survey",
-     "Therapy Approaches in Brief",
-     "Mental Health, Stigma and Getting Help",
-     "Final Reflection Project"
+     {
+      "title": "Development Across the Lifespan",
+      "intro": "Developmental psychology asks how people change \u2014 and stay the same \u2014 from conception to old age. The big questions are nature vs nurture (how much comes from genes, how much from experience), continuity vs stages (do we change gradually or in leaps), and stability vs change (how much of who you are at five predicts who you are at fifty). The answers are almost always 'both': genes set a range, experience picks a point within it. The classic theories \u2014 Piaget's stages of thinking, Erikson's stages of social development, Kohlberg's stages of moral reasoning \u2014 remain useful maps, even as research has softened their sharpest claims.",
+      "concepts": [
+       "Piaget's cognitive stages \u2014 sensorimotor (birth\u20132, learning through senses and action, object permanence), preoperational (2\u20137, symbolic thought but egocentrism and no conservation), concrete operational (7\u201311, logical thought about concrete things), formal operational (11+, abstract and hypothetical reasoning). Children today are often found to reach each stage earlier than Piaget thought.",
+       "Attachment \u2014 the emotional bond between infant and caregiver, studied by Bowlby and Ainsworth. Secure attachment (caregiver as a safe base) predicts better social and emotional outcomes; insecure patterns (avoidant, ambivalent) are linked to inconsistent or unresponsive care \u2014 but attachment can change with later relationships.",
+       "Erikson's psychosocial stages \u2014 eight stages across the lifespan, each a crisis to resolve: trust vs mistrust in infancy, identity vs role confusion in adolescence, intimacy vs isolation in young adulthood, generativity vs stagnation in middle age, and integrity vs despair in old age.",
+       "Kohlberg's moral development \u2014 preconventional (avoid punishment, seek reward), conventional (follow rules and social approval), and postconventional (universal principles). Like Piaget, the stages describe a sequence, not a timetable, and culture and gender shape how people reason morally.",
+       "Development in adulthood and aging \u2014 development does not stop at 18: fluid intelligence (speed, new problem solving) declines with age, while crystallized intelligence (knowledge, vocabulary) keeps growing, and emotional regulation often improves. Aging brings real losses, but also real gains."
+      ],
+      "example": {
+       "q": "A four-year-old watches water poured from a short wide glass into a tall thin glass and insists there is now 'more water.' Her older brother says the amount is the same. Explain the difference using Piaget \u2014 and what would change the younger child's answer?",
+       "steps": [
+        "First, place the younger child in the preoperational stage: she focuses on one dimension at a time (the height of the water) and cannot yet mentally reverse the pouring \u2014 the hallmarks of centration and irreversibility.",
+        "Second, place the brother in the concrete operational stage: he can consider height and width together, and he can mentally reverse the action \u2014 pour it back and it is the same amount. That is conservation.",
+        "Third, consider what would help: if the younger child pours the water herself, or watches it poured back, the hands-on experience can support conservation earlier than Piaget's ages suggest \u2014 children are more capable than his tests sometimes showed.",
+        "Conclusion: the disagreement is not about eyesight or honesty; it is about the structure of thought at different stages, and the younger child's logic is perfectly reasonable given the stage she is in."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What is secure attachment, and why does it matter for later development?",
+        "a": "Secure attachment is when an infant uses the caregiver as a safe base \u2014 distressed by separation but comforted on return. It predicts better social skills, emotional regulation, and relationships later, because the child learned that others can be trusted."
+       },
+       {
+        "q": "A teenager is struggling with the question 'Who am I?' Which Erikson stage is this, and what is at stake?",
+        "a": "Identity vs role confusion: the task of adolescence is forming a stable sense of self \u2014 values, goals, and roles. Success brings a clear identity; failure brings confusion about who one is and where one fits."
+       }
+      ],
+      "takeaway": "We develop in stages and along continuums at once \u2014 thinking, attachment, identity, and morality each have their own timetable \u2014 and development never stops: aging trades speed for wisdom."
+     },
+     {
+      "title": "Personality: Traits and the Big Five",
+      "intro": "Personality is the pattern of thoughts, feelings, and behaviors that makes a person recognizably themselves across time and situations. Psychologists have argued for a century about how to describe it: Freud saw hidden drives, humanists saw a drive toward growth, and trait theorists saw stable dimensions that can be measured. The trait approach has won the measurement debate. The Big Five \u2014 openness, conscientiousness, extraversion, agreeableness, and neuroticism \u2014 is the most replicated finding in personality psychology, predicting everything from job performance to health to relationship satisfaction. But traits are tendencies, not destiny: the situation still matters, and people change.",
+      "concepts": [
+       "Traits vs states \u2014 a trait is a stable tendency (being generally outgoing); a state is temporary (feeling outgoing at a party). Traits predict behavior on average, but any single situation can override them.",
+       "The Big Five (OCEAN) \u2014 Openness (curiosity, imagination), Conscientiousness (organization, self-discipline), Extraversion (sociability, energy), Agreeableness (kindness, cooperation), Neuroticism (emotional instability, anxiety). Each is a continuum, not a type.",
+       "Psychodynamic view \u2014 Freud's id (instincts), ego (reality), and superego (morality), with defense mechanisms like repression and denial managing the conflict. Modern research finds little support for Freud's specifics, but keeps the idea of unconscious influence.",
+       "Humanistic view \u2014 Rogers and Maslow saw personality as the drive toward self-actualization, with the self-concept shaped by unconditional positive regard. The emphasis is on growth and free will rather than past conflict.",
+       "Measuring personality \u2014 self-report questionnaires, interviews, and behavioral observation. Good measures are reliable and valid, but self-reports can be biased by social desirability \u2014 people describing themselves as they wish to be seen."
+      ],
+      "example": {
+       "q": "A manager hires only candidates who score high on extraversion, assuming they will be the best salespeople. A quiet, highly conscientious candidate is rejected \u2014 then outsells the extraverts at another firm. What did the manager get wrong about personality?",
+       "steps": [
+        "First, the manager treated one trait as the whole job: extraversion helps with starting conversations, but conscientiousness \u2014 organization, follow-through, preparation \u2014 predicts sales performance at least as well.",
+        "Second, the manager ignored the situation: in a job with long client relationships and careful follow-up, conscientiousness matters more than in a job of brief, high-energy pitches. Traits interact with the job's demands.",
+        "Third, the manager treated a trait as a yes-or-no type: the Big Five are continuums, and a moderately extraverted, highly conscientious person can be excellent at sales \u2014 the rejected candidate proves it.",
+        "Conclusion: personality predicts performance, but only when the right traits are matched to the right job, and only as probabilities, not certainties. A single trait is never the whole person."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Name the Big Five traits and give a one-word description of a person high in each.",
+        "a": "Openness \u2014 curious; Conscientiousness \u2014 organized; Extraversion \u2014 sociable; Agreeableness \u2014 kind; Neuroticism \u2014 anxious. (OCEAN is the memory aid.)"
+       },
+       {
+        "q": "Why do psychologists say traits are tendencies, not destiny?",
+        "a": "Because traits predict behavior on average across many situations, but any single situation \u2014 a crisis, a strong social norm, a new role \u2014 can override them, and traits themselves change gradually over the lifespan."
+       }
+      ],
+      "takeaway": "Personality is a stable pattern, best described by the Big Five continuums \u2014 and traits predict behavior as probabilities matched to situations, never as fixed labels on a person."
+     },
+     {
+      "title": "Psychological Disorders: An Evidence-Based Survey",
+      "intro": "A psychological disorder is a pattern of thoughts, feelings, or behaviors that causes distress or impairs functioning \u2014 not just being unusual. The DSM-5-TR, the field's diagnostic manual, lists hundreds of disorders, but the ones you will meet most often are anxiety disorders, mood disorders, schizophrenia, and personality disorders. This lesson's job is to replace stereotypes with facts: mental illness is common (about one in five adults each year), it has real biological, psychological, and social causes, and it is treatable. The stigma that keeps people from seeking help is itself one of the biggest obstacles to recovery.",
+      "concepts": [
+       "Defining disorder \u2014 the DSM-5-TR requires a syndrome that causes clinically significant distress or impairment, not merely a behavior society dislikes. Culture matters: what counts as disordered varies, and diagnosis must consider context.",
+       "Anxiety disorders \u2014 the most common group: generalized anxiety disorder (persistent worry), panic disorder (sudden attacks of terror), phobias (intense fear of a specific object or situation), and social anxiety disorder. Fear circuits in the amygdala are overactive.",
+       "Mood disorders \u2014 major depressive disorder (persistent low mood, loss of interest, changes in sleep and appetite) and bipolar disorder (alternating depressive and manic episodes of elevated mood and energy). Depression is the leading cause of disability worldwide.",
+       "Schizophrenia \u2014 a psychotic disorder marked by positive symptoms (hallucinations, delusions, disorganized speech), negative symptoms (flat affect, social withdrawal), and cognitive symptoms. It involves dopamine dysregulation and usually appears in late adolescence or early adulthood.",
+       "The biopsychosocial model of disorder \u2014 most disorders arise from a combination of genetic vulnerability, brain differences, psychological factors (trauma, thinking patterns), and social factors (stress, isolation, poverty). The diathesis-stress model says vulnerability plus stress triggers the disorder."
+      ],
+      "example": {
+       "q": "Two students both face the same stressful semester. One develops depression; the other does not. The first student's mother also had depression. Explain the difference using the diathesis-stress model.",
+       "steps": [
+        "First, identify the diathesis: the first student likely carries a genetic vulnerability to depression \u2014 a predisposition, not a guarantee \u2014 inherited in part from their mother.",
+        "Second, identify the stress: the difficult semester is the stressor, and it is the same for both students.",
+        "Third, combine them: the diathesis-stress model says a disorder appears when vulnerability plus stress crosses a threshold. The vulnerable student crosses it; the other, with lower vulnerability, does not \u2014 this time.",
+        "Conclusion: neither genes alone nor stress alone explains the difference. It is the interaction that matters \u2014 and it also means treatment can work on either side: reducing stress or building coping skills lowers the total load."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What is the difference between a positive symptom and a negative symptom of schizophrenia? Give one example of each.",
+        "a": "Positive symptoms add something abnormal, like hallucinations (hearing voices) or delusions; negative symptoms take something away, like flat affect (little emotional expression) or social withdrawal."
+       },
+       {
+        "q": "Why is it wrong to say someone 'is' their disorder \u2014 for example, 'she is a schizophrenic' rather than 'she has schizophrenia'?",
+        "a": "Because a disorder is one part of a person's life, not their identity \u2014 person-first language respects that, and it also reflects the science: symptoms change over time and with treatment, while the person remains."
+       }
+      ],
+      "takeaway": "Disorders are patterns that cause real distress or impairment, explained by vulnerability meeting stress \u2014 they are common, they have biological and social causes, and they are treatable."
+     },
+     {
+      "title": "Therapy Approaches in Brief",
+      "intro": "Psychotherapy works \u2014 decades of research show that most people who enter therapy improve more than similar people who do not. But therapy is not one thing: different approaches rest on different theories of what causes suffering, and they work in different ways. Psychodynamic therapy explores the past and the unconscious; cognitive-behavioral therapy (CBT) targets the thoughts and behaviors that maintain the problem right now; humanistic therapy offers empathy and acceptance; and biomedical therapy uses medication to change brain chemistry. The evidence says the approach matters less than most people think \u2014 the therapeutic relationship matters more \u2014 but knowing the approaches helps you choose and judge them.",
+      "concepts": [
+       "Psychodynamic therapy \u2014 explores unconscious conflicts and early experiences through free association and interpretation, aiming for insight that frees the person from old patterns. It is long-term and less used than it once was.",
+       "Cognitive-behavioral therapy (CBT) \u2014 the most evidence-based approach for anxiety and depression: identify distorted thoughts, test them against evidence, and change the behaviors that maintain the problem. It is structured, time-limited, and homework-heavy.",
+       "Humanistic therapy \u2014 Rogers's client-centered therapy: the therapist offers unconditional positive regard, empathy, and genuineness, creating conditions for the client to grow. The relationship itself is the treatment.",
+       "Behavioral therapy \u2014 applies learning principles directly: exposure therapy gradually confronts feared situations (the gold standard for phobias), and systematic desensitization pairs relaxation with the feared stimulus.",
+       "Biomedical therapy \u2014 medication: antidepressants (SSRIs) for depression and anxiety, antipsychotics for schizophrenia, mood stabilizers for bipolar disorder, and anxiolytics for short-term anxiety. Often most effective combined with psychotherapy."
+      ],
+      "example": {
+       "q": "A student has panic attacks before exams. A CBT therapist and a psychodynamic therapist would take very different approaches. Describe each \u2014 and which one has stronger evidence for panic disorder?",
+       "steps": [
+        "First, the CBT approach: the therapist would teach the student to notice the catastrophic thought ('I will fail and my life is over'), test it against evidence (past exams survived, the feeling passes), and practice exposure \u2014 sitting with the anxiety in a mock exam until it fades.",
+        "Second, the psychodynamic approach: the therapist would explore what the exams symbolize \u2014 perhaps a fear of disappointing a parent, or an early experience of shame \u2014 seeking insight into the unconscious conflict behind the panic.",
+        "Third, compare the evidence: for panic disorder, CBT \u2014 especially exposure-based CBT \u2014 has the strongest evidence, often helping within weeks, while psychodynamic therapy has weaker evidence for this specific problem.",
+        "Conclusion: the approaches are not equal for every problem, and the best choice depends on the disorder \u2014 but both agree that the relationship with the therapist, and the client's active participation, matter enormously."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What is exposure therapy, and why does it work for phobias?",
+        "a": "Exposure therapy gradually confronts the feared object or situation in a controlled way. It works through extinction: the fear response weakens when the feared stimulus repeatedly occurs without the feared outcome, and the person learns new, safe associations."
+       },
+       {
+        "q": "Why is medication often combined with psychotherapy rather than used alone?",
+        "a": "Because medication can reduce symptoms by changing brain chemistry, while therapy teaches skills and changes the thoughts and behaviors that maintain the problem \u2014 together they address both the biology and the psychology, and relapse is lower than with either alone."
+       }
+      ],
+      "takeaway": "Therapy works, and different approaches work differently \u2014 CBT for thoughts and behaviors now, psychodynamic for the past, humanistic for growth, medication for brain chemistry \u2014 and the best results usually combine approaches with a strong therapeutic relationship."
+     },
+     {
+      "title": "Mental Health, Stigma and Getting Help",
+      "intro": "Knowing about disorders and therapy is not enough if people never get help. Stigma \u2014 the shame, stereotypes, and discrimination attached to mental illness \u2014 is the biggest reason people suffer in silence. It takes two forms: public stigma (what others think) and self-stigma (what you believe about yourself for needing help). The facts fight stigma: mental illness is common, it is not a weakness or a character flaw, it is not dangerous in the way movies suggest, and treatment works. This lesson is about what to do \u2014 for yourself and for someone you care about \u2014 when help is needed.",
+      "concepts": [
+       "Public vs self-stigma \u2014 public stigma is the negative attitudes of others (being labeled 'crazy' or 'unstable'); self-stigma is internalizing those attitudes, feeling ashamed of your own symptoms and avoiding help because of it.",
+       "Myths vs facts \u2014 myth: people with mental illness are usually violent (fact: they are more likely to be victims of violence than perpetrators); myth: therapy is only for people in crisis (fact: it helps with everyday stress and growth too); myth: asking for help is weakness (fact: it is a coping skill).",
+       "When to seek help \u2014 when symptoms last more than two weeks, interfere with school, work, relationships, or sleep, or involve thoughts of harming yourself. Early help works better than waiting.",
+       "How to help someone else \u2014 listen without judging, take their concerns seriously, encourage professional help rather than trying to be their therapist, and stay connected. If someone is in immediate danger, stay with them and call emergency services or a crisis line (988 in the United States).",
+       "Self-care and prevention \u2014 regular sleep, exercise, social connection, and stress management are not luxuries; they are protective factors for mental health. Prevention is cheaper and kinder than crisis."
+      ],
+      "example": {
+       "q": "A friend tells you they have been feeling hopeless for weeks, sleeping all day, and missing classes. They say, 'Don't tell anyone \u2014 people will think I'm crazy.' What do you do, step by step?",
+       "steps": [
+        "First, listen and take it seriously: thank them for trusting you, and do not dismiss the feelings or offer quick fixes like 'just cheer up.' Hopelessness lasting weeks is a real warning sign, not a bad mood.",
+        "Second, address the stigma directly: explain that depression is common and treatable, that it is an illness and not a weakness, and that getting help is a sign of strength \u2014 the same as going to a doctor for a broken arm.",
+        "Third, encourage professional help and offer concrete support: help them find the campus counseling center or a doctor, and offer to go with them. Do not promise to keep it secret if they are at risk of harming themselves.",
+        "Conclusion: you are not their therapist, and you do not need to be \u2014 your job is to listen, reduce the shame, and connect them to someone trained. If they mention suicide, stay with them and call 988 (US) or emergency services right away."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What is the difference between public stigma and self-stigma?",
+        "a": "Public stigma is the negative attitudes and discrimination from other people; self-stigma is when a person internalizes those attitudes and feels ashamed of their own condition, which often stops them from seeking help."
+       },
+       {
+        "q": "A classmate says people with mental illness are usually dangerous. What is the evidence-based reply?",
+        "a": "That is a myth: people with mental illness are far more likely to be victims of violence than perpetrators, and most are no more dangerous than anyone else \u2014 the stereotype comes from movies and news, not data."
+       }
+      ],
+      "takeaway": "Stigma is the biggest barrier to mental health care \u2014 and it is built on myths. Knowing the facts, listening without judgment, and connecting people to help (988 in a crisis) is how you fight it."
+     },
+     {
+      "title": "Final Reflection Project",
+      "intro": "This final lesson is not a new topic \u2014 it is a project that pulls the whole course together. Your task is to pick one psychological question that matters to you, investigate it with the tools of the course, and present what you found. A good project does not just repeat a textbook: it takes a perspective, applies a method, and reaches a conclusion you can defend. You will use the perspectives to frame the question, the research methods to judge the evidence, the brain and learning material to explain the mechanism, and the disorders and therapy material to say what should be done about it.",
+      "concepts": [
+       "Choosing a question \u2014 pick something specific and testable, not a vague topic: 'Does sleep affect exam performance in college students?' beats 'sleep and learning.' A good question names the variables and the population.",
+       "Framing with perspectives \u2014 the same question looks different through each lens: a behavioral view of procrastination sees reinforcement; a cognitive view sees beliefs about the task; a biological view sees sleep and stress hormones. Use at least two perspectives in your project.",
+       "Judging the evidence \u2014 find at least two sources, and for each one ask: was it an experiment or a correlation? Who was studied? What was measured, and how? Does the conclusion follow? Cite the method, not just the headline.",
+       "Applying the mechanisms \u2014 explain the findings with course concepts: classical or operant conditioning, memory encoding and retrieval, the Big Five, or the diathesis-stress model. The mechanism is what turns a fact into an explanation.",
+       "Presenting the conclusion \u2014 state your answer plainly, note its limits (sample size, method, what you could not check), and say what you would do next: a study you would run, or an action you would recommend, with the evidence for it."
+      ],
+      "example": {
+       "q": "A student chooses the question: 'Does studying with background music help or hurt exam scores?' Walk through how they would build this into a final project.",
+       "steps": [
+        "First, frame it with perspectives: cognitively, music might compete for working memory (bad) or improve mood and arousal (good); behaviorally, music might be a conditioned cue that signals 'study time' and triggers focus.",
+        "Second, judge the evidence: they find one study showing music helps \u2014 but it is correlational, with students choosing their own music. They find an experiment with random assignment showing lyrical music hurts recall while instrumental music is neutral. They report the method, not just the result.",
+        "Third, apply the mechanisms: working memory has limited capacity, so lyrics compete with the verbal material being studied \u2014 that explains the experiment's result, and it matches the memory lesson's encoding principles.",
+        "Fourth, conclude with limits: the experiment used short word lists, not real exams, and only tested one kind of music. Their recommendation: try instrumental music if you like it, avoid lyrics for verbal material, and test it on yourself with a small experiment \u2014 two study sessions, one with music, one without, then compare quiz scores."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Which is a better final-project question: 'Does social media affect teenagers?' or 'Does one hour of social media before bed affect sleep quality in high school students?' Why?",
+        "a": "The second: it names specific variables (one hour of social media before bed, sleep quality) and a specific population (high school students), so it can actually be tested \u2014 the first is too vague to answer."
+       },
+       {
+        "q": "Why must a good project report the method of its sources, not just their conclusions?",
+        "a": "Because the method decides what the source can claim \u2014 a correlation cannot prove causation, a small or biased sample may not generalize \u2014 so a conclusion without its method cannot be judged or trusted."
+       }
+      ],
+      "takeaway": "Psychology is a way of asking and answering questions: pick a testable question, frame it with perspectives, judge the evidence by its method, explain it with mechanisms, and state your conclusion \u2014 limits included."
+     }
     ]
    }
   ],
@@ -8882,7 +9513,7 @@
    "project": true
   },
   "mastery_rubric": "Describe the major perspectives and methods of psychology, explain core findings in perception, learning and memory, and discuss disorders and help-seeking without stigma. Final grade 70% or higher.",
-  "source": "Martinez original syllabus (authored 2026-11-14)"
+  "source": "Martinez original \u2014 written lessons (authored 2026-11-22)"
  },
  "BIO101": {
   "modules": [
