@@ -9520,41 +9520,641 @@
    {
     "module_title": "The Science of Life",
     "lessons": [
-     "Characteristics of Living Things",
-     "The Scientific Method in Biology",
-     "Chemistry of Life: Atoms, Water, pH",
-     "Biological Molecules: Carbs, Lipids, Proteins, Nucleic Acids",
-     "Microscopes and Studying Life"
+     {
+      "title": "Characteristics of Living Things",
+      "intro": "What makes something alive? A rock is not alive, a fire is not alive, and yet a bacterium \u2014 a single cell you cannot see \u2014 is. Biologists answer the question not with one magic property but with a checklist: organization, metabolism, homeostasis, growth, reproduction, response to stimuli, and evolution. An organism shows all of them, and together they draw the line between the living world and everything else. The checklist also explains why edge cases like viruses are so debated \u2014 they meet some criteria and fail others.",
+      "concepts": [
+       "Organization \u2014 life is built in layers: atoms form molecules, molecules form cells, cells form tissues, tissues form organs, organs form organisms, and organisms form populations, communities, and ecosystems. The cell is the smallest unit that is alive.",
+       "Metabolism \u2014 living things take in energy and materials and transform them: they build molecules (anabolism) and break them down (catabolism). A plant builds sugars from sunlight; an animal breaks down food to release energy.",
+       "Homeostasis \u2014 organisms keep their internal conditions steady even when the outside changes: your body holds its temperature near 37 \u00b0C, and a bacterium keeps its internal salt balance. Staying alive is largely staying balanced.",
+       "Growth, development, and reproduction \u2014 living things grow by adding cells or cell material, develop through programmed changes, and reproduce \u2014 passing genetic information to offspring, sexually or asexually.",
+       "Response to stimuli and evolution \u2014 organisms sense and react to their environment, from a plant bending toward light to you pulling your hand from heat; and populations evolve over generations as heritable traits change in frequency."
+      ],
+      "example": {
+       "q": "A campfire grows, consumes fuel, gives off heat, and produces new sparks that start new fires. Is a fire alive? Apply the checklist to decide.",
+       "steps": [
+        "First, check organization: a fire has no cells and no organized structure \u2014 it is a chemical reaction, not a system of parts working together.",
+        "Second, check metabolism and homeostasis: fire does release energy, but it does not regulate itself or maintain internal conditions \u2014 it simply burns until the fuel runs out.",
+        "Third, check reproduction and heredity: sparks can start new fires, but a fire passes on no genetic information and does not evolve \u2014 there is no inheritance with variation for selection to act on.",
+        "Conclusion: fire meets only the loosest resemblance to growth and energy use. It fails organization, homeostasis, and evolution, so it is not alive \u2014 which is why a checklist beats a single intuition."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why is a virus usually NOT counted as a living thing, even though it reproduces and evolves?",
+        "a": "A virus has no cells, no metabolism of its own, and cannot reproduce without hijacking a host cell's machinery \u2014 it fails organization and independent metabolism, so most biologists classify it as non-living, though it sits on the boundary."
+       },
+       {
+        "q": "A desert plant closes its stomata during the hottest part of the day. Which two characteristics of life does this show, and why?",
+        "a": "Homeostasis (keeping internal water balance steady despite the hot, dry outside) and response to stimuli (reacting to heat and dryness by closing pores to reduce water loss)."
+       }
+      ],
+      "takeaway": "Life is not one property but a set: organized cells, metabolism, homeostasis, growth and reproduction, response to stimuli, and evolution \u2014 and the checklist is what settles borderline cases like fire and viruses."
+     },
+     {
+      "title": "The Scientific Method in Biology",
+      "intro": "Biology is not a list of facts to memorize; it is a way of finding out. The scientific method is the shared procedure scientists use to turn a question into reliable knowledge: observe something puzzling, form a testable hypothesis, design an experiment that could prove the hypothesis wrong, collect data, and revise or repeat. The method matters because the world is full of patterns that look meaningful but are not \u2014 and the only defense is a test that can fail.",
+      "concepts": [
+       "Observation and question \u2014 science starts with noticing: a plant grows faster near a window, or a medicine seems to work. A good scientific question is specific enough to test.",
+       "Hypothesis \u2014 a testable, falsifiable explanation: 'Plants grow taller with more light' can be tested; 'plants grow because they want to' cannot, because it cannot be proven wrong.",
+       "Experiment and variables \u2014 the independent variable is what the researcher changes (hours of light); the dependent variable is what is measured (plant height); controlled variables are kept the same (water, soil, species) so only one thing differs.",
+       "Control group and replication \u2014 a control group gets no treatment, giving a baseline to compare against; replication (repeating the experiment, ideally by other scientists) checks that the result is real and not a fluke.",
+       "Theory vs hypothesis \u2014 in everyday language a theory is a guess; in science a theory is a well-tested, broad explanation supported by much evidence, like the theory of evolution or cell theory. A hypothesis is a single testable prediction."
+      ],
+      "example": {
+       "q": "A student notices the bean plants on the windowsill grow taller than the ones on the shelf. Design a proper experiment to test whether light causes the difference.",
+       "steps": [
+        "First, state a hypothesis: 'Bean plants given 12 hours of light per day grow taller than bean plants given 6 hours.' It is testable and falsifiable.",
+        "Second, set up two groups identical in every way \u2014 same species, soil, water, pots, temperature \u2014 except the independent variable: one group gets 12 hours of light, the other 6. The 6-hour group is the control for comparison.",
+        "Third, measure the dependent variable the same way for every plant, for example stem height in centimetres after three weeks, and repeat with many plants so one odd plant cannot skew the result.",
+        "Conclusion: if the 12-hour plants are consistently taller, the data support the hypothesis; if not, the hypothesis is revised or rejected \u2014 and the windowsill observation alone was never enough to conclude anything."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A company claims its fertilizer doubles tomato yield, based on one garden where the fertilized plants grew bigger. What is wrong with this evidence?",
+        "a": "There is no control group and no replication \u2014 the fertilized plants may have had better soil, more sun, or more water. Without identical conditions except the fertilizer, the difference cannot be attributed to the product."
+       },
+       {
+        "q": "Why must a hypothesis be falsifiable? What happens if it is not?",
+        "a": "Because a claim that cannot be proven wrong cannot be tested \u2014 no experiment could ever challenge it, so it can never earn scientific support. Unfalsifiable claims stay outside science, however appealing they sound."
+       }
+      ],
+      "takeaway": "The scientific method turns observations into testable hypotheses, isolates one variable at a time against a control, and earns trust through replication \u2014 and a claim that cannot be proven wrong cannot be science."
+     },
+     {
+      "title": "Chemistry of Life: Atoms, Water, pH",
+      "intro": "All of biology runs on chemistry. A cell is a bag of chemical reactions, and the most important chemical in it is water. To understand life you need a small set of chemical ideas: how atoms bond, why water behaves the way it does, and what acids and bases do to a solution. These ideas explain everything from why your blood stays at a steady pH to why oil and water refuse to mix \u2014 and they are the foundation for every molecule you will meet next.",
+      "concepts": [
+       "Atoms and bonds \u2014 atoms are protons, neutrons, and electrons; they bond by sharing electrons (covalent bonds) or by giving up and taking electrons to form charged ions (ionic bonds). Hydrogen bonds, weaker attractions between slightly charged parts of molecules, hold water and DNA together.",
+       "Water's polarity \u2014 the oxygen in a water molecule pulls electrons toward itself, giving oxygen a slight negative charge and the hydrogens a slight positive charge. That polarity lets water dissolve salts and sugars, and lets water molecules stick to each other.",
+       "Cohesion, adhesion, and surface tension \u2014 water molecules cling to each other (cohesion) and to other surfaces (adhesion). Together these pull water up the narrow vessels of a plant and let insects walk on a pond's surface.",
+       "High specific heat and heat of vaporization \u2014 water absorbs a lot of heat before warming up, which stabilizes temperatures in cells and oceans; sweating cools you because evaporating water carries heat away.",
+       "Acids, bases, and pH \u2014 pH measures hydrogen ion concentration on a scale of 0 to 14 (7 is neutral). Acids release hydrogen ions, bases accept them, and buffers resist pH change \u2014 crucial because most enzymes only work in a narrow pH range."
+      ],
+      "example": {
+       "q": "A coastal town's seawater measures pH 8.1, but near a river mouth after heavy rain it reads 7.4. What does that number mean chemically, and why would marine biologists worry if the ocean's pH kept falling?",
+       "steps": [
+        "First, read the scale: pH is logarithmic, so a drop from 8.1 to 7.4 means the hydrogen ion concentration rose roughly fivefold \u2014 the water is more acidic, not just slightly different.",
+        "Second, connect to chemistry: extra hydrogen ions react with carbonate ions in seawater, leaving less carbonate available for shell-building animals like oysters, clams, and corals to make their shells.",
+        "Third, connect to biology: if shells thin or fail to form, those animals die or fail to reproduce, and everything that eats them \u2014 including commercially important fish \u2014 is affected.",
+        "Conclusion: a small pH number hides a large chemical change with ecosystem-wide consequences, which is why ocean acidification is tracked so closely."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why does salt dissolve in water but oil does not?",
+        "a": "Salt is ionic, and water's polar molecules surround and pull apart its charged ions; oil is nonpolar, so water molecules would rather stick to each other than to oil \u2014 polar dissolves polar, nonpolar does not mix with polar."
+       },
+       {
+        "q": "Your stomach is strongly acidic (pH ~2), but your blood is held near pH 7.4. How does blood stay so steady, and why does it matter?",
+        "a": "Buffers in the blood absorb extra hydrogen ions or release them, resisting pH change. It matters because enzymes and proteins change shape and stop working if pH drifts far from their working range."
+       }
+      ],
+      "takeaway": "Life's chemistry starts with water \u2014 polar, cohesive, heat-absorbing \u2014 and with pH, the logarithmic measure of acidity that buffers keep steady so the molecules of life can do their jobs."
+     },
+     {
+      "title": "Biological Molecules: Carbs, Lipids, Proteins, Nucleic Acids",
+      "intro": "Every living thing is built from four families of large molecules, and each family does a different job. Carbohydrates store quick energy and build structures; lipids store long-term energy and make membranes; proteins do almost all the work of the cell; nucleic acids store and transmit the instructions. All four are polymers \u2014 chains built from small repeating units \u2014 and the shape of each molecule is what lets it do its job.",
+      "concepts": [
+       "Carbohydrates \u2014 built from sugar monomers. Glucose is the cell's quick fuel; starch stores energy in plants, glycogen in animals; cellulose gives plant cell walls their strength. All are made of carbon, hydrogen, and oxygen.",
+       "Lipids \u2014 fats, oils, phospholipids, and steroids. Fats store more than twice the energy per gram as carbohydrates; phospholipids form the cell membrane's double layer; cholesterol and hormones like estrogen are steroids.",
+       "Proteins \u2014 built from 20 amino acids linked into chains that fold into precise shapes. They are enzymes, structural supports, transporters, antibodies, and signals \u2014 a protein's function depends on its folded shape, and unfolding (denaturing) destroys it.",
+       "Nucleic acids \u2014 DNA and RNA, built from nucleotide monomers. DNA stores the genetic instructions; RNA carries and uses them. The sequence of bases (A, T, C, G) is the code.",
+       "Dehydration synthesis and hydrolysis \u2014 polymers are built by removing a water molecule to join monomers, and broken apart by adding water back. The same two reactions assemble and disassemble all four families."
+      ],
+      "example": {
+       "q": "A hiker eats a candy bar and a handful of nuts before a climb. Which food gives energy first, which lasts longer, and why \u2014 in molecular terms?",
+       "steps": [
+        "First, identify the molecules: the candy bar is mostly simple carbohydrate (sugar), while the nuts are mostly lipid (fat) with some protein.",
+        "Second, compare digestion and use: sugars are broken down quickly to glucose, which cells burn immediately \u2014 fast energy, but the supply is small and soon gone.",
+        "Third, compare storage: fats pack more than twice the energy per gram and are broken down more slowly, so the nuts release energy over hours rather than minutes.",
+        "Conclusion: the candy is the sprint fuel and the nuts are the endurance fuel \u2014 different molecules, different jobs, which is why a balanced meal uses both."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why does cooking an egg change it from runny to firm, and why can't you uncook it?",
+        "a": "Heat denatures the egg-white proteins \u2014 their folded shapes unravel and tangle into a solid network. Denaturation breaks the weak bonds that hold the shape, and the proteins cannot refold correctly, so the change is permanent."
+       },
+       {
+        "q": "A DNA sample is described as having the base sequence A-T-C-G. What makes this molecule able to store information, while a starch molecule cannot?",
+        "a": "DNA's bases vary in sequence, so the order of A, T, C, and G can encode instructions like letters in a sentence; starch is a repeating chain of identical glucose units, so it carries energy but no variable message."
+       }
+      ],
+      "takeaway": "Four molecular families run life: carbohydrates for quick energy and structure, lipids for storage and membranes, proteins for nearly all the work, and nucleic acids for the instructions \u2014 all built and broken by adding or removing water."
+     },
+     {
+      "title": "Microscopes and Studying Life",
+      "intro": "Biology's biggest discoveries came from seeing what could not be seen. Cells were unknown until the microscope revealed them in the 1600s, and every advance in microscopy since \u2014 brighter light, electron beams, fluorescent tags \u2014 has opened a new layer of life. But a microscope is a tool with limits: what you see depends on resolution (the smallest detail it can separate), magnification (how much bigger it makes things), and how you prepare the sample. Knowing the tool is part of knowing the science.",
+      "concepts": [
+       "Light microscopes \u2014 use visible light and glass lenses; can magnify up to about 1,000\u20131,500\u00d7 and resolve details about 0.2 micrometres apart \u2014 enough to see cells and large organelles, but not the fine machinery inside them.",
+       "Electron microscopes \u2014 use a beam of electrons instead of light, reaching far higher resolution: a transmission electron microscope (TEM) sees inside cells, a scanning electron microscope (SEM) shows surfaces in 3D. The cost is that samples must be dead, dried, and coated.",
+       "Magnification vs resolution \u2014 magnification makes an image bigger; resolution makes it sharper. A blurry image magnified 10,000\u00d7 is still blurry \u2014 resolution, not magnification, is the real limit.",
+       "Staining and fluorescence \u2014 most cells are transparent, so stains add contrast and fluorescent tags (like green fluorescent protein, GFP) light up specific molecules so scientists can watch them move in living cells.",
+       "The cell in the field of view \u2014 to estimate a cell's size, measure the diameter of the field of view at a given magnification and divide by the number of cells that fit across it; always record the magnification used."
+      ],
+      "example": {
+       "q": "A student looks at onion skin under a light microscope and sees clear rectangular cells with a nucleus, but no mitochondria. A classmate says the onion has no mitochondria. Who is right, and what should the student do instead?",
+       "steps": [
+        "First, check the tool's limits: a light microscope resolves about 0.2 micrometres, and mitochondria are about 0.5\u20131 micrometre \u2014 they are near the limit and, unstained, nearly invisible against the cytoplasm.",
+        "Second, remember the biology: onion cells are living plant cells that respire, so they must have mitochondria; absence of evidence in one view is not evidence of absence.",
+        "Third, improve the method: stain the sample (for example with Janus green, which stains mitochondria) or use an electron microscope, which resolves internal structures clearly.",
+        "Conclusion: the classmate confused 'I cannot see it' with 'it is not there' \u2014 a classic microscopy error. The fix is a better preparation, not a new conclusion."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why can't a light microscope show the structure of a ribosome, even at maximum magnification?",
+        "a": "Because ribosomes are about 20 nanometres across, far below the light microscope's resolution limit of about 200 nanometres \u2014 magnification without resolution only enlarges a blur. An electron microscope is needed."
+       },
+       {
+        "q": "A researcher tags a protein with green fluorescent protein (GFP) and watches it move inside a living cell. What does this technique make possible that staining a dead cell cannot?",
+        "a": "Watching a process happen in real time in a living cell \u2014 where the protein goes, when it moves, and what it interacts with \u2014 instead of seeing only a frozen snapshot of a dead, stained sample."
+       }
+      ],
+      "takeaway": "Microscopes opened biology, but every type has a resolution limit: light microscopes see cells, electron microscopes see organelles, and stains and fluorescent tags reveal what transparency hides \u2014 never confuse 'not visible' with 'not there.'"
+     }
     ]
    },
    {
     "module_title": "Cells: The Unit of Life",
     "lessons": [
-     "Cell Theory and Cell Structure",
-     "Membranes and Transport",
-     "Organelles and What Each One Does",
-     "Prokaryotic vs. Eukaryotic Cells",
-     "Cell Communication Basics"
+     {
+      "title": "Cell Theory and Cell Structure",
+      "intro": "The cell theory is biology's central idea: all living things are made of cells, the cell is the basic unit of life, and all cells come from pre-existing cells. It took two centuries to establish \u2014 from Hooke naming 'cells' in cork in 1665 to Schleiden, Schwann, and Virchow stating the theory in the 1800s. The theory matters because it tells you where to look: whatever a living thing does, some cell is doing it, and understanding life means understanding cells.",
+      "concepts": [
+       "The three statements of cell theory \u2014 all organisms consist of one or more cells; the cell is the basic unit of structure and function in organisms; all cells arise from pre-existing cells. Every living thing you meet obeys all three.",
+       "Cell size and surface area \u2014 cells stay small because volume grows faster than surface area: a cell that is too big cannot move materials across its membrane fast enough to supply its interior. Most cells are 10\u2013100 micrometres across.",
+       "Common features of all cells \u2014 every cell has a plasma membrane, cytoplasm, DNA as genetic material, and ribosomes for making proteins. These shared features are evidence of a common ancestor for all life.",
+       "The plasma membrane \u2014 a phospholipid bilayer that separates inside from outside, controls what enters and leaves, and lets the cell maintain different conditions from its surroundings.",
+       "Cytoplasm and cytoskeleton \u2014 the jelly-like interior where reactions happen, threaded with a cytoskeleton of protein fibers that gives the cell shape, moves organelles, and drives cell division."
+      ],
+      "example": {
+       "q": "A scientist claims to have found a living organism with no cells at all \u2014 just a free-floating bag of chemicals that reproduces. How would cell theory evaluate this claim, and what would it take to accept it?",
+       "steps": [
+        "First, apply the theory: cell theory says all living things are made of cells. A cell-free organism would break the first statement, so the claim contradicts a foundation of biology.",
+        "Second, check the evidence needed: the scientist would have to show the bag carries out all life functions \u2014 metabolism, reproduction, homeostasis \u2014 without any cell structure, and that the observation is not a contaminant or an artifact.",
+        "Third, consider the alternative: most such claims turn out to be a colony of tiny cells, a virus (which is not counted as living), or a chemical system that mimics one life property but not all of them.",
+        "Conclusion: extraordinary claims need extraordinary evidence \u2014 one sample would not overturn cell theory, but a verified, repeatable cell-free organism would force biology to rewrite its central idea."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why can't a single cell grow to the size of a basketball and still work?",
+        "a": "Because as a cell grows, its volume increases much faster than its surface area, so the membrane cannot bring in nutrients or remove wastes fast enough to serve the huge interior \u2014 the cell would starve and poison itself."
+       },
+       {
+        "q": "What do a bacterium, a mushroom cell, and a human skin cell all have in common, according to cell theory?",
+        "a": "Each is a cell \u2014 the basic unit of life \u2014 with a plasma membrane, cytoplasm, DNA, and ribosomes, and each came from a pre-existing cell by division."
+       }
+      ],
+      "takeaway": "Cell theory says all life is cellular, the cell is the basic unit, and cells come only from cells \u2014 and cells stay small because a membrane can only feed so much interior."
+     },
+     {
+      "title": "Membranes and Transport",
+      "intro": "A cell's membrane is its border, its gate, and its security system all at once. Made of a double layer of phospholipids with proteins embedded in it, the membrane is selectively permeable: some things pass freely, some need help, and some are kept out. The cell moves materials by diffusion, osmosis, and active transport, and each method follows the same logic \u2014 the cell spends energy only when it must, and lets physics do the work whenever it can.",
+      "concepts": [
+       "The fluid mosaic model \u2014 the membrane is a fluid double layer of phospholipids with proteins floating in it like boats: channel proteins form pores, carrier proteins shuttle molecules, receptor proteins receive signals, and cholesterol keeps the layer flexible.",
+       "Diffusion \u2014 molecules move from high concentration to low concentration until evenly spread. Small, nonpolar molecules like oxygen and carbon dioxide diffuse straight through the membrane; no energy is needed.",
+       "Osmosis \u2014 the diffusion of water across a membrane toward the side with more solute. In a hypotonic solution a cell swells; in a hypertonic solution it shrivels; in an isotonic solution it stays the same. Plant cells resist swelling with a rigid wall; animal cells can burst.",
+       "Facilitated diffusion \u2014 large or charged molecules (glucose, ions) cross through channel or carrier proteins, still moving down their gradient, still without energy \u2014 the protein just opens the door.",
+       "Active transport and bulk transport \u2014 moving molecules against their gradient costs ATP (the sodium-potassium pump is the classic example); large items enter or leave by endocytosis (engulfing) and exocytosis (expelling)."
+      ],
+      "example": {
+       "q": "A hospital patient is given an IV of pure distilled water by mistake instead of saline. What happens to their red blood cells, and why is this dangerous?",
+       "steps": [
+        "First, identify the solutions: distilled water has no solute, so it is hypotonic compared with the inside of a red blood cell, which is full of dissolved salts and proteins.",
+        "Second, follow the water: osmosis moves water toward the higher solute concentration \u2014 into the cell \u2014 because water crosses the membrane freely while the solutes cannot leave.",
+        "Third, predict the result: the red blood cells swell, and with no cell wall to resist the pressure, they can burst (lyse), spilling hemoglobin and destroying the cells that carry oxygen.",
+        "Conclusion: saline IVs are isotonic for a reason \u2014 matching the body's solute concentration keeps water where it belongs, and pure water is dangerous precisely because osmosis is automatic."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why does the sodium-potassium pump need ATP, while glucose entering through a carrier protein does not?",
+        "a": "The pump moves sodium and potassium against their concentration gradients, which requires energy input; glucose through a carrier moves down its gradient by facilitated diffusion, so the gradient itself supplies the driving force."
+       },
+       {
+        "q": "A freshwater fish lives in water with almost no salt, yet its body stays salty. What must its cells be doing, and at what cost?",
+        "a": "Its cells must actively pump salt in (and pump water out) against the gradient using active transport, which costs ATP \u2014 the fish spends energy constantly to maintain its internal salt balance."
+       }
+      ],
+      "takeaway": "The membrane is a selective gate: diffusion and osmosis move things down gradients for free, facilitated diffusion opens protein doors for the same, and active transport spends ATP to push against the gradient."
+     },
+     {
+      "title": "Organelles and What Each One Does",
+      "intro": "A eukaryotic cell is a tiny factory with departments. Each organelle is a membrane-bound compartment with one job, and the jobs connect into an assembly line: the nucleus holds the instructions, the endoplasmic reticulum and ribosomes build proteins, the Golgi packages them, vesicles ship them, mitochondria supply the energy, and lysosomes handle cleanup. Knowing what each organelle does \u2014 and how they work together \u2014 is knowing how a cell lives.",
+      "concepts": [
+       "Nucleus \u2014 the control center, holding the DNA and directing protein synthesis by sending out messenger RNA copies. It is wrapped in a double membrane with pores that control what passes.",
+       "Ribosomes and the rough endoplasmic reticulum \u2014 ribosomes build proteins; those on the rough ER make proteins destined for export or for membranes, and the ER folds and modifies them.",
+       "Smooth ER and Golgi apparatus \u2014 the smooth ER makes lipids and detoxifies chemicals; the Golgi receives proteins, finishes modifying them, sorts them, and ships them out in vesicles addressed to their destinations.",
+       "Mitochondria and chloroplasts \u2014 mitochondria release energy from food by cellular respiration; chloroplasts (plants only) capture light energy by photosynthesis. Both have their own DNA and double membranes, evidence they were once free-living bacteria.",
+       "Lysosomes, vacuoles, and the cytoskeleton \u2014 lysosomes digest worn-out parts and invaders with enzymes; the large central vacuole stores water in plant cells; the cytoskeleton of microtubules and filaments gives shape and moves organelles."
+      ],
+      "example": {
+       "q": "A cell biologist finds a cell that makes large amounts of insulin, a protein hormone, and needs to ship it out constantly. Which organelles would be unusually large or numerous in this cell, and in what order does insulin pass through them?",
+       "steps": [
+        "First, the instructions: the nucleus holds the insulin gene and sends out mRNA copies, so a busy secretory cell needs an active nucleus.",
+        "Second, the build: ribosomes on the rough endoplasmic reticulum read the mRNA and assemble insulin, which enters the ER to be folded \u2014 expect a large rough ER.",
+        "Third, the packaging: the Golgi apparatus receives the insulin in vesicles, modifies and sorts it, and repackages it into secretory vesicles \u2014 expect a large Golgi.",
+        "Conclusion: vesicles carry insulin to the membrane and release it by exocytosis. The assembly line \u2014 nucleus \u2192 rough ER \u2192 Golgi \u2192 vesicle \u2192 outside \u2014 is the same route every secreted protein takes."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A muscle cell needs far more energy than a skin cell. Which organelle would you expect to find in greater numbers in the muscle cell, and why?",
+        "a": "Mitochondria \u2014 they release energy from food by cellular respiration, so a cell that does constant work needs many more of them to supply ATP."
+       },
+       {
+        "q": "What happens inside a cell when a lysosome's membrane breaks and its enzymes leak into the cytoplasm?",
+        "a": "The enzymes begin digesting the cell's own contents \u2014 this can damage or kill the cell, which is why lysosome membranes are normally kept intact and why the process is sometimes used in programmed cell death."
+       }
+      ],
+      "takeaway": "Organelles are a factory line: nucleus writes the instructions, rough ER and ribosomes build proteins, Golgi packages them, mitochondria power the work, and lysosomes clean up \u2014 each compartment doing one job well."
+     },
+     {
+      "title": "Prokaryotic vs. Eukaryotic Cells",
+      "intro": "All cells fall into two great designs. Prokaryotic cells \u2014 bacteria and archaea \u2014 are small, simple, and ancient: no nucleus, no membrane-bound organelles, DNA in a single circular chromosome floating in the cytoplasm. Eukaryotic cells \u2014 animals, plants, fungi, protists \u2014 are larger and compartmentalized: a true nucleus, organelles, and linear chromosomes. The split is the deepest division in the tree of life, and it explains why antibiotics can kill bacteria without harming your cells.",
+      "concepts": [
+       "Prokaryotic structure \u2014 no nucleus (DNA sits in a region called the nucleoid), no membrane-bound organelles, ribosomes present, often a cell wall and a capsule, and sometimes flagella for movement or pili for attachment. Usually 1\u201310 micrometres.",
+       "Eukaryotic structure \u2014 a membrane-bound nucleus holding linear chromosomes, plus mitochondria, ER, Golgi, and other organelles; a cytoskeleton; usually 10\u2013100 micrometres. Plants add a cell wall, chloroplasts, and a large vacuole.",
+       "Endosymbiotic theory \u2014 mitochondria and chloroplasts were once free-living bacteria engulfed by an early eukaryote. Evidence: they have their own circular DNA, their own ribosomes, double membranes, and they divide like bacteria.",
+       "Shared features \u2014 both designs have a plasma membrane, cytoplasm, DNA, and ribosomes, because both descend from the same ancient ancestor. The differences are additions, not a different foundation.",
+       "Why the difference matters \u2014 bacterial ribosomes and cell walls differ from ours, so antibiotics can target bacterial structures (like the peptidoglycan wall) while leaving human cells alone; that selectivity is the whole basis of antibiotic medicine."
+      ],
+      "example": {
+       "q": "Penicillin kills many bacteria but does not harm human cells. Explain why, using the structural differences between prokaryotic and eukaryotic cells.",
+       "steps": [
+        "First, find penicillin's target: it blocks the synthesis of peptidoglycan, the material of the bacterial cell wall.",
+        "Second, check the human cell: human cells have no cell wall and no peptidoglycan at all \u2014 only a plasma membrane \u2014 so there is nothing for penicillin to block.",
+        "Third, check the rest: penicillin does not target ribosomes or DNA, which both cell types share, so its selectivity comes entirely from a structure bacteria have and we do not.",
+        "Conclusion: the drug works because the two cell designs differ. When bacteria evolve resistance \u2014 for example by making an enzyme that destroys penicillin \u2014 the selectivity is lost, which is why antibiotic resistance is so dangerous."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A cell is found with a nucleus, mitochondria, and a cell wall made of cellulose. Is it prokaryotic or eukaryotic, and what kind of organism is it most likely from?",
+        "a": "Eukaryotic \u2014 it has a nucleus and mitochondria. The cellulose wall marks it as a plant cell, since animal cells have no wall and fungal walls are made of chitin, not cellulose."
+       },
+       {
+        "q": "What evidence supports the idea that mitochondria were once free-living bacteria?",
+        "a": "Mitochondria have their own circular DNA, their own ribosomes similar to bacterial ones, a double membrane, and they divide independently by a process resembling bacterial fission."
+       }
+      ],
+      "takeaway": "Two cell designs rule life: prokaryotes are small and simple with no nucleus, eukaryotes are larger and compartmentalized \u2014 and mitochondria and chloroplasts are captured bacteria still living inside every eukaryotic cell."
+     },
+     {
+      "title": "Cell Communication Basics",
+      "intro": "A body is trillions of cells that must act together, and they do it by talking. Cells communicate with chemical signals: a sending cell releases a molecule, and a receiving cell with the right receptor detects it and changes its behavior. The same pattern \u2014 signal, receptor, response \u2014 runs everything from a hormone telling your liver to release glucose to a neuron firing across a synapse. Without communication, a multicellular organism is just a pile of cells.",
+      "concepts": [
+       "Signal, receptor, response \u2014 communication has three parts: a signaling molecule (ligand), a receptor protein that binds it, and a response inside the receiving cell. A cell only responds to signals it has receptors for.",
+       "Local vs long-distance signaling \u2014 paracrine signals act on nearby cells, synaptic signals cross the tiny gap between neurons, and hormones travel through the bloodstream to distant targets. The range differs; the logic is the same.",
+       "Receptor locations \u2014 receptors sit on the cell surface for signals that cannot cross the membrane (like most hormones and neurotransmitters) or inside the cell for signals that can pass through it (like steroid hormones).",
+       "Signal transduction \u2014 binding a receptor often starts a chain of relay molecules inside the cell, amplifying the signal so one molecule outside can change thousands inside. Second messengers like cAMP carry the message onward.",
+       "Ending the signal \u2014 communication must stop as well as start: signals are broken down, receptors are desensitized, or the receiving cell is reset. A signal that cannot be switched off becomes a disease."
+      ],
+      "example": {
+       "q": "When you are startled, adrenaline floods your body: heart rate rises, airways widen, and your liver releases glucose. How does one molecule produce so many different effects in different organs?",
+       "steps": [
+        "First, the signal is broadcast: adrenaline travels in the blood, so it reaches the heart, lungs, liver, and many other tissues at once.",
+        "Second, each tissue has receptors: heart muscle cells, airway smooth muscle, and liver cells all carry adrenaline receptors, but each cell type is wired to a different response.",
+        "Third, each response follows the cell's own machinery: the same receptor activation raises heart rate in the heart, relaxes airways in the lungs, and triggers glucose release in the liver \u2014 the signal is shared, the interpretation is local.",
+        "Conclusion: one signal, many responses \u2014 because communication is not the signal telling the cell what to do, it is the signal triggering what the cell is already built to do."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A hormone circulates in the blood and reaches every cell in the body, but only liver cells respond to it. Why?",
+        "a": "Only liver cells carry the receptor for that hormone. Without the matching receptor, a cell cannot detect the signal, so it ignores it entirely."
+       },
+       {
+        "q": "Why is it important that a cell can switch off a signal after responding to it?",
+        "a": "Because a signal that stays on keeps driving the response \u2014 a heart that cannot slow down after the danger passes, or a growth signal that never stops, leads to disease; controlled signaling needs an off switch."
+       }
+      ],
+      "takeaway": "Cell communication is signal, receptor, response: a molecule carries the message, only cells with the matching receptor hear it, and each cell answers in its own way \u2014 then the signal must be switched off."
+     }
     ]
    },
    {
     "module_title": "Energy and Metabolism",
     "lessons": [
-     "Enzymes and Energy",
-     "Photosynthesis: Capturing Light Energy",
-     "Cellular Respiration: Releasing Energy",
-     "Fermentation",
-     "How Photosynthesis and Respiration Connect"
+     {
+      "title": "Enzymes and Energy",
+      "intro": "Life runs on energy, and enzymes are how cells manage it. Every chemical reaction in a cell needs a push to get started \u2014 the activation energy \u2014 and enzymes are proteins that lower that barrier, speeding reactions by millions of times without being used up. They make the impossible fast enough for life: without enzymes, the reactions that keep you alive would take years instead of milliseconds. But enzymes are picky \u2014 each one fits one substrate, and each works only in the right conditions.",
+      "concepts": [
+       "Energy and ATP \u2014 cells use adenosine triphosphate (ATP) as their energy currency: breaking its last phosphate bond releases energy that powers work. ATP is made by respiration and spent everywhere, thousands of times per second per cell.",
+       "Activation energy \u2014 the energy a reaction needs to begin. Enzymes lower it by holding reactants in the right position and orientation, so reactions that would crawl at body temperature run fast.",
+       "Active site and specificity \u2014 each enzyme has an active site shaped to fit its substrate, like a lock fits a key (or, more accurately, like a glove that flexes around a hand \u2014 the induced fit model). One enzyme usually catalyzes one reaction.",
+       "Factors that affect enzymes \u2014 temperature, pH, and substrate concentration. Too hot or too acidic and the enzyme denatures, losing its shape and its function; most human enzymes work best near 37 \u00b0C and pH 7.",
+       "Inhibitors and regulation \u2014 competitive inhibitors block the active site; noncompetitive inhibitors bind elsewhere and change the enzyme's shape. Cells use feedback inhibition, where a product shuts off the enzyme that made it, to avoid overproduction."
+      ],
+      "example": {
+       "q": "A cook puts meat in a marinade containing pineapple juice to tenderize it, but leaves it overnight and finds the meat has turned to mush. Explain what the enzyme in pineapple did \u2014 and why time mattered.",
+       "steps": [
+        "First, identify the enzyme: pineapple contains bromelain, a protease that breaks the peptide bonds in proteins \u2014 including the collagen that holds meat fibers together.",
+        "Second, apply the mechanism: bromelain's active site fits the proteins in meat, lowers the activation energy for breaking them, and is not used up \u2014 so one enzyme molecule can cut many protein chains.",
+        "Third, explain the timing: in a short marinade the enzyme softens the surface; overnight it keeps working through the whole piece, cutting so much structure that the meat falls apart.",
+        "Conclusion: enzymes are catalysts \u2014 they keep working until the substrate runs out or conditions change. Cooking the pineapple first would have denatured bromelain and stopped it, which is why canned pineapple (heat-treated) does not tenderize."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why does a fever of 41 \u00b0C (106 \u00b0F) become life-threatening, even though enzymes work faster when warm?",
+        "a": "Because above their optimum temperature enzymes begin to denature \u2014 their folded shapes unravel and they stop working. A high fever risks denaturing enzymes throughout the body, shutting down the reactions life depends on."
+       },
+       {
+        "q": "In feedback inhibition, the end product of a pathway inhibits the first enzyme in that pathway. Why is this useful for the cell?",
+        "a": "It prevents waste: when enough product has been made, the cell stops making more instead of spending energy and materials on a surplus it does not need."
+       }
+      ],
+      "takeaway": "Enzymes are protein catalysts that lower activation energy, fit one substrate at one active site, and work only in the right temperature and pH \u2014 which is why fever, stomach acid, and inhibitors can all shut them down."
+     },
+     {
+      "title": "Photosynthesis: Capturing Light Energy",
+      "intro": "Photosynthesis is the process that feeds nearly all life on Earth: plants, algae, and some bacteria capture light energy and use it to build sugars from carbon dioxide and water, releasing oxygen as a byproduct. Every meal you eat traces back to it \u2014 either you ate a plant, or you ate something that ate a plant. It happens in chloroplasts, in two linked stages: the light reactions that capture energy, and the Calvin cycle that builds sugar.",
+      "concepts": [
+       "The overall equation \u2014 6CO\u2082 + 6H\u2082O + light energy \u2192 C\u2086H\u2081\u2082O\u2086 + 6O\u2082. Carbon dioxide and water become glucose and oxygen; the energy comes from sunlight, and the oxygen released comes from water, not from carbon dioxide.",
+       "Chloroplasts and pigments \u2014 photosynthesis happens in chloroplasts, in stacks of thylakoid membranes. Chlorophyll, the green pigment, absorbs mainly red and blue light and reflects green \u2014 which is why plants look green.",
+       "The light reactions \u2014 light energy splits water, releasing oxygen, and powers the production of ATP and NADPH, the short-term energy carriers that will drive sugar building. This stage needs light and happens on the thylakoid membrane.",
+       "The Calvin cycle \u2014 in the stroma, the ATP and NADPH from the light reactions power the fixing of carbon dioxide into sugar (carbon fixation). It does not need light directly, but it cannot run without the products of the light reactions.",
+       "Factors that limit photosynthesis \u2014 light intensity, carbon dioxide concentration, temperature, and water availability. A plant in a dark, dry room cannot photosynthesize no matter how much fertilizer it gets."
+      ],
+      "example": {
+       "q": "A gardener moves a houseplant from a dim corner to a bright windowsill and it grows faster \u2014 but when she moves it into direct hot sun on a 40 \u00b0C day, growth stalls and the leaves wilt. Explain both changes.",
+       "steps": [
+        "First, the bright windowsill: more light means more light reactions, more ATP and NADPH, and a faster Calvin cycle \u2014 up to a point, light intensity is the limiting factor, so growth speeds up.",
+        "Second, the hot sun: at 40 \u00b0C the plant closes its stomata to save water, which cuts off the carbon dioxide supply \u2014 without CO\u2082 the Calvin cycle cannot fix carbon, so sugar production stalls.",
+        "Third, the wilting: with stomata closed and heat high, the plant loses water faster than its roots can replace it, and the cells lose turgor pressure \u2014 the leaves go limp.",
+        "Conclusion: photosynthesis is limited by whichever factor is scarcest \u2014 light, CO\u2082, water, or a workable temperature \u2014 and improving one factor only helps until another takes over."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why is the oxygen released by photosynthesis said to come from water, not from carbon dioxide? How was this proven?",
+        "a": "Scientists traced the atoms using heavy oxygen isotopes: when plants were given water with heavy oxygen, the released oxygen was heavy; when the carbon dioxide was labelled instead, the released oxygen was normal \u2014 proving the O\u2082 comes from splitting water."
+       },
+       {
+        "q": "A plant is kept in light but in air with no carbon dioxide. Will it still carry out the light reactions? Will it make sugar?",
+        "a": "The light reactions will still run \u2014 they need light and water, not CO\u2082 \u2014 producing ATP, NADPH, and oxygen. But the Calvin cycle needs CO\u2082 to build sugar, so no sugar will be made and the plant will eventually starve."
+       }
+      ],
+      "takeaway": "Photosynthesis turns light, water, and carbon dioxide into sugar and oxygen: the light reactions capture energy on the thylakoid membranes, and the Calvin cycle uses it to fix carbon \u2014 and the scarcest factor sets the pace."
+     },
+     {
+      "title": "Cellular Respiration: Releasing Energy",
+      "intro": "If photosynthesis stores energy in sugar, cellular respiration spends it. Nearly every living cell breaks down glucose with oxygen to release the energy stored in its bonds, capturing that energy as ATP \u2014 the cell's spendable currency. The overall equation is the mirror image of photosynthesis: glucose plus oxygen becomes carbon dioxide plus water plus energy. It happens in three stages \u2014 glycolysis, the Krebs cycle, and the electron transport chain \u2014 and the last stage produces most of the ATP.",
+      "concepts": [
+       "The overall equation \u2014 C\u2086H\u2081\u2082O\u2086 + 6O\u2082 \u2192 6CO\u2082 + 6H\u2082O + energy (ATP). The carbon dioxide you exhale is the waste carbon from the glucose you burned; the water is formed at the end of the chain.",
+       "Glycolysis \u2014 in the cytoplasm, glucose is split into two pyruvate molecules, yielding a small net gain of 2 ATP and 2 NADH. It needs no oxygen, so it is the ancient first step shared by nearly all life.",
+       "The Krebs cycle \u2014 in the mitochondria, pyruvate is broken down completely to CO\u2082, releasing more NADH and FADH\u2082 (electron carriers) and a little ATP. This is where most of the carbon leaves as carbon dioxide.",
+       "The electron transport chain \u2014 carriers deliver electrons to a chain of proteins in the inner mitochondrial membrane; the energy released pumps protons across the membrane, and the flow back through ATP synthase makes most of the cell's ATP \u2014 about 26\u201328 of the roughly 30\u201332 ATP per glucose.",
+       "Why oxygen matters \u2014 oxygen is the final electron acceptor at the end of the chain. Without it, electrons back up, the chain stops, and the cell must fall back on fermentation \u2014 which is why you breathe hard during exercise."
+      ],
+      "example": {
+       "q": "A runner sprints hard for two minutes and then stops, breathing heavily for several minutes even though she is standing still. What is her body doing during that recovery breathing, and why was it needed?",
+       "steps": [
+        "First, during the sprint her muscles burned glucose faster than oxygen could be delivered, so much of the work was anaerobic \u2014 glycolysis plus fermentation, which yields little ATP and produces lactate.",
+        "Second, after she stops, the oxygen debt must be repaid: heavy breathing supplies the oxygen needed to process the accumulated lactate back into pyruvate and to restore the ATP and oxygen stores in the muscles.",
+        "Third, the electron transport chain resumes at full capacity once oxygen is available, producing the large ATP yield that fermentation could not \u2014 the recovery period is the cell catching up on the efficient aerobic work it skipped.",
+        "Conclusion: breathing hard after exercise is not about the run that just happened; it is about paying back the oxygen the muscles borrowed."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why does the electron transport chain produce far more ATP than glycolysis and the Krebs cycle combined?",
+        "a": "Because it harvests the energy carried by NADH and FADH\u2082 from both earlier stages: the electron flow pumps many protons across the membrane, and the gradient drives ATP synthase to make most of the cell's ATP \u2014 the earlier stages mostly prepare the fuel."
+       },
+       {
+        "q": "Cyanide blocks the final step of the electron transport chain. Why is it lethal within minutes, even though glycolysis can still run?",
+        "a": "Because without the chain, the cell makes only the 2 net ATP of glycolysis instead of about 30 \u2014 far too little to power the heart, brain, and other vital organs, so they fail almost immediately."
+       }
+      ],
+      "takeaway": "Cellular respiration burns glucose with oxygen in three stages \u2014 glycolysis, the Krebs cycle, and the electron transport chain \u2014 and the chain makes most of the ATP, which is why oxygen is non-negotiable for aerobic life."
+     },
+     {
+      "title": "Fermentation",
+      "intro": "What happens when a cell needs energy but has no oxygen? It ferments. Fermentation is the anaerobic backup: glycolysis still splits glucose and makes 2 ATP, but instead of sending pyruvate into the mitochondria, the cell converts it into something else \u2014 lactate in your muscles, ethanol and carbon dioxide in yeast \u2014 so that glycolysis can keep running. The yield is tiny compared with respiration, but when oxygen is absent, 2 ATP beats zero.",
+      "concepts": [
+       "Why fermentation exists \u2014 glycolysis needs a constant supply of NAD\u207a to accept electrons. Without oxygen, the electron transport chain cannot regenerate NAD\u207a, so fermentation recycles it by passing electrons to pyruvate instead.",
+       "Lactic acid fermentation \u2014 in animal muscle cells (and some bacteria), pyruvate is converted to lactate, regenerating NAD\u207a. It lets muscles keep working briefly during intense exercise, at the cost of lactate buildup and soreness.",
+       "Alcoholic fermentation \u2014 in yeast and some bacteria, pyruvate is converted to ethanol and carbon dioxide. The CO\u2082 makes bread rise and beer foam; the ethanol is the alcohol in wine and beer.",
+       "The cost \u2014 fermentation yields only 2 net ATP per glucose, versus about 30\u201332 from full aerobic respiration, and it wastes most of the glucose's energy in the lactate or ethanol it discards.",
+       "Fermentation in industry \u2014 humans exploit it deliberately: yogurt and cheese (lactic acid bacteria), bread and beer (yeast), pickles and sauerkraut. The same chemistry that saves a muscle cell also feeds us."
+      ],
+      "example": {
+       "q": "A baker mixes yeast, flour, sugar, and water, and the dough doubles in size in a warm kitchen \u2014 but a second batch left in a sealed, airtight container with no sugar barely rises at all. Explain both results.",
+       "steps": [
+        "First, the rising dough: yeast cells carry out alcoholic fermentation, converting sugar to ethanol and carbon dioxide. The CO\u2082 gas is trapped in the dough's gluten network, inflating it like a balloon.",
+        "Second, the warm kitchen: warmth speeds the yeast's enzymes, so fermentation runs faster and more gas is produced in the same time.",
+        "Third, the failed batch: with no sugar there is little glucose to ferment, so almost no CO\u2082 is produced \u2014 and in the sealed container the oxygen runs out quickly, so the yeast cannot switch to the more efficient aerobic respiration either.",
+        "Conclusion: the dough rises because of fermentation gas, not because the yeast 'grows' \u2014 and fermentation needs fuel (sugar) to make that gas."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why can your muscle cells keep working for a short sprint without enough oxygen, but not for a long run?",
+        "a": "Because lactic acid fermentation regenerates NAD\u207a so glycolysis can continue, but it yields only 2 ATP per glucose and lactate accumulates \u2014 the energy debt and acidity force the muscles to slow down until oxygen catches up."
+       },
+       {
+        "q": "A yogurt maker adds live bacterial cultures to warm milk and leaves it for hours. What are the bacteria doing, and why does the milk thicken and turn sour?",
+        "a": "The bacteria carry out lactic acid fermentation, converting milk sugar (lactose) to lactic acid. The acid lowers the pH, which denatures milk proteins and makes them clump \u2014 thickening the milk and giving yogurt its sour taste."
+       }
+      ],
+      "takeaway": "Fermentation is respiration's anaerobic backup: it recycles NAD\u207a so glycolysis can keep making 2 ATP without oxygen \u2014 in muscles as lactate, in yeast as ethanol and carbon dioxide \u2014 at a steep energy cost."
+     },
+     {
+      "title": "How Photosynthesis and Respiration Connect",
+      "intro": "Photosynthesis and cellular respiration are two halves of one cycle. Photosynthesis stores light energy in glucose and releases oxygen; respiration releases that energy from glucose and returns carbon dioxide and water. The products of one are the reactants of the other, and together they drive the carbon and oxygen cycles of the whole biosphere. Understanding the pair is understanding how energy flows through every ecosystem on Earth.",
+      "concepts": [
+       "The mirror equations \u2014 photosynthesis: 6CO\u2082 + 6H\u2082O + light \u2192 C\u2086H\u2081\u2082O\u2086 + 6O\u2082; respiration: C\u2086H\u2081\u2082O\u2086 + 6O\u2082 \u2192 6CO\u2082 + 6H\u2082O + ATP. The outputs of one are the inputs of the other.",
+       "Where each happens \u2014 photosynthesis in chloroplasts (plants, algae, cyanobacteria); respiration in mitochondria (nearly all eukaryotes, including plants themselves). A plant cell does both: it photosynthesizes by day and respires around the clock.",
+       "Energy flow vs matter cycling \u2014 energy flows one way: sunlight in, heat out, never recycled. Matter cycles: the same carbon atoms move from air to plant to animal to air again, endlessly reused.",
+       "The global balance \u2014 over Earth's history, photosynthesis produced the oxygen in the air you breathe, and respiration and decay return carbon dioxide. Burning fossil fuels tips the balance by releasing, in decades, carbon that photosynthesis stored over millions of years.",
+       "Producers and consumers \u2014 producers (photosynthesizers) capture energy and form the base of every food chain; consumers (including you) release that energy by respiration. Without producers, there is no energy entering the system at all."
+      ],
+      "example": {
+       "q": "A sealed glass jar contains a small plant, some soil, and a snail, sitting in sunlight. For weeks the snail stays alive and the plant stays green. Explain how the two organisms keep each other alive, and what would break the balance.",
+       "steps": [
+        "First, the plant's side: in sunlight the plant photosynthesizes, taking in the carbon dioxide the snail exhales and releasing the oxygen the snail needs to breathe.",
+        "Second, the snail's side: the snail eats some plant material and respires, releasing carbon dioxide and water that the plant uses for photosynthesis \u2014 the waste of each is the raw material of the other.",
+        "Third, the limits: the balance holds only while light is available and while the snail does not eat the plant faster than it grows \u2014 if the light goes out, photosynthesis stops, oxygen runs out, and both die.",
+        "Conclusion: the jar is a miniature biosphere \u2014 the two processes form a closed loop for matter, with sunlight as the only outside input. Break the light, and the loop collapses."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why does a plant still need mitochondria and cellular respiration, even though it makes its own food by photosynthesis?",
+        "a": "Because photosynthesis makes glucose but does not release usable ATP from it \u2014 the plant's cells need ATP for growth, transport, and repair, and only respiration releases that energy, day and night, from the glucose photosynthesis stored."
+       },
+       {
+        "q": "If all photosynthesis on Earth stopped tomorrow but respiration continued, what would happen to the atmosphere, and why?",
+        "a": "Oxygen would fall and carbon dioxide would rise, because respiration and decay keep consuming oxygen and releasing CO\u2082 with nothing to reverse the flow \u2014 the atmosphere would slowly become unbreathable for aerobic life."
+       }
+      ],
+      "takeaway": "Photosynthesis and respiration are one cycle split in two: the first stores sunlight as sugar and oxygen, the second spends it and returns carbon dioxide and water \u2014 energy flows through, matter cycles around."
+     }
     ]
    },
    {
     "module_title": "Genetics: From DNA to Protein",
     "lessons": [
-     "DNA Structure and Replication",
-     "Genes, Transcription and Translation",
-     "Mitosis: How Cells Divide",
-     "Meiosis and Genetic Variation",
-     "Mendel and the Patterns of Inheritance"
+     {
+      "title": "DNA Structure and Replication",
+      "intro": "DNA is the instruction manual for life, written in a four-letter code and stored in a molecule shaped like a twisted ladder. The double helix, discovered by Watson and Crick in 1953 from Franklin's and Wilkins' data, explains how genetic information is both stored and copied: the two strands are complementary, so each strand is a template for building the other. Before a cell divides, it must copy its entire DNA \u2014 accurately, or the daughter cells inherit errors.",
+      "concepts": [
+       "The double helix \u2014 two strands of nucleotides wound around each other, held by hydrogen bonds between base pairs: adenine pairs with thymine (A\u2013T), cytosine pairs with guanine (C\u2013G). The sequence of bases is the information.",
+       "Nucleotide structure \u2014 each nucleotide has a sugar (deoxyribose), a phosphate group, and one of four bases. The sugar-phosphate backbone forms the rails of the ladder; the base pairs form the rungs.",
+       "Antiparallel strands \u2014 the two strands run in opposite directions (one 5\u2032 to 3\u2032, the other 3\u2032 to 5\u2032), which matters because the copying enzymes read and build in only one direction.",
+       "Semiconservative replication \u2014 when DNA copies, each new double helix keeps one old strand and one newly built strand. The old strand is the template; the new strand is built base by base to match it.",
+       "The replication machinery \u2014 helicase unzips the helix, DNA polymerase builds the new strand (and proofreads it), and ligase joins the fragments on the lagging strand. Errors are rare \u2014 about one per billion bases after proofreading and repair."
+      ],
+      "example": {
+       "q": "A forensic lab has a tiny DNA sample from a crime scene. How can they get enough DNA to test it, and why does the double helix make this possible?",
+       "steps": [
+        "First, the method: polymerase chain reaction (PCR) copies a chosen DNA segment millions of times in a test tube, using the same logic as the cell \u2014 heat separates the strands, primers mark the start, and DNA polymerase builds new strands.",
+        "Second, the template logic: because the strands are complementary, each separated strand dictates exactly what its partner must be \u2014 A pairs with T, C with G \u2014 so the copy is determined, not guessed.",
+        "Third, the amplification: each cycle doubles the DNA, so 30 cycles turn one molecule into about a billion copies \u2014 enough to analyze from a single hair or a drop of blood.",
+        "Conclusion: PCR works because DNA's structure is a copying machine by design \u2014 separate the strands, and each one knows how to rebuild its partner."
+       ]
+      },
+      "practice": [
+       {
+        "q": "One DNA strand reads 5\u2032-A T G C C A-3\u2032. What is the sequence of its complementary strand, and which direction does it run?",
+        "a": "3\u2032-T A C G G T-5\u2032 \u2014 each base pairs with its complement (A\u2013T, T\u2013A, G\u2013C, C\u2013G, C\u2013G, A\u2013T), and the complementary strand runs antiparallel, 3\u2032 to 5\u2032."
+       },
+       {
+        "q": "Why is DNA replication called semiconservative, and why does that matter for a dividing cell?",
+        "a": "Because each new double helix keeps one original strand and one new strand. It matters because the original strand is a built-in template and a check \u2014 the daughter cells each receive one proven copy of the genetic information."
+       }
+      ],
+      "takeaway": "DNA is a double helix of complementary strands, A with T and C with G, and replication is semiconservative \u2014 each strand templates its own replacement, with polymerase proofreading the copy."
+     },
+     {
+      "title": "Genes, Transcription and Translation",
+      "intro": "A gene is a segment of DNA that codes for a product \u2014 usually a protein. But DNA never leaves the nucleus, and proteins are built in the cytoplasm, so the cell needs a messenger. The central dogma describes the flow: DNA is transcribed into messenger RNA, and the mRNA is translated into protein by ribosomes, using a three-letter code. This is how a sequence of bases becomes a working molecule \u2014 and how a mutation in the DNA becomes a change in the organism.",
+      "concepts": [
+       "The central dogma \u2014 DNA \u2192 RNA \u2192 protein. Information flows from the gene to the messenger to the product; the protein then does the work (enzyme, structure, signal).",
+       "Transcription \u2014 RNA polymerase reads a gene's DNA template and builds a complementary mRNA copy (with uracil, U, in place of thymine). In eukaryotes the mRNA is processed \u2014 introns removed, a cap and tail added \u2014 before it leaves the nucleus.",
+       "The genetic code \u2014 mRNA is read in three-base codons, each codon specifying one amino acid (or a stop signal). The code is nearly universal across all life and redundant: most amino acids are coded by several codons.",
+       "Translation \u2014 ribosomes read the mRNA codon by codon; transfer RNA (tRNA) molecules bring the matching amino acid, and the ribosome links them into a growing protein chain. The chain then folds into its working shape.",
+       "Mutations \u2014 a change in the DNA sequence: a substitution swaps one base, an insertion or deletion shifts the reading frame. Some mutations are harmless, some break the protein, and a few create a new useful trait."
+      ],
+      "example": {
+       "q": "Sickle cell disease is caused by a single base change in the gene for hemoglobin: one codon changes from GAG to GTG. Explain how one changed letter in DNA produces a disease.",
+       "steps": [
+        "First, transcription: the mutated gene is copied into mRNA, so the mRNA carries the changed codon (GUG instead of GAG) to the ribosome.",
+        "Second, translation: the ribosome reads the changed codon and inserts valine instead of glutamic acid at one position in the hemoglobin protein \u2014 one amino acid out of 146 is different.",
+        "Third, the protein's shape: valine is hydrophobic where glutamic acid was hydrophilic, so under low oxygen the hemoglobin molecules stick together into fibers that bend the red blood cell into a sickle shape.",
+        "Conclusion: the sickled cells clog small blood vessels and break apart easily, causing pain and anemia \u2014 one base, one amino acid, one changed shape, one disease. This is the central dogma in action, for better and for worse."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A DNA template strand reads 3\u2032-T A C G G A-5\u2032. What mRNA is transcribed from it, and what does the first codon code for?",
+        "a": "The mRNA is 5\u2032-A U G C C U-3\u2032 (A pairs with T, U pairs with A, G with C, C with G). The first codon AUG is the start codon and codes for methionine, the amino acid that begins nearly every protein."
+       },
+       {
+        "q": "Why is a deletion of one base usually more damaging than a substitution of one base?",
+        "a": "Because a deletion shifts the reading frame: every codon after the deletion is read differently, garbling the entire protein from that point on. A substitution changes only one amino acid, leaving the rest of the protein intact."
+       }
+      ],
+      "takeaway": "Genes flow DNA \u2192 RNA \u2192 protein: transcription copies the gene into mRNA, translation reads codons into amino acids, and a single base change can reshape a protein \u2014 and a life."
+     },
+     {
+      "title": "Mitosis: How Cells Divide",
+      "intro": "Your body makes about two trillion new cells every day \u2014 to grow, to heal a cut, to replace skin and blood. Mitosis is how it does it: one cell copies its DNA, then divides into two genetically identical daughter cells. The process is tightly choreographed so each daughter gets exactly one copy of every chromosome. When the choreography fails, the result can be a cell with the wrong number of chromosomes \u2014 or, if the controls break entirely, cancer.",
+      "concepts": [
+       "The cell cycle \u2014 interphase (G1 growth, S phase where DNA is copied, G2 preparation) followed by the mitotic phase (mitosis plus cytokinesis). Most of a cell's life is spent in interphase, not dividing.",
+       "Chromosomes \u2014 DNA packaged with proteins. Before division, each chromosome is copied into two identical sister chromatids joined at the centromere; humans have 46 chromosomes in each body cell.",
+       "The stages of mitosis \u2014 prophase (chromosomes condense, spindle forms), metaphase (chromosomes line up at the middle), anaphase (sister chromatids are pulled apart to opposite ends), telophase (two nuclei form). The order is fixed; the purpose is equal separation.",
+       "Cytokinesis \u2014 the cytoplasm divides after the nuclei do: animal cells pinch in two, plant cells build a cell plate across the middle. The result is two daughter cells, each with a full set of chromosomes.",
+       "Checkpoints and control \u2014 the cell cycle has checkpoints (especially at G1, G2, and metaphase) that halt division if DNA is damaged or chromosomes are not aligned. Losing these controls is a hallmark of cancer."
+      ],
+      "example": {
+       "q": "A skin cell on your fingertip is cut in half by a paper cut. Within days the wound closes. Walk through what the surviving skin cells must do to repair the gap.",
+       "steps": [
+        "First, the signal: growth factors released at the wound tell nearby skin cells to enter the cell cycle and divide \u2014 cells do not divide constantly, they divide when told to.",
+        "Second, the copy: each dividing cell enters S phase and replicates all 46 chromosomes, so each chromosome becomes two sister chromatids, and the cell checks that the copies are complete and undamaged.",
+        "Third, the split: mitosis separates the sister chromatids to opposite ends, and cytokinesis divides the cytoplasm, producing two identical daughter cells where there was one.",
+        "Conclusion: repeated rounds of this fill the wound with new skin cells identical to the originals \u2014 and once the gap is filled, contact inhibition tells the cells to stop dividing."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why must DNA be copied during S phase before mitosis, rather than during mitosis itself?",
+        "a": "Because mitosis is the separation step \u2014 it divides what already exists. If the DNA were not copied first, one daughter cell would get the chromosomes and the other would get nothing. Copying first guarantees each daughter receives a full set."
+       },
+       {
+        "q": "A drug blocks spindle fibers from forming. At which stage of mitosis would cells get stuck, and what would be the result?",
+        "a": "Metaphase: without spindle fibers the chromosomes cannot line up at the middle or be pulled apart, so the cell stalls at the metaphase checkpoint and cannot divide \u2014 which is why such drugs are used against rapidly dividing cancer cells."
+       }
+      ],
+      "takeaway": "Mitosis copies the DNA, then separates the copies: prophase, metaphase, anaphase, telophase, and cytokinesis produce two identical daughter cells \u2014 and checkpoints keep the whole process honest."
+     },
+     {
+      "title": "Meiosis and Genetic Variation",
+      "intro": "Mitosis makes identical copies, but sexual reproduction needs the opposite: cells with half the chromosomes, so that two parents can combine their DNA in an offspring that is like neither of them. Meiosis is that process \u2014 two divisions that turn one diploid cell (46 chromosomes in humans) into four haploid gametes (23 each). Along the way, chromosomes swap pieces and assort independently, which is why siblings from the same parents are never identical (except identical twins).",
+      "concepts": [
+       "Diploid vs haploid \u2014 body (somatic) cells are diploid (2n), with two copies of each chromosome, one from each parent; gametes (sperm and egg) are haploid (n), with one copy. Fertilization restores the diploid number.",
+       "Two divisions, one DNA copy \u2014 meiosis I separates homologous chromosomes, meiosis II separates sister chromatids, like mitosis. DNA is copied only once, so four haploid cells result from one starting cell.",
+       "Crossing over \u2014 in prophase I, homologous chromosomes pair up and exchange segments, creating new combinations of alleles on each chromosome. This is the biggest source of new genetic combinations.",
+       "Independent assortment \u2014 in metaphase I, each homologous pair lines up independently of the others, so the mix of maternal and paternal chromosomes in each gamete is random. With 23 pairs, there are over 8 million possible combinations.",
+       "Errors: nondisjunction \u2014 when chromosomes fail to separate, a gamete gets an extra chromosome or one too few. Fertilization then produces conditions like Down syndrome (an extra chromosome 21) or Turner syndrome (a missing X)."
+      ],
+      "example": {
+       "q": "Two full siblings share the same parents but look different and have different blood types. Explain how meiosis guarantees this \u2014 using crossing over and independent assortment.",
+       "steps": [
+        "First, crossing over: during meiosis in each parent, homologous chromosomes swap segments, so the chromosomes a parent passes on are new mixtures of their own parents' DNA \u2014 never the same mix twice.",
+        "Second, independent assortment: each of the 23 chromosome pairs lines up randomly in metaphase I, so each gamete gets a random combination of maternal and paternal chromosomes \u2014 over 8 million possibilities per parent.",
+        "Third, fertilization: the two random gametes combine, multiplying the possibilities \u2014 the chance of two siblings receiving the same combination is astronomically small.",
+        "Conclusion: meiosis is a shuffling machine. Mitosis preserves the genome; meiosis reshuffles it, which is why sexual reproduction produces variety and why evolution has raw material to work with."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why does meiosis involve two divisions but only one round of DNA replication?",
+        "a": "Because the goal is to halve the chromosome number: one replication doubles the DNA, and two divisions split it twice, leaving each of the four gametes with a single haploid set."
+       },
+       {
+        "q": "A child is born with Down syndrome (three copies of chromosome 21). At what stage did the error most likely occur, and what is the error called?",
+        "a": "Nondisjunction \u2014 most likely in meiosis I or II in one parent, when the two copies of chromosome 21 failed to separate, so a gamete carried two copies and the fertilized egg ended up with three."
+       }
+      ],
+      "takeaway": "Meiosis halves the chromosome number in two divisions and shuffles the genome by crossing over and independent assortment \u2014 so every gamete is unique, and every child is a new combination."
+     },
+     {
+      "title": "Mendel and the Patterns of Inheritance",
+      "intro": "In the 1860s, Gregor Mendel grew thousands of pea plants and counted what he saw \u2014 and in doing so, he discovered the rules of inheritance a century before DNA was understood. Traits are passed as discrete units (genes), each organism carries two copies (alleles), and the copies separate when gametes form. Mendel's ratios \u2014 3:1, 9:3:3:1 \u2014 are the predictable outcomes of those rules, and they still explain how traits run in families today.",
+      "concepts": [
+       "Genes and alleles \u2014 a gene is a DNA segment for a trait; alleles are its versions (for example, purple vs white flower). An organism carries two alleles, one from each parent.",
+       "Dominant and recessive \u2014 a dominant allele masks a recessive one in a heterozygote (one of each). The recessive trait appears only in a homozygote with two recessive alleles. Dominant does not mean common \u2014 it means expressed.",
+       "Genotype vs phenotype \u2014 the genotype is the alleles an organism carries (e.g., Pp); the phenotype is the trait you see (purple flowers). Different genotypes can produce the same phenotype.",
+       "Mendel's laws \u2014 the law of segregation: the two alleles separate when gametes form, so each gamete carries one. The law of independent assortment: alleles for different genes sort independently (for genes on different chromosomes).",
+       "Punnett squares and probability \u2014 a Punnett square maps the possible gamete combinations and their probabilities: a cross of two heterozygotes (Pp \u00d7 Pp) gives a 3:1 phenotypic ratio; a dihybrid cross (PpYy \u00d7 PpYy) gives 9:3:3:1."
+      ],
+      "example": {
+       "q": "Two parents with brown eyes have a child with blue eyes. The parents insist the child must not be theirs. Using Mendel's rules, explain why blue-eyed children of brown-eyed parents are not only possible but expected sometimes.",
+       "steps": [
+        "First, set up the genetics: brown eyes are dominant (B) over blue (b), so the parents are brown-eyed but each must carry a hidden blue allele \u2014 both are heterozygotes (Bb).",
+        "Second, work the cross: each parent passes B half the time and b half the time, so the Punnett square gives BB, Bb, Bb, and bb \u2014 a 3:1 ratio of brown to blue.",
+        "Third, read the result: one child in four, on average, inherits b from both parents and has blue eyes \u2014 the recessive allele was there all along, masked in the parents.",
+        "Conclusion: the parents' claim fails the genetics \u2014 a blue-eyed child is the expected outcome in a quarter of their children, and the recessive allele's invisibility in a heterozygote is exactly what Mendel discovered."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A pea plant with genotype Tt (tall) is crossed with one that is tt (short). What fraction of the offspring will be short, and what is their genotype?",
+        "a": "Half the offspring will be short. The Tt parent gives T or t equally, the tt parent gives only t, so the offspring are Tt (tall) or tt (short) in equal proportions \u2014 the tt ones are short."
+       },
+       {
+        "q": "Why is 'dominant' not the same as 'most common'? Give an example.",
+        "a": "Dominant only means the allele is expressed when present; frequency depends on the population. Huntington's disease is caused by a dominant allele, yet it is rare \u2014 dominance does not make an allele spread."
+       }
+      ],
+      "takeaway": "Mendel's rules \u2014 two alleles per gene, segregation into gametes, dominant masking recessive \u2014 turn inheritance into predictable ratios: 3:1 for one trait, 9:3:3:1 for two."
+     }
     ]
    }
   ],
@@ -9565,48 +10165,648 @@
    "project": false
   },
   "mastery_rubric": "Explain cell structure and energy flow, trace information from DNA to protein, and predict simple inheritance patterns. Final grade 70% or higher.",
-  "source": "Martinez original syllabus (authored 2026-11-14)"
+  "source": "Martinez original \u2014 written lessons (authored 2026-11-23)"
  },
  "CHEM101": {
   "modules": [
    {
     "module_title": "Matter and Measurement",
     "lessons": [
-     "Chemistry and the Scientific Method",
-     "Units, Significant Figures and Dimensional Analysis",
-     "Atoms, Elements and the Periodic Table",
-     "Compounds, Mixtures and Naming Basics",
-     "The Mole Concept"
+     {
+      "title": "Chemistry and the Scientific Method",
+      "intro": "Chemistry is the study of matter \u2014 what it is made of, how it changes, and why. Every medicine, battery, loaf of bread, and breath of air is chemistry in action. But chemistry is not a list of facts to memorize; it is a science, which means its claims are earned by the scientific method: observe, hypothesize, test, and revise. This lesson sets up the whole course: what chemists study, and how they know what they claim to know.",
+      "concepts": [
+       "Matter and its properties \u2014 matter is anything with mass that takes up space. Physical properties (colour, density, melting point) can be observed without changing what a substance is; chemical properties (flammability, reactivity with acid) describe how it changes into something else.",
+       "Observation and hypothesis \u2014 science starts with a careful observation and a question, then a hypothesis: a testable, falsifiable explanation. 'Salt makes water boil faster because it raises the boiling point' can be tested; 'salt makes water boil faster because it wants to' cannot.",
+       "Experiment and variables \u2014 the independent variable is what the experimenter changes; the dependent variable is what is measured; controlled variables are kept the same. A control group gives a baseline for comparison.",
+       "Theory and law \u2014 a scientific law describes a pattern (the law of conservation of mass: mass is neither created nor destroyed in a chemical reaction). A theory explains why the pattern holds (atomic theory). A theory is not a guess \u2014 it is a well-tested explanation.",
+       "Measurement and the SI system \u2014 chemists measure in SI units: metres, kilograms, seconds, kelvin, and moles. A measurement is only useful with its unit and a sense of its uncertainty."
+      ],
+      "example": {
+       "q": "A student notices that sugar dissolves faster in hot tea than in iced tea. Design a proper experiment to test whether temperature causes the difference.",
+       "steps": [
+        "First, state a hypothesis: 'Sugar dissolves faster in water at higher temperatures.' It is specific, testable, and falsifiable \u2014 a result showing no difference would prove it wrong.",
+        "Second, set up controlled trials: identical glasses, the same amount of water, the same mass of sugar, stirred the same number of times \u2014 differing only in the independent variable, water temperature (for example 5 \u00b0C, 25 \u00b0C, 50 \u00b0C, 80 \u00b0C).",
+        "Third, measure the dependent variable the same way each time: the time until no solid sugar is visible. Repeat each temperature three times and average, so one odd result cannot decide the outcome.",
+        "Conclusion: if dissolving time falls steadily as temperature rises, the data support the hypothesis; if the times are the same, the hypothesis is rejected and something else \u2014 stirring, perhaps \u2014 must explain the original observation."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A company claims its new cleaning spray kills 99.9% of germs, based on one test in one kitchen. What is wrong with this evidence?",
+        "a": "There is no control group (a kitchen cleaned with plain water), no replication, and no stated method \u2014 one test cannot separate the spray's effect from the wiping, the kitchen, or chance. A good experiment needs a control, repeats, and identical conditions except the product being tested."
+       },
+       {
+        "q": "Is the melting point of ice a physical or a chemical property? How do you know?",
+        "a": "Physical \u2014 ice melting into liquid water changes its state, not its identity: the substance is still H2O. A chemical property would involve ice changing into a different substance, as in reacting with something."
+       }
+      ],
+      "takeaway": "Chemistry studies matter and its changes, and its claims are earned by the scientific method: a testable hypothesis, controlled experiments with one variable changed at a time, and results that can be replicated \u2014 laws describe the patterns, theories explain them."
+     },
+     {
+      "title": "Units, Significant Figures and Dimensional Analysis",
+      "intro": "A number without a unit is a rumour. '5' could mean 5 grams, 5 litres, or 5 metres \u2014 and the difference between 5 grams and 5 kilograms of a chemical can be the difference between a safe experiment and a dangerous one. Chemists convert between units constantly, and they track significant figures so a result never claims more precision than the measurements behind it. Dimensional analysis \u2014 the factor-label method \u2014 is the single most useful calculation skill in this course.",
+      "concepts": [
+       "SI base units and prefixes \u2014 length (metre), mass (kilogram), time (second), temperature (kelvin), amount (mole). Prefixes scale by powers of ten: milli- (10^-3), centi- (10^-2), kilo- (10^3), mega- (10^6). A millilitre is one-thousandth of a litre.",
+       "Significant figures \u2014 the digits in a measurement that carry real information. All non-zero digits count; zeros between digits count; trailing zeros after a decimal count; leading zeros never count. 0.00450 has three significant figures; 100.0 has four.",
+       "Exact vs measured numbers \u2014 counted numbers and defined conversions (12 inches = 1 foot exactly) have unlimited significant figures. Measured numbers are limited by the instrument: a balance reading 2.54 g is not 2.5400 g.",
+       "Rounding rules for calculations \u2014 in multiplication and division, the answer has as many significant figures as the least precise input. In addition and subtraction, the answer is limited by the least precise decimal place.",
+       "Dimensional analysis \u2014 multiply by conversion factors written as fractions equal to 1 (e.g. 1000 m / 1 km), arranging them so unwanted units cancel and only the wanted unit remains. The units themselves check the work."
+      ],
+      "example": {
+       "q": "A lab procedure calls for 250 mL of solution, but the only measuring cylinder is marked in litres and the balance reads in grams. The solution's density is 1.05 g/mL. How many grams of solution is 250 mL, and how many litres is it? Give answers to the correct significant figures.",
+       "steps": [
+        "First, convert volume: 250 mL \u00d7 (1 L / 1000 mL) = 0.250 L. The mL units cancel, leaving litres. 250 has three significant figures, so 0.250 L is right.",
+        "Second, find the mass with density as a conversion factor: 250 mL \u00d7 (1.05 g / 1 mL) = 262.5 g. The mL cancel, leaving grams.",
+        "Third, fix the significant figures: 1.05 has three significant figures and 250 has three, so the answer is limited to three: 262.5 g rounds to 263 g (262.5 rounds to 263, since the digit after 2 is 5 followed by nothing \u2014 round-half-up here gives 263).",
+        "Conclusion: 250 mL is 0.250 L and has a mass of 263 g. Notice how the units cancelled at every step \u2014 if a unit had survived that should not be there, the setup was wrong."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Convert 3.20 km to metres, and state the answer with the correct number of significant figures.",
+        "a": "3.20 km \u00d7 (1000 m / 1 km) = 3200 m. But 3.20 has three significant figures, so the answer must be written 3.20 \u00d7 10^3 m \u2014 plain '3200 m' is ambiguous about whether the trailing zeros are significant."
+       },
+       {
+        "q": "A student multiplies 2.5 cm \u00d7 4.13 cm and reports 10.325 cm\u00b2. What is wrong, and what should the answer be?",
+        "a": "The result claims five significant figures, but 2.5 has only two \u2014 the answer can have at most two: 10 cm\u00b2. Reporting 10.325 cm\u00b2 pretends the measurement was far more precise than it was."
+       }
+      ],
+      "takeaway": "Every measurement needs a unit and an honest number of significant figures, and dimensional analysis \u2014 cancelling units through conversion factors \u2014 both converts quantities and checks that the calculation itself is set up correctly."
+     },
+     {
+      "title": "Atoms, Elements and the Periodic Table",
+      "intro": "Everything you can touch is built from about 118 elements, and every element is built from atoms. An atom is mostly empty space: a tiny, dense nucleus of protons and neutrons, surrounded by electrons. The periodic table is the map of this world \u2014 it organizes the elements so that elements in the same column behave alike, letting chemists predict the properties of an element they have never seen.",
+      "concepts": [
+       "Subatomic particles \u2014 protons (+1 charge, mass ~1 amu) and neutrons (no charge, mass ~1 amu) live in the nucleus; electrons (-1 charge, mass ~1/1836 amu) occupy the space around it. The atom's mass comes almost entirely from the nucleus; its size comes from the electrons.",
+       "Atomic number and mass number \u2014 the atomic number Z is the number of protons and defines the element (all carbon atoms have Z = 6). The mass number A is protons + neutrons. In a neutral atom, electrons = protons.",
+       "Isotopes \u2014 atoms of the same element with different numbers of neutrons: carbon-12 (6 neutrons) and carbon-14 (8 neutrons) are both carbon, but carbon-14 is radioactive. Atomic mass on the table is a weighted average of the isotopes.",
+       "Ions \u2014 atoms that gain or lose electrons become charged: cations are positive (Na+ lost one electron), anions are negative (Cl- gained one). The charge is written as a superscript.",
+       "The periodic table \u2014 rows (periods) run left to right; columns (groups) run top to bottom. Group 1 (alkali metals) are reactive soft metals; Group 17 (halogens) are reactive nonmetals; Group 18 (noble gases) barely react at all. Metals sit on the left, nonmetals on the right, metalloids along the stair-step line."
+      ],
+      "example": {
+       "q": "An atom has 17 protons, 18 neutrons, and 17 electrons. Identify the element, its mass number, and whether it is an atom or an ion. Then predict how it is likely to behave chemically.",
+       "steps": [
+        "First, the element: 17 protons means Z = 17, which is chlorine (Cl) on the periodic table.",
+        "Second, the mass number: A = protons + neutrons = 17 + 18 = 35, so this is chlorine-35, the most common isotope of chlorine.",
+        "Third, the charge: 17 protons (+) and 17 electrons (-) balance exactly, so the particle is a neutral atom, not an ion.",
+        "Conclusion: chlorine sits in Group 17, the halogens \u2014 one electron short of a full outer shell \u2014 so it is highly reactive and tends to gain one electron to become Cl-, the chloride ion found in table salt."
+       ]
+      },
+      "practice": [
+       {
+        "q": "How many protons, neutrons, and electrons are in a neutral atom of iron-56 (Fe, Z = 26)?",
+        "a": "Protons = Z = 26; electrons = 26 (neutral atom); neutrons = A \u2212 Z = 56 \u2212 26 = 30."
+       },
+       {
+        "q": "Why is the atomic mass of chlorine listed as 35.45 rather than a whole number?",
+        "a": "Because natural chlorine is a mixture of isotopes \u2014 about 76% chlorine-35 and 24% chlorine-37 \u2014 and the table's atomic mass is the weighted average of those isotopes, not the mass of any single atom."
+       }
+      ],
+      "takeaway": "The proton count defines the element, the neutron count defines the isotope, and the electron count decides the charge \u2014 and the periodic table arranges elements so that neighbours in a column share chemical behaviour, making it chemistry's best prediction tool."
+     },
+     {
+      "title": "Compounds, Mixtures and Naming Basics",
+      "intro": "Pure elements are only the start. Most of the matter around you is compounds \u2014 two or more elements chemically bonded in a fixed ratio \u2014 or mixtures, where substances are just stirred together and keep their own identities. Salt water is a mixture; table salt itself is a compound. Chemists need a naming system so that one name means exactly one substance everywhere in the world, and the rules are simpler than they look.",
+      "concepts": [
+       "Elements vs compounds vs mixtures \u2014 an element is one kind of atom; a compound is two or more elements chemically combined in a fixed ratio (water is always H2O); a mixture is a physical blend with variable composition (salt water can be saltier or weaker) whose parts can be separated by physical means.",
+       "Homogeneous vs heterogeneous mixtures \u2014 homogeneous mixtures (solutions) are uniform throughout, like air or salt water; heterogeneous mixtures are not, like sand in water or a salad, where you can see the separate parts.",
+       "Ionic compounds \u2014 a metal and a nonmetal transfer electrons: Na+ and Cl- attract into NaCl. The formula is written with the smallest whole-number ratio that makes the total charge zero. Ionic compounds form crystals and conduct electricity when dissolved or melted.",
+       "Covalent compounds \u2014 two nonmetals share electrons: H2O, CO2, CH4. The formula shows the actual numbers of atoms, and prefixes say how many: mono- (1), di- (2), tri- (3), tetra- (4), penta- (5). CO2 is carbon dioxide.",
+       "Naming ionic compounds \u2014 name the cation first, then the anion with an -ide ending: MgO is magnesium oxide; CaCl2 is calcium chloride. For metals that form more than one charge (like iron), Roman numerals give the charge: FeCl3 is iron(III) chloride."
+      ],
+      "example": {
+       "q": "Write the formula for the ionic compound formed from aluminium (Al3+) and oxygen (O2-), and name the covalent compound N2O4.",
+       "steps": [
+        "First, balance the charges for the ionic compound: Al3+ and O2- must combine so the total charge is zero. Two Al3+ give +6; three O2- give -6. So the formula is Al2O3.",
+        "Second, check the name: aluminium is the cation, oxygen becomes oxide, so Al2O3 is aluminium oxide \u2014 the same compound that makes up sapphires and rubies.",
+        "Third, name the covalent compound: N2O4 has two nitrogens and four oxygens, both nonmetals, so use prefixes: di- for two nitrogens, tetra- for four oxygens. The name is dinitrogen tetroxide.",
+        "Conclusion: ionic formulas come from charge balance, not prefixes; covalent names come from atom counts. Mixing the two systems up is the most common naming mistake."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Is air a compound or a mixture? Explain, and say whether it is homogeneous or heterogeneous.",
+        "a": "A mixture \u2014 air is mostly nitrogen and oxygen physically mixed, not chemically bonded, and its composition varies slightly from place to place. It is homogeneous: the gases are uniformly mixed, so you cannot see separate parts."
+       },
+       {
+        "q": "What is the formula of calcium chloride, and why does it have two chlorines?",
+        "a": "CaCl2. Calcium forms Ca2+ and chlorine forms Cl-, so two chloride ions are needed to balance the +2 charge of one calcium ion."
+       }
+      ],
+      "takeaway": "Compounds have a fixed composition and are made by chemical bonds; mixtures are physical blends with variable composition. Ionic formulas balance charges to zero, covalent names count atoms with prefixes, and the system gives every substance exactly one name."
+     },
+     {
+      "title": "The Mole Concept",
+      "intro": "Chemists count atoms the way bakers count eggs \u2014 by the dozen. But atoms are so tiny that a chemist's 'dozen' has to be enormous: 6.022 \u00d7 10^23, Avogadro's number, called one mole. One mole of carbon weighs 12.01 grams; one mole of water weighs 18.02 grams. The mole is the bridge between the invisible world of atoms and the visible world of grams on a balance \u2014 and it is the key to every calculation in this course.",
+      "concepts": [
+       "Avogadro's number \u2014 1 mole = 6.022 \u00d7 10^23 particles, whether atoms, molecules, or ions. It is the number of atoms in exactly 12 g of carbon-12, and it lets chemists count particles by weighing them.",
+       "Molar mass \u2014 the mass of one mole of a substance, in g/mol, equal to the sum of the atomic masses in its formula. H2O: 2(1.008) + 16.00 = 18.02 g/mol. The periodic table gives every atomic mass you need.",
+       "Moles to grams and back \u2014 mass = moles \u00d7 molar mass; moles = mass \u00f7 molar mass. These two equations are dimensional analysis with the molar mass as the conversion factor.",
+       "Moles to particles \u2014 particles = moles \u00d7 Avogadro's number; moles = particles \u00f7 Avogadro's number. A mole of anything, from sand grains to stars, contains the same number of items.",
+       "Percent composition \u2014 the mass percent of each element in a compound: (mass of that element in one mole \u00f7 molar mass) \u00d7 100%. It is how a compound's formula is checked against experiment."
+      ],
+      "example": {
+       "q": "A chemist has 36.0 g of water. How many moles is that, how many molecules, and what mass of hydrogen does it contain?",
+       "steps": [
+        "First, the molar mass of water: H2O = 2(1.008) + 16.00 = 18.02 g/mol.",
+        "Second, moles: 36.0 g \u00f7 18.02 g/mol = 2.00 mol of water (36.0 has three significant figures, so 2.00 mol).",
+        "Third, molecules: 2.00 mol \u00d7 6.022 \u00d7 10^23 molecules/mol = 1.20 \u00d7 10^24 molecules.",
+        "Fourth, the hydrogen: each water molecule has 2 hydrogen atoms, so one mole of water contains 2.016 g of hydrogen; 2.00 mol contains 4.03 g. Conclusion: 36.0 g of water is 2.00 mol, about 1.20 \u00d7 10^24 molecules, containing 4.03 g of hydrogen."
+       ]
+      },
+      "practice": [
+       {
+        "q": "How many grams is 0.500 mol of carbon dioxide, CO2?",
+        "a": "Molar mass of CO2 = 12.01 + 2(16.00) = 44.01 g/mol. Mass = 0.500 mol \u00d7 44.01 g/mol = 22.0 g."
+       },
+       {
+        "q": "A sample contains 3.011 \u00d7 10^23 atoms of iron. How many moles is that?",
+        "a": "Moles = 3.011 \u00d7 10^23 \u00f7 6.022 \u00d7 10^23 = 0.500 mol. (3.011 \u00d7 10^23 is exactly half of Avogadro's number, so half a mole.)"
+       }
+      ],
+      "takeaway": "One mole is 6.022 \u00d7 10^23 particles, and its mass in grams is the molar mass \u2014 so weighing a substance is counting its atoms, and the mole connects the atomic scale to the laboratory scale."
+     }
     ]
    },
    {
     "module_title": "Atomic Structure and Bonding",
     "lessons": [
-     "Atomic Models and Electron Configuration",
-     "Periodic Trends",
-     "Ionic and Covalent Bonding",
-     "Lewis Structures",
-     "Molecular Geometry and Polarity (VSEPR)"
+     {
+      "title": "Atomic Models and Electron Configuration",
+      "intro": "Atoms are too small to see, so our picture of them has been rebuilt again and again: Dalton's solid spheres, Thomson's 'plum pudding', Rutherford's tiny nucleus, Bohr's neat orbits, and today's quantum model, where electrons live in clouds of probability called orbitals. The quantum model is the one that works \u2014 and its payoff is electron configuration, the address of every electron in an atom, which predicts how the atom will react.",
+      "concepts": [
+       "The quantum model \u2014 electrons occupy orbitals, regions where an electron is likely to be found. Orbitals group into shells (n = 1, 2, 3...) and subshells (s, p, d, f). An s subshell holds 2 electrons, p holds 6, d holds 10, f holds 14.",
+       "The Aufbau principle \u2014 electrons fill the lowest-energy orbitals first. The filling order is 1s, 2s, 2p, 3s, 3p, 4s, 3d, 4p, 5s, 4d... (the 4s fills before 3d, a quirk that matters for the transition metals).",
+       "Pauli exclusion and Hund's rule \u2014 no two electrons in an atom share all four quantum numbers, so each orbital holds at most two electrons, with opposite spins. Hund's rule: within a subshell, electrons spread out into separate orbitals before pairing up.",
+       "Writing configurations \u2014 carbon (6 electrons): 1s\u00b2 2s\u00b2 2p\u00b2. The superscript counts the electrons in that subshell. Noble-gas shorthand shortens it: carbon is [He] 2s\u00b2 2p\u00b2.",
+       "Valence electrons \u2014 the electrons in the outermost shell, which do the chemistry. Elements in the same group have the same number of valence electrons, which is why they behave alike: all Group 1 elements have one valence electron to give away."
+      ],
+      "example": {
+       "q": "Write the full electron configuration of oxygen (Z = 8) and of iron (Z = 26), and state how many valence electrons each has.",
+       "steps": [
+        "First, oxygen: 8 electrons fill 1s (2), then 2s (2), then 2p (4): 1s\u00b2 2s\u00b2 2p\u2074. Shorthand: [He] 2s\u00b2 2p\u2074. Its valence shell is n = 2, holding 2 + 4 = 6 valence electrons \u2014 so oxygen tends to gain 2 electrons to complete its octet.",
+        "Second, iron: 26 electrons fill 1s\u00b2 2s\u00b2 2p\u2076 3s\u00b2 3p\u2076 4s\u00b2 3d\u2076. Shorthand: [Ar] 4s\u00b2 3d\u2076. Notice 4s fills before 3d.",
+        "Third, iron's valence electrons: the outermost shell is n = 4 with 2 electrons, but transition metals also use their d electrons in bonding, so iron commonly loses 2 or 3 electrons (Fe2+ or Fe3+) \u2014 the 3d\u2076 electrons are chemically active too.",
+        "Conclusion: oxygen's 6 valence electrons explain its hunger for 2 more; iron's 4s\u00b2 3d\u2076 explains its two common charges. Configuration is destiny in chemistry."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Write the electron configuration of sodium (Z = 11) and explain, from it, why sodium forms a +1 ion.",
+        "a": "1s\u00b2 2s\u00b2 2p\u2076 3s\u00b9 \u2014 one electron in its outermost shell. Losing that single 3s electron leaves the stable filled shell of neon, so Na+ is far more stable than neutral Na."
+       },
+       {
+        "q": "Why does Hund's rule say nitrogen (1s\u00b2 2s\u00b2 2p\u00b3) has three unpaired electrons, not one pair and one single?",
+        "a": "The 2p subshell has three orbitals. Hund's rule puts one electron in each orbital before any pairing, so all three 2p electrons sit alone, unpaired \u2014 which makes nitrogen's three unpaired electrons available to form three bonds."
+       }
+      ],
+      "takeaway": "Electrons fill orbitals lowest-energy first, two per orbital with opposite spins, spreading out before pairing \u2014 and the resulting configuration, especially the valence electrons, predicts an element's chemistry."
+     },
+     {
+      "title": "Periodic Trends",
+      "intro": "The periodic table is not just a list \u2014 it is a landscape with slopes. Atomic size, ionization energy, and electronegativity all change in regular patterns across a period and down a group, and those patterns are explained by two competing forces: the pull of the nucleus and the shielding of inner electrons. Learn the trends and you can rank any set of elements without looking anything up.",
+      "concepts": [
+       "Effective nuclear charge \u2014 the net pull an outer electron feels: the nucleus's full positive charge minus the shielding of inner electrons. Across a period, protons are added but shielding barely changes, so the pull grows; down a group, new shells add shielding faster than protons, so the pull weakens.",
+       "Atomic radius \u2014 across a period, atoms shrink as the growing nuclear pull drags the same shell inward; down a group, atoms grow because each new shell is farther out. Fluorine is small; caesium is huge.",
+       "Ionization energy \u2014 the energy needed to remove an electron. It rises across a period (electrons are held tighter) and falls down a group (outer electrons are farther and more shielded). Noble gases have the highest ionization energies in their periods.",
+       "Electronegativity \u2014 an atom's hunger for shared electrons in a bond, on the Pauling scale. It rises across a period and falls down a group; fluorine (4.0) is the most electronegative element, caesium and francium the least.",
+       "Exceptions to watch \u2014 ionization energy dips at Group 13 (one electron in a new p orbital is easier to remove) and at Group 16 (a paired electron repels its partner). The exceptions prove the orbital model: they happen exactly where the filling pattern predicts."
+      ],
+      "example": {
+       "q": "Rank Na, Mg, and Al by atomic radius (largest first) and by first ionization energy (highest first). Explain each ranking.",
+       "steps": [
+        "First, locate them: Na, Mg, Al are neighbours in Period 3, Groups 1, 2, 13. Same shell (n = 3), but the nuclear charge grows from 11 to 13 across the row.",
+        "Second, atomic radius: across a period, the stronger pull drags the shell inward, so size falls: Na > Mg > Al.",
+        "Third, ionization energy: the same growing pull holds electrons tighter, so it costs more energy to remove one: Al > Mg > Na. (Aluminium's value is slightly lower than the simple trend predicts because its outer electron sits in a new 3p orbital, but it still exceeds sodium's.)",
+        "Conclusion: across a period, radius falls and ionization energy rises, both driven by effective nuclear charge. Down a group the opposite happens, driven by new shells and shielding."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Which is larger: a sodium atom or a sodium ion (Na+)? Why?",
+        "a": "The sodium atom is larger. Na+ has lost its entire outer shell (the 3s electron), leaving only the smaller n = 2 shell, and its 10 remaining electrons are pulled in by 11 protons \u2014 so the cation is much smaller than the atom."
+       },
+       {
+        "q": "Which element has the highest electronegativity in Period 2, and why is it not neon?",
+        "a": "Fluorine. Electronegativity rises across the period toward the right, but neon, a noble gas, does not form bonds and take shared electrons, so it is assigned no electronegativity value \u2014 fluorine, one electron short of a full shell, is the hungriest."
+       }
+      ],
+      "takeaway": "Across a period, atoms shrink and hold electrons tighter as nuclear charge grows; down a group, atoms grow and loosen as new shells shield the pull \u2014 and those two forces explain radius, ionization energy, and electronegativity together."
+     },
+     {
+      "title": "Ionic and Covalent Bonding",
+      "intro": "Atoms bond because full outer shells are stable, and bonding is how atoms get there. When the electronegativity difference is large, one atom simply takes the electron \u2014 an ionic bond. When the difference is small, the atoms share \u2014 a covalent bond. Between the two extremes lies a continuum, and where a bond sits on it decides whether a substance is a salty crystal, a gas, or a diamond.",
+      "concepts": [
+       "The octet rule \u2014 atoms tend to gain, lose, or share electrons to reach eight valence electrons (two for hydrogen), matching a noble gas. It is a powerful guide, though not a law: some elements break it.",
+       "Ionic bonding \u2014 electron transfer between a metal (low electronegativity) and a nonmetal (high). The ions attract into a crystal lattice with high melting points; the solid does not conduct, but the melt or solution does, because the ions can move.",
+       "Covalent bonding \u2014 electron sharing between two nonmetals. A single bond shares one pair; a double bond two pairs; a triple bond three. Shared pairs are bonding pairs; unshared pairs are lone pairs.",
+       "Electronegativity difference and bond type \u2014 below ~0.5, nonpolar covalent (electrons shared evenly); 0.5\u20131.7, polar covalent (shared unevenly); above ~1.7, usually ionic. It is a spectrum, not a wall: even NaCl has a trace of covalent character.",
+       "Bond energy and length \u2014 stronger bonds are shorter and take more energy to break: triple > double > single. Bond energies explain why some reactions release heat (strong bonds formed) and others absorb it."
+      ],
+      "example": {
+       "q": "Classify the bonding in HF, NaCl, and Cl2 as ionic, polar covalent, or nonpolar covalent, using electronegativity values (H 2.1, F 4.0, Na 0.9, Cl 3.0).",
+       "steps": [
+        "First, HF: difference = 4.0 \u2212 2.1 = 1.9, which is above the 1.7 line \u2014 yet hydrogen fluoride is a polar covalent gas of molecules, not an ionic crystal. The 1.7 line is a guide, not a verdict: fluorine pulls the shared pair strongly toward itself, but the electron is not fully transferred.",
+        "Second, NaCl: difference = 3.0 \u2212 0.9 = 2.1, well above the line \u2014 ionic. Sodium gives its electron to chlorine; the result is a crystal of Na+ and Cl- ions, high melting point, conducting when melted.",
+        "Third, Cl2: difference = 0, two identical atoms \u2014 nonpolar covalent, the pair shared exactly evenly.",
+        "Conclusion: the difference predicts the trend, but the real test is behaviour \u2014 ionic compounds form crystals and conduct when molten; covalent compounds form molecules. HF is the reminder that rules of thumb have exceptions."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why does solid NaCl not conduct electricity, but molten NaCl does?",
+        "a": "In the solid, the ions are locked in the crystal lattice and cannot move, so no charge can flow. Melted, the lattice breaks and the ions are free to move toward the electrodes, carrying current."
+       },
+       {
+        "q": "Oxygen gas is O2 with a double bond. How many bonding pairs and lone pairs does each oxygen atom have?",
+        "a": "Each oxygen has 6 valence electrons. Two pairs are shared as the double bond; each oxygen keeps 2 lone pairs (4 electrons). 2 shared pairs + 2 lone pairs = 8 electrons around each oxygen \u2014 a full octet."
+       }
+      ],
+      "takeaway": "Ionic bonds transfer electrons between metals and nonmetals into conducting crystal lattices; covalent bonds share electrons between nonmetals into molecules; the electronegativity difference predicts which, but a substance's behaviour is the final judge."
+     },
+     {
+      "title": "Lewis Structures",
+      "intro": "A Lewis structure is a drawing of a molecule's electrons \u2014 dots for valence electrons, lines for shared pairs \u2014 and it is the single most useful sketch in chemistry. From it you can read the molecule's shape, its polarity, and what reactions it is likely to do. The rules are mechanical: count the valence electrons, connect the atoms, fill the octets, and check the count. Once the rules are automatic, molecules become readable.",
+      "concepts": [
+       "Valence electron count \u2014 sum the valence electrons of every atom (and adjust for charge: add one per negative charge, subtract one per positive). This total is the budget; a correct structure uses exactly that many electrons.",
+       "The skeleton \u2014 the least electronegative atom (never hydrogen) goes in the centre; hydrogens and more electronegative atoms go around it. Connect each pair with a single bond (2 electrons each).",
+       "Filling octets \u2014 give the outer atoms full octets first (hydrogen gets just 2), then put any leftover electrons on the central atom. If the centre is short, move a lone pair from a neighbour in to make a double or triple bond.",
+       "Formal charge \u2014 a bookkeeping check: formal charge = valence electrons \u2212 (nonbonding electrons + half the bonding electrons). The best structure has formal charges closest to zero, with any negative charge on the most electronegative atom.",
+       "Exceptions to the octet \u2014 hydrogen (2), boron (often 6), beryllium (4), and elements in Period 3 and below (expanded octets: SF6 has 12 electrons around sulfur) do not always follow the octet rule."
+      ],
+      "example": {
+       "q": "Draw the Lewis structure of carbon dioxide, CO2.",
+       "steps": [
+        "First, count: carbon has 4 valence electrons, each oxygen 6 \u2014 total 4 + 6 + 6 = 16 electrons to place.",
+        "Second, the skeleton: carbon is least electronegative, so it goes in the centre with a single bond to each oxygen: O\u2013C\u2013O. That uses 4 electrons, leaving 12.",
+        "Third, fill the outer atoms: give each oxygen 6 more electrons (3 lone pairs each), using all 12. Now carbon has only 4 electrons around it \u2014 an incomplete octet.",
+        "Fourth, fix the centre: move one lone pair from each oxygen in to form double bonds: O=C=O. Now each oxygen has 2 lone pairs + 2 bonds = 8 electrons, carbon has 4 bonds = 8 electrons, and all 16 electrons are used. Formal charges are all zero \u2014 this is the correct structure."
+       ]
+      },
+      "practice": [
+       {
+        "q": "How many valence electrons are in the nitrate ion, NO3-, and what does the charge do to the count?",
+        "a": "Nitrogen contributes 5, each oxygen 6 (18 total), and the -1 charge adds 1 more: 24 valence electrons. The extra electron is what makes the ion negative."
+       },
+       {
+        "q": "Why is boron trifluoride, BF3, stable even though boron has only 6 electrons around it?",
+        "a": "Boron has 3 valence electrons and forms three single bonds to fluorine, giving it 6 shared electrons \u2014 an incomplete octet. It is stable because boron is small and the B\u2013F bonds are strong, but the empty orbital makes BF3 eager to accept a lone pair, which is why it is a strong Lewis acid."
+       }
+      ],
+      "takeaway": "A Lewis structure spends exactly the molecule's valence-electron budget: centre atom first, single bonds, outer octets, then multiple bonds to complete the centre \u2014 and formal charge picks the best arrangement when more than one is possible."
+     },
+     {
+      "title": "Molecular Geometry and Polarity (VSEPR)",
+      "intro": "A molecule's shape decides what it can do: water is bent, and that bend makes it polar, which makes it a great solvent, which makes life possible. VSEPR theory predicts shape from a simple idea \u2014 electron groups repel each other and spread out as far as possible. Count the groups around the central atom, look up the shape, and the molecule's geometry and polarity follow.",
+      "concepts": [
+       "Electron groups \u2014 a group is a lone pair, a single bond, a double bond, or a triple bond (a multiple bond counts as one group, because its electrons occupy one region). VSEPR counts groups, not electrons.",
+       "The five basic geometries \u2014 2 groups: linear (180\u00b0); 3 groups: trigonal planar (120\u00b0); 4 groups: tetrahedral (109.5\u00b0); 5 groups: trigonal bipyramidal; 6 groups: octahedral (90\u00b0). Lone pairs occupy positions too, but the molecule's shape is named by the atoms only.",
+       "Lone pairs bend shapes \u2014 lone pairs repel more strongly than bonds, squeezing bond angles. CH4 (4 bonds) is tetrahedral; NH3 (3 bonds + 1 lone pair) is trigonal pyramidal; H2O (2 bonds + 2 lone pairs) is bent, with an angle of 104.5\u00b0.",
+       "Polarity of bonds vs molecules \u2014 a polar bond has uneven sharing; a polar molecule has an uneven overall distribution. A molecule with polar bonds can still be nonpolar if its shape is symmetric: CO2's two C=O dipoles point in opposite directions and cancel.",
+       "Predicting polarity \u2014 draw the Lewis structure, find the shape, check each bond's polarity, and add the dipoles as arrows. If they cancel, the molecule is nonpolar; if a net dipole remains, it is polar."
+      ],
+      "example": {
+       "q": "Predict the shape of ammonia (NH3) and of boron trifluoride (BF3), and decide whether each molecule is polar.",
+       "steps": [
+        "First, ammonia: nitrogen has 5 valence electrons \u2014 3 bonds to hydrogen and 1 lone pair, so 4 electron groups. Four groups arrange tetrahedrally, but with one position taken by a lone pair the atoms form a trigonal pyramid.",
+        "Second, ammonia's polarity: each N\u2013H bond is polar (nitrogen pulls harder), and the pyramid shape means the three dipoles do not cancel \u2014 they add up along the pyramid's axis. NH3 is polar.",
+        "Third, boron trifluoride: boron has 3 bonds and no lone pairs \u2014 3 electron groups, trigonal planar, with 120\u00b0 angles. Each B\u2013F bond is polar, but the three dipoles point symmetrically outward in a plane.",
+        "Conclusion: in BF3 the dipoles cancel exactly, so the molecule is nonpolar despite its polar bonds \u2014 shape, not just bond polarity, decides the molecule."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Methane (CH4) has four polar C\u2013H bonds (carbon is slightly more electronegative than hydrogen). Is methane polar? Explain.",
+        "a": "No. CH4 is tetrahedral and perfectly symmetric, so the four small bond dipoles cancel exactly. The molecule has no net dipole \u2014 it is nonpolar."
+       },
+       {
+        "q": "Water is bent at 104.5\u00b0, not the tetrahedral 109.5\u00b0. Why is the angle smaller?",
+        "a": "Water's oxygen has two lone pairs, which repel more strongly than bonding pairs. They squeeze the two O\u2013H bonds closer together, shrinking the angle from 109.5\u00b0 to 104.5\u00b0."
+       }
+      ],
+      "takeaway": "Electron groups spread out to minimize repulsion, giving five basic geometries; lone pairs bend those shapes, and a molecule is polar only when its bond dipoles fail to cancel \u2014 which is why water's bend changes the world."
+     }
     ]
    },
    {
     "module_title": "Reactions and Stoichiometry",
     "lessons": [
-     "Balancing Chemical Equations",
-     "Types of Chemical Reactions",
-     "Mole Ratios and Stoichiometric Calculations",
-     "Limiting Reactants and Percent Yield",
-     "Energy Changes in Reactions"
+     {
+      "title": "Balancing Chemical Equations",
+      "intro": "A chemical equation is a recipe written in symbols \u2014 and like any recipe, it must account for every atom. The law of conservation of mass says atoms are neither created nor destroyed in a reaction, only rearranged. Balancing an equation means choosing coefficients so that every element has the same number of atoms on both sides. It is pure bookkeeping, and it is the foundation of every calculation that follows in this course.",
+      "concepts": [
+       "Reactants and products \u2014 reactants are written on the left of the arrow, products on the right. The arrow means 'reacts to form'. A balanced equation has equal atoms of each element on both sides.",
+       "Coefficients vs subscripts \u2014 coefficients (the big numbers in front of a formula) change how many molecules react; subscripts (the small numbers inside a formula) are part of the compound's identity and must NEVER be changed to balance an equation. Change a subscript and you have invented a different substance.",
+       "A balancing strategy \u2014 balance elements that appear in only one compound on each side first; save pure elements (like O2 or H2) for last; use fractions temporarily if needed, then multiply through to whole numbers.",
+       "States of matter \u2014 (s) solid, (l) liquid, (g) gas, (aq) dissolved in water. They are labels, not part of the balancing, but they tell you what is really happening in the flask.",
+       "Why it matters \u2014 a balanced equation is a mole ratio machine: its coefficients say exactly how many moles of each substance react and form. Stoichiometry, the next lessons, runs entirely on these ratios."
+      ],
+      "example": {
+       "q": "Balance the combustion of propane: C3H8 + O2 \u2192 CO2 + H2O.",
+       "steps": [
+        "First, count the unbalanced atoms: left has 3 C and 8 H; right has 1 C and 2 H. Balance carbon first: put a 3 in front of CO2: C3H8 + O2 \u2192 3CO2 + H2O.",
+        "Second, balance hydrogen: 8 H on the left need 4 H2O on the right: C3H8 + O2 \u2192 3CO2 + 4H2O.",
+        "Third, count oxygen on the right: 3CO2 gives 6 O, 4H2O gives 4 O \u2014 10 O atoms total. Oxygen comes as O2, so 5 O2 molecules are needed: C3H8 + 5O2 \u2192 3CO2 + 4H2O.",
+        "Conclusion: check every element \u2014 C: 3 = 3, H: 8 = 8, O: 10 = 10. The equation is balanced. Notice oxygen, the pure element appearing in only one reactant, was balanced last, exactly as the strategy says."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Balance: Fe + O2 \u2192 Fe2O3. Why can't you balance it by changing Fe2O3 to Fe2O2?",
+        "a": "4Fe + 3O2 \u2192 2Fe2O3. Changing Fe2O3 to Fe2O2 would invent a compound that is not iron(III) oxide \u2014 subscripts define the substance, so only coefficients may change."
+       },
+       {
+        "q": "Balance the reaction of aluminium with hydrochloric acid: Al + HCl \u2192 AlCl3 + H2.",
+        "a": "2Al + 6HCl \u2192 2AlCl3 + 3H2. Check: Al 2 = 2, H 6 = 6, Cl 6 = 6."
+       }
+      ],
+      "takeaway": "A balanced equation obeys conservation of mass: coefficients \u2014 never subscripts \u2014 are adjusted until every element's atom count matches on both sides, and those coefficients become the mole ratios for all later calculations."
+     },
+     {
+      "title": "Types of Chemical Reactions",
+      "intro": "Thousands of chemical reactions exist, but almost all of them fit into five patterns. Learn to recognize the pattern and you can predict the products of a reaction you have never seen: two things joining, one thing splitting, an element swapping places, two compounds trading partners, or a fuel burning in oxygen. Classification is prediction.",
+      "concepts": [
+       "Combination (synthesis) \u2014 A + B \u2192 AB. Two or more substances join into one product: 2H2 + O2 \u2192 2H2O; CaO + CO2 \u2192 CaCO3.",
+       "Decomposition \u2014 AB \u2192 A + B. One compound breaks into two or more pieces, often with heat: 2KClO3 \u2192 2KCl + 3O2; CaCO3 \u2192 CaO + CO2.",
+       "Single replacement \u2014 A + BC \u2192 AC + B. A more reactive element displaces a less reactive one: Zn + 2HCl \u2192 ZnCl2 + H2. The activity series predicts whether the swap happens: an element can only replace one below it.",
+       "Double replacement \u2014 AB + CD \u2192 AD + CB. Two compounds trade partners: AgNO3 + NaCl \u2192 AgCl + NaNO3. It happens when one product is a precipitate (solid), a gas, or water \u2014 something that leaves the solution.",
+       "Combustion \u2014 a fuel reacts with oxygen, releasing energy: complete combustion of a hydrocarbon gives CO2 + H2O; incomplete combustion (too little oxygen) also makes carbon monoxide or soot."
+      ],
+      "example": {
+       "q": "Classify each reaction and predict what drives it: (a) 2Na + Cl2 \u2192 2NaCl; (b) BaCl2 + Na2SO4 \u2192 BaSO4 + 2NaCl; (c) Cu + 2AgNO3 \u2192 Cu(NO3)2 + 2Ag.",
+       "steps": [
+        "First, (a): two elements join into one compound \u2014 combination. The driver is the formation of the stable NaCl lattice from reactive sodium and chlorine.",
+        "Second, (b): two compounds trade partners \u2014 double replacement. The driver is BaSO4, barium sulfate, which is insoluble: it falls out of solution as a white precipitate, pulling the reaction forward.",
+        "Third, (c): copper replaces silver \u2014 single replacement. The driver is the activity series: copper is more reactive than silver, so it displaces Ag+ from solution, and silver metal appears.",
+        "Conclusion: classify by the pattern of atoms, then ask what product leaves the scene \u2014 a solid, a gas, water, or a stable lattice \u2014 because that is usually what makes the reaction go."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A student mixes solutions of lead(II) nitrate and potassium iodide and a bright yellow solid appears. What type of reaction is this, and what is the solid?",
+        "a": "Double replacement: Pb(NO3)2 + 2KI \u2192 PbI2 + 2KNO3. The yellow solid is lead(II) iodide, PbI2, an insoluble precipitate."
+       },
+       {
+        "q": "Will iron displace copper from copper(II) sulfate solution? Use the activity series: Fe is above Cu.",
+        "a": "Yes \u2014 iron is more reactive than copper, so Fe + CuSO4 \u2192 FeSO4 + Cu, and copper metal coats the iron. A metal below copper in the series could not do this."
+       }
+      ],
+      "takeaway": "Most reactions fit five patterns \u2014 combination, decomposition, single replacement, double replacement, combustion \u2014 and each runs because a product leaves the scene: a precipitate, a gas, water, or a stable compound."
+     },
+     {
+      "title": "Mole Ratios and Stoichiometric Calculations",
+      "intro": "A balanced equation is a recipe in moles, and stoichiometry is cooking by that recipe. If 2 moles of hydrogen react with 1 mole of oxygen to make 2 moles of water, then any amount scales by the same ratio. With the mole as the unit, you can start from grams of one substance and end at grams \u2014 or litres, or molecules \u2014 of another. This is the central calculation of chemistry.",
+      "concepts": [
+       "Mole ratios from coefficients \u2014 in 2H2 + O2 \u2192 2H2O, the ratio H2 : O2 : H2O is 2 : 1 : 2. Any pair of coefficients is a conversion factor between moles of two substances.",
+       "The stoichiometry roadmap \u2014 grams of A \u2192 moles of A (\u00f7 molar mass) \u2192 moles of B (\u00d7 mole ratio) \u2192 grams of B (\u00d7 molar mass). Every problem is this path, sometimes with a shortcut.",
+       "Mole ratios are exact \u2014 coefficients are counted numbers, so they carry unlimited significant figures and never limit the answer's precision; only the measurements do.",
+       "Working with gases \u2014 at standard temperature and pressure (STP, 0 \u00b0C and 1 atm), one mole of any ideal gas occupies 22.4 L. That volume is another conversion factor on the roadmap.",
+       "Checking the answer \u2014 a mass of product should be the same order of magnitude as the mass of reactant (atoms are conserved). An answer of 500 g from 5 g of reactant means the ratio was flipped."
+      ],
+      "example": {
+       "q": "How many grams of water form when 8.0 g of hydrogen gas burns in excess oxygen? (2H2 + O2 \u2192 2H2O)",
+       "steps": [
+        "First, moles of hydrogen: molar mass of H2 is 2.016 g/mol, so 8.0 g \u00f7 2.016 g/mol = 3.97 mol H2.",
+        "Second, the mole ratio: the equation says 2 mol H2 make 2 mol H2O, a ratio of 1:1 \u2014 so 3.97 mol H2 make 3.97 mol H2O.",
+        "Third, grams of water: 3.97 mol \u00d7 18.02 g/mol = 71.5 g of water. To three significant figures (8.0 has two, so the answer is limited to two): 72 g.",
+        "Conclusion: 8.0 g of hydrogen makes about 72 g of water \u2014 nearly nine times the mass, because the oxygen (from the air) contributes most of the weight. Conservation of mass holds: 8.0 g H2 + 64 g O2 \u2248 72 g H2O."
+       ]
+      },
+      "practice": [
+       {
+        "q": "How many moles of oxygen are needed to burn 3.0 mol of propane, C3H8? (C3H8 + 5O2 \u2192 3CO2 + 4H2O)",
+        "a": "The ratio O2 : C3H8 is 5 : 1, so 3.0 mol \u00d7 5 = 15 mol O2."
+       },
+       {
+        "q": "A reaction produces 0.25 mol of CO2. What volume does that occupy at STP?",
+        "a": "0.25 mol \u00d7 22.4 L/mol = 5.6 L at STP."
+       }
+      ],
+      "takeaway": "Stoichiometry follows one road: grams \u2192 moles \u2192 mole ratio \u2192 moles \u2192 grams. The balanced equation supplies the ratio, the molar mass supplies the conversions, and the units check the route."
+     },
+     {
+      "title": "Limiting Reactants and Percent Yield",
+      "intro": "Recipes assume you have every ingredient. Real reactions rarely do. The limiting reactant is the ingredient that runs out first, and it decides how much product can form \u2014 no matter how much of everything else you have. And even then, real reactions rarely give the perfect theoretical yield: side reactions, incomplete reactions, and losses in handling all take their cut. Percent yield measures how close reality came to theory.",
+      "concepts": [
+       "The limiting reactant \u2014 the reactant that is used up first and limits the amount of product. Find it by converting each reactant to moles of product; the smaller product amount wins, and its reactant is limiting.",
+       "The excess reactant \u2014 the reactant left over after the limiting one is gone. Excess does not mean unlimited \u2014 it is simply the one that survives, partly unconsumed.",
+       "Theoretical yield \u2014 the maximum product possible if the limiting reactant reacted completely, calculated from stoichiometry. It is the 100% mark.",
+       "Actual yield and percent yield \u2014 the product actually recovered in the lab. Percent yield = (actual \u00f7 theoretical) \u00d7 100%. Yields above 100% mean the product is wet, impure, or misweighed \u2014 never real extra product.",
+       "Why yields fall short \u2014 reactions that do not go to completion, competing side reactions, and product lost in transfers, filtration, and purification. Industrial chemists spend careers pushing yields up by a few percent."
+      ],
+      "example": {
+       "q": "A cook has 10 slices of bread and 6 slices of cheese. Each sandwich needs 2 slices of bread and 1 slice of cheese. How many sandwiches can be made, what is limiting, and what is left over? Then apply the same logic: 4.0 mol H2 and 1.5 mol O2 react (2H2 + O2 \u2192 2H2O). How much water forms?",
+       "steps": [
+        "First, the sandwiches: bread allows 10 \u00f7 2 = 5 sandwiches; cheese allows 6 \u00f7 1 = 6. Bread runs out first \u2014 bread is limiting, 5 sandwiches form, and 1 slice of cheese is left over.",
+        "Second, the chemistry: hydrogen allows 4.0 mol H2 \u00d7 (2 mol H2O / 2 mol H2) = 4.0 mol H2O. Oxygen allows 1.5 mol O2 \u00d7 (2 mol H2O / 1 mol O2) = 3.0 mol H2O.",
+        "Third, compare: oxygen gives the smaller product amount, so O2 is limiting. Only 3.0 mol of water can form.",
+        "Conclusion: 3.0 mol H2O forms, using 3.0 mol H2 \u2014 leaving 1.0 mol H2 unreacted as excess. The method is identical to the sandwiches: convert each starting amount to the same product and take the smaller."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A student reacts 10.0 g of CaCO3 with excess HCl and recovers 3.50 g of CO2. The theoretical yield is 4.40 g. What is the percent yield?",
+        "a": "Percent yield = (3.50 \u00f7 4.40) \u00d7 100% = 79.5%. The missing 20.5% was lost to incomplete reaction and handling."
+       },
+       {
+        "q": "In the reaction N2 + 3H2 \u2192 2NH3, you have 1.0 mol N2 and 2.0 mol H2. Which is limiting?",
+        "a": "N2 allows 1.0 \u00d7 2 = 2.0 mol NH3. H2 allows 2.0 \u00d7 (2/3) = 1.33 mol NH3. Hydrogen gives less, so H2 is limiting, even though there are more moles of it \u2014 the ratio, not the raw amount, decides."
+       }
+      ],
+      "takeaway": "The limiting reactant is found by converting every reactant to the same product and taking the smallest result; theoretical yield is the perfect outcome, and percent yield measures how much of it the real world delivered."
+     },
+     {
+      "title": "Energy Changes in Reactions",
+      "intro": "Every chemical reaction trades energy. Break bonds and you must pay energy in; form bonds and energy is paid back out. When the new bonds are stronger than the old ones, the reaction releases heat \u2014 exothermic, like a fire. When they are weaker, the reaction absorbs heat \u2014 endothermic, like a cold pack. Energy is the other half of every reaction equation, and it decides which reactions can run on their own.",
+      "concepts": [
+       "Exothermic vs endothermic \u2014 exothermic reactions release energy to the surroundings (temperature rises, \u0394H negative): combustion, rusting, neutralization. Endothermic reactions absorb energy (temperature falls, \u0394H positive): photosynthesis, melting ice, a cold pack dissolving ammonium nitrate.",
+       "Enthalpy (\u0394H) \u2014 the heat change of a reaction at constant pressure, in kJ per mole of reaction as written. \u0394H = energy of bonds broken \u2212 energy of bonds formed.",
+       "Bond energies \u2014 the energy needed to break one mole of a bond in the gas phase. Strong bonds (triple bonds, H\u2013F) have high bond energies; weak bonds break easily. Reaction \u0394H can be estimated by adding up the bonds broken and subtracting the bonds formed.",
+       "Activation energy \u2014 the energy hump a reaction must climb before it can proceed, even an exothermic one. A match provides the activation energy; the fire's own heat then sustains it. Catalysts lower the hump without being consumed.",
+       "Energy diagrams \u2014 a reaction profile plots energy against progress: reactants, a peak (transition state, height = activation energy), products. Exothermic profiles end lower; endothermic end higher."
+      ],
+      "example": {
+       "q": "Use bond energies to estimate \u0394H for H2 + Cl2 \u2192 2HCl. Bond energies: H\u2013H 436 kJ/mol, Cl\u2013Cl 242 kJ/mol, H\u2013Cl 431 kJ/mol.",
+       "steps": [
+        "First, bonds broken: one H\u2013H bond (436) + one Cl\u2013Cl bond (242) = 678 kJ/mol put in.",
+        "Second, bonds formed: two H\u2013Cl bonds = 2 \u00d7 431 = 862 kJ/mol paid back out.",
+        "Third, \u0394H = energy in \u2212 energy out = 678 \u2212 862 = \u2212184 kJ/mol. Negative means energy released: the reaction is exothermic.",
+        "Conclusion: the new H\u2013Cl bonds are stronger than the old H\u2013H and Cl\u2013Cl bonds, so the reaction pays out more energy than it costs \u2014 which is why hydrogen and chlorine react with a flash of light and heat. (The experimental value is \u2212185 kJ/mol: the estimate is remarkably close.)"
+       ]
+      },
+      "practice": [
+       {
+        "q": "A reaction has \u0394H = +57 kJ/mol. Is it exothermic or endothermic, and does the temperature of the surroundings rise or fall?",
+        "a": "Endothermic \u2014 positive \u0394H means heat is absorbed from the surroundings, so the surroundings cool down (which is how instant cold packs work)."
+       },
+       {
+        "q": "Why does a catalyst speed up a reaction without changing its \u0394H?",
+        "a": "A catalyst provides a different pathway with a lower activation energy, so more molecules can clear the hump \u2014 but it changes neither the reactants' nor the products' energies, so \u0394H, the difference between them, is unchanged."
+       }
+      ],
+      "takeaway": "Breaking bonds costs energy, forming bonds releases it; if the products' bonds are stronger, the reaction is exothermic (\u0394H negative), and activation energy is the hump every reaction must climb first \u2014 a hump catalysts lower."
+     }
     ]
    },
    {
     "module_title": "States of Matter and Solutions",
     "lessons": [
-     "Gases and the Gas Laws",
-     "Liquids, Solids and Intermolecular Forces",
-     "Solutions and Concentration (Molarity)",
-     "Acids and Bases: A First Look",
-     "Final Review and Problem-Solving Lab"
+     {
+      "title": "Gases and the Gas Laws",
+      "intro": "Gases are the most predictable state of matter, because gas particles are so far apart that they barely notice each other. Four variables describe a gas \u2014 pressure, volume, temperature, and amount \u2014 and the gas laws tie them together so tightly that knowing any three tells you the fourth. From a balloon rising to a scuba tank, the same few equations run the show.",
+      "concepts": [
+       "Pressure \u2014 force per unit area, from gas particles colliding with walls. Units: atmospheres (atm), mmHg (torr), pascals (Pa). 1 atm = 760 mmHg = 101.3 kPa. Pressure rises when particles hit harder or more often.",
+       "Boyle's law \u2014 at constant temperature and amount, pressure and volume are inversely related: P\u2081V\u2081 = P\u2082V\u2082. Squeeze a gas into half the volume and its pressure doubles.",
+       "Charles's law \u2014 at constant pressure and amount, volume is directly proportional to absolute temperature: V\u2081/T\u2081 = V\u2082/T\u2082. Temperature must be in kelvin, never Celsius. Heat a gas and it expands.",
+       "Avogadro's law and the combined gas law \u2014 equal volumes of gases at the same temperature and pressure hold equal numbers of particles. The combined law, P\u2081V\u2081/T\u2081 = P\u2082V\u2082/T\u2082, handles changes in all three variables at once.",
+       "The ideal gas law \u2014 PV = nRT, where R = 0.0821 L\u00b7atm/(mol\u00b7K). It links all four variables and lets you find moles from a gas's pressure, volume, and temperature \u2014 or find density and molar mass from gas measurements."
+      ],
+      "example": {
+       "q": "A balloon holds 2.00 L of helium at 1.00 atm and 25 \u00b0C (298 K). It rises to an altitude where the pressure is 0.50 atm and the temperature is \u221223 \u00b0C (250 K). What is the balloon's new volume?",
+       "steps": [
+        "First, choose the combined gas law, since P, V, and T all change while the amount stays fixed: P\u2081V\u2081/T\u2081 = P\u2082V\u2082/T\u2082.",
+        "Second, convert temperatures to kelvin (already done: 298 K and 250 K) and rearrange: V\u2082 = V\u2081 \u00d7 (P\u2081/P\u2082) \u00d7 (T\u2082/T\u2081) = 2.00 L \u00d7 (1.00/0.50) \u00d7 (250/298).",
+        "Third, calculate: (1.00/0.50) = 2.00 doubles the volume (pressure halved); (250/298) = 0.839 shrinks it slightly (colder). V\u2082 = 2.00 \u00d7 2.00 \u00d7 0.839 = 3.36 L.",
+        "Conclusion: the balloon expands to 3.36 L \u2014 the pressure drop dominates the cooling. If the temperature had been left in Celsius, the ratio would have been nonsense: kelvin is mandatory in gas laws."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A gas at 2.0 atm occupies 4.0 L at constant temperature. It is compressed to 1.0 L. What is its new pressure?",
+        "a": "Boyle's law: P\u2081V\u2081 = P\u2082V\u2082 \u2192 P\u2082 = (2.0 \u00d7 4.0) / 1.0 = 8.0 atm. Quartering the volume quadruples the pressure."
+       },
+       {
+        "q": "How many moles of gas are in a 10.0 L tank at 2.00 atm and 300 K? (R = 0.0821 L\u00b7atm/(mol\u00b7K))",
+        "a": "n = PV/RT = (2.00 \u00d7 10.0) / (0.0821 \u00d7 300) = 20.0 / 24.63 = 0.812 mol."
+       }
+      ],
+      "takeaway": "Four variables describe a gas, and the gas laws connect them: Boyle ties pressure to volume, Charles ties volume to kelvin temperature, and PV = nRT ties all four together \u2014 with temperature always in kelvin."
+     },
+     {
+      "title": "Liquids, Solids and Intermolecular Forces",
+      "intro": "Why is water a liquid at room temperature while carbon dioxide is a gas, and why does a diamond never melt in a kitchen oven? The answer is not in the molecules themselves but in the forces between them \u2014 intermolecular forces. They are weaker than chemical bonds, but they decide whether a substance is a solid, liquid, or gas, how high it boils, and whether it dissolves. The strongest forces make the highest boiling points.",
+      "concepts": [
+       "Kinetic molecular theory \u2014 particles are always moving; temperature measures their average kinetic energy. In solids they vibrate in place, in liquids they slide past each other, in gases they fly freely.",
+       "London dispersion forces \u2014 present in ALL molecules: momentary uneven electron clouds create temporary dipoles that attract neighbours. They grow with size and surface area \u2014 big molecules have stronger dispersion forces and higher boiling points.",
+       "Dipole\u2013dipole forces \u2014 between polar molecules, the positive end of one attracts the negative end of another. Stronger than dispersion forces between similar-sized molecules, which is why polar substances usually boil higher than nonpolar ones of the same size.",
+       "Hydrogen bonding \u2014 the strongest intermolecular force: a hydrogen bonded to N, O, or F is strongly attracted to a lone pair on N, O, or F of another molecule. It is why water boils at 100 \u00b0C while similar-sized H2S boils at \u221260 \u00b0C.",
+       "Solids: crystalline vs amorphous \u2014 crystalline solids (salt, diamond, ice) have ordered lattices and sharp melting points; amorphous solids (glass, plastic) have disordered structures and soften gradually. Network covalent solids like diamond are held by bonds, not intermolecular forces, so their melting points are enormous."
+      ],
+      "example": {
+       "q": "Rank these by boiling point, lowest to highest, and explain: CH4 (methane), H2O (water), NaCl (sodium chloride).",
+       "steps": [
+        "First, methane: a small nonpolar molecule held together only by weak London dispersion forces. It boils at \u2212161 \u00b0C \u2014 the lowest by far.",
+        "Second, water: small too, but its molecules hydrogen-bond to each other \u2014 the strongest intermolecular force. It boils at 100 \u00b0C, remarkably high for so small a molecule.",
+        "Third, sodium chloride: not molecules at all, but a lattice of ions held by ionic bonds \u2014 forces far stronger than any intermolecular force. It melts at 801 \u00b0C and boils at 1413 \u00b0C.",
+        "Conclusion: boiling point ranks with the strength of what must be broken \u2014 dispersion forces, then hydrogen bonds, then full ionic bonds. Water's famous high boiling point is a hydrogen-bonding effect."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why does ethanol (CH3CH2OH) dissolve in water but hexane (C6H14) does not?",
+        "a": "Ethanol's \u2013OH group hydrogen-bonds with water, so mixing costs little energy; hexane is nonpolar and can only offer weak dispersion forces, so water molecules would rather stay bonded to each other than make room for it \u2014 like dissolves like."
+       },
+       {
+        "q": "Why does ice float on water, and what does that have to do with hydrogen bonding?",
+        "a": "In ice, hydrogen bonds lock water molecules into an open, spacious lattice with empty space \u2014 so ice is less dense than liquid water, where molecules pack more closely. That floating ice insulates lakes in winter, protecting life below."
+       }
+      ],
+      "takeaway": "Intermolecular forces rank: dispersion (all molecules) < dipole\u2013dipole (polar molecules) < hydrogen bonding (H on N, O, or F) < ionic bonds (lattices) \u2014 and that ladder explains boiling points, solubility, and why ice floats."
+     },
+     {
+      "title": "Solutions and Concentration (Molarity)",
+      "intro": "Most chemistry happens in solution \u2014 a uniform mixture where one substance (the solute) is dissolved in another (the solvent). The sea, your blood, and the coffee on your desk are all solutions. Concentration says how much solute is in a given amount of solution, and molarity \u2014 moles per litre \u2014 is the unit chemists use most, because it plugs straight into stoichiometry. Dilution is just spreading the same moles over more litres.",
+      "concepts": [
+       "Molarity \u2014 M = moles of solute \u00f7 litres of solution. A 1.0 M solution holds 1.0 mole per litre. Molarity is temperature-dependent (volumes change with temperature), but for lab work it is the standard.",
+       "Preparing a solution \u2014 moles needed = molarity \u00d7 volume (in litres); weigh that many grams of solute, dissolve, then add solvent up to the final volume \u2014 not the other way around. Volume is measured after mixing.",
+       "Dilution \u2014 adding solvent does not change the moles of solute: M\u2081V\u2081 = M\u2082V\u2082. To make a dilute solution from a concentrated stock, calculate the stock volume needed, then add solvent to the final volume.",
+       "Solubility \u2014 the maximum solute that dissolves at a given temperature. Some salts dissolve readily (NaCl); others barely (AgCl). Temperature usually raises the solubility of solids but lowers that of gases \u2014 warm soda goes flat.",
+       "Electrolytes \u2014 solutes that produce ions in water and conduct electricity: strong electrolytes (soluble salts, strong acids) dissociate completely; weak electrolytes (acetic acid) partly; nonelectrolytes (sugar, ethanol) do not dissociate at all."
+      ],
+      "example": {
+       "q": "How many grams of NaCl are needed to make 500 mL of 0.250 M solution? And how would you dilute 50.0 mL of 2.00 M HCl to 0.500 M?",
+       "steps": [
+        "First, moles of NaCl: 0.500 L \u00d7 0.250 mol/L = 0.125 mol. (500 mL must be converted to 0.500 L first \u2014 molarity is per litre.)",
+        "Second, grams: molar mass of NaCl is 58.44 g/mol, so 0.125 mol \u00d7 58.44 g/mol = 7.31 g. Weigh 7.31 g, dissolve in some water, then add water until the total volume is exactly 500 mL.",
+        "Third, the dilution: M\u2081V\u2081 = M\u2082V\u2082 \u2192 V\u2082 = (2.00 M \u00d7 50.0 mL) / 0.500 M = 200 mL. The final volume is 200 mL, so add 150 mL of water to the 50.0 mL of stock.",
+        "Conclusion: the moles of solute never change in a dilution \u2014 only the volume does. Check: 2.00 M \u00d7 50 mL = 100 mmol; 0.500 M \u00d7 200 mL = 100 mmol. The moles match."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What is the molarity of a solution made by dissolving 4.00 g of NaOH (molar mass 40.00 g/mol) in enough water to make 250 mL?",
+        "a": "Moles = 4.00 \u00f7 40.00 = 0.100 mol; volume = 0.250 L; M = 0.100 \u00f7 0.250 = 0.400 M."
+       },
+       {
+        "q": "A sports drink label says it contains 0.020 M Na+. How many moles of Na+ are in a 500 mL bottle?",
+        "a": "0.500 L \u00d7 0.020 mol/L = 0.010 mol of Na+."
+       }
+      ],
+      "takeaway": "Molarity is moles per litre of solution; to make a solution, weigh the moles and fill to the final volume, and to dilute, use M\u2081V\u2081 = M\u2082V\u2082 \u2014 the moles of solute stay the same while the volume grows."
+     },
+     {
+      "title": "Acids and Bases: A First Look",
+      "intro": "Vinegar stings, soap feels slippery, and your stomach runs on acid strong enough to dissolve metal \u2014 yet your blood stays almost perfectly neutral. Acids and bases are the great opposites of chemistry, and their reactions are everywhere: digestion, cleaning, ocean chemistry, and the soil. The definitions are simple \u2014 acids donate protons, bases accept them \u2014 and the pH scale turns that into a single number.",
+      "concepts": [
+       "Arrhenius and Br\u00f8nsted\u2013Lowry definitions \u2014 an Arrhenius acid releases H+ in water; a Br\u00f8nsted\u2013Lowry acid donates a proton (H+) to another substance, and a base accepts it. Every Arrhenius acid is a Br\u00f8nsted acid; the Br\u00f8nsted definition also works outside water.",
+       "Strong vs weak \u2014 a strong acid (HCl, HNO3, H2SO4) dissociates completely in water; a weak acid (acetic acid, CH3COOH) dissociates only partly, reaching equilibrium. Strong refers to completeness of dissociation, not to danger or concentration.",
+       "The pH scale \u2014 pH = \u2212log[H+]. Pure water has [H+] = 10^-7 M, so pH 7 is neutral; below 7 is acidic, above 7 is basic. Each whole pH unit is a tenfold change: pH 3 is ten times more acidic than pH 4.",
+       "Neutralization \u2014 acid + base \u2192 salt + water. HCl + NaOH \u2192 NaCl + H2O. The net ionic equation is the heart of it: H+ + OH- \u2192 H2O.",
+       "Indicators and the pH of everyday things \u2014 litmus turns red in acid and blue in base; phenolphthalein is colourless in acid and pink in base. Lemon juice is ~pH 2, blood ~7.4, oven cleaner ~13. Buffers resist pH change \u2014 blood is buffered, which is why it stays at 7.4."
+      ],
+      "example": {
+       "q": "A sample of rainwater has [H+] = 1.0 \u00d7 10^-5 M. What is its pH, and is it acidic, neutral, or basic? If a lake's pH falls from 6.0 to 5.0, how much more acidic has it become?",
+       "steps": [
+        "First, pH = \u2212log(1.0 \u00d7 10^-5) = 5.0. Since 5.0 is below 7, the rainwater is acidic \u2014 normal rain is slightly acidic (pH ~5.6) from dissolved CO2, and this sample is a little more acidic still.",
+        "Second, the lake: pH is logarithmic, so a drop of one unit means [H+] multiplied by 10. Falling from 6.0 to 5.0 means the water is ten times more acidic.",
+        "Third, connect to chemistry: more H+ means less carbonate available for shell-building animals and more toxic aluminium leaching from soils \u2014 small pH numbers hide large chemical changes.",
+        "Conclusion: pH turns a concentration into a readable number, and because the scale is logarithmic, one unit is a factor of ten, not a small step."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Write the neutralization equation for sulfuric acid with potassium hydroxide, and identify the salt.",
+        "a": "H2SO4 + 2KOH \u2192 K2SO4 + 2H2O. The salt is potassium sulfate, K2SO4."
+       },
+       {
+        "q": "Is a 0.10 M solution of acetic acid (a weak acid) more or less acidic than a 0.10 M solution of HCl (a strong acid)? Why?",
+        "a": "Less acidic. HCl dissociates completely, so [H+] \u2248 0.10 M (pH 1); acetic acid dissociates only a few percent, so [H+] is far lower (pH ~2.9). Same concentration, different strength."
+       }
+      ],
+      "takeaway": "Acids donate protons, bases accept them; strong means fully dissociated, not concentrated; pH = \u2212log[H+] with 7 neutral and each unit a tenfold change; and acid plus base makes salt plus water."
+     },
+     {
+      "title": "Final Review and Problem-Solving Lab",
+      "intro": "This is the capstone of General Chemistry I \u2014 not a new topic, but a workout that ties the whole course together. Real chemistry problems are rarely one-step: a question may ask you to balance an equation, find the limiting reactant, compute a percent yield, and check the answer against conservation of mass, all in one chain. The method is always the same: write down what you know, convert to moles, follow the ratios, and check the units and the size of the answer.",
+      "concepts": [
+       "The master roadmap \u2014 grams \u21c4 moles \u21c4 particles \u21c4 litres of gas, all connected through molar mass, Avogadro's number, and 22.4 L/mol at STP, with the balanced equation's mole ratios at the centre. Every stoichiometry problem is a walk on this map.",
+       "Significant figures in chains \u2014 carry extra digits through intermediate steps and round only at the end; the final answer is limited by the least precise measurement in the chain.",
+       "Naming and formulas as a check \u2014 before calculating, write the correct formulas: ionic compounds balance charges, covalent compounds count atoms. A wrong formula makes every later step wrong.",
+       "Energy and states as context \u2014 is the reaction exothermic or endothermic? Is the product a gas (volume matters) or a precipitate (it leaves the solution)? The physical picture guides the calculation.",
+       "Lab safety as chemistry \u2014 every calculation in this course exists to keep a real lab safe: the right mass, the right concentration, the limiting reactant known in advance. A molarity error is not just a lost mark \u2014 it is a wrong solution in a real flask."
+      ],
+      "example": {
+       "q": "A student reacts 25.0 g of zinc with excess hydrochloric acid: Zn + 2HCl \u2192 ZnCl2 + H2. What volume of hydrogen gas is produced at STP, and how many grams of ZnCl2 form?",
+       "steps": [
+        "First, moles of zinc: molar mass Zn = 65.38 g/mol, so 25.0 g \u00f7 65.38 g/mol = 0.382 mol Zn.",
+        "Second, hydrogen: the ratio Zn : H2 is 1:1, so 0.382 mol H2 forms. At STP, 0.382 mol \u00d7 22.4 L/mol = 8.56 L of hydrogen gas.",
+        "Third, zinc chloride: the ratio Zn : ZnCl2 is also 1:1, so 0.382 mol ZnCl2 forms. Its molar mass is 65.38 + 2(35.45) = 136.28 g/mol, so mass = 0.382 \u00d7 136.28 = 52.1 g.",
+        "Conclusion: 25.0 g of zinc gives 8.56 L of H2 and 52.1 g of ZnCl2. Check by mass: reactants 25.0 g Zn + 27.8 g HCl = 52.8 g; products 52.1 g ZnCl2 + 0.77 g H2 = 52.9 g (rounding) \u2014 conservation of mass holds, and the answer is consistent."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Balance and solve: 12.0 g of Mg reacts with excess O2 (2Mg + O2 \u2192 2MgO). What mass of MgO forms?",
+        "a": "Moles Mg = 12.0 \u00f7 24.31 = 0.494 mol; ratio Mg : MgO is 1:1, so 0.494 mol MgO; molar mass MgO = 40.31 g/mol; mass = 0.494 \u00d7 40.31 = 19.9 g."
+       },
+       {
+        "q": "A 0.500 M NaOH solution neutralizes 25.0 mL of 0.200 M HCl. What volume of NaOH is needed? (HCl + NaOH \u2192 NaCl + H2O)",
+        "a": "Moles HCl = 0.0250 L \u00d7 0.200 mol/L = 0.00500 mol; ratio 1:1, so 0.00500 mol NaOH needed; volume = 0.00500 \u00f7 0.500 = 0.0100 L = 10.0 mL."
+       }
+      ],
+      "takeaway": "Every problem in this course is one roadmap: formulas right, equation balanced, grams to moles, mole ratio, moles to the wanted unit \u2014 then check the answer by size, units, and conservation of mass."
+     }
     ]
    }
   ],
@@ -9617,7 +10817,7 @@
    "project": false
   },
   "mastery_rubric": "Solve stoichiometry and gas-law problems, draw Lewis structures and predict molecular geometry, and work safely with units and significant figures. Final grade 70% or higher.",
-  "source": "Martinez original syllabus (authored 2026-11-14)"
+  "source": "Martinez original \u2014 written lessons (authored 2026-11-24)"
  },
  "ENG102": {
   "modules": [

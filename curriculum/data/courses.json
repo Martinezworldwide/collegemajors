@@ -1833,7 +1833,7 @@
    "type": "open",
    "status": "linked-open-text"
   },
-  "modules_status": "FULL content in LMS (4 modules, 20 lessons)"
+  "modules_status": "written-lessons-live"
  },
  "BIO102": {
   "course_id": "BIO102",
@@ -1881,7 +1881,7 @@
    "type": "open",
    "status": "linked-open-text"
   },
-  "modules_status": "FULL content in LMS (4 modules, 20 lessons)"
+  "modules_status": "written-lessons-live"
  },
  "CHEM102": {
   "course_id": "CHEM102",
