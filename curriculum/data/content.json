@@ -11864,42 +11864,673 @@
    {
     "module_title": "Object-Oriented Programming",
     "lessons": [
-     "Classes and Objects: From Data to Design",
-     "Constructors, Fields and Methods",
-     "Encapsulation and Information Hiding",
-     "Inheritance and Polymorphism",
-     "Abstract Classes and Interfaces",
-     "Mini-Project: A Small Class Hierarchy"
+     {
+      "title": "Classes and Objects: From Data to Design",
+      "intro": "In CS101 you grouped data into variables and actions into functions. Object-oriented programming takes the next step: it bundles data and the actions that work on that data into a single unit called an object. A class is the blueprint for objects; an object is one living instance built from that blueprint. This lesson shows when to reach for a class instead of loose variables \u2014 whenever a thing in your program has both state (what it knows) and behavior (what it can do).",
+      "concepts": [
+       "Class vs object \u2014 a class is the design (like an architect's plan); an object is one thing built from it (like one house). You can build many objects from one class, each with its own data.",
+       "Fields (attributes) \u2014 the data an object remembers: a bank account remembers a balance, a student remembers a name and a list of grades.",
+       "Methods \u2014 the actions an object can perform: an account can deposit() and withdraw(); a student can add_grade() and average().",
+       "Design from nouns \u2014 look at the problem and list the nouns (account, student, book, enemy). Each important noun is a candidate class; verbs attached to it become its methods.",
+       "Objects model the domain \u2014 good classes mirror the real things in the problem, so the code reads like a description of the problem itself."
+      ],
+      "example": {
+       "q": "Design a class for a library book. What fields and methods does it need?",
+       "steps": [
+        "Nouns first: a book has a title, an author, an ISBN, and whether it is checked out. Those are the fields.",
+        "Verbs next: a librarian checks a book out, returns it, and asks whether it is available. Those become the methods check_out(), return_book(), and is_available().",
+        "In Python: class Book: def __init__(self, title, author, isbn): self.title = title; self.author = author; self.isbn = isbn; self.checked_out = False \u2014 then book = Book('Dune', 'Frank Herbert', '9780441172719') builds one object, and book.check_out() changes its state.",
+        "Each book object keeps its own checked_out value: checking out Dune does not affect any other book. That independence is the whole point of objects."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A program tracks players in a game. Name two fields and two methods a Player class should have.",
+        "a": "Fields: name and score (or health). Methods: add_points(points) and take_damage(amount) \u2014 or reset_score(). Any sensible state + behavior pair counts."
+       },
+       {
+        "q": "What is the difference between a class and an object, in one sentence?",
+        "a": "A class is the blueprint; an object is one instance built from that blueprint, with its own data."
+       }
+      ],
+      "takeaway": "When a thing in your program has both state and behavior, make it a class \u2014 one blueprint, many independent objects."
+     },
+     {
+      "title": "Constructors, Fields and Methods",
+      "intro": "An object is born in a known state and lives by its methods. The constructor is the special method that runs at birth: it takes the starting values and sets up the fields. Get the constructor right and every object starts valid; get it wrong and objects begin life broken. This lesson covers constructors, fields, and the method patterns you will use in every class you write.",
+      "concepts": [
+       "Constructor \u2014 the __init__ method in Python (a constructor in Java/C++). It runs once when the object is created and initializes every field. It should leave the object in a valid state.",
+       "Fields \u2014 data stored on the object, accessed as self.field. Fields hold the object's state between method calls.",
+       "Methods \u2014 functions defined inside the class that operate on that object's fields through self. A method with no self is not an instance method.",
+       "self \u2014 the reference to the object the method was called on. When you write account.deposit(50), Python passes account as self automatically.",
+       "Getters and setters \u2014 methods that read or change a field in a controlled way, e.g. get_balance() or set_name(). They let a class validate or compute instead of exposing raw fields."
+      ],
+      "example": {
+       "q": "Write a BankAccount class with a constructor, deposit, withdraw, and a balance check.",
+       "steps": [
+        "Constructor: def __init__(self, owner, balance=0): self.owner = owner; self.balance = balance \u2014 every account starts with a known owner and a balance (default 0).",
+        "Deposit: def deposit(self, amount): if amount > 0: self.balance += amount \u2014 a guard rejects nonsense amounts so the object can never hold a corrupted balance.",
+        "Withdraw: def withdraw(self, amount): if 0 < amount <= self.balance: self.balance -= amount; return True; return False \u2014 it returns whether the withdrawal succeeded, so callers can react.",
+        "Use: acct = BankAccount('Ana', 100); acct.deposit(50); acct.withdraw(30); acct.balance is now 120, and the object was never in an invalid state."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why should a constructor set every field, instead of leaving some to be assigned later?",
+        "a": "So the object is valid from the moment it exists \u2014 no method can accidentally run on a half-built object, and callers never have to remember which fields still need setting."
+       },
+       {
+        "q": "In acct.deposit(50), what is self inside deposit?",
+        "a": "The acct object itself \u2014 Python passes the object the method was called on as the first argument."
+       }
+      ],
+      "takeaway": "The constructor births a valid object; fields hold its state; methods are the only safe way to change it."
+     },
+     {
+      "title": "Encapsulation and Information Hiding",
+      "intro": "A class is a contract: it promises what it can do and hides how it does it. Encapsulation is the discipline of keeping an object's fields private and letting the outside world touch them only through methods. When the inside can change without breaking the outside, you can fix bugs and improve performance freely \u2014 the rest of the program never notices.",
+      "concepts": [
+       "Encapsulation \u2014 bundling data with the methods that manage it, and restricting direct access to the data so it can only change through those methods.",
+       "Information hiding \u2014 the outside world should not know or depend on how a class stores its data; it only uses the public methods. Implementation details are free to change.",
+       "Invariants \u2014 rules the object must always satisfy, e.g. a balance never negative, a list never containing duplicates. Methods enforce invariants; raw field access cannot.",
+       "Private by convention \u2014 Python marks private fields with a leading underscore (self._balance) and Python programmers treat that as 'do not touch from outside'. Other languages enforce it with the private keyword.",
+       "Why it matters \u2014 if ten places in a program read a raw field directly, changing the storage breaks all ten. If they all call one method, only that method changes."
+      ],
+      "example": {
+       "q": "A Student class stores grades in a list. How does encapsulation protect the average?",
+       "steps": [
+        "Bad design: grades is a public field; any code can do student.grades.append(-5), and average() then returns nonsense \u2014 nothing guards the data.",
+        "Encapsulated design: store grades as self._grades (private by convention) and offer add_grade(score), which rejects scores outside 0\u2013100 before appending.",
+        "average() can now trust its data: every grade in the list passed the guard, so the average is always meaningful. The invariant 'all grades are 0\u2013100' is enforced in exactly one place.",
+        "Later the class could switch to storing a running total instead of a list \u2014 callers of add_grade() and average() would never know or care."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A class stores a temperature in Celsius but some callers set the field directly to Fahrenheit values. What fixes this?",
+        "a": "Make the field private and provide set_celsius() / set_fahrenheit() methods that convert and store one consistent unit \u2014 the invariant 'stored value is always Celsius' is then enforced in one place."
+       },
+       {
+        "q": "True or false: encapsulation means a class can never change its internal data structures.",
+        "a": "False \u2014 it means the class is FREE to change them, because outside code only depends on the public methods, not the internals."
+       }
+      ],
+      "takeaway": "Hide the data, expose the behavior \u2014 then the inside can improve without breaking the outside."
+     },
+     {
+      "title": "Inheritance and Polymorphism",
+      "intro": "Many classes in a program are variations on a theme: a savings account and a checking account are both bank accounts; a circle and a rectangle are both shapes. Inheritance lets a subclass reuse a parent class's fields and methods and add or override only what differs. Polymorphism is the payoff: code written against the parent works with any subclass, so one loop can handle every kind of shape, account, or enemy.",
+      "concepts": [
+       "Inheritance \u2014 a subclass (child) extends a parent class, inheriting its fields and methods. The child adds new behavior or overrides behavior that differs.",
+       "is-a relationship \u2014 inheritance models 'is a': a SavingsAccount IS A BankAccount; a Circle IS A Shape. If the sentence sounds wrong ('a car is a wheel'), inheritance is the wrong tool.",
+       "Method overriding \u2014 the subclass replaces a parent's method with its own version, e.g. SavingsAccount.withdraw() adds an interest rule that plain accounts lack.",
+       "Polymorphism \u2014 'many forms': code that calls shape.area() works for circles, rectangles, and triangles alike, because each subclass provides its own area(). The caller never checks the type.",
+       "super() \u2014 calls the parent's version of a method, so the subclass can reuse the parent's work and add its own: super().__init__(...) in a constructor, super().withdraw(...) inside an override."
+      ],
+      "example": {
+       "q": "Model shapes with inheritance so one function can print the area of any shape.",
+       "steps": [
+        "Parent: class Shape with a method area() that raises NotImplementedError \u2014 it says 'every shape must define this', but cannot compute it itself.",
+        "Children: class Circle(Shape) stores radius and defines area() as 3.14159 * radius ** 2; class Rectangle(Shape) stores width and height and defines area() as width * height.",
+        "Polymorphic use: def print_area(shape): print(shape.area()) \u2014 this works for any Shape subclass, and adding a Triangle later needs zero changes to print_area.",
+        "The same pattern drives real systems: a game loop calls enemy.update() on every enemy type; a report prints account.summary() for every account type."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A Dog class and a Cat class both inherit from Animal and override speak(). What does Animal's speak() do, and why is this polymorphism useful?",
+        "a": "Animal.speak() is a placeholder (or a default); a list of Animals can be looped with animal.speak() and each one answers in its own way, with no type-checking in the loop."
+       },
+       {
+        "q": "When should you use inheritance, and when should a class just contain another object instead?",
+        "a": "Use inheritance for a true is-a relationship (SavingsAccount is a BankAccount). Use containment (a field holding another object) for has-a relationships (a Car has an Engine)."
+       }
+      ],
+      "takeaway": "Inheritance shares what is common; polymorphism lets one piece of code work with every variation."
+     },
+     {
+      "title": "Abstract Classes and Interfaces",
+      "intro": "Some classes exist only to define a contract: 'every shape must have an area', 'every payment method must process a charge'. Nobody should ever create a bare Shape or a bare PaymentMethod \u2014 only concrete versions of them. Abstract classes and interfaces are how you write that contract down so the compiler (or the runtime) enforces it, instead of hoping every programmer remembers.",
+      "concepts": [
+       "Abstract class \u2014 a class that cannot be instantiated; it exists to be inherited from. It may provide shared methods AND declare abstract methods that subclasses must implement.",
+       "Abstract method \u2014 a method declared with no body (or a placeholder body). Any concrete subclass must provide it, or it stays abstract too.",
+       "Interface \u2014 a pure contract: only method signatures, no implementation at all. In Python this is often done with an abstract base class whose methods are all abstract; in Java/C# it is a separate interface type.",
+       "Why not just a normal parent class? \u2014 a normal parent can be instantiated by mistake, and nothing forces a subclass to implement the key methods. Abstract classes turn 'you must' into a rule the system checks.",
+       "Design benefit \u2014 abstract classes document intent: reading the abstract class tells you exactly what every subclass promises, without reading any subclass."
+      ],
+      "example": {
+       "q": "Build a payment system where new payment methods can be added without touching the checkout code.",
+       "steps": [
+        "Define an abstract class PaymentMethod with an abstract method charge(amount) and a concrete helper receipt() shared by all payment types.",
+        "Subclasses: CardPayment implements charge() by talking to a card network; CashPayment implements charge() by recording cash received; CryptoPayment by a wallet call.",
+        "Checkout code takes any PaymentMethod and calls payment.charge(total) \u2014 it never knows or cares which kind it is. Adding a new payment type means writing one new subclass and nothing else.",
+        "Try instantiating PaymentMethod() directly and Python raises TypeError \u2014 the contract cannot be used as a thing itself, only as a promise its children keep."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What goes wrong if Shape.area() is a normal method that returns 0, instead of an abstract method?",
+        "a": "A programmer can forget to override area() in a new shape and the program silently prints 0 instead of failing loudly \u2014 the bug hides until a user notices. An abstract method makes the omission an immediate error."
+       },
+       {
+        "q": "Name one thing an abstract class can do that a pure interface cannot.",
+        "a": "Provide shared implemented methods and fields that all subclasses inherit \u2014 an interface only declares what must exist, it cannot supply common behavior."
+       }
+      ],
+      "takeaway": "Abstract classes write the contract down: the parent says what every child must do, and the system enforces it."
+     },
+     {
+      "title": "Mini-Project: A Small Class Hierarchy",
+      "intro": "Time to put Modules 1 together. This mini-project builds a small zoo-management hierarchy: one abstract Animal parent, several concrete animals, and a Zoo class that holds them. It is deliberately small \u2014 the point is to feel how inheritance, encapsulation, and polymorphism cooperate in a real program, not to build something huge.",
+      "concepts": [
+       "Plan before coding \u2014 list the classes (Animal, Lion, Penguin, Zoo), the fields each needs, and which methods are shared vs overridden. A five-minute plan saves an hour of rewriting.",
+       "Abstract parent \u2014 Animal defines name and age, an abstract method make_sound(), and a concrete method describe() that all animals share.",
+       "Concrete children \u2014 Lion overrides make_sound() to roar and adds a hunt() method; Penguin overrides make_sound() and adds swim(). Each child only writes what is different.",
+       "Container class \u2014 Zoo holds a list of Animals and offers add_animal(), feeding_time() (loops and calls each animal's make_sound()), and count(). The Zoo never checks types \u2014 polymorphism does the work.",
+       "Testing as you go \u2014 build one animal, test it, then the next. A hierarchy built all at once is hard to debug; one layer at a time is easy."
+      ],
+      "example": {
+       "q": "Sketch the Zoo hierarchy and its feeding-time loop.",
+       "steps": [
+        "Animal (abstract): fields name, age; abstract make_sound(); concrete describe() returning f'{self.name}, age {self.age}'.",
+        "Lion(Animal): make_sound() returns 'Roar!'; Penguin(Animal): make_sound() returns 'Honk!'. Both inherit describe() unchanged.",
+        "Zoo: holds self.animals = []; add_animal(a) appends; feeding_time() loops: for a in self.animals: print(a.describe(), 'says', a.make_sound()).",
+        "Run it: zoo with a Lion 'Simba' and a Penguin 'Pip' prints 'Simba, age 5 says Roar!' and 'Pip, age 2 says Honk!' \u2014 one loop, two different behaviors, zero type checks."
+       ]
+      },
+      "practice": [
+       {
+        "q": "You want to add an Elephant. Which files or methods must change?",
+        "a": "Only one new class: Elephant(Animal) with its own make_sound(). The Zoo, feeding_time(), and every other class stay untouched \u2014 that is the payoff of the design."
+       },
+       {
+        "q": "Where does encapsulation show up in this project?",
+        "a": "The Zoo's animal list is managed through add_animal() rather than direct access, so the Zoo can validate or count additions; each animal's fields are set through its constructor."
+       }
+      ],
+      "takeaway": "A good hierarchy means new kinds of things cost one new class \u2014 everything else already knows how to handle them."
+     }
     ]
    },
    {
     "module_title": "Collections and Generics",
     "lessons": [
-     "Arrays, ArrayLists and Resizable Storage",
-     "Iterators and the For-Each Loop",
-     "Generic Types and Type Safety",
-     "Searching and Sorting with Collections",
-     "When to Choose Which Collection"
+     {
+      "title": "Arrays, ArrayLists and Resizable Storage",
+      "intro": "Programs constantly hold many things: a roster of students, a hand of cards, a month of temperatures. A fixed-size array holds a set number of items in numbered slots; a resizable list (ArrayList in Java, list in Python) grows and shrinks as you add and remove. Choosing between them \u2014 and knowing what each costs \u2014 is one of the most practical decisions in programming.",
+      "concepts": [
+       "Array \u2014 a fixed-size, ordered block of slots, indexed from 0. Reading or writing slot i is instant (O(1)), but the size cannot change after creation.",
+       "Resizable list \u2014 a list that grows on demand (Python lists, Java ArrayList). Appending is usually fast; inserting in the middle shifts everything after it.",
+       "Indexing and bounds \u2014 valid indexes run 0 to length-1. Index length (or -1) is the classic off-by-one error; most languages raise an error instead of silently corrupting memory.",
+       "Cost model \u2014 accessing any element costs the same; appending costs the same on average (occasional resizing is amortized); inserting or deleting in the middle costs time proportional to the number of elements moved.",
+       "When fixed wins \u2014 when you know the size up front and it never changes (days of the week, a chessboard), an array is simpler and slightly faster."
+      ],
+      "example": {
+       "q": "Store the 7 daily high temperatures, then find the week's average and hottest day.",
+       "steps": [
+        "temps = [72, 75, 71, 78, 80, 77, 74] \u2014 a list of 7 numbers, indexes 0 (Monday) through 6 (Sunday).",
+        "Average: sum(temps) / len(temps) = 527 / 7 = 75.3. No loop needed \u2014 but sum itself loops internally, in O(n).",
+        "Hottest: max(temps) gives 80; temps.index(80) gives 4, the fifth day. Keeping index and value together is a common pattern: enumerate(temps) yields (day, temp) pairs.",
+        "If a new day arrives, temps.append(76) grows the list to 8 \u2014 no new array, no copying by hand. The resizable list absorbs the change."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why is inserting at the front of a long list expensive, but appending at the end cheap?",
+        "a": "Inserting at the front shifts every existing element one slot right (O(n) moves); appending usually writes one slot at the end (amortized O(1))."
+       },
+       {
+        "q": "A list has 5 elements. Which index is out of bounds: 4 or 5?",
+        "a": "5 \u2014 valid indexes are 0 through 4; index 5 is one past the end (the off-by-one error)."
+       }
+      ],
+      "takeaway": "Arrays are fast and fixed; resizable lists grow for you \u2014 pick by whether the size is known and stable."
+     },
+     {
+      "title": "Iterators and the For-Each Loop",
+      "intro": "Looping over a collection by index works, but it is noisy: you manage a counter, remember the length, and risk an off-by-one slip every time. Iterators and the for-each loop hide all of that. You say 'for each item in this collection, do this' and the language handles the walking. This lesson shows the pattern and the one rule that governs it.",
+      "concepts": [
+       "Iterator \u2014 an object that walks a collection one item at a time, handing you the next element on request and knowing when the collection ends.",
+       "For-each loop \u2014 for item in collection: ... \u2014 the language creates the iterator, advances it, and stops at the end. No index, no length, no off-by-one.",
+       "Read-only walking \u2014 the for-each loop is for visiting items, not for changing the collection's structure while you walk it. Removing items mid-loop breaks most iterators.",
+       "When indexes still win \u2014 when you need the position itself (compare neighbors, modify by index, walk backwards), a classic index loop is the right tool.",
+       "Iterables \u2014 any object that can hand out an iterator: lists, sets, dictionaries, files, and your own classes if you implement the protocol."
+      ],
+      "example": {
+       "q": "Print every student's name and average from a list of Student objects.",
+       "steps": [
+        "For-each: for s in students: print(s.name, s.average()) \u2014 no indexes anywhere; the intent reads directly off the line.",
+        "Index version: for i in range(len(students)): print(students[i].name, students[i].average()) \u2014 same result, more moving parts, one more chance to write len(students)-1 wrong.",
+        "Filtering inside the loop: for s in students: if s.average() >= 90: print(s.name) \u2014 the loop stays clean because the condition, not an index, does the filtering.",
+        "The trap: students.remove(s) inside that same for-each loop can skip the next student \u2014 collect removals in a separate list and remove them after the loop."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Rewrite this index loop as a for-each loop: for i in range(len(scores)): total += scores[i]",
+        "a": "for s in scores: total += s \u2014 the index was never used for anything except fetching, so it can disappear entirely."
+       },
+       {
+        "q": "Why is removing items from a list while iterating over it dangerous?",
+        "a": "Removal shifts later elements into earlier slots, so the iterator advances past an element it never visited \u2014 items get silently skipped."
+       }
+      ],
+      "takeaway": "If you only need each item, use for-each; reach for an index only when the position itself matters."
+     },
+     {
+      "title": "Generic Types and Type Safety",
+      "intro": "A list that can hold anything is convenient until it holds the wrong thing: a list of grades that accidentally contains a name crashes your average at runtime. Generics let you declare what a collection may contain \u2014 list of Student, list of int \u2014 so the checker (or the type system) catches the mistake before the program runs. Type safety moves bugs from runtime, where users see them, to write-time, where you fix them.",
+      "concepts": [
+       "Generic type \u2014 a type with a parameter: List[Student] means 'a list whose elements are Students'. The parameter is filled in when you declare the collection.",
+       "Type safety \u2014 once a collection is declared List[int], putting a string in is an error the tools flag immediately, not a crash three functions later.",
+       "Generics on methods and classes \u2014 a class like Stack[T] or a function like first(items: list[T]) -> T works for any element type while staying type-checked.",
+       "Type erasure vs reified types \u2014 some languages (Java) check generics at compile time and erase them at runtime; others (Python's typing) check with external tools. Either way, the declaration documents intent.",
+       "When to bother \u2014 generics pay off most in shared code: libraries, containers, and any function other people will call with the wrong type by accident."
+      ],
+      "example": {
+       "q": "A gradebook stores grades as numbers. How do generics prevent a name from sneaking in?",
+       "steps": [
+        "Without generics: grades = [] accepts anything \u2014 grades.append('Ana') succeeds silently, and sum(grades) later crashes with a confusing type error far from the cause.",
+        "With generics: grades: list[float] = [] declares intent. A type checker flags grades.append('Ana') at write time, pointing at the exact line.",
+        "A generic container: class Stack[T]: def push(self, item: T) ... \u2014 one Stack class serves Stack[int], Stack[str], and Stack[Student], each type-checked separately.",
+        "The bug moved from 'a user saw a crash' to 'the editor underlined the line before I ran it' \u2014 that shift is the entire value of type safety."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A function takes a list of numbers and returns the largest. Write its generic signature in words.",
+        "a": "It takes List[T] where T is a number type and returns T \u2014 or in Python, def largest(items: list[float]) -> float. The key is that input and output types agree."
+       },
+       {
+        "q": "What error does List[int] catch that a plain list misses?",
+        "a": "Putting a non-int into the list \u2014 the checker flags it where it happens, instead of the program failing later when the value is used as a number."
+       }
+      ],
+      "takeaway": "Generics say what a container may hold, so type mistakes are caught at write time instead of crashing at run time."
+     },
+     {
+      "title": "Searching and Sorting with Collections",
+      "intro": "Two questions dominate work with collections: is this item here, and in what order should these items be? Linear search and binary search answer the first; comparison sorts answer the second. Knowing which to use \u2014 and what each costs \u2014 is the difference between a program that feels instant and one that crawls on real data.",
+      "concepts": [
+       "Linear search \u2014 check each element in order until you find the target. Works on any list, sorted or not; costs O(n) in the worst case.",
+       "Binary search \u2014 on a SORTED list, compare the middle element, discard half, repeat. Costs O(log n): a million items take about 20 steps. Requires sorted data.",
+       "Sorting \u2014 ordering a collection by a key (name, grade, date). Built-in sorts (Python's sorted, Java's Collections.sort) are fast (O(n log n)) and stable; use them instead of writing your own.",
+       "Comparator / key function \u2014 the rule that defines 'order': sort by last name, then first name; sort students by average descending. The key function extracts the value to compare.",
+       "Search vs sort trade-off \u2014 sorting costs O(n log n) once, then every search is O(log n). If you search once, linear search wins; if you search many times, sort first."
+      ],
+      "example": {
+       "q": "Find student 'Mara' in a roster of 10,000, and list students by average, best first.",
+       "steps": [
+        "Linear search: for s in students: if s.name == 'Mara': ... \u2014 worst case 10,000 comparisons. Fine once; wasteful if repeated.",
+        "Sort once by name, then binary search: students.sort(key=lambda s: s.name) costs about 10,000 x 14 comparisons once, and every later lookup costs ~14 steps. After 100 lookups the sorted route is far ahead.",
+        "Ranking: sorted(students, key=lambda s: s.average(), reverse=True) \u2014 the key function says 'order by average', reverse says 'best first'. The built-in sort is battle-tested; hand-rolled sorts are a bug factory.",
+        "Binary search needs sorted data \u2014 searching an unsorted list with binary search returns wrong answers silently. Sort first, or use linear search."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A phone book has 1,000,000 names, sorted. Roughly how many steps does binary search need in the worst case?",
+        "a": "About 20 \u2014 2^20 is about 1,000,000, and binary search halves the range each step, so log2(1,000,000) is about 20."
+       },
+       {
+        "q": "You need to search a list exactly once and it is unsorted. Sort first or linear search?",
+        "a": "Linear search \u2014 sorting costs O(n log n), more than the O(n) search, and you pay it for a single lookup."
+       }
+      ],
+      "takeaway": "Unsorted means linear search; sorted means binary search; and for ordering, use the built-in sort with a key function."
+     },
+     {
+      "title": "When to Choose Which Collection",
+      "intro": "Lists, sets, dictionaries, queues, stacks \u2014 every language offers a shelf of collections, and each one is fast at some things and slow at others. The skill is matching the collection to the job: need to check membership fast? Use a set. Need key-to-value lookup? Use a dictionary. Need first-in-first-out? Use a queue. This lesson is the decision guide.",
+      "concepts": [
+       "List \u2014 ordered, indexed, allows duplicates. Fast append and index access; slow membership test (O(n)) and middle insertion.",
+       "Set \u2014 unordered, unique elements only. Membership test, add, and remove are fast (O(1) average); no indexes, no duplicates, no order guarantees.",
+       "Dictionary (map) \u2014 key to value pairs. Lookup by key is fast (O(1) average); use it whenever you look things up by name, ID, or code.",
+       "Queue \u2014 first-in, first-out (FIFO): items leave in the order they arrived. The model for waiting lines, print jobs, and breadth-first search.",
+       "Stack \u2014 last-in, first-out (LIFO): the most recent item leaves first. The model for undo history, back buttons, and function calls."
+      ],
+      "example": {
+       "q": "Pick the right collection for each job: (a) count how many times each word appears in a document, (b) check whether a username is already taken, (c) process print jobs in order.",
+       "steps": [
+        "(a) Dictionary: counts[word] = counts.get(word, 0) + 1 \u2014 the word is the key, the count is the value; lookup and update are both fast.",
+        "(b) Set: taken = {'ana', 'bob', ...}; if name in taken \u2014 membership is O(1) average, and the set guarantees no duplicates. A list would scan every name.",
+        "(c) Queue: jobs append at the back and leave from the front \u2014 first-come, first-served, exactly the fairness a print queue needs. A stack would print the newest job first.",
+        "Wrong choices cost real time: membership in a 100,000-name list averages 50,000 checks; in a set it is about one."
+       ]
+      },
+      "practice": [
+       {
+        "q": "You need each student's ID to map to their record, with instant lookup. Which collection?",
+        "a": "A dictionary (map) keyed by student ID \u2014 O(1) average lookup by key."
+       },
+       {
+        "q": "Why is a set the wrong choice for a playlist in order?",
+        "a": "Sets are unordered and drop duplicates \u2014 a playlist needs order (list) and may repeat songs."
+       }
+      ],
+      "takeaway": "Match the collection to the question you ask most: order \u2192 list, membership \u2192 set, lookup by key \u2192 dictionary, fairness \u2192 queue, newest-first \u2192 stack."
+     }
     ]
    },
    {
     "module_title": "Recursion and File Input/Output",
     "lessons": [
-     "Thinking Recursively: Base Cases and Reduction",
-     "Recursive Patterns: Lists, Trees, Fractals",
-     "Reading and Writing Text Files",
-     "Handling Errors with Exceptions",
-     "Mini-Project: A Recursive File Explorer"
+     {
+      "title": "Thinking Recursively: Base Cases and Reduction",
+      "intro": "Some problems are smaller copies of themselves: to count the files in a folder, count the files in each subfolder; to compute 5!, compute 4! and multiply by 5. Recursion is a function that solves a problem by calling itself on a smaller version, until it reaches a base case it can answer directly. Master the base case and the reduction step, and recursion stops feeling like magic.",
+      "concepts": [
+       "Recursive function \u2014 a function that calls itself. Each call works on a smaller input; the results combine on the way back up.",
+       "Base case \u2014 the smallest input, answered directly with no further call (factorial(0) = 1; an empty list has length 0). Without it, recursion never stops.",
+       "Recursive (reduction) step \u2014 how a big input becomes a smaller one: factorial(n) = n * factorial(n-1). Every call must move toward the base case.",
+       "Call stack \u2014 each call waits on a stack while the smaller call runs. Deep recursion uses stack memory; Python's default limit is about 1,000 nested calls.",
+       "Recursion vs loop \u2014 any recursion can be a loop and vice versa. Recursion wins when the problem is naturally self-similar (trees, folders, fractals); loops win for simple counting."
+      ],
+      "example": {
+       "q": "Write factorial recursively and trace factorial(4).",
+       "steps": [
+        "Definition: def fact(n): if n == 0: return 1  # base case; return n * fact(n-1)  # reduction step.",
+        "Trace: fact(4) = 4 * fact(3); fact(3) = 3 * fact(2); fact(2) = 2 * fact(1); fact(1) = 1 * fact(0); fact(0) = 1 \u2014 the base case answers directly.",
+        "Unwind: fact(1) = 1 * 1 = 1; fact(2) = 2 * 1 = 2; fact(3) = 3 * 2 = 6; fact(4) = 4 * 6 = 24. Each waiting call multiplies on the way back.",
+        "The two questions to ask of any recursive function: does every call get closer to the base case? (Here n decreases by 1 each time \u2014 yes.) Is the base case correct? (0! = 1 \u2014 yes.)"
+       ]
+      },
+      "practice": [
+       {
+        "q": "Write the base case and recursive step for 'sum of numbers 1 to n'.",
+        "a": "Base case: sum(0) = 0 (or sum(1) = 1). Recursive step: sum(n) = n + sum(n-1)."
+       },
+       {
+        "q": "What happens if a recursive function has no base case?",
+        "a": "It calls itself forever (until the call stack overflows and the program crashes with a recursion/stack error)."
+       }
+      ],
+      "takeaway": "Recursion = a base case you can answer directly + a step that shrinks the problem toward it."
+     },
+     {
+      "title": "Recursive Patterns: Lists, Trees, Fractals",
+      "intro": "Once the basic shape of recursion is familiar, the same pattern solves a family of problems: walking a list, traversing a tree, drawing a fractal. The trick in each case is the same \u2014 handle the empty or leaf case directly, and let the recursion handle the rest. Recognizing these patterns is what makes recursion a tool instead of a puzzle.",
+      "concepts": [
+       "List recursion \u2014 process the first element, recurse on the rest: length([]) = 0; length([x, ...rest]) = 1 + length(rest). The list shrinks by one each call.",
+       "Tree recursion \u2014 a node has a value and children; process the node, recurse into each child. A file system is a tree; so is a family tree or a decision tree.",
+       "Multiple recursive calls \u2014 a function may call itself more than once (Fibonacci, tree traversal). The call count can explode: naive Fibonacci makes about 2^n calls.",
+       "Fractals \u2014 shapes defined by self-similarity at smaller scales: a tree branch splits into two smaller branches, each splitting again. Recursion draws them in a few lines.",
+       "Memoization \u2014 remembering answers already computed (a dictionary of n to fib(n)) turns exponential recursion into linear time. A classic fix for naive recursion."
+      ],
+      "example": {
+       "q": "Count all files in a folder tree recursively.",
+       "steps": [
+        "Base cases: if the path is a file, return 1; if it is an empty folder, return 0.",
+        "Recursive step: for a folder, return the sum of count_files(child) for every child \u2014 each subfolder is the same problem, smaller.",
+        "Trace on a tiny tree: root has file a.txt and folder sub with b.txt and c.txt. count(root) = count(a.txt)=1 + count(sub); count(sub) = 1 + 1 = 2; total 3.",
+        "Same shape, new problem: replace 'count files' with 'find the largest file' or 'list all .py files' \u2014 only the combining step changes, the traversal stays identical."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why is naive recursive Fibonacci (fib(n) = fib(n-1) + fib(n-2)) so slow for n = 40?",
+        "a": "It recomputes the same values over and over \u2014 about 2^40 calls. Memoizing each fib(n) once drops it to about 40 steps."
+       },
+       {
+        "q": "A binary tree node has a value and left/right children. Write the base case and step for 'sum of all values'.",
+        "a": "Base case: an empty tree sums to 0. Step: sum(node) = node.value + sum(node.left) + sum(node.right)."
+       }
+      ],
+      "takeaway": "Lists, trees, and fractals are all the same recursive shape \u2014 leaf case plus recursion on the parts."
+     },
+     {
+      "title": "Reading and Writing Text Files",
+      "intro": "Programs that cannot remember anything between runs are toys. Files are how data persists: a game saves progress, a gradebook keeps records, a log keeps history. Reading and writing text files is a small skill with an outsized payoff, and it comes with one discipline \u2014 always close the file, or better, let the language close it for you.",
+      "concepts": [
+       "Text vs binary files \u2014 text files hold characters (UTF-8); binary files hold raw bytes (images, video). Most data you process by hand is text.",
+       "Reading modes \u2014 read the whole file at once (read()), line by line (readline() or iterating the file object), or all lines into a list (readlines()).",
+       "Writing modes \u2014 'w' creates or overwrites; 'a' appends to the end. Opening with 'w' on an existing file erases it \u2014 the most common file bug in beginner programs.",
+       "The with statement \u2014 with open('data.txt') as f: ... closes the file automatically, even if an error occurs. It is the standard idiom; manual close() is the error-prone alternative.",
+       "Paths and errors \u2014 a missing file raises an error on open; a wrong folder raises another. Always handle the 'file not found' case deliberately (Lesson 3.4)."
+      ],
+      "example": {
+       "q": "Save a list of high scores to a file, then read them back sorted.",
+       "steps": [
+        "Write: with open('scores.txt', 'w') as f: for s in scores: f.write(f'{s.name},{s.points}\\n') \u2014 one line per score, comma-separated, file closed automatically.",
+        "Read back: with open('scores.txt') as f: lines = [line.strip().split(',') for line in f] \u2014 iterating the file object yields one line at a time, memory-friendly even for huge files.",
+        "Parse and sort: records = [(name, int(points)) for name, points in lines]; records.sort(key=lambda r: r[1], reverse=True) \u2014 the file format and the sorting are separate concerns.",
+        "Safety note: opening with 'w' would have wiped the scores before writing. If the program crashes mid-write, the old file is gone \u2014 real programs write to a temporary file and rename it."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What is the difference between open('notes.txt', 'w') and open('notes.txt', 'a')?",
+        "a": "'w' erases the file first and writes from the start; 'a' keeps existing content and adds new text at the end."
+       },
+       {
+        "q": "Why is 'with open(...) as f:' better than f = open(...); ...; f.close()?",
+        "a": "The with block closes the file automatically, even if an exception interrupts the code \u2014 a manual close() is skipped when an error jumps out early."
+       }
+      ],
+      "takeaway": "Read line by line, write with 'w' or 'a' deliberately, and always use with so the file closes itself."
+     },
+     {
+      "title": "Handling Errors with Exceptions",
+      "intro": "Files go missing, users type letters where numbers belong, networks drop. A program that crashes on the first surprise is a fragile program. Exceptions are the language's way of saying 'something went wrong, here is what' \u2014 and handling them is how you turn a crash into a polite message, a retry, or a safe fallback.",
+      "concepts": [
+       "Exception \u2014 an object raised when an operation fails: FileNotFoundError, ValueError, ZeroDivisionError. It interrupts normal flow and looks for a handler.",
+       "try / except \u2014 try the risky code; if it raises, run the except block for that error type. The program survives and continues.",
+       "Specific before general \u2014 catch FileNotFoundError before Exception. Catching everything hides bugs; catching one type handles one failure mode.",
+       "finally \u2014 code that runs whether or not an exception occurred, typically cleanup. (With with statements, file closing is already handled.)",
+       "Raising your own \u2014 raise ValueError('grade must be 0-100') when your own code detects invalid input, so callers get the same clean failure signal the language gives."
+      ],
+      "example": {
+       "q": "Load a settings file that may not exist yet. Handle it gracefully.",
+       "steps": [
+        "try: with open('settings.txt') as f: settings = json.load(f) \u2014 the happy path, one block.",
+        "except FileNotFoundError: settings = DEFAULT_SETTINGS \u2014 first run has no file; defaults are the correct answer, not a crash.",
+        "except json.JSONDecodeError: print('Settings file is corrupted; using defaults.'); settings = DEFAULT_SETTINGS \u2014 a different failure, a different message, same safe fallback.",
+        "The program starts every time, with defaults on a fresh install and saved settings afterwards. The user never sees a traceback for a normal situation."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A program divides by a user-entered number. What exception should it catch, and what should it do instead of crashing?",
+        "a": "Catch ZeroDivisionError (and ValueError for non-numeric input); print a friendly message and ask again instead of crashing."
+       },
+       {
+        "q": "Why is 'except Exception: pass' (catch everything, do nothing) bad practice?",
+        "a": "It hides real bugs \u2014 typos, logic errors, and corrupted data all vanish silently, and the program continues in a wrong state that is far harder to debug."
+       }
+      ],
+      "takeaway": "Expect failure: try the risky step, catch the specific error, and fall back to something safe."
+     },
+     {
+      "title": "Mini-Project: A Recursive File Explorer",
+      "intro": "This mini-project combines the whole module: recursion to walk a folder tree, file reading to inspect contents, and exception handling for the folders you cannot open. The result is a small tool that reports the shape of a directory \u2014 how many files, how big, which types \u2014 the kind of utility programmers actually write for themselves.",
+      "concepts": [
+       "Putting modules together \u2014 the explorer reuses the recursive tree walk from Lesson 3.2 and the file reading from Lesson 3.3; nothing here is new except the combination.",
+       "Guarding the walk \u2014 permission errors and broken links are normal on a real file system. Catch OSError per folder and skip it, instead of letting one bad folder kill the whole walk.",
+       "Aggregating results \u2014 the walk returns a small report object (file count, total size, counts by extension) that the caller prints; the recursion builds it bottom-up.",
+       "Separation of concerns \u2014 one function walks, one function formats the report, one function is the entry point. Each can be tested alone.",
+       "Real-world shape \u2014 tools like du, tree, and IDE search are this program grown up. Small utilities composed well become big tools."
+      ],
+      "example": {
+       "q": "Sketch the explorer: walk a folder and report counts by file extension.",
+       "steps": [
+        "def explore(path): report = {'files': 0, 'bytes': 0, 'by_ext': {}}; if path is a file: count it and return the report (base case).",
+        "If it is a folder: try: children = list the folder; except OSError: return the empty report \u2014 permission denied skips gracefully, not fatally.",
+        "Recursive step: for each child, merge explore(child) into the report \u2014 counts add, byte totals add, extension dictionaries merge.",
+        "Print: total files, total size in MB, and the top extensions ('.py: 42 files'). A ten-line program that answers a real question about your own disk."
+       ]
+      },
+      "practice": [
+       {
+        "q": "The explorer hits a folder it cannot read. What should happen, and what should NOT happen?",
+        "a": "It should skip that folder (catch OSError) and continue the rest of the walk. It should NOT crash the whole program or silently pretend the folder was empty without noting it."
+       },
+       {
+        "q": "Why return a report object from explore() instead of printing inside the recursion?",
+        "a": "So the walk can be tested without output, reused by other tools, and formatted differently later \u2014 printing inside would lock the function to one use."
+       }
+      ],
+      "takeaway": "Recursion walks the tree, exceptions guard the edges, and a small report object carries the answer back up."
+     }
     ]
    },
    {
     "module_title": "Testing, Debugging and Putting It Together",
     "lessons": [
-     "Writing Unit Tests That Catch Real Bugs",
-     "Debugging Strategies: Trace, Isolate, Reproduce",
-     "Documentation and Readable Code",
-     "Designing a Program from a Specification",
-     "Final Project: A Text-Based Game or Data Manager"
+     {
+      "title": "Writing Unit Tests That Catch Real Bugs",
+      "intro": "A test is a small program that checks your program: call a function with a known input and assert the output is what you expect. Tests turn 'I think it works' into 'I checked, and here is the proof'. The habit pays for itself the first time a change breaks something old and a test catches it in seconds instead of a user catching it in weeks.",
+      "concepts": [
+       "Unit test \u2014 a test of one small unit (usually one function or method) in isolation, with known inputs and expected outputs.",
+       "Assertion \u2014 assert average([90, 100]) == 95: if the claim is false, the test fails loudly. Assertions are the test's verdict.",
+       "Test cases that matter \u2014 the happy path, the edge cases (empty list, single item, zero), and the error cases (invalid input). A test suite that only checks easy inputs is decoration.",
+       "Test framework \u2014 Python's unittest or pytest, Java's JUnit: they discover tests, run them all, and report which passed and which failed. pytest lets you write tests as plain functions with assert.",
+       "Regression protection \u2014 every bug you fix gets a test that reproduces it first. The bug can never silently return, because the test guards that exact case forever."
+      ],
+      "example": {
+       "q": "Write tests for a function that returns the average of a list of grades.",
+       "steps": [
+        "Happy path: assert average([90, 100, 80]) == 90 \u2014 the basic behavior, checked first.",
+        "Edge cases: assert average([100]) == 100 (single item); assert average([]) == 0 or raises ValueError \u2014 decide the empty-list behavior and test the decision, not the accident.",
+        "Bug-driven case: a grade of 0 must count: assert average([0, 100]) == 50 \u2014 this catches the classic bug of skipping zeros or dividing by the count of nonzero grades.",
+        "Run them: pytest finds and runs all three in under a second. When someone later 'optimizes' average(), these tests are the tripwire."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A function withdraw(amount) should refuse amounts over the balance. Write one test for that rule.",
+        "a": "acct = BankAccount('Ana', 100); assert acct.withdraw(150) is False; assert acct.balance == 100 \u2014 the refusal and the unchanged balance are both asserted."
+       },
+       {
+        "q": "Why test the empty list and the single-item list, not just a typical list?",
+        "a": "Edge cases are where off-by-one errors and division-by-zero hide; typical inputs rarely expose them."
+       }
+      ],
+      "takeaway": "Test the happy path, the edges, and every bug you fix \u2014 tests are proof your code works, and a tripwire against breaking it."
+     },
+     {
+      "title": "Debugging Strategies: Trace, Isolate, Reproduce",
+      "intro": "Every programmer spends more time debugging than writing. The difference between a fast debugger and a stuck one is method: reproduce the bug reliably, isolate where it happens, and trace what the program actually does versus what you assumed. Random changes and hopeful reruns are not debugging \u2014 they are gambling.",
+      "concepts": [
+       "Reproduce first \u2014 find the smallest input that triggers the bug, reliably. A bug you cannot reproduce is a bug you cannot verify fixed.",
+       "Isolate \u2014 narrow the suspect area: comment out half, test with a tiny input, add prints at boundaries. Binary search the code the way binary search finds a value.",
+       "Trace \u2014 follow the actual values: print statements, a debugger's step-through, or a logging call. The bug is always in the gap between what you think the values are and what they actually are.",
+       "The debugger \u2014 set a breakpoint, run to it, inspect variables, step line by line. It beats print statements for loops and long call chains.",
+       "Rubber-ducking \u2014 explain the code out loud, line by line, to an inanimate object (or a colleague). Hearing your own assumption stated plainly often reveals the wrong one."
+      ],
+      "example": {
+       "q": "average([90, 100, 80]) returns 135 instead of 90. Debug it methodically.",
+       "steps": [
+        "Reproduce: run average([90, 100, 80]) alone \u2014 it returns 135 every time. Small, reliable, confirmed.",
+        "Isolate: print the running total inside the loop \u2014 total after each step is 90, 190, 270. Correct so far, so the loop is fine; the division must be wrong.",
+        "Trace the divisor: the code divides by len(grades) - 1 instead of len(grades) \u2014 270 / 2 = 135. There it is: an off-by-one in the denominator, not the loop.",
+        "Fix and verify: change to len(grades), rerun the failing case (now 90), then run the whole test suite \u2014 the fix must not break other tests. Add a regression test for this exact case."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A bug appears only sometimes, with no clear pattern. What is your first move?",
+        "a": "Reproduce it reliably \u2014 vary one input at a time until you find the trigger. Unreproducible bugs are usually uninitialized data, timing, or shared state; the trigger narrows the suspect list."
+       },
+       {
+        "q": "Why change only one thing at a time when debugging?",
+        "a": "If you change three things and the bug vanishes, you do not know which change fixed it \u2014 or whether you fixed it at all versus masking it. One change, one test."
+       }
+      ],
+      "takeaway": "Reproduce it, isolate it, trace the real values \u2014 the bug lives in the gap between assumption and reality."
+     },
+     {
+      "title": "Documentation and Readable Code",
+      "intro": "Code is read far more often than it is written \u2014 by your future self, by teammates, by the person grading it. Readable code with honest documentation is not decoration; it is the difference between a program that can be maintained and one that must be rewritten. The rule is simple: write code for the human who reads it next, and document the why, not the what.",
+      "concepts": [
+       "Self-documenting names \u2014 average_grade beats avg; total_balance beats tb. A name should say what the thing is, not abbreviate it into a puzzle.",
+       "Docstrings \u2014 a short string at the top of each function saying what it does, its parameters, and what it returns. In Python: triple-quoted, first thing in the function.",
+       "Comments for why \u2014 code shows what happens; comments explain why this way, what the trap is, or what the magic number means. Never comment the obvious.",
+       "Consistent style \u2014 one naming convention, one indentation width, one way of formatting. Consistency lets readers stop thinking about form and think about logic.",
+       "README for the project \u2014 a short file saying what the program does, how to run it, and how to test it. The first thing a new reader opens."
+      ],
+      "example": {
+       "q": "Document a function that computes a letter grade from a numeric score.",
+       "steps": [
+        "Docstring: def letter_grade(score): \"\"\"Return the letter grade (A-F) for a numeric score 0-100. Scores outside 0-100 raise ValueError.\"\"\" \u2014 what, inputs, and the error contract in two lines.",
+        "Name the thresholds: A_CUTOFF = 90 instead of a bare 90 in the code \u2014 the constant explains itself, and changing the grading scale means editing one line.",
+        "Comment the why, once: # A score of exactly 90 earns an A \u2014 the boundary is inclusive. That sentence saves the next reader from 'fixing' a correct boundary.",
+        "What NOT to write: # increment i by 1 above i += 1 \u2014 the code already says that. A comment that restates code is noise; noise trains readers to skip all comments, including the useful ones."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Which comment is useful: '# loop through the list' above a for loop, or '# grades are stored lowest-first, so the loop can stop early'?",
+        "a": "The second \u2014 it states a fact the code does not show (the ordering assumption the early exit depends on). The first merely restates the code."
+       },
+       {
+        "q": "A function is named calc and takes x and y. How would you improve it without changing what it does?",
+        "a": "Rename it to what it computes (e.g. total_price), name the parameters (price, tax_rate), and add a docstring stating the return value."
+       }
+      ],
+      "takeaway": "Name things honestly, document the why, and write for the next reader \u2014 who is usually you, six months later."
+     },
+     {
+      "title": "Designing a Program from a Specification",
+      "intro": "Real programs start as words: a specification describing what the program must do, not how. The design step turns those words into classes, methods, and a plan \u2014 before a line of code exists. Skip it and you write code twice: once wrong, once right. This lesson teaches a repeatable design routine you can use on the final project.",
+      "concepts": [
+       "Specification \u2014 a plain-language description of inputs, outputs, and rules. Read it twice: once for what is asked, once for what is NOT asked (the scope boundary).",
+       "Nouns and verbs \u2014 underline the nouns (candidate classes and fields) and the verbs (candidate methods). This turns prose into a class sketch in minutes.",
+       "CRC cards (or a sketch) \u2014 for each class, list its Collaborators, Responsibilities, and data. If a class has too many responsibilities, split it.",
+       "Interfaces first \u2014 decide the public methods of each class before implementing any of them. The method list IS the design; the bodies are the filling.",
+       "Iterate the design \u2014 build the smallest version that runs end-to-end (a 'walking skeleton'), then add features one at a time, testing as you go."
+      ],
+      "example": {
+       "q": "Design a program from this spec: 'A small shop tracks products (name, price, stock). The owner adds products, sells items, and prints a report of low-stock products.'",
+       "steps": [
+        "Nouns: product (name, price, stock), shop (a collection of products), report. Verbs: add, sell, print low-stock report.",
+        "Classes: Product with fields name, price, stock and methods sell(qty) and is_low_stock(); Shop with a list of Products and methods add_product(), sell(name, qty), low_stock_report().",
+        "Interfaces first: Shop.sell(name, qty) returns True/False; Product.sell(qty) refuses when qty exceeds stock. Decide these signatures before writing bodies.",
+        "Walking skeleton: implement Product and a Shop that can add and list products, run it, then add selling, then the report. Each step is tested before the next begins."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A spec says 'users can register, log in, and post messages.' What are the candidate classes?",
+        "a": "User (name, password hash, methods register/login), Message (author, text, timestamp), and a Board or App class holding users and messages with post() and list() methods."
+       },
+       {
+        "q": "Why build a 'walking skeleton' (smallest end-to-end version) before adding features?",
+        "a": "It proves the overall structure works early; features added to a broken skeleton inherit the breakage, and debugging a half-built structure is far harder."
+       }
+      ],
+      "takeaway": "Spec \u2192 nouns and verbs \u2192 class sketch \u2192 public methods first \u2192 walking skeleton, then grow it one tested feature at a time."
+     },
+     {
+      "title": "Final Project: A Text-Based Game or Data Manager",
+      "intro": "This is the course capstone: build a complete program of your choosing \u2014 a text-based adventure game or a small data manager (contacts, books, inventory) \u2014 using everything from CS102. It must be designed, built in stages, tested, and documented. The project is the proof of the course: a working program you can show someone and explain.",
+      "concepts": [
+       "Choose the scope first \u2014 a game with three rooms and an inventory, or a manager with add/search/list/delete. Small and finished beats large and half-built.",
+       "Required pieces \u2014 at least three classes with inheritance or an interface somewhere; a collection used well (list, set, or dictionary chosen for a reason); file persistence so data survives between runs; exception handling for bad input and missing files; unit tests for the core logic.",
+       "Stages \u2014 1) spec and class sketch, 2) walking skeleton (runs end to end), 3) core features one at a time, 4) persistence, 5) tests and documentation, 6) polish.",
+       "User experience \u2014 clear menus, helpful error messages, and no crashes on bad input. A program that handles a typo gracefully is a finished program; one that crashes is not.",
+       "Presenting it \u2014 be ready to demo it live and to explain your design: why these classes, why this collection, where the tests are, and what you would add next."
+      ],
+      "example": {
+       "q": "Scope a text adventure game so it is finishable in a week.",
+       "steps": [
+        "Spec: three rooms (Hall, Library, Cellar), an inventory, items to pick up, one locked door opened by a key, and a win condition (reach the Cellar treasure).",
+        "Classes: Room (name, description, exits dict, items list), Item (name, description), Player (location, inventory), Game (rooms, player, command loop). Room exits are a dictionary: {'north': library}.",
+        "Persistence: save the player's location and inventory to a JSON file; load on start. Missing save file? Start a new game \u2014 handled with try/except, not a crash.",
+        "Tests: Room movement (go north from Hall reaches Library), locked door refuses without the key, inventory add/remove. Each test guards one rule.",
+        "Polish last: a help command, a look command, and friendly messages. The game is done when a stranger can play it without instructions from you."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Your game crashes when the player types 'go nowhere'. Which CS102 skill fixes it, and how?",
+        "a": "Exception handling plus validation: check the direction against the room's exits dictionary before moving, and print 'You cannot go that way.' instead of crashing."
+       },
+       {
+        "q": "Name the five project stages in order.",
+        "a": "Spec and class sketch; walking skeleton; core features one at a time; persistence; tests and documentation (then polish)."
+       }
+      ],
+      "takeaway": "A finished small program \u2014 designed, tested, persistent, and documented \u2014 is the whole course in one artifact. Build it, and you can build the next one bigger."
+     }
     ]
    }
   ],
@@ -11910,7 +12541,7 @@
    "project": true
   },
   "mastery_rubric": "Design and implement object-oriented programs with inheritance, generics and recursion, handle files and exceptions, and test code systematically. Final grade 70% or higher.",
-  "source": "Martinez original syllabus (authored 2026-11-16)"
+  "source": "Martinez original \u2014 written lessons (authored 2026-11-25)"
  },
  "CS201": {
   "modules": [
