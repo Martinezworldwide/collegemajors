@@ -10824,41 +10824,622 @@
    {
     "module_title": "From Summary to Argument",
     "lessons": [
-     "Recap: Thesis, Evidence, Structure",
-     "Reading Sources for Argument, Not Just Information",
-     "Synthesis: Putting Sources in Conversation",
-     "The Research Question",
-     "Planning the Researched Argument"
+     {
+      "title": "Recap: Thesis, Evidence, Structure",
+      "intro": "ENG101 taught you to write an essay; ENG102 teaches you to build a researched argument \u2014 a longer essay that enters an existing conversation. Everything from last semester still applies, but the stakes rise: your thesis must now answer a real question, your evidence must come from sources, and your structure must carry 2,000 words instead of 750. This lesson reconnects the three tools you already own.",
+      "concepts": [
+       "Thesis \u2014 a claim that is arguable, specific, and answerable. 'Social media is bad' is a topic, not a thesis; 'Requiring phones to be locked away during class raises test scores by removing a distraction students cannot resist' is a thesis a reader can test.",
+       "Evidence \u2014 the reasons and facts that make a thesis believable. In ENG101 your evidence came mostly from your own reasoning and examples; in ENG102 it will come from research, and each piece must be chosen, introduced, and explained \u2014 never just dropped in.",
+       "Structure \u2014 the order that makes an argument followable: claim, evidence, explanation, counterargument, conclusion. A longer essay does not need a new shape; it needs the same shape repeated at a larger scale, with sections doing the work paragraphs did before.",
+       "The thesis\u2013evidence loop \u2014 evidence tests the thesis. If the research does not support your claim, the honest move is to revise the claim, not to hide the evidence. That revision is the heart of researched writing."
+      ],
+      "example": {
+       "q": "A student writes the thesis 'Campus parking is a problem.' Why is this thesis too weak for a researched argument, and how could it be strengthened?",
+       "steps": [
+        "Test arguability: nobody would disagree that parking is 'a problem' \u2014 the claim is too vague to argue against, so it cannot drive a real essay.",
+        "Test specificity: 'a problem' names no cause, no effect, and no solution. A reader cannot tell what the essay will prove.",
+        "Strengthen it: 'The university should replace the flat-rate parking fee with a tiered permit system, because the current price forces low-income commuters to park off campus and walk up to a mile in the dark.' Now the claim is arguable, specific, and researchable (fees, distances, safety data).",
+        "Conclusion: a researched-argument thesis must be narrow enough to prove and bold enough to be worth proving."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Which of these is a working thesis for a researched argument, and why? A: 'Climate change is real.' B: 'Cities should fund free public transit, because fare revenue is small compared with the congestion and pollution costs transit removes.'",
+        "a": "B. A states a fact almost nobody disputes, so there is nothing to argue. B makes a specific, arguable policy claim with reasons that can be researched (fare revenue, congestion costs, pollution data)."
+       },
+       {
+        "q": "Your research turns up strong evidence against your thesis. What should you do?",
+        "a": "Revise the thesis to fit the evidence \u2014 narrow it, qualify it, or change it. Hiding counter-evidence weakens the essay and breaks trust with the reader; a thesis that survives honest evidence is stronger for the revision."
+       }
+      ],
+      "takeaway": "Thesis, evidence, structure: the same three tools, now carrying a longer, researched argument."
+     },
+     {
+      "title": "Reading Sources for Argument, Not Just Information",
+      "intro": "In ENG101 you read to learn facts. In ENG102 you read to find arguments \u2014 positions you can agree with, push against, or build on. A source is not a vending machine for quotes; it is a voice in a conversation. Learning to read for argument means asking what a source claims, how it supports that claim, and where it is vulnerable.",
+      "concepts": [
+       "Claim vs. information \u2014 information answers 'what happened'; a claim takes a position ('this policy failed because\u2026'). For an argument essay you need sources that make claims, not just sources that report facts.",
+       "The author's moves \u2014 every argumentative source does things: defines terms, cites evidence, anticipates objections, concedes points. Naming those moves lets you borrow them \u2014 and spot their weak points.",
+       "Reading with a question \u2014 enter each source asking what it can do for YOUR argument: does it support, complicate, or challenge your thesis? A source with no role in your essay is research you do not need.",
+       "The conversation map \u2014 sources talk to each other: one study confirms another, a critic answers a theory, a policy paper applies a finding. Mapping who agrees with whom shows you where your essay can enter."
+      ],
+      "example": {
+       "q": "You are writing about whether college should be tuition-free. You find a report that says 'Average student debt at graduation is $28,400.' How is this useful \u2014 and what is it missing?",
+       "steps": [
+        "It is useful information: a concrete number that shows the scale of the problem your argument addresses.",
+        "But it makes no claim: it does not say debt is too high, unfair, or caused by tuition policy. Alone, it cannot carry a paragraph of argument.",
+        "To use it, pair it with a claim-making source \u2014 e.g., an economist arguing that debt delays homeownership \u2014 and let the number support that claim.",
+        "Conclusion: facts are fuel; claims are the engine. Collect both, and never mistake a statistic for an argument."
+       ]
+      },
+      "practice": [
+       {
+        "q": "You read an article whose author argues that standardized tests should be abolished. What two questions should you ask before using it?",
+        "a": "What evidence does the author offer (test-score gaps? studies? anecdotes?), and what is the author's position or interest (a testing company? a teachers' union? an independent researcher?). Both shape how much weight the claim deserves."
+       },
+       {
+        "q": "Why is it a mistake to collect sources before you have a research question?",
+        "a": "Without a question, you cannot tell which sources matter \u2014 you collect everything, understand nothing, and end up with a pile of quotes instead of an argument. The question is the filter."
+       }
+      ],
+      "takeaway": "Read for claims, not just facts \u2014 a source earns its place by doing work in your argument."
+     },
+     {
+      "title": "Synthesis: Putting Sources in Conversation",
+      "intro": "Summary reports what one source says. Synthesis makes several sources talk to each other \u2014 and to you. It is the signature move of ENG102: instead of 'Source A says X. Source B says Y,' you write 'A and B agree that X, but they disagree about why \u2014 and that disagreement is where my argument begins.'",
+      "concepts": [
+       "Synthesis vs. summary \u2014 summary stays inside one source; synthesis builds a new idea out of two or more. Summary says 'Smith found\u2026'; synthesis says 'Smith and Jones both found\u2026, which suggests\u2026'.",
+       "Agreement, disagreement, and gap \u2014 the three relationships to look for: sources that confirm each other (stronger claim), sources that conflict (a debate to adjudicate), and questions no source answers (a gap your essay can fill).",
+       "The synthesis sentence \u2014 the sentence that does the combining: 'Where Lee sees a funding problem, Patel sees a design problem \u2014 both agree the system fails students, but they locate the failure differently.' One sentence, two sources, one new insight.",
+       "Your voice on top \u2014 synthesis is not a book report on three authors. After the sources speak, you speak: what follows from their agreement or disagreement, and what does it mean for your thesis?"
+      ],
+      "example": {
+       "q": "Two sources on remote work: a 2023 study finds remote workers are 13% more productive; a 2024 survey finds remote workers report higher loneliness. Write a synthesis sentence.",
+       "steps": [
+        "Find the relationship: the sources do not contradict \u2014 they measure different things (output vs. well-being).",
+        "Combine them: 'Remote work increases measured output while eroding the social ties that sustain workers \u2014 productivity and isolation rise together.'",
+        "Add your voice: 'That trade-off means any honest policy must price in both numbers, not cherry-pick the one that supports a side.'",
+        "Conclusion: synthesis turned two separate findings into a single, arguable insight neither source stated alone."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What is wrong with this paragraph: 'Garcia says the minimum wage helps workers. Chen says it costs jobs. Lee says it varies by city.'?",
+        "a": "It is three summaries in a row \u2014 a list, not a synthesis. It never says how the sources relate, who is more convincing, or what follows from the disagreement."
+       },
+       {
+        "q": "Two sources agree completely. Is there anything to synthesize?",
+        "a": "Yes \u2014 agreement itself is a finding. You can say the evidence converges, which strengthens the claim, and then ask what both sources miss or what the agreement implies for policy."
+       }
+      ],
+      "takeaway": "Synthesis is where your argument is born \u2014 combine sources until a new idea appears."
+     },
+     {
+      "title": "The Research Question",
+      "intro": "Every researched argument starts with a question you genuinely do not know the answer to. A good research question is the engine of the whole essay: it decides what counts as evidence, which sources matter, and when you have done enough research. A bad one \u2014 too broad, too narrow, or already answered \u2014 stalls the project before it starts.",
+      "concepts": [
+       "Open vs. closed questions \u2014 'Does the library have late hours?' is closed (one fact answers it). 'How do library hours affect first-generation students' grades?' is open: it needs research, evidence, and judgment.",
+       "Too broad vs. too narrow \u2014 'Why is education unequal?' could fill a book; 'Did the 2024 tutoring program raise algebra scores at one high school?' may have too little published research. Aim for a question one essay can answer with available sources.",
+       "The question\u2013thesis pipeline \u2014 the research question guides the reading; the reading produces a tentative answer; that answer, sharpened, becomes the thesis. The thesis is the question answered.",
+       "Testability \u2014 a good question can be investigated: there are sources, data, or studies that bear on it. If no one has studied your question, you may need to reframe it toward what the evidence can actually address."
+      ],
+      "example": {
+       "q": "A student starts with the topic 'social media and teenagers.' Turn it into a researchable question.",
+       "steps": [
+        "Too broad: 'social media and teenagers' is a topic, not a question \u2014 it has no direction.",
+        "Narrow by angle: pick one effect \u2014 attention, sleep, friendship, self-image. Try 'How does nightly social media use affect teenagers' sleep?'",
+        "Check openness: it is open (studies disagree about how big the effect is) and researchable (sleep studies, screen-time data exist).",
+        "Result: a question that tells the writer exactly what to look for \u2014 and when the research answers it, the thesis writes itself."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Is 'Should the voting age be lowered to 16?' a good research question? Why or why not?",
+        "a": "It is a decent starting question \u2014 open and arguable \u2014 but it is really a thesis in disguise (it asks for a yes/no verdict). A stronger research version: 'What happens to turnout and civic knowledge when 16-year-olds can vote?' That question gathers evidence first, and the verdict follows."
+       },
+       {
+        "q": "Your question has almost no published sources. What are two fixes?",
+        "a": "Broaden it (wider population, longer time period, or a related question with more literature), or reframe it toward a nearby question the evidence can answer \u2014 e.g., from 'one campus's program' to 'campus tutoring programs in general'."
+       }
+      ],
+      "takeaway": "A good research question is open, narrow enough to answer, and testable \u2014 it is the essay's compass."
+     },
+     {
+      "title": "Planning the Researched Argument",
+      "intro": "Before you write a word of the essay, you plan it: the question, the tentative thesis, the sources you will need, and the shape of the argument. Planning is not busywork \u2014 it is where you discover whether your thesis is researchable before you have invested ten pages in it. A one-page plan now saves a rewrite later.",
+      "concepts": [
+       "The working thesis \u2014 a draft claim you expect research to test and probably change. Write it in pencil: 'The evidence so far suggests\u2026' A working thesis gives the research direction without locking you in.",
+       "The source map \u2014 a short list of the kinds of sources you need (a statistic, a scholarly study, a counterargument, a real-world example) and where you will look for each. If a slot stays empty, that is a research task, not a writing problem.",
+       "The argument outline \u2014 the skeleton: introduction with question and thesis, body sections each making one claim, a counterargument section, a conclusion. For a 2,000-word essay, expect 4\u20136 body sections.",
+       "The research log \u2014 a running note of what you searched, what you found, and what you still need. It prevents the two classic disasters: researching the same thing twice, and losing a source you quoted."
+      ],
+      "example": {
+       "q": "Plan a researched argument answering 'Should cities ban gas-powered leaf blowers?'",
+       "steps": [
+        "Working thesis: 'Cities should phase out gas leaf blowers, because their noise and emissions harm workers and residents more than electric alternatives cost.'",
+        "Source map: noise-level data (health studies), emissions comparisons (EPA or engineering sources), worker-health testimony, cost figures for electric models, and the counterargument (landscapers' cost and power concerns).",
+        "Outline: intro (the noise problem) \u2192 health evidence \u2192 emissions evidence \u2192 costs and alternatives \u2192 counterargument (jobs and cost) \u2192 conclusion (phase-out timeline).",
+        "Research log: record each database searched and each promising source, so nothing is lost and gaps are visible."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why write a working thesis before researching, if research will probably change it?",
+        "a": "Because a thesis \u2014 even a wrong one \u2014 gives the research a target. Without it you collect aimlessly; with it, every source is tested against a claim, and the ways it fails tell you how to improve the claim."
+       },
+       {
+        "q": "Your source map has an empty slot: no credible counterargument source. What should you do?",
+        "a": "Keep searching \u2014 try the other side's own publications, trade groups, or opinion pieces, and try different search terms. An essay without a real counterargument is an essay that has not been tested."
+       }
+      ],
+      "takeaway": "Plan before you draft: question, working thesis, source map, outline \u2014 then let the research test the plan."
+     }
     ]
    },
    {
     "module_title": "Research and Source Evaluation",
     "lessons": [
-     "Library Databases and Scholarly Sources",
-     "Evaluating Credibility: CRAAP and Beyond",
-     "Primary vs. Secondary Sources",
-     "Note-Taking and Source Management",
-     "Annotated Bibliography"
+     {
+      "title": "Library Databases and Scholarly Sources",
+      "intro": "Google finds everything and verifies nothing. A university library's databases \u2014 JSTOR, Academic Search, ERIC, PubMed \u2014 find less, but what they find has passed a filter: peer review, editorial standards, and indexing by subject. For a researched argument, the database is not a luxury; it is where credible evidence lives.",
+      "concepts": [
+       "Scholarly sources \u2014 articles written by researchers, reviewed by other experts before publication, and published in journals. They are the gold standard for evidence because their claims have survived scrutiny.",
+       "Databases vs. the open web \u2014 a database searches a curated collection and lets you filter by peer review, date, and subject. A web search ranks by popularity and advertising. Same keywords, very different results.",
+       "Keywords and Boolean operators \u2014 AND narrows ('teenagers AND sleep'), OR widens ('adolescents OR teens'), NOT excludes ('phones NOT landlines'). Quotation marks search exact phrases ('screen time'). Good searching is a skill, not luck.",
+       "The library as a service \u2014 librarians are research experts: they can suggest databases, fix a dead-end search, and get articles your library does not own through interlibrary loan. Asking is faster than struggling."
+      ],
+      "example": {
+       "q": "A student Googles 'do phones hurt sleep' and gets 40 million results, mostly blogs and ads. How should she search instead?",
+       "steps": [
+        "Go to the library database (e.g., Academic Search) and search 'smartphone use AND sleep quality AND adolescents'.",
+        "Filter to peer-reviewed articles from the last 10 years. The result set drops from millions to dozens \u2014 all credible.",
+        "Skim abstracts to pick 4\u20136 strong studies, then use their reference lists to find more (backward chaining).",
+        "Conclusion: the database did not hide information; it removed noise. Fewer results, better evidence."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why is a peer-reviewed journal article usually stronger evidence than a popular magazine article on the same topic?",
+        "a": "The journal article was reviewed by experts who checked its methods and evidence before publication, and it reports original research. A magazine article usually summarizes others' work for a general audience and is edited for readability, not accuracy."
+       },
+       {
+        "q": "Your database search returns zero results. What are two things to try before giving up?",
+        "a": "Broaden the terms (use synonyms and OR: 'teenagers OR adolescents'), and drop a concept (search two ideas instead of three). Also try a different database \u2014 education topics live in ERIC, medical ones in PubMed."
+       }
+      ],
+      "takeaway": "Search the library first: databases trade millions of unverified hits for dozens of credible ones."
+     },
+     {
+      "title": "Evaluating Credibility: CRAAP and Beyond",
+      "intro": "Not every source deserves your trust \u2014 and 'it was published' is not enough. CRAAP is the standard checklist librarians teach: Currency, Relevance, Authority, Accuracy, Purpose. It takes two minutes per source and saves your essay from building on sand.",
+      "concepts": [
+       "Currency \u2014 when was it published or updated? A 2015 study of social media predates TikTok; for fast-moving topics, recent matters. For history, older sources can be fine \u2014 currency is about fit, not just newness.",
+       "Relevance \u2014 does it actually address your question? A brilliant article on adult sleep does little for a paper on teenagers. Read the abstract before committing to a source.",
+       "Authority \u2014 who wrote it, and what qualifies them? A professor of public health outranks an anonymous blog; a government health agency outranks a company selling sleep aids.",
+       "Accuracy and Purpose \u2014 can the claims be verified (citations, data, methods), and why was it written \u2014 to inform, to persuade, to sell? A source written to sell a product needs far more skepticism than one written to report research."
+      ],
+      "example": {
+       "q": "Evaluate this source for a paper on teen sleep: a 2023 blog post by a mattress company, 'Why Teens Need Our Mattress,' citing no studies.",
+       "steps": [
+        "Currency: 2023 is recent \u2014 passes.",
+        "Authority: a mattress company is not a sleep-research authority, and it profits from the claim \u2014 fails.",
+        "Accuracy: no citations, no data, no method \u2014 the claims cannot be checked \u2014 fails.",
+        "Purpose: to sell mattresses, not to inform \u2014 fails. Verdict: do not use it as evidence. Find the same claim in a peer-reviewed study instead."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A source is from 2012. Is it automatically unusable?",
+        "a": "No. Currency depends on the topic: a 2012 study of a historical event or a classic theory can be perfectly fine, while a 2012 article on smartphone apps is badly outdated. Ask whether the field has moved on since."
+       },
+       {
+        "q": "A government report and a peer-reviewed article disagree. Which wins?",
+        "a": "Neither automatically \u2014 evaluate both. Check methods, sample sizes, dates, and whether each is measuring the same thing. Disagreement between good sources is itself a finding worth writing about."
+       }
+      ],
+      "takeaway": "CRAAP every source: currency, relevance, authority, accuracy, purpose \u2014 two minutes now, credibility all essay."
+     },
+     {
+      "title": "Primary vs. Secondary Sources",
+      "intro": "A primary source is direct evidence from the time or event itself; a secondary source interprets primary sources. A diary is primary, a historian's book about the diary is secondary. Knowing which you have \u2014 and which your argument needs \u2014 decides how much weight a source can carry.",
+      "concepts": [
+       "Primary sources \u2014 original materials: diaries, letters, speeches, raw data, interviews, photographs, laws, lab notebooks, survey responses. They are evidence itself, not someone's summary of it.",
+       "Secondary sources \u2014 works that analyze, interpret, or synthesize primary sources: textbooks, scholarly articles, biographies, documentaries. Most of your ENG102 sources will be secondary \u2014 and that is normal.",
+       "It depends on the question \u2014 the same document can be primary or secondary depending on use. A 1965 newspaper article is a primary source for a paper on 1960s attitudes, but a secondary source for a paper on the event it reports.",
+       "Using both \u2014 strong arguments often pair them: a secondary source provides the framework ('scholars argue X caused Y'), and a primary source provides the vivid proof ('here is the letter in which the decision was made')."
+      ],
+      "example": {
+       "q": "You are writing about whether school lunch programs improve attendance. Which of these is primary, which secondary: (a) the district's attendance records, (b) a journal article analyzing ten districts' lunch programs?",
+       "steps": [
+        "The attendance records are primary: raw data, direct evidence of attendance before and after the program.",
+        "The journal article is secondary: it interprets data from multiple districts to make an argument.",
+        "Use them together: the article gives you the scholarly claim and the broader pattern; the records let you test it in one real place.",
+        "Conclusion: label sources by their role in YOUR argument, not by some fixed property of the document."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Is a Supreme Court opinion a primary or secondary source?",
+        "a": "Primary \u2014 it is the legal decision itself, the original text of the ruling. A law-review article analyzing the opinion would be secondary."
+       },
+       {
+        "q": "Why might a researched argument rely mostly on secondary sources?",
+        "a": "Because secondary sources have already done the work of gathering, checking, and interpreting primary evidence \u2014 a journal article synthesizing twenty studies is more useful for most arguments than twenty raw datasets you would have to analyze yourself."
+       }
+      ],
+      "takeaway": "Primary is the evidence itself; secondary is the interpretation \u2014 know which you hold and use both."
+     },
+     {
+      "title": "Note-Taking and Source Management",
+      "intro": "Research falls apart in the middle: you remember a great quote but not where it came from, or you paraphrase a source so closely it is nearly plagiarism. A simple note system \u2014 one card or row per source, with exact quotes, page numbers, and your own response kept separate \u2014 prevents both disasters.",
+      "concepts": [
+       "The source record \u2014 for every source, keep: full citation, where you found it, the key claims in your own words, any exact quotes with page numbers, and your response. If it is not written down, it does not exist.",
+       "Quote vs. paraphrase vs. your idea \u2014 mark them differently from the start (e.g., quotes in quotation marks with page numbers, paraphrases in your words, your own thoughts labeled 'MY IDEA'). Blurred lines become accidental plagiarism.",
+       "Tools that help \u2014 citation managers (Zotero, free) store sources and generate bibliographies; even a simple spreadsheet with columns for citation, claim, quote, and page works. Pick one tool and use it for every source.",
+       "The working bibliography \u2014 the running list of sources as you find them, not a list rebuilt from memory at 2 a.m. before the deadline. Build it as you go; the final Works Cited is then just a cleanup."
+      ],
+      "example": {
+       "q": "A student copies a paragraph from a journal article into her notes without quotation marks or a page number. Two weeks later she uses it in her draft. What went wrong?",
+       "steps": [
+        "At note time, the copy looked like her own summary \u2014 but it was the author's exact words, now indistinguishable from her own thinking.",
+        "Without a page number, she cannot cite it properly even if she realizes the problem.",
+        "Fix: always paste quotes with quotation marks AND page numbers immediately, and put your own response in a separate line or color.",
+        "Conclusion: note-taking discipline is plagiarism prevention. The five seconds it takes to mark a quote saves an academic-integrity crisis."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What four things should every source note include at minimum?",
+        "a": "Full citation (author, title, publication, date), the claim or finding in your own words, any exact quotes with page numbers, and your own response or evaluation."
+       },
+       {
+        "q": "Why keep your own ideas visibly separate from source material in your notes?",
+        "a": "So that when you draft, you never accidentally present someone else's idea as your own \u2014 and so your own thinking stays visible, which is what makes the essay yours rather than a patchwork of quotes."
+       }
+      ],
+      "takeaway": "Notes are the essay's supply chain: mark quotes, record pages, separate your voice \u2014 every time."
+     },
+     {
+      "title": "Annotated Bibliography",
+      "intro": "An annotated bibliography is a list of your sources with a short paragraph about each: what it says, how credible it is, and how you will use it. It is the halfway point of the research process \u2014 proof that you have real sources, and a map of your argument before you draft. Professors assign it because it makes weak research visible early, when there is still time to fix it.",
+      "concepts": [
+       "Summary \u2014 in 2\u20133 sentences, what does the source argue or find? Stick to the author's claims, not your opinion of them.",
+       "Evaluation \u2014 is the source credible and relevant? Apply CRAAP briefly: peer-reviewed? Recent? Authoritative? Any bias or limit worth noting?",
+       "Use \u2014 how will this source work in YOUR essay? ('Supports the health-effects section; provides the counterargument on cost.') A source with no use does not belong in the essay.",
+       "Format \u2014 entries in MLA style, alphabetized, with the annotation below each citation. The format is the discipline: if you cannot write the annotation, you have not really read the source."
+      ],
+      "example": {
+       "q": "Write a short annotation for: Patel, R. 'Teen Sleep and Screens.' Journal of Adolescent Health, 2024. A peer-reviewed study of 2,000 teens finding each hour of nightly screen time associated with 12 fewer minutes of sleep.",
+       "steps": [
+        "Citation: Patel, R. 'Teen Sleep and Screens.' Journal of Adolescent Health, 2024. (MLA format, hanging indent.)",
+        "Summary: Patel surveys 2,000 teenagers and finds a dose-response relationship: more nightly screen time, less sleep.",
+        "Evaluation: peer-reviewed, recent, large sample, published in a reputable journal \u2014 strong credibility. Limit: correlational, so it cannot prove screens cause the sleep loss.",
+        "Use: provides the key statistic for the essay's evidence section on sleep effects; its correlational limit will be acknowledged in the counterargument."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Your annotation for a source is only 'This article is about sleep.' What is missing?",
+        "a": "Almost everything: what the source actually claims or finds, whether it is credible, and how you will use it in your essay. An annotation must summarize, evaluate, and connect to your argument."
+       },
+       {
+        "q": "Why write an annotated bibliography before drafting the essay?",
+        "a": "Because it forces you to read and judge each source before you depend on it \u2014 weak, irrelevant, or unusable sources show up now, while you can still replace them, instead of mid-draft when the essay is already built on them."
+       }
+      ],
+      "takeaway": "Annotate each source \u2014 summary, evaluation, use \u2014 and your draft will build on rock, not sand."
+     }
     ]
    },
    {
     "module_title": "Writing the Researched Argument",
     "lessons": [
-     "Outlining a Longer Argument",
-     "Integrating Quotations and Paraphrase",
-     "Counterargument in Researched Writing",
-     "Style and Clarity at the Sentence Level",
-     "Draft Workshop: Peer Review"
+     {
+      "title": "Outlining a Longer Argument",
+      "intro": "A 750-word essay can live in your head; a 2,000-word researched argument cannot. The outline is where a long essay is won or lost: it forces you to decide the order of claims, spot the section with no evidence, and see the gaps before they become a stalled draft. An outline is not a cage \u2014 it is a map you are allowed to redraw.",
+      "concepts": [
+       "Claim-per-section \u2014 each body section makes ONE claim that supports the thesis. If you cannot state a section's claim in one sentence, the section is not ready to draft.",
+       "Evidence slots \u2014 under each claim, list the evidence that will support it (which source, which fact or quote). A claim with an empty evidence slot is a research task, flagged before drafting.",
+       "The counterargument's place \u2014 plan where the strongest objection goes, usually after your best evidence and before the conclusion. An essay that answers its critics earns trust; one that ignores them invites doubt.",
+       "Flexible outlining \u2014 a sentence outline (full claims written out) helps most writers more than a topic outline ('Section 2: costs'). But the outline serves the essay: if drafting reveals a better order, change the outline and keep going."
+      ],
+      "example": {
+       "q": "Outline a 2,000-word essay arguing that community colleges should offer free breakfast.",
+       "steps": [
+        "Thesis: 'Free breakfast at community colleges would raise completion rates, because hunger \u2014 not ability \u2014 is what stops many students from finishing.'",
+        "Section 1 (the problem): food insecurity among community-college students \u2014 statistics from a national survey.",
+        "Section 2 (the mechanism): evidence linking nutrition to concentration and attendance \u2014 a peer-reviewed study.",
+        "Section 3 (costs and feasibility): what breakfast programs cost per student, and how other colleges fund them.",
+        "Section 4 (counterargument): 'Students should feed themselves' \u2014 answered with data on student work hours and wages. Conclusion: restate and call for a pilot program."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Your outline has a body section with a claim but no evidence listed. What should you do?",
+        "a": "Do not draft that section yet \u2014 go back to research. Either find evidence for the claim, or cut/merge the section. Drafting an unevidenced claim produces either a thin paragraph or a paragraph padded with filler."
+       },
+       {
+        "q": "Why is a sentence outline usually better than a topic outline for a long essay?",
+        "a": "A topic outline ('costs', 'benefits') hides weak thinking \u2014 any vague label fits. A sentence outline forces you to state each claim fully, so a claim that cannot be stated clearly is exposed before drafting."
+       }
+      ],
+      "takeaway": "Outline by claim, attach evidence to every claim, and plan the counterargument's place."
+     },
+     {
+      "title": "Integrating Quotations and Paraphrase",
+      "intro": "Evidence only works if it is woven into your sentences. A quotation dropped alone into a paragraph \u2014 the 'dropped quote' \u2014 confuses readers: whose voice is this, and why is it here? The fix is simple and mechanical: introduce every source, quote or paraphrase it, then explain what it proves. Introduce, cite, explain \u2014 every time.",
+      "concepts": [
+       "The quotation sandwich \u2014 top slice: introduce the source and its relevance ('Sleep researcher Patel found\u2026'). Middle: the quote or paraphrase. Bottom slice: your explanation of what it shows ('This matters because\u2026'). No sandwich, no quote.",
+       "Quote vs. paraphrase \u2014 quote when the wording itself matters (a definition, a striking phrase, a claim you will analyze). Paraphrase when only the idea matters \u2014 it keeps your voice dominant and shows you understood the source.",
+       "Signal phrases \u2014 'Patel argues\u2026', 'According to a 2024 study\u2026', 'Critics respond\u2026'. Signal phrases tell the reader who is speaking and what stance they take, so your voice and your sources never blur.",
+       "Balance \u2014 in a researched essay, your words should dominate: roughly 80\u201390% your sentences, 10\u201320% source material. An essay that is mostly quotations is a collage, not an argument."
+      ],
+      "example": {
+       "q": "Fix this dropped quote: 'Many students skip meals to save money. \"Food insecurity affects 41% of community college students\" (Goldrick-Rab, 2019). This is bad.'",
+       "steps": [
+        "Introduce: 'Researcher Sara Goldrick-Rab's national survey of community-college students found\u2026'",
+        "Quote with context: '\u2026that \"food insecurity affects 41% of community college students\" (Goldrick-Rab, 2019).'",
+        "Explain: 'That figure means nearly half the students in a typical classroom are choosing between food and textbooks \u2014 the exact population a breakfast program would serve.'",
+        "Conclusion: the same quote now does argumentative work, because the writer framed it and explained it."
+       ]
+      },
+      "practice": [
+       {
+        "q": "When should you quote directly instead of paraphrasing?",
+        "a": "When the exact wording matters \u2014 a definition, a memorable or controversial phrase, a claim you plan to analyze word by word, or language whose tone is part of the evidence. Otherwise paraphrase."
+       },
+       {
+        "q": "A paragraph has three long block quotes and two of your sentences. What is wrong?",
+        "a": "The balance is upside down: the sources are doing the arguing, not you. Paraphrase most of the evidence, quote only the striking lines, and add your own explanation after every piece of evidence."
+       }
+      ],
+      "takeaway": "Introduce, quote or paraphrase, explain \u2014 every piece of evidence gets all three."
+     },
+     {
+      "title": "Counterargument in Researched Writing",
+      "intro": "The strongest essays argue against their smartest critics. A counterargument section \u2014 the best objection to your thesis, stated fairly, then answered \u2014 does not weaken your case; it proves you have thought about it. Readers trust writers who have wrestled with the other side more than writers who pretend it does not exist.",
+      "concepts": [
+       "The steelman \u2014 state the opposing view in its strongest form, not a strawman. 'Critics argue that free breakfast costs too much' is weak; 'Critics note that a breakfast program costs $400,000 a year that could fund tutoring' is a real objection worth answering.",
+       "Concession \u2014 admit what the other side gets right. 'It is true that the program costs money' builds credibility and lets you focus the dispute on the real question: is it worth it?",
+       "Rebuttal \u2014 answer with evidence, not dismissal. Show the cost is offset by higher retention (which saves the college money), or that the objection rests on a wrong number.",
+       "Placement \u2014 the counterargument usually comes after your strongest evidence, so the reader already believes your case before meeting the objection \u2014 and then watches you handle it."
+      ],
+      "example": {
+       "q": "Your thesis: cities should phase out gas leaf blowers. Steelman the counterargument and rebut it.",
+       "steps": [
+        "Steelman: 'Landscaping companies argue that electric blowers are weaker and more expensive, and that a ban would raise prices for customers and cut into small businesses' thin margins.'",
+        "Concede: 'The cost concern is real \u2014 commercial electric blowers do cost more up front, and battery runtime is a genuine limit on large jobs.'",
+        "Rebut with evidence: 'But cities that phased in bans over two years saw prices rise less than 5%, because battery prices fell and crews adapted; meanwhile the health costs of gas exhaust and hearing damage fall on the same workers.'",
+        "Conclusion: the objection was heard, partly conceded, and answered \u2014 the thesis emerges stronger, not weaker."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What is a strawman, and why does it hurt your essay?",
+        "a": "A strawman is a weak, distorted version of the opposing view that is easy to knock down ('critics just hate students'). It hurts because readers recognize the dodge \u2014 it signals you either do not understand or are afraid of the real objection, which destroys trust."
+       },
+       {
+        "q": "Should the counterargument go in the introduction or near the end? Why?",
+        "a": "Usually near the end, after your main evidence. If it comes first, readers meet the objection before they have reason to believe your case; placed late, it reads as confidence \u2014 you have made your case and can now handle the hardest objection."
+       }
+      ],
+      "takeaway": "Steelman the strongest objection, concede what is true, rebut with evidence \u2014 trust follows."
+     },
+     {
+      "title": "Style and Clarity at the Sentence Level",
+      "intro": "A researched argument fails at the sentence level more often than at the idea level. Long, tangled sentences hide good thinking; vague words ('things', 'society', 'very important') say nothing. Clear style is not decoration \u2014 it is respect for the reader, and it is what makes a 2,000-word essay readable instead of exhausting.",
+      "concepts": [
+       "Concrete over abstract \u2014 prefer specific nouns and verbs: not 'the policy had negative effects on stakeholders' but 'the fee forced 300 commuters to park a mile away'. Concrete language is evidence; abstract language is fog.",
+       "Active voice as default \u2014 'The committee approved the plan' beats 'The plan was approved by the committee.' Active sentences name the actor, which is exactly what arguments need.",
+       "Sentence variety \u2014 mix short sentences (for punch: 'The data is clear.') with longer ones (for explanation and nuance). A paragraph of identical medium-length sentences puts readers to sleep.",
+       "Cut ruthlessly \u2014 delete throat-clearing ('It is important to note that\u2026'), repetition, and empty intensifiers ('very', 'really', 'extremely'). If a word does no work, it costs the reader attention."
+      ],
+      "example": {
+       "q": "Revise this sentence for clarity: 'It is widely believed by many people that the implementation of the policy was very problematic in terms of its overall effects on the student population.'",
+       "steps": [
+        "Name the actor: who believes this? 'Students and faculty say\u2026' \u2014 or cut the hedge entirely.",
+        "Name the effect: 'problematic' says nothing \u2014 what happened? '\u2026the policy raised fees by $200 a semester.'",
+        "Cut empty words: 'very', 'in terms of', 'overall' all go.",
+        "Result: 'The policy raised fees by $200 a semester, forcing many students to drop a course.' Same idea, half the words, ten times the information."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Rewrite in active voice with concrete detail: 'Mistakes were made in the handling of the situation by the administration.'",
+        "a": "Example: 'The administration lost the survey results and never told students.' Active voice names the actor; concrete detail names what actually happened \u2014 both are what the vague original hides."
+       },
+       {
+        "q": "Why does sentence variety matter in a long essay?",
+        "a": "Because rhythm carries attention: short sentences land claims, long sentences develop them. Uniform sentences \u2014 all the same length and shape \u2014 flatten the argument and tire the reader, no matter how good the ideas are."
+       }
+      ],
+      "takeaway": "Write concrete, active, varied sentences \u2014 clarity is the argument's delivery system."
+     },
+     {
+      "title": "Draft Workshop: Peer Review",
+      "intro": "Writers cannot see their own blind spots: you know what you meant, so your brain fills in the gaps your draft left out. Peer review is the fix \u2014 a real reader telling you where they got lost, what they did not believe, and what they wanted more of. Good peer review is specific, kind, and focused on the argument, not the commas.",
+      "concepts": [
+       "Read as a reader, not an editor \u2014 a reviewer's first job is to report their experience: 'I followed you until page 3, then lost the thread.' That report is more valuable than any grammar correction.",
+       "Higher-order before lower-order \u2014 argument, evidence, and structure first; grammar and formatting last. Fixing commas in a paragraph that should be deleted is wasted work.",
+       "Specific praise and specific problems \u2014 'Good essay' helps no one; 'Your counterargument section convinced me because of the cost data' tells the writer what to keep. Likewise, 'This paragraph confused me because I could not tell whose evidence it was' tells them exactly what to fix.",
+       "Receiving feedback \u2014 listen, take notes, and do not defend the draft in the moment. You do not have to take every suggestion, but you do have to understand it before deciding. The reader's confusion is data, even when you disagree with their fix."
+      ],
+      "example": {
+       "q": "A peer writes on your draft: 'I don't get why this source is here.' What should you do?",
+       "steps": [
+        "Treat the confusion as data: the source's role was clear to you, but not to a reader \u2014 the introduction or explanation is missing.",
+        "Check the paragraph: is there a signal phrase? Did you explain what the source proves after quoting it?",
+        "Fix the writing, not the reader: add an introduction ('This study matters because\u2026') and an explanation sentence after the quote.",
+        "Conclusion: the reviewer did not misunderstand your essay; your essay failed to guide them. That is exactly what workshops are for."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Which is more useful peer feedback: 'Your thesis is weak' or 'I could not tell what you were arguing until page 2, because the first paragraph only describes the problem'? Why?",
+        "a": "The second \u2014 it is specific, locates the problem, and explains the reader's experience. 'Your thesis is weak' names a verdict but gives the writer nothing to fix."
+       },
+       {
+        "q": "A reviewer suggests a change you disagree with. What should you do?",
+        "a": "First understand why they suggested it \u2014 what confusion or gap they were responding to. Then decide: fix the underlying problem your own way, or keep your choice deliberately. Never ignore feedback without understanding it, and never accept it blindly."
+       }
+      ],
+      "takeaway": "Peer review finds what you cannot see \u2014 seek the confusion, fix the writing, keep the argument."
+     }
     ]
    },
    {
     "module_title": "Revision, Citation and the Final Essay",
     "lessons": [
-     "MLA Documentation for Research Papers",
-     "Revision: Re-seeing, Not Just Proofreading",
-     "Editing and Proofreading Strategies",
-     "The Final Researched Argument Essay",
-     "Portfolio Reflection: How Your Writing Changed"
+     {
+      "title": "MLA Documentation for Research Papers",
+      "intro": "MLA style is the citation system of the humanities \u2014 and in ENG102, it is how you prove your evidence is real and let readers check it. Two parts: brief in-text citations that point to a source, and a Works Cited list that gives the full details. The rules are mechanical; once learned, they are the easiest points in the course.",
+      "concepts": [
+       "In-text citations \u2014 the author's last name and page number in parentheses: (Patel 42). No comma, no 'p.', no first name. The citation goes inside the sentence, before the final period.",
+       "Works Cited \u2014 one entry per source, alphabetized by author's last name, hanging indent, double-spaced. A journal article entry gives author, title, journal, volume, year, and pages \u2014 enough for a reader to find it.",
+       "Common sources, common formats \u2014 books, journal articles, and websites each have a pattern; learn the three you use most and look up the rest. The pattern is always: who, what, where, when.",
+       "Why it matters \u2014 citation is not busywork: it separates your ideas from your sources (plagiarism prevention), shows the strength of your evidence, and lets skeptical readers verify your claims. Sloppy citation reads as sloppy research."
+      ],
+      "example": {
+       "q": "Cite this source in MLA: a journal article by R. Patel titled 'Teen Sleep and Screens,' in the Journal of Adolescent Health, volume 74, 2024, pages 112\u2013128. Then use it in a sentence.",
+       "steps": [
+        "In-text: (Patel 118) \u2014 last name plus the page where the quoted fact appears.",
+        "Works Cited entry: Patel, R. 'Teen Sleep and Screens.' Journal of Adolescent Health, vol. 74, 2024, pp. 112\u2013128.",
+        "In a sentence: 'Each additional hour of nightly screen time was associated with twelve fewer minutes of sleep (Patel 118).'",
+        "Check: the in-text name matches the Works Cited entry's first word, so a reader can find the full source in seconds."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A student writes (Patel, p. 118). What is wrong?",
+        "a": "Two errors: MLA uses no comma after the author's name and no 'p.' before the page number. Correct form: (Patel 118)."
+       },
+       {
+        "q": "Why does the Works Cited list use a hanging indent (first line flush left, later lines indented)?",
+        "a": "So a reader scanning the list sees each entry's first word \u2014 usually the author's last name, which is what the in-text citation points to \u2014 sticking out at the left margin, making the list quick to search."
+       }
+      ],
+      "takeaway": "Cite in text (Name page), list fully in Works Cited \u2014 the reader must be able to find every source."
+     },
+     {
+      "title": "Revision: Re-seeing, Not Just Proofreading",
+      "intro": "Revision means re-seeing: looking at your draft again and asking whether the argument works \u2014 not whether the commas are right. Proofreading fixes the surface; revision can move sections, cut paragraphs, change the thesis, or rebuild the introduction. Students who only proofread submit first drafts with clean grammar. Students who revise submit better arguments.",
+      "concepts": [
+       "The cooling-off period \u2014 let the draft sit for a day if you can. Fresh eyes see gaps, repetitions, and leaps that the writer's tired brain smoothed over.",
+       "The reverse outline \u2014 after drafting, outline what the essay ACTUALLY says, paragraph by paragraph. Compare it with your plan: sections in the wrong order, claims with no evidence, and paragraphs that repeat each other all show up instantly.",
+       "The thesis test \u2014 does the final draft actually prove the thesis as written? If the evidence led somewhere new, revise the thesis to match the essay \u2014 or revise the essay to match the thesis. One of them must move.",
+       "Cutting is revising \u2014 a paragraph can be well written and still not belong. If a section does not serve the thesis, delete it (save it in a separate file if it hurts). Shorter and tighter beats longer and looser."
+      ],
+      "example": {
+       "q": "A student's reverse outline shows her body sections in this order: costs, health effects, history of the policy, counterargument, benefits. What is wrong, and how should she revise?",
+       "steps": [
+        "The history section sits in the middle, breaking the argument's momentum \u2014 readers meet background after they have already seen evidence.",
+        "Move history to the introduction (briefly) or to the first body section, so the argument flows: problem \u2192 evidence (health, benefits) \u2192 costs \u2192 counterargument.",
+        "Check the thesis: if the draft's real claim turned out to be about health rather than cost, revise the thesis to say so.",
+        "Conclusion: revision is structural \u2014 moving blocks, not fixing words. The sentences were fine; the order was the problem."
+       ]
+      },
+      "practice": [
+       {
+        "q": "What is the difference between revision and proofreading?",
+        "a": "Revision re-sees the argument: order, claims, evidence, thesis \u2014 big changes. Proofreading fixes surface errors: spelling, grammar, punctuation, citation format. Revision comes first; proofreading a draft you are about to restructure wastes effort."
+       },
+       {
+        "q": "Your reverse outline shows two paragraphs making the same claim. What should you do?",
+        "a": "Merge them into one stronger paragraph \u2014 combine the best evidence from both and delete the repetition. Two paragraphs saying the same thing dilute the argument instead of strengthening it."
+       }
+      ],
+      "takeaway": "Revise the argument first \u2014 reverse-outline, test the thesis, cut what does not serve it."
+     },
+     {
+      "title": "Editing and Proofreading Strategies",
+      "intro": "Editing is the final pass, and it works best with tricks that defeat your brain's habit of reading what you meant instead of what you wrote. Read aloud, read backwards, change the font, print it out \u2014 anything that makes the familiar strange. The goal is a clean final draft where the reader never trips over a surface error.",
+      "concepts": [
+       "Read aloud \u2014 your ear catches what your eye skips: missing words, tangled sentences, repeated words, and rhythm problems. If you stumble reading a sentence, the reader will too.",
+       "Read backwards, sentence by sentence \u2014 starting at the last sentence and moving up breaks the flow of meaning, so your brain stops auto-correcting and actually sees each sentence's grammar.",
+       "The error log \u2014 keep a list of the mistakes you make most (comma splices? its/it's? citation format?). Proofread with that list in hand, hunting one error type at a time.",
+       "Fresh eyes and fresh formats \u2014 print the essay, change the font, or have someone else read it. A changed format makes errors visible; a second reader catches what you are blind to."
+      ],
+      "example": {
+       "q": "A student's final draft has this sentence: 'The study show that students whom skip breakfast scores lower on morning exams.' How would reading aloud and reading backwards help find the errors?",
+       "steps": [
+        "Reading aloud: 'The study show' sounds wrong to the ear \u2014 subject-verb agreement (study shows). 'Whom skip' also sounds off \u2014 the subject form is 'who'.",
+        "Reading backwards sentence by sentence: isolated from the paragraph's flow, 'scores lower' stands out \u2014 the subject is plural (students), so it should be 'score lower'.",
+        "Fix: 'The study shows that students who skip breakfast score lower on morning exams.' Three errors, all caught by technique, not by staring harder.",
+        "Conclusion: proofreading is a set of procedures, not a talent \u2014 use the tricks every time."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why is proofreading on the same screen, right after drafting, the least effective method?",
+        "a": "Because your brain knows what you meant and fills in gaps automatically \u2014 it reads the intended sentence, not the actual one. Time, a format change, or another reader breaks that familiarity so errors become visible."
+       },
+       {
+        "q": "What is an error log, and how does it make proofreading faster?",
+        "a": "A personal list of the errors you make repeatedly. Proofreading becomes a targeted hunt \u2014 one pass for comma splices, one for your common misspellings \u2014 instead of a vague hope that you will notice everything at once."
+       }
+      ],
+      "takeaway": "Proofread with procedures \u2014 read aloud, read backwards, hunt your own error patterns."
+     },
+     {
+      "title": "The Final Researched Argument Essay",
+      "intro": "Everything in this course converges here: a 2,000+ word researched argument essay, built on a real question, supported by credible sources, documented in MLA style, and revised through peer review. This lesson is the assembly checklist \u2014 the standards your final essay must meet and the order to check them in.",
+      "concepts": [
+       "The requirements \u2014 a genuine research question, a clear arguable thesis, 2,000+ words, multiple credible sources (including scholarly ones), a fair counterargument, correct MLA documentation, and evidence of revision.",
+       "The assembly order \u2014 research question \u2192 working thesis \u2192 source gathering \u2192 annotated bibliography \u2192 outline \u2192 draft \u2192 peer review \u2192 revision \u2192 editing \u2192 final. Skipping steps shows up in the product.",
+       "The introduction's job \u2014 hook the reader, establish the question and why it matters, and deliver the thesis. In a researched essay, the introduction also signals the conversation you are entering.",
+       "The conclusion's job \u2014 not a summary, but a landing: what follows from the argument, what should change, what remains unknown. A conclusion that only repeats the thesis wastes the last thing the reader reads."
+      ],
+      "example": {
+       "q": "A student's final draft is 1,600 words, cites three blog posts, has no counterargument, and its thesis is 'Social media is complicated.' Diagnose it against the final-essay standards.",
+       "steps": [
+        "Length and sources: 400 words short, and blogs are not credible scholarly evidence \u2014 the research base is too thin.",
+        "Thesis: 'complicated' is not arguable or specific \u2014 there is no claim to prove. It needs a specific position with reasons.",
+        "Missing counterargument: without one, the essay reads as one-sided advocacy, not researched argument.",
+        "Fix plan: narrow the question, find scholarly sources, sharpen the thesis, add the counterargument section, then expand to length through evidence \u2014 not padding."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Your essay is 200 words short. What is the right way to reach length, and what is the wrong way?",
+        "a": "Right: add evidence \u2014 a stronger example, another source, a fuller counterargument, a deeper explanation. Wrong: padding \u2014 repetition, empty phrases, bigger fonts, or restating the thesis in new words."
+       },
+       {
+        "q": "What should the conclusion of a researched argument do that the introduction does not?",
+        "a": "Look forward: state what follows from the argument \u2014 a policy to adopt, a question still open, a change in how the reader should think. The introduction opens the question; the conclusion shows why the answer matters."
+       }
+      ],
+      "takeaway": "Assemble in order \u2014 question, thesis, sources, outline, draft, review, revise \u2014 and check the standards last."
+     },
+     {
+      "title": "Portfolio Reflection: How Your Writing Changed",
+      "intro": "The course ends where good writing begins: with reflection. A portfolio reflection asks you to look at your own work across the semester \u2014 your ENG101 habits, your ENG102 drafts, your revisions \u2014 and name what changed. Writers who can describe their growth can repeat it; writers who cannot, stall.",
+      "concepts": [
+       "Evidence from your own work \u2014 a reflection is not a feeling ('I got better'); it is an argument about your own writing, supported by examples: 'In my first draft I dropped quotes; in my final essay every quote has an introduction and an explanation.'",
+       "Naming the moves \u2014 use the course vocabulary: thesis, synthesis, counterargument, revision, MLA documentation. Naming a skill is the first step to using it on purpose next time.",
+       "Honest limits \u2014 a strong reflection names what still needs work ('My counterarguments are still thinner than my main case') alongside the gains. Growth you can see clearly is growth you can continue.",
+       "The portfolio as proof \u2014 the reflection ties the pieces together: early draft, peer feedback, revision, final essay. Together they show a process, not just a product \u2014 which is the point of the course."
+      ],
+      "example": {
+       "q": "Write one paragraph of portfolio reflection using evidence from your own drafts.",
+       "steps": [
+        "Pick a specific change: 'At the start of the semester, my evidence paragraphs were lists of quotes; by the final essay, I used the quotation sandwich \u2014 introduce, cite, explain \u2014 in every paragraph.'",
+        "Give evidence: quote your own early draft ('\"Food insecurity affects 41%...\" (Goldrick-Rab, 2019). This is bad.') and your later one (the framed, explained version).",
+        "Name the move and its effect: 'Learning to explain evidence after quoting it changed my paragraphs from collections of sources into arguments of my own.'",
+        "Add an honest limit: 'My counterarguments are still the weakest part of my essays \u2014 I concede well but rebut thinly \u2014 and that is my focus next semester.'"
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why is 'I improved a lot this semester' a weak reflection sentence?",
+        "a": "It makes a claim with no evidence and no specifics. A strong reflection names the skill, shows before-and-after evidence from the writer's own drafts, and explains what changed and why it matters."
+       },
+       {
+        "q": "What is the difference between a portfolio and a pile of old essays?",
+        "a": "A portfolio is curated and connected: selected pieces plus a reflection that explains what they show about the writer's growth. A pile is just old work with no story about what it means."
+       }
+      ],
+      "takeaway": "Reflect with evidence: name what changed, show it in your drafts, and name what is next."
+     }
     ]
    }
   ],
@@ -10869,7 +11450,7 @@
    "project": true
   },
   "mastery_rubric": "Produce a researched argument essay of 2,000+ words with a clear thesis, synthesized scholarly sources, correct MLA documentation, and a demonstrated revision process. Portfolio grade 70% or higher.",
-  "source": "Martinez original syllabus (authored 2026-11-14)"
+  "source": "Martinez original \u2014 written lessons (authored 2026-11-26)"
  },
  "HIST101": {
   "modules": [
