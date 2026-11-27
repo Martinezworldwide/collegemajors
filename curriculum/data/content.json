@@ -11977,41 +11977,630 @@
    {
     "module_title": "Kinematics and Vectors",
     "lessons": [
-     "Motion in One Dimension: Position, Velocity, Acceleration",
-     "Vectors and Motion in Two Dimensions",
-     "Projectile Motion",
-     "Relative Motion and Frames of Reference",
-     "Problem-Solving: Turning Words into Equations"
+     {
+      "title": "Motion in One Dimension: Position, Velocity, Acceleration",
+      "intro": "Physics I starts with the simplest possible motion: an object moving along a straight line. Everything else in the course \u2014 forces, energy, rotation \u2014 is built on the three quantities in this lesson: where the object is (position), how fast that position changes (velocity), and how fast the velocity changes (acceleration). Because this is a calculus-based course, you will meet these quantities as derivatives from day one: velocity is the derivative of position, acceleration the derivative of velocity, and the integrals run the other way.",
+      "concepts": [
+       "Position x(t) \u2014 where the object is at time t, measured from a chosen origin along a chosen axis. Position is a signed number: negative means 'on the other side of the origin,' not 'less real.' The choice of origin is yours; the physics does not depend on it, but the numbers do.",
+       "Displacement \u0394x = x\u2082 \u2212 x\u2081 \u2014 the change in position between two times. Displacement is not distance traveled: a runner who returns to the start has zero displacement but a large distance. Average velocity is displacement over time, v_avg = \u0394x/\u0394t; instantaneous velocity is the limit, v = dx/dt \u2014 the slope of the position-vs-time graph at one instant.",
+       "Acceleration a = dv/dt = d\u00b2x/dt\u00b2 \u2014 the rate of change of velocity, the slope of the velocity-vs-time graph. A negative acceleration does not always mean 'slowing down': it means velocity is decreasing, which speeds an object up if it is already moving in the negative direction.",
+       "Constant-acceleration kinematics \u2014 when a is constant, the derivatives integrate to the four workhorse equations: v = v\u2080 + at; x = x\u2080 + v\u2080t + \u00bdat\u00b2; v\u00b2 = v\u2080\u00b2 + 2a(x \u2212 x\u2080); x = x\u2080 + \u00bd(v\u2080 + v)t. Each equation omits one variable; pick the equation that omits the quantity you were not given.",
+       "Reading graphs \u2014 the slope of an x\u2013t graph is velocity; the slope of a v\u2013t graph is acceleration; the area under a v\u2013t graph is displacement; the area under an a\u2013t graph is the change in velocity. Before you calculate, sketch the graph: it tells you the sign and size of the answer you should expect."
+      ],
+      "example": {
+       "q": "A car starts from rest and accelerates at a constant 2.5 m/s\u00b2 for 8.0 s. How far does it travel, and how fast is it going at the end?",
+       "steps": [
+        "List what is known: v\u2080 = 0 (starts from rest), a = 2.5 m/s\u00b2, t = 8.0 s, x\u2080 = 0. Unknowns: x and v. Time is given, so use the equations that include t.",
+        "Final velocity: v = v\u2080 + at = 0 + (2.5)(8.0) = 20 m/s \u2014 about 72 km/h (45 mph).",
+        "Distance: x = x\u2080 + v\u2080t + \u00bdat\u00b2 = 0 + 0 + \u00bd(2.5)(8.0)\u00b2 = \u00bd(2.5)(64) = 80 m.",
+        "Check: average velocity is (0 + 20)/2 = 10 m/s, and 10 m/s \u00d7 8.0 s = 80 m. The two routes agree, as they must."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A ball is thrown straight up at 15 m/s. Using g = 9.8 m/s\u00b2 downward, how high does it go, and how long until it returns to the thrower's hand?",
+        "a": "At the top v = 0: v\u00b2 = v\u2080\u00b2 \u2212 2g\u0394y gives 0 = 225 \u2212 19.6\u0394y, so \u0394y \u2248 11.5 m. Time to the top: v = v\u2080 \u2212 gt \u2192 0 = 15 \u2212 9.8t \u2192 t \u2248 1.53 s; the round trip is twice that, \u2248 3.1 s."
+       },
+       {
+        "q": "A position-vs-time graph is a downward-opening parabola. What does that tell you about the velocity and the acceleration?",
+        "a": "The slope (velocity) starts positive, decreases through zero at the vertex, then turns negative \u2014 so velocity is decreasing throughout. A decreasing slope means the second derivative is negative: acceleration is constant and negative (the parabola is the x(t) of constant-acceleration motion)."
+       }
+      ],
+      "takeaway": "Velocity is the derivative of position, acceleration the derivative of velocity \u2014 and every constant-acceleration problem is one of four equations."
+     },
+     {
+      "title": "Vectors and Motion in Two Dimensions",
+      "intro": "Real motion rarely stays on one line. A boat crossing a river, a plane in a crosswind, a ball curving through the air \u2014 all need vectors: quantities with both size and direction. This lesson turns the one-dimensional ideas you just learned into vector form, so the same derivative relationships (v = dr/dt, a = dv/dt) work in any number of dimensions, one component at a time.",
+      "concepts": [
+       "Vectors vs. scalars \u2014 a scalar has magnitude only (speed, mass, time); a vector has magnitude and direction (velocity, displacement, force). A vector is written as an arrow, or as components: A = A\u2093\u00ee + A_y\u0135, where \u00ee and \u0135 are unit vectors along the axes.",
+       "Components \u2014 pick axes, then resolve: A\u2093 = A cos \u03b8, A_y = A sin \u03b8, where \u03b8 is measured from the +x axis. The magnitude is |A| = \u221a(A\u2093\u00b2 + A_y\u00b2) and the direction is \u03b8 = tan\u207b\u00b9(A_y/A\u2093) \u2014 but check the quadrant: tan\u207b\u00b9 alone cannot tell (A\u2093, A_y) = (\u22123, 4) from (3, \u22124).",
+       "Vector addition \u2014 add component by component: (A + B)\u2093 = A\u2093 + B\u2093. Graphically this is tip-to-tail: place the tail of B at the tip of A; the sum runs from A's tail to B's tip. Subtraction is addition of the negative: A \u2212 B = A + (\u2212B), which flips B's direction.",
+       "The dot product \u2014 A\u00b7B = |A||B|cos \u03c6 = A\u2093B\u2093 + A_yB_y. It measures how much of one vector lies along another, and it is zero for perpendicular vectors. It appears constantly later: work is a dot product (W = F\u00b7d).",
+       "Two-dimensional kinematics \u2014 position, velocity, and acceleration become vectors, and each component obeys the one-dimensional rules independently: x(t) and y(t) evolve on their own clocks, linked only by the shared time t. Motion in x never 'knows' about motion in y."
+      ],
+      "example": {
+       "q": "A hiker walks 3.0 km east, then 4.0 km north. What is the hiker's displacement (magnitude and direction)?",
+       "steps": [
+        "Set axes: +x east, +y north. The two legs are vectors (3.0, 0) km and (0, 4.0) km.",
+        "Add components: displacement = (3.0 + 0, 0 + 4.0) = (3.0, 4.0) km. Note this is not 7.0 km \u2014 that is the distance walked.",
+        "Magnitude: |d| = \u221a(3.0\u00b2 + 4.0\u00b2) = \u221a25 = 5.0 km.",
+        "Direction: \u03b8 = tan\u207b\u00b9(4.0/3.0) \u2248 53\u00b0 north of east. The 3\u20134\u20135 triangle is worth recognizing on sight."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A vector has magnitude 10 and points 120\u00b0 from the +x axis. What are its components?",
+        "a": "A\u2093 = 10 cos 120\u00b0 = 10(\u22120.5) = \u22125.0; A_y = 10 sin 120\u00b0 = 10(0.866) \u2248 +8.7. The negative x-component is the point: 120\u00b0 is in the second quadrant."
+       },
+       {
+        "q": "Two forces act on a box: 6 N east and 8 N north. What single force would replace them?",
+        "a": "The vector sum: magnitude \u221a(6\u00b2 + 8\u00b2) = 10 N, direction tan\u207b\u00b9(8/6) \u2248 53\u00b0 north of east. One 10 N push at 53\u00b0 does exactly what the two pushes do together."
+       }
+      ],
+      "takeaway": "Vectors add component by component \u2014 resolve, add, reassemble \u2014 and each component obeys the one-dimensional motion rules."
+     },
+     {
+      "title": "Projectile Motion",
+      "intro": "Throw a ball and it traces a parabola. That elegant curve is really two simple motions stacked together: steady horizontal motion (no acceleration) and vertical motion under gravity (constant acceleration). Because the components are independent, projectile motion is the first place the vector machinery pays off \u2014 and the first place where choosing the right equation, not memorizing a special formula, solves every problem.",
+      "concepts": [
+       "The independence principle \u2014 horizontal and vertical motions share only the time t. Gravity acts vertically, so a\u2093 = 0 and a_y = \u2212g. A bullet fired horizontally and a bullet dropped from the same height hit the ground at the same instant (in the absence of air resistance).",
+       "Launch decomposition \u2014 a launch speed v\u2080 at angle \u03b8 gives v\u2080\u2093 = v\u2080 cos \u03b8 (constant forever) and v\u2080_y = v\u2080 sin \u03b8 (shrinking under gravity). The angle is the only thing deciding how the speed is split between range and height.",
+       "Range and height \u2014 for a projectile launched and landing at the same height: time of flight T = 2v\u2080 sin \u03b8 / g; range R = v\u2080\u00b2 sin 2\u03b8 / g; maximum height H = v\u2080\u00b2 sin\u00b2 \u03b8 / (2g). Range is largest at 45\u00b0; 30\u00b0 and 60\u00b0 give the same range (sin 2\u03b8 is symmetric).",
+       "The trajectory \u2014 eliminating t between x(t) and y(t) gives y(x) = x tan \u03b8 \u2212 (g / 2v\u2080\u00b2cos\u00b2\u03b8) x\u00b2, a parabola. The minus sign on the x\u00b2 term is gravity bending the path down; with g = 0 the path would be a straight line at angle \u03b8.",
+       "Air resistance \u2014 the honest caveat: real projectiles feel drag, which grows with speed and breaks the parabola, especially for light, fast objects. In this course we neglect it unless a problem says otherwise \u2014 but know that the clean formulas are the no-drag idealization."
+      ],
+      "example": {
+       "q": "A soccer ball is kicked at 20 m/s at 30\u00b0 above the horizontal from ground level. How far does it travel before landing, and what is its maximum height?",
+       "steps": [
+        "Decompose: v\u2080\u2093 = 20 cos 30\u00b0 \u2248 17.3 m/s; v\u2080_y = 20 sin 30\u00b0 = 10 m/s.",
+        "Time of flight: the ball lands when y returns to zero, T = 2v\u2080_y / g = 2(10)/9.8 \u2248 2.04 s.",
+        "Range: R = v\u2080\u2093 \u00d7 T \u2248 17.3 \u00d7 2.04 \u2248 35 m.",
+        "Maximum height: at the top v_y = 0, so H = v\u2080_y\u00b2 / (2g) = 100/19.6 \u2248 5.1 m. A 35 m kick that peaks just over 5 m \u2014 the flat arc of a low driven ball."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A projectile is launched at 60\u00b0 and another at 30\u00b0 with the same speed. Which goes farther, and which goes higher?",
+        "a": "Same range: sin 2\u03b8 is sin 120\u00b0 = sin 60\u00b0, so R is identical. The 60\u00b0 launch goes higher: H depends on sin\u00b2\u03b8, and sin\u00b260\u00b0 = 0.75 vs. sin\u00b230\u00b0 = 0.25 \u2014 three times as high."
+       },
+       {
+        "q": "A ball is thrown horizontally at 12 m/s from a 20 m cliff. How long until it hits the ground, and how far from the cliff base does it land?",
+        "a": "Vertical fall: 20 = \u00bd(9.8)t\u00b2 \u2192 t \u2248 2.0 s. Horizontal distance: x = v\u2080\u2093t = 12 \u00d7 2.0 = 24 m. The horizontal speed never changes; only the fall time matters."
+       }
+      ],
+      "takeaway": "A projectile is two motions in one: constant horizontal velocity, vertical free fall \u2014 and time is the only link between them."
+     },
+     {
+      "title": "Relative Motion and Frames of Reference",
+      "intro": "Motion is never absolute \u2014 it is always motion relative to something. A passenger walking down the aisle of a moving train is strolling at 1 m/s relative to the train and racing at 31 m/s relative to the ground. This lesson makes that bookkeeping exact: how velocities add when you change frames, and why the laws of physics look the same in every inertial frame \u2014 the idea that eventually leads to Einstein.",
+      "concepts": [
+       "Frames of reference \u2014 a coordinate system plus a clock. Your description of a motion (position, velocity) depends on which frame you stand in; the motion itself does not. Choosing the frame that makes the problem easy is a skill, not a cheat.",
+       "Galilean velocity addition \u2014 if frame B moves at velocity V relative to frame A, then a velocity measured in B becomes v_A = v_B + V in A. Velocities add as vectors: a boat's velocity relative to shore is its velocity relative to the water plus the water's velocity relative to shore.",
+       "Inertial frames \u2014 frames moving at constant velocity relative to each other. Newton's laws hold in every inertial frame, and no experiment done inside a smoothly moving train can tell you how fast the train is going. Accelerating frames are different: they need fictitious forces, which is why this course treats them with care.",
+       "Relative velocity problems \u2014 the standard setup: 'a plane flies at 200 km/h airspeed into a 50 km/h headwind; what is its ground speed?' Answer by vector addition, component by component. For crossing a river, aim upstream so the sum of the vectors points straight across.",
+       "The river-crossing classic \u2014 to cross straight across a river flowing at v_river, a boat with speed v_boat (relative to water) must aim upstream at angle \u03b8 where sin \u03b8 = v_river / v_boat. If v_boat < v_river, straight across is impossible \u2014 the current wins, and the best you can do is minimize downstream drift."
+      ],
+      "example": {
+       "q": "A boat can travel at 5.0 m/s relative to the water. The river flows at 3.0 m/s. At what angle upstream must the boat aim to cross straight across, and what is its speed relative to the shore?",
+       "steps": [
+        "Set +x across the river, +y upstream. The boat's velocity relative to water is (5.0 cos \u03b8, 5.0 sin \u03b8) with \u03b8 measured from the across direction; the river adds (0, \u22123.0).",
+        "Straight across means the y-component of the sum is zero: 5.0 sin \u03b8 \u2212 3.0 = 0 \u2192 sin \u03b8 = 0.60 \u2192 \u03b8 \u2248 37\u00b0 upstream.",
+        "Speed relative to shore is the remaining x-component: 5.0 cos 37\u00b0 \u2248 5.0(0.80) = 4.0 m/s. The boat crosses slower than its water speed \u2014 part of its effort fights the current."
+       ]
+      },
+      "practice": [
+       {
+        "q": "You walk at 1.5 m/s toward the front of a train moving at 25 m/s. How fast are you moving relative to the ground? Relative to a passenger walking toward the back at 1.5 m/s?",
+        "a": "Relative to the ground: 25 + 1.5 = 26.5 m/s forward. The other passenger moves at 25 \u2212 1.5 = 23.5 m/s forward relative to the ground, so relative to you they move at 23.5 \u2212 26.5 = \u22123.0 m/s \u2014 3.0 m/s toward the back, as if the train were standing still."
+       },
+       {
+        "q": "A plane's airspeed is 250 km/h due north, but a 60 km/h wind blows from the west. What is the plane's velocity over the ground?",
+        "a": "Add vectors: north component 250 km/h, east component 60 km/h (wind from the west pushes east). Ground speed = \u221a(250\u00b2 + 60\u00b2) \u2248 257 km/h, heading tan\u207b\u00b9(60/250) \u2248 13.5\u00b0 east of north. To fly due north the pilot must aim slightly west to cancel the drift."
+       }
+      ],
+      "takeaway": "Velocities add vectorially across frames \u2014 pick the frame that makes the problem easy, then transform."
+     },
+     {
+      "title": "Problem-Solving: Turning Words into Equations",
+      "intro": "Physics problems are not math problems with a story pasted on: the hard part is translating words into a physical model before any equation appears. This lesson teaches the method that carries the whole course \u2014 draw, list, choose, solve, check \u2014 and shows why students who skip the drawing step keep getting the right equation with the wrong sign.",
+      "concepts": [
+       "Draw first \u2014 a sketch with axes, the object, its motion, and the known quantities. The drawing is where you decide the coordinate system, and the coordinate system decides every sign in the solution. No sketch, no signs.",
+       "List knowns and unknowns \u2014 write every number the problem gives with its symbol and unit, and name what is asked for. If a quantity is not given and not asked, it is a variable to eliminate \u2014 often by combining two equations.",
+       "Choose the model, then the equation \u2014 is acceleration constant? Is motion one- or two-dimensional? Is a force involved, or is energy conserved? The model picks the equation; reaching for a formula before naming the model is the most common error in the course.",
+       "Solve symbolically, then substitute numbers \u2014 algebra with symbols first keeps the physics visible and makes unit checks possible; plugging numbers in early hides mistakes and makes a wrong answer look finished. Keep symbols until the last step.",
+       "Check the answer \u2014 three checks: units (does the result have the right dimensions?), magnitude (is 35 m a sane kick, or did you get 35 km?), and limiting cases (does the answer behave correctly when the angle is 0\u00b0 or 90\u00b0?). An answer that fails a check is wrong even if the arithmetic is right."
+      ],
+      "example": {
+       "q": "A car traveling at 25 m/s brakes with a constant deceleration of 5.0 m/s\u00b2. How far does it travel before stopping? Work it by the five-step method.",
+       "steps": [
+        "Draw: a horizontal axis, the car moving +x at 25 m/s, braking to rest. Knowns: v\u2080 = 25 m/s, v = 0, a = \u22125.0 m/s\u00b2 (negative because it opposes the motion). Unknown: \u0394x. Time is neither given nor asked.",
+        "Choose the equation that omits time: v\u00b2 = v\u2080\u00b2 + 2a\u0394x.",
+        "Solve symbolically: \u0394x = (v\u00b2 \u2212 v\u2080\u00b2) / 2a.",
+        "Substitute: \u0394x = (0 \u2212 625) / (2 \u00d7 \u22125.0) = (\u2212625)/(\u221210) = 62.5 m.",
+        "Check: units are meters; magnitude ~60 m is a sane stopping distance from highway speed; if a were larger the distance would shrink, as expected."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A problem gives you initial velocity, final velocity, and distance, but asks for acceleration. Which constant-acceleration equation do you use, and why?",
+        "a": "v\u00b2 = v\u2080\u00b2 + 2a\u0394x \u2014 it is the only one that contains v, v\u2080, a, and \u0394x and omits time, which you were not given and were not asked for."
+       },
+       {
+        "q": "You calculate a projectile's range as 4,800 m for a hand-thrown ball. What is wrong, and how would the three checks catch it?",
+        "a": "Magnitude fails: a hand throw reaches tens of meters, not kilometers. Likely an error of units (using km/h as m/s) or of the angle (sin 2\u03b8 with \u03b8 in radians vs. degrees). The unit check would catch a dimensions error; the magnitude check catches the rest."
+       }
+      ],
+      "takeaway": "Draw, list, choose the model, solve symbolically, check \u2014 the method matters more than any single formula."
+     }
     ]
    },
    {
     "module_title": "Newton's Laws and Forces",
     "lessons": [
-     "Newton's First and Second Laws",
-     "Free-Body Diagrams",
-     "Friction: Static and Kinetic",
-     "Newton's Third Law and Action-Reaction Pairs",
-     "Circular Motion and Centripetal Force"
+     {
+      "title": "Newton's First and Second Laws",
+      "intro": "Kinematics described motion; dynamics explains it. Newton's laws are the explanation: an object keeps doing what it is doing unless a force acts on it, and the force that acts determines exactly how its motion changes. The second law, F = ma, is the single most used equation in this course \u2014 it is the bridge between the forces you can see and the acceleration you can measure, and in calculus form it is a differential equation: F = m dv/dt.",
+      "concepts": [
+       "Newton's first law (inertia) \u2014 an object at rest stays at rest and an object in motion stays in motion with the same velocity unless a net force acts. Inertia is not a force; it is the property of mass that resists changes in motion. The law also defines inertial frames: frames where it holds.",
+       "Force \u2014 a push or pull, a vector measured in newtons (1 N = 1 kg\u00b7m/s\u00b2). Forces come from interactions: contact pushes, gravity, tension, friction, air resistance. A force has a source, a direction, and a magnitude \u2014 and a free-body diagram is where you keep track of all three.",
+       "Net force \u2014 the vector sum of all forces on an object. Only the net force matters for acceleration: a 100 N push opposed by a 100 N pull produces zero acceleration. 'Balanced forces' means \u03a3F = 0 and the velocity is constant (which includes standing still).",
+       "Newton's second law \u2014 \u03a3F = ma. Acceleration is directly proportional to net force and inversely proportional to mass: the same push accelerates a light object more than a heavy one. Component-wise: \u03a3F\u2093 = ma\u2093 and \u03a3F_y = ma_y \u2014 each direction is its own second-law equation.",
+       "Mass vs. weight \u2014 mass is an intrinsic property (kg), the same everywhere; weight is the gravitational force on that mass (W = mg, in newtons), which changes with g. On the Moon you weigh one-sixth as much but your mass \u2014 and your inertia \u2014 are unchanged."
+      ],
+      "example": {
+       "q": "A 1,200 kg car accelerates from rest to 20 m/s in 5.0 s on a level road. What net force acted on it? (Neglect friction and drag.)",
+       "steps": [
+        "Find the acceleration: a = \u0394v/\u0394t = (20 \u2212 0)/5.0 = 4.0 m/s\u00b2.",
+        "Apply the second law: F_net = ma = (1,200 kg)(4.0 m/s\u00b2) = 4,800 N.",
+        "Interpretation: the engine (through the tires) must exert about 4.8 kN of forward force. In reality the engine must exert more, because friction and drag oppose it \u2014 the 4,800 N is the net force after those are subtracted."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A 0.50 kg hockey puck slides across frictionless ice at a constant 3.0 m/s. What net force acts on it?",
+        "a": "Zero. Constant velocity means zero acceleration, and \u03a3F = ma = 0. No force is needed to keep it moving \u2014 that is the first law. (Gravity and the normal force cancel; there is no friction.)"
+       },
+       {
+        "q": "The same 10 N force is applied to a 2 kg block and a 5 kg block. How do their accelerations compare?",
+        "a": "a = F/m: the 2 kg block accelerates at 5.0 m/s\u00b2 and the 5 kg block at 2.0 m/s\u00b2. The lighter block accelerates 2.5 times as much \u2014 acceleration is inversely proportional to mass."
+       }
+      ],
+      "takeaway": "\u03a3F = ma: net force causes acceleration, mass resists it \u2014 and balanced forces mean constant velocity."
+     },
+     {
+      "title": "Free-Body Diagrams",
+      "intro": "A free-body diagram is the single most valuable drawing in mechanics. It is a picture of one object, isolated from everything else, with an arrow for every force acting on it \u2014 and nothing else. Get the diagram right and the equations write themselves; get it wrong and no amount of algebra saves you. Every dynamics problem in this course starts here.",
+      "concepts": [
+       "Isolate the object \u2014 draw only the object of interest as a dot or a box. Everything else (the ground, the rope, the air) appears only as force arrows. Forces the object exerts on other things do not belong on its diagram \u2014 that is the most common mistake.",
+       "Force inventory \u2014 the standard cast: weight (mg, always straight down), normal force (perpendicular to the supporting surface, away from it), tension (along a rope or cable, pulling away from the object), friction (parallel to the surface, opposing motion or attempted motion), applied pushes/pulls, and spring force. If you cannot name the source of an arrow, delete it.",
+       "Axes \u2014 choose them to simplify the problem, not to match the page. For an incline, tilt the axes so x runs down the slope: then the normal force is purely in y and only weight has an x-component. The second law is applied component by component, so a good axis choice can halve the work.",
+       "From diagram to equations \u2014 \u03a3F\u2093 = ma\u2093 and \u03a3F_y = ma_y, reading components off the arrows. A force at an angle contributes F cos \u03b8 to one axis and F sin \u03b8 to the other; the diagram shows which is which \u2014 never guess from memory.",
+       "Systems and the third law \u2014 when two objects interact, draw a diagram for each, and remember the forces they exert on each other are equal and opposite. Internal forces cancel when you treat the pair as one system, which is why a system's acceleration depends only on external forces."
+      ],
+      "example": {
+       "q": "A 5.0 kg block sits on a 30\u00b0 incline. Draw the forces and find the component of weight acting down the slope and the normal force.",
+       "steps": [
+        "Inventory: weight mg straight down; normal force N perpendicular to the slope; (friction ignored for now). Tilt the axes: x down the slope, y perpendicular to it.",
+        "Resolve weight: the angle between mg and the y-axis is the slope angle, 30\u00b0. So the x-component (down-slope) is mg sin 30\u00b0 = (5.0)(9.8)(0.50) = 24.5 N, and the y-component (into the slope) is mg cos 30\u00b0 \u2248 42.4 N.",
+        "Normal force: with no acceleration perpendicular to the slope, \u03a3F_y = 0 gives N = mg cos 30\u00b0 \u2248 42 N. The normal force is less than the weight on a slope \u2014 part of the weight pulls the block down the slope instead of into it.",
+        "Down-slope acceleration if released (no friction): a = F\u2093/m = 24.5/5.0 = 4.9 m/s\u00b2 = g sin 30\u00b0 \u2014 the mass cancels, so any block slides the same way."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A book rests on a table. Draw its free-body diagram in words: what forces act, and what are their magnitudes in terms of mg?",
+        "a": "Two forces: weight mg downward (Earth pulling the book) and the normal force N upward (table pushing the book). At rest, \u03a3F_y = 0, so N = mg. The table does not 'know' the weight \u2014 it pushes just enough to cancel it."
+       },
+       {
+        "q": "A crate is pulled across a floor by a rope at 20\u00b0 above horizontal with tension 100 N. What are the horizontal and vertical components of the tension, and which one fights friction?",
+        "a": "Horizontal: 100 cos 20\u00b0 \u2248 94 N \u2014 this is what accelerates the crate and fights friction. Vertical: 100 sin 20\u00b0 \u2248 34 N upward \u2014 it lightens the crate, reducing the normal force (and therefore the friction). Pulling at an angle is easier than pulling flat for exactly this reason."
+       }
+      ],
+      "takeaway": "Isolate the object, draw every force with a named source, choose axes that simplify \u2014 the diagram is the solution."
+     },
+     {
+      "title": "Friction: Static and Kinetic",
+      "intro": "Friction is the force that lets you walk, drive, and hold a pencil \u2014 and the force that makes every real motion lose energy. It is also the force students mishandle most: friction does not have one value, it has a range, and it adjusts itself to the situation up to a limit. Understanding static vs. kinetic friction is the difference between predicting that a box stays put and wrongly predicting that it slides.",
+      "concepts": [
+       "The microscopic picture \u2014 surfaces look smooth but are rough at small scales; friction comes from tiny contact points (asperities) catching and from molecular attraction between surfaces. More contact area does not mean more friction \u2014 the force depends on how hard the surfaces are pressed together, not on how much area touches.",
+       "Static friction \u2014 the force that prevents motion from starting. It is self-adjusting: it matches the applied force exactly, up to a maximum f_s,max = \u03bc_s N, where \u03bc_s is the coefficient of static friction and N the normal force. If you push with 10 N, static friction pushes back with 10 N; push with 20 N and it pushes back 20 N \u2014 until you exceed the maximum, and then the object breaks free.",
+       "Kinetic friction \u2014 the force opposing motion once sliding begins: f_k = \u03bc_k N, roughly constant and usually smaller than the maximum static value (\u03bc_k < \u03bc_s). That is why it takes a bigger shove to start a heavy box moving than to keep it moving, and why a sliding car takes longer to stop than a rolling one.",
+       "The normal-force dependence \u2014 friction scales with N, not with weight directly. On an incline N = mg cos \u03b8, so friction weakens as the slope steepens \u2014 one reason a block that sits happily at 20\u00b0 may suddenly slide at 30\u00b0. Pulling upward on a rope reduces N and therefore friction.",
+       "Friction can help \u2014 it opposes relative motion, not motion itself. The static friction between a tire and the road points forward when you accelerate: without it the wheel would spin in place. Walking works the same way \u2014 your foot pushes backward on the ground, and static friction pushes you forward."
+      ],
+      "example": {
+       "q": "A 20 kg crate sits on a horizontal floor with \u03bc_s = 0.50 and \u03bc_k = 0.30. What horizontal force is needed to start it moving, and what force keeps it sliding at constant velocity once moving?",
+       "steps": [
+        "Normal force on a level floor: N = mg = (20)(9.8) = 196 N.",
+        "Maximum static friction: f_s,max = \u03bc_s N = 0.50 \u00d7 196 = 98 N. Any push below 98 N is matched by static friction and the crate does not move.",
+        "Once moving, kinetic friction: f_k = \u03bc_k N = 0.30 \u00d7 196 \u2248 59 N. To slide at constant velocity (a = 0), the applied force must exactly balance friction: 59 N. The drop from 98 N to 59 N is the familiar lurch when a heavy object breaks free."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Why does a car with locked wheels take longer to stop than a car with anti-lock brakes?",
+        "a": "Locked wheels slide, so kinetic friction applies; rolling wheels grip with static friction, and \u03bc_s > \u03bc_k, so the maximum braking force is larger. ABS keeps the tires at the edge of rolling, using the larger static-friction limit instead of the smaller kinetic one."
+       },
+       {
+        "q": "A 5 kg block rests on a 20\u00b0 incline with \u03bc_s = 0.40. Does it slide? Show the comparison.",
+        "a": "Down-slope pull: mg sin 20\u00b0 = (5)(9.8)(0.342) \u2248 16.8 N. Maximum static friction: \u03bc_s mg cos 20\u00b0 = 0.40 \u00d7 (5)(9.8)(0.940) \u2248 18.4 N. Since 18.4 > 16.8, static friction can hold it \u2014 the block stays. At a steeper angle the down-slope component grows while the friction limit shrinks, and it will eventually slide."
+       }
+      ],
+      "takeaway": "Static friction adjusts up to \u03bc_s N to prevent motion; kinetic friction is the smaller, steady \u03bc_k N once sliding starts."
+     },
+     {
+      "title": "Newton's Third Law and Action-Reaction Pairs",
+      "intro": "You cannot push on the world without the world pushing back \u2014 exactly as hard, in exactly the opposite direction. Newton's third law sounds simple and is constantly misapplied: the two forces in a pair act on different objects, so they never cancel each other, and knowing which force belongs to which diagram is what separates a correct solution from a tangle.",
+      "concepts": [
+       "The law \u2014 if object A exerts a force on object B, then B exerts a force on A that is equal in magnitude and opposite in direction: F_AB = \u2212F_BA. The pair is always the same kind of force (both gravitational, both normal, both friction) between the same two objects.",
+       "Different objects, never canceling \u2014 the action and reaction act on different bodies, so they never appear on the same free-body diagram and never cancel. A horse pulls a cart forward; the cart pulls the horse backward \u2014 the horse still moves because the ground pushes the horse forward harder than the cart pulls it back.",
+       "Common false pairs \u2014 weight and the normal force are NOT a third-law pair, even though they are often equal and opposite: weight is Earth pulling the book; the normal force is the table pushing the book. The true partner of the book's weight is the book pulling up on the Earth; the true partner of the normal force is the book pushing down on the table.",
+       "Walking, swimming, rockets \u2014 every propulsion is a third-law story. You push the ground backward; the ground pushes you forward. A rocket pushes exhaust gas down; the gas pushes the rocket up \u2014 which is why rockets work in the vacuum of space, where there is nothing to push against but their own exhaust.",
+       "Systems \u2014 choose the system boundary and internal pairs cancel. The Earth and a falling ball attract each other equally, but the ball's acceleration is g while the Earth's is imperceptibly small, because a = F/m and the Earth's mass is enormous. Equal force, wildly unequal effect."
+      ],
+      "example": {
+       "q": "A 70 kg astronaut pushes a 30 kg toolbox away in space with a force of 60 N. What is the acceleration of each, and why don't the forces cancel?",
+       "steps": [
+        "The astronaut exerts 60 N on the toolbox; the toolbox exerts 60 N back on the astronaut. Equal and opposite \u2014 but on different objects.",
+        "Toolbox acceleration: a = F/m = 60/30 = 2.0 m/s\u00b2 away from the astronaut.",
+        "Astronaut acceleration: a = 60/70 \u2248 0.86 m/s\u00b2 in the opposite direction. The astronaut recoils more slowly because she is heavier.",
+        "They do not cancel because 'cancel' only makes sense for forces on the same object. Each body feels one 60 N force, and each accelerates accordingly."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A book sits on a table. Name the third-law partner of the normal force the table exerts on the book, and the partner of the book's weight.",
+        "a": "Partner of the normal force: the book pushing down on the table with the same magnitude. Partner of the book's weight: the book pulling up on the Earth with force mg. Neither partner acts on the book, which is why neither appears on the book's free-body diagram."
+       },
+       {
+        "q": "If every action has an equal and opposite reaction, how can anything ever accelerate?",
+        "a": "Because the two forces act on different objects. Acceleration depends on the net force on one object. The horse accelerates because the forward push from the ground on the horse exceeds the backward pull of the cart on the horse \u2014 the action\u2013reaction pair is split across two diagrams."
+       }
+      ],
+      "takeaway": "Action\u2013reaction pairs are equal, opposite, the same kind of force \u2014 and always on different objects, so they never cancel."
+     },
+     {
+      "title": "Circular Motion and Centripetal Force",
+      "intro": "An object moving in a circle at constant speed is accelerating \u2014 its velocity keeps changing direction even though its magnitude stays the same. That acceleration points toward the center, and the net force that causes it is called centripetal force. This lesson is where Newton's second law meets geometry: the force is not a new kind of force, it is a role that familiar forces (tension, friction, gravity, the normal force) can play.",
+      "concepts": [
+       "Centripetal acceleration \u2014 for uniform circular motion at speed v around a circle of radius r: a_c = v\u00b2/r, directed toward the center. In angular terms, with \u03c9 = v/r: a_c = \u03c9\u00b2r. Faster or tighter means more acceleration \u2014 double the speed and the acceleration quadruples.",
+       "Why it points inward \u2014 velocity is tangent to the circle; over a short time the velocity vector rotates, and the change \u0394v points toward the center. Even with constant speed, the direction change is a real acceleration, so the second law demands a real net force.",
+       "Centripetal force is a role, not a force type \u2014 \u03a3F toward center = mv\u00b2/r. The 'centripetal force' is whatever provides it: tension in a string, friction on tires, gravity for a satellite, the normal force on a banked curve. There is no separate 'centripetal force' arrow on a free-body diagram \u2014 label the real force that plays the role.",
+       "Centrifugal force is fictitious \u2014 in the inertial frame there is no outward force. The outward feeling in a turning car is your inertia: your body wants to go straight while the car turns under you. In the car's (accelerating) frame the effect can be treated as a fictitious force, but it never appears in an inertial-frame diagram.",
+       "Banked curves and orbits \u2014 on a banked road the normal force has a horizontal component that can supply the centripetal force, so a car can turn with no friction at the design speed: tan \u03b8 = v\u00b2/(rg). A satellite in orbit is in continuous free fall: gravity supplies the centripetal force, so mg = mv\u00b2/r gives the orbital speed v = \u221a(GM/r)."
+      ],
+      "example": {
+       "q": "A 1,000 kg car takes a flat curve of radius 50 m. The tires' maximum static friction is \u03bc_s = 0.80. What is the fastest the car can take the curve without skidding?",
+       "steps": [
+        "The centripetal force is supplied by static friction: f_s = mv\u00b2/r, and friction can supply at most \u03bc_s N = \u03bc_s mg.",
+        "Set the requirement equal to the maximum: mv\u00b2/r = \u03bc_s mg. The mass cancels \u2014 a truck and a sports car have the same limit (in this idealized model).",
+        "Solve: v\u00b2 = \u03bc_s g r = 0.80 \u00d7 9.8 \u00d7 50 = 392 \u2192 v \u2248 19.8 m/s, about 71 km/h (44 mph).",
+        "Faster than this, friction cannot bend the car's path enough and it slides outward \u2014 which is really the car going straight while the road curves away beneath it."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A 0.20 kg ball on a 0.80 m string is swung in a horizontal circle at 3.0 m/s. What is the tension in the string?",
+        "a": "Tension supplies the centripetal force: T = mv\u00b2/r = (0.20)(9.0)/0.80 = 2.25 N. The tension is the only horizontal force, so it is the entire net force toward the center."
+       },
+       {
+        "q": "Two cars take the same curve at the same speed, one on a radius twice as large. How does the required centripetal acceleration compare?",
+        "a": "a_c = v\u00b2/r, so doubling r halves the acceleration. Wider curves are gentler \u2014 which is why highway curves have large radii and why the required friction drops with radius."
+       }
+      ],
+      "takeaway": "Circular motion needs a center-pointing net force mv\u00b2/r \u2014 supplied by a real force, never by a new kind of force."
+     }
     ]
    },
    {
     "module_title": "Work, Energy and Momentum",
     "lessons": [
-     "Work and the Work-Energy Theorem",
-     "Potential Energy and Conservation of Energy",
-     "Momentum and Impulse",
-     "Collisions: Elastic and Inelastic",
-     "Center of Mass"
+     {
+      "title": "Work and the Work-Energy Theorem",
+      "intro": "Forces tell you how motion changes instant by instant; work and energy tell you the same story in a way that skips the details. Work is what a force does when it moves its point of application, and the work\u2013energy theorem \u2014 that net work equals the change in kinetic energy \u2014 turns many hard dynamics problems into one line of arithmetic. It is the first of two great conservation ideas in this course.",
+      "concepts": [
+       "Work \u2014 for a constant force F acting through a displacement d: W = F\u00b7d = Fd cos \u03b8, where \u03b8 is the angle between the force and the displacement. Only the component of force along the motion does work: a force perpendicular to the motion (like the normal force on a level road) does zero work. Work is a scalar, measured in joules (1 J = 1 N\u00b7m).",
+       "Sign of work \u2014 positive when the force has a component along the displacement (speeding the object up), negative when it opposes the displacement (friction always does negative work), zero when perpendicular. Negative work removes energy from the object; that is how brakes stop a car.",
+       "Kinetic energy \u2014 K = \u00bdmv\u00b2, the energy of motion. It is always positive and depends on speed squared: doubling the speed quadruples the kinetic energy, which is why a crash at 60 mph is four times as violent as one at 30 mph, not twice.",
+       "The work\u2013energy theorem \u2014 W_net = \u0394K = \u00bdmv_f\u00b2 \u2212 \u00bdmv_i\u00b2. The net work done on an object equals its change in kinetic energy. Unlike F = ma, this is a scalar equation that ignores direction and path \u2014 it only needs the start and end speeds.",
+       "Work by a varying force \u2014 when F changes with position, work is the area under the F\u2013x graph, or the integral W = \u222bF(x) dx. A spring is the classic case: F = \u2212kx, so compressing it by x takes work \u00bdkx\u00b2. In calculus form, the theorem still holds: the integral of force over distance is the change in kinetic energy."
+      ],
+      "example": {
+       "q": "A 2.0 kg block slides on a frictionless surface at 4.0 m/s. A constant horizontal force of 6.0 N is applied in the direction of motion for 3.0 m. What is the block's final speed?",
+       "steps": [
+        "Work done: W = Fd = (6.0 N)(3.0 m) = 18 J (force parallel to displacement, cos 0\u00b0 = 1).",
+        "Initial kinetic energy: K_i = \u00bd(2.0)(4.0)\u00b2 = 16 J.",
+        "Work\u2013energy theorem: K_f = K_i + W = 16 + 18 = 34 J.",
+        "Final speed: \u00bdmv_f\u00b2 = 34 \u2192 v_f\u00b2 = 34 \u2192 v_f \u2248 5.8 m/s. The force did work, the work became kinetic energy, and the speed rose \u2014 no acceleration or time needed."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A crate is pushed 5.0 m across a floor by a 40 N force at 30\u00b0 above horizontal. How much work does the push do?",
+        "a": "Only the horizontal component does work: W = Fd cos \u03b8 = (40)(5.0)cos 30\u00b0 \u2248 173 J. The vertical component does no work because there is no vertical displacement \u2014 it only lightens the crate."
+       },
+       {
+        "q": "A 1,500 kg car moving at 20 m/s brakes to a stop over 50 m. What was the average braking force?",
+        "a": "Work\u2013energy: W = \u0394K = 0 \u2212 \u00bd(1500)(20)\u00b2 = \u2212300,000 J. With W = \u2212F\u00b7d (force opposing motion): F = 300,000/50 = 6,000 N average. That is the net retarding force the brakes and tires had to supply."
+       }
+      ],
+      "takeaway": "Net work equals the change in kinetic energy \u2014 a scalar shortcut that skips accelerations and times."
+     },
+     {
+      "title": "Potential Energy and Conservation of Energy",
+      "intro": "Kinetic energy is the energy of motion; potential energy is the energy of position \u2014 stored, waiting to become motion. A ball held above the ground has gravitational potential energy; a stretched spring has elastic potential energy. Together they give the most powerful tool in mechanics: when only conservative forces act, the total mechanical energy never changes, and a whole motion reduces to comparing two numbers.",
+      "concepts": [
+       "Gravitational potential energy \u2014 U_g = mgh, measured relative to an arbitrary zero (usually the ground or the lowest point). Only changes in U matter, so the choice of zero is free \u2014 but you must use the same zero throughout a problem. Lifting a mass h against gravity stores mgh; dropping it converts that back into kinetic energy.",
+       "Elastic potential energy \u2014 U_s = \u00bdkx\u00b2 for a spring stretched or compressed by x from equilibrium, with k the spring constant. The \u00bd appears because the spring force grows linearly from zero: the average force over the stretch is half the final force.",
+       "Conservative vs. non-conservative forces \u2014 a force is conservative if the work it does around a closed loop is zero, equivalently if it has a potential energy: gravity and springs qualify; friction and air drag do not. Friction's work depends on the path taken, so it has no potential energy \u2014 it converts mechanical energy into heat instead.",
+       "Conservation of mechanical energy \u2014 when only conservative forces do work, E = K + U is constant: K_i + U_i = K_f + U_f. A roller coaster's speed at any height follows from this one equation, no forces needed. With friction present, the bookkeeping becomes K_i + U_i = K_f + U_f + |W_friction|.",
+       "Energy diagrams \u2014 plot U(x) and draw a horizontal line for total energy E. Where E > U, the object can exist (the gap is kinetic energy); where E = U, it turns around (a turning point); where E < U is forbidden. A dip in U is a stable equilibrium; a hilltop is unstable. The whole qualitative motion is readable from the curve."
+      ],
+      "example": {
+       "q": "A 0.50 kg ball is dropped from rest at a height of 10 m. How fast is it moving when it reaches 4.0 m above the ground, and when it hits the ground? (Neglect air resistance.)",
+       "steps": [
+        "Set U = 0 at the ground. Initial energy: K_i = 0, U_i = mgh = (0.50)(9.8)(10) = 49 J, so E = 49 J.",
+        "At 4.0 m: U = (0.50)(9.8)(4.0) = 19.6 J, so K = E \u2212 U = 49 \u2212 19.6 = 29.4 J. Then \u00bd(0.50)v\u00b2 = 29.4 \u2192 v\u00b2 = 117.6 \u2192 v \u2248 10.8 m/s.",
+        "At the ground: U = 0, so K = 49 J \u2192 v = \u221a(2 \u00d7 49/0.50) = \u221a196 = 14 m/s. Energy conservation gives the speed at any height from a single subtraction."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A pendulum bob is released from rest at a height 0.30 m above its lowest point. How fast is it moving at the bottom?",
+        "a": "Energy conservation: mgh = \u00bdmv\u00b2 \u2192 v = \u221a(2gh) = \u221a(2 \u00d7 9.8 \u00d7 0.30) \u2248 2.4 m/s. The mass cancels \u2014 any bob released from that height reaches the bottom at the same speed."
+       },
+       {
+        "q": "A spring (k = 200 N/m) is compressed 0.10 m and launches a 0.050 kg ball horizontally. What is the launch speed (neglect friction)?",
+        "a": "Elastic energy \u00bdkx\u00b2 = \u00bd(200)(0.10)\u00b2 = 1.0 J becomes kinetic energy: \u00bd(0.050)v\u00b2 = 1.0 \u2192 v\u00b2 = 40 \u2192 v \u2248 6.3 m/s."
+       }
+      ],
+      "takeaway": "When only conservative forces act, K + U never changes \u2014 compare energies at two points and the motion falls out."
+     },
+     {
+      "title": "Momentum and Impulse",
+      "intro": "Force tells you how fast velocity changes; momentum tells you how hard it is to stop the motion once it exists. A slow truck and a fast bullet can carry the same momentum, and the same force applied for a longer time changes momentum more \u2014 that is impulse. Momentum is the second conservation law of the course, and in collisions it succeeds exactly where energy fails.",
+      "concepts": [
+       "Momentum \u2014 p = mv, a vector in the direction of the velocity, measured in kg\u00b7m/s. Unlike kinetic energy, momentum cares about direction: two equal masses moving toward each other at the same speed have zero total momentum but nonzero total kinetic energy.",
+       "Impulse \u2014 J = F_avg \u0394t = \u0394p. A force acting over a time changes momentum by exactly the impulse it delivers. In calculus form, J = \u222bF dt \u2014 the area under the F\u2013t graph. Same impulse, different delivery: a big force for a short time or a small force for a long time produce the same \u0394p.",
+       "Why airbags work \u2014 an airbag does not change the impulse of a crash (your momentum must still go to zero); it stretches the stopping time, so the average force F_avg = \u0394p/\u0394t drops. Catching a ball by pulling your hands back is the same physics: more time, less force.",
+       "Conservation of momentum \u2014 when the net external impulse on a system is zero, total momentum is conserved: p_initial = p_final. Internal forces (collisions, explosions) cancel in pairs, so the total momentum of an isolated system never changes \u2014 even when kinetic energy is lost.",
+       "Momentum vs. energy \u2014 both are conserved in an elastic collision, but only momentum is conserved when things deform, stick, or shatter. That is why collision analysis starts with momentum and asks about energy second."
+      ],
+      "example": {
+       "q": "A 0.15 kg baseball arrives at 40 m/s and is caught, coming to rest in 0.020 s. What average force does the glove exert on the ball?",
+       "steps": [
+        "Change in momentum: \u0394p = p_f \u2212 p_i = 0 \u2212 (0.15)(40) = \u22126.0 kg\u00b7m/s. The magnitude is 6.0 kg\u00b7m/s.",
+        "Impulse\u2013momentum: F_avg = \u0394p/\u0394t = 6.0/0.020 = 300 N \u2014 about the weight of a 30 kg mass, delivered in a twentieth of a second.",
+        "If the catcher lets the glove travel back and doubles the stopping time to 0.040 s, the force halves to 150 N. Same impulse, gentler catch \u2014 the whole point of 'giving' with a catch."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A 60 kg person jumps from a wall and lands stiff-legged in 0.050 s; the same jump landing with bent knees takes 0.20 s. If the impact speed is 4.0 m/s, compare the average forces.",
+        "a": "\u0394p = (60)(4.0) = 240 kg\u00b7m/s either way. Stiff-legged: F = 240/0.050 = 4,800 N. Bent knees: F = 240/0.20 = 1,200 N \u2014 one-quarter the force, plus the weight. Bending the knees is worth a factor of four."
+       },
+       {
+        "q": "A rocket in space ejects gas backward. What happens to the rocket's momentum, and why does total momentum stay constant?",
+        "a": "The gas gains backward momentum; the rocket gains equal forward momentum. No external impulse acts on the rocket-plus-gas system, so total momentum is conserved \u2014 the rocket accelerates by throwing mass away, which is why it works in a vacuum."
+       }
+      ],
+      "takeaway": "Impulse is force over time and equals the change in momentum \u2014 stretch the time, shrink the force."
+     },
+     {
+      "title": "Collisions: Elastic and Inelastic",
+      "intro": "Two objects meet, and in a fraction of a second everything changes: speeds, directions, sometimes shapes. Collisions are where momentum conservation earns its keep, because during the brief impact the internal forces dwarf everything else. The one question that divides collisions into kinds is energy: does kinetic energy survive the impact, or is some of it spent deforming things?",
+      "concepts": [
+       "Elastic collisions \u2014 both momentum and kinetic energy are conserved. The objects bounce without permanent deformation (an idealization; real collisions are nearly elastic only for hard, bouncy objects like billiard balls). For one-dimensional elastic collisions there are clean formulas: the velocities essentially swap when the masses are equal.",
+       "Inelastic collisions \u2014 momentum is conserved but kinetic energy is not: some becomes heat, sound, or deformation. A car crash is inelastic; so is a ball of clay hitting a wall. The missing kinetic energy is not 'lost' from the universe \u2014 it left the mechanical-energy account.",
+       "Perfectly inelastic collisions \u2014 the objects stick together and move as one mass afterward: m\u2081v\u2081 + m\u2082v\u2082 = (m\u2081 + m\u2082)v_f. This loses the maximum kinetic energy allowed by momentum conservation, which is why it is the standard model for a tackle, a capture, or a ballistic pendulum.",
+       "Two dimensions \u2014 momentum is a vector, so conservation holds component by component: \u03a3p\u2093 before = \u03a3p\u2093 after, and the same for y. After a collision at an angle, the two objects' paths and the original direction are linked by those two equations plus the energy condition.",
+       "The center-of-mass frame \u2014 in the frame moving with the center of mass, the total momentum is zero, and an elastic collision simply reverses each object's velocity. Solving in this frame and transforming back is often the cleanest route, and it reveals that collisions look simplest when the total momentum is zero."
+      ],
+      "example": {
+       "q": "A 2.0 kg cart moving at 3.0 m/s hits a stationary 1.0 kg cart and they stick together. What is their final speed, and how much kinetic energy is lost?",
+       "steps": [
+        "Momentum conservation (perfectly inelastic): (2.0)(3.0) + 0 = (2.0 + 1.0)v_f \u2192 6.0 = 3.0 v_f \u2192 v_f = 2.0 m/s.",
+        "Initial kinetic energy: \u00bd(2.0)(3.0)\u00b2 = 9.0 J.",
+        "Final kinetic energy: \u00bd(3.0)(2.0)\u00b2 = 6.0 J. Lost: 3.0 J \u2014 one-third of the energy went into deforming the coupling and sound. Momentum, meanwhile, was exactly conserved: 6.0 kg\u00b7m/s before and after."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Two identical billiard balls collide elastically in one dimension; one is moving at 2.0 m/s, the other is at rest. What happens?",
+        "a": "They exchange velocities: the moving ball stops dead and the stationary ball moves off at 2.0 m/s. Equal masses in a 1-D elastic collision swap velocities \u2014 check it: momentum 2.0m is conserved, and kinetic energy \u00bdm(2.0)\u00b2 is conserved."
+       },
+       {
+        "q": "A 0.010 kg bullet at 400 m/s embeds in a 2.0 kg block on a frictionless table. What is the block's speed afterward?",
+        "a": "Momentum: (0.010)(400) = (2.01)v_f \u2192 v_f \u2248 1.99 m/s. Almost all the kinetic energy (800 J \u2192 ~4 J) is lost to deformation and heat \u2014 the ballistic pendulum trades energy for a measurable, slow motion."
+       }
+      ],
+      "takeaway": "Momentum is always conserved in a collision; kinetic energy is conserved only if the collision is elastic."
+     },
+     {
+      "title": "Center of Mass",
+      "intro": "A thrown hammer tumbles end over end, yet one point on it glides along a perfect parabola \u2014 the center of mass. However complicated a system's motion, the center of mass moves as if all the mass were concentrated there and all external forces acted on it. It is the point that lets you treat a tumbling, exploding, multi-part system as a single particle.",
+      "concepts": [
+       "Definition \u2014 for particles, R_cm = (\u03a3 m_i r_i) / (\u03a3 m_i): the mass-weighted average position. For a uniform object it sits at the geometric center; for a lopsided object it sits closer to the heavy end. For a continuous body the sum becomes an integral, R_cm = (1/M)\u222b r dm.",
+       "Motion of the center of mass \u2014 the center of mass accelerates according to F_ext = M a_cm, where F_ext is the net external force and M the total mass. Internal forces cancel in pairs and cannot move the center of mass at all. A diver's center of mass follows a parabola from the board to the water, no matter how she twists.",
+       "Why it matters for collisions and explosions \u2014 in an explosion, the fragments fly apart but their center of mass continues on the original trajectory (until an external force acts). Fireworks exploit this: the shell's center of mass traces the parabola while the sparks scatter around it.",
+       "Systems and momentum \u2014 total momentum is P = M v_cm: the momentum of the system is the momentum of a single particle of mass M moving at the center-of-mass velocity. Conservation of momentum is the statement that v_cm is constant when no external impulse acts.",
+       "Finding it in practice \u2014 balance an object on a finger and you have found its center of mass in one direction; two balance points locate it in a plane. For composite bodies, compute it piece by piece: treat each part's mass as if it sat at that part's own center of mass, then take the weighted average."
+      ],
+      "example": {
+       "q": "Two masses, 2.0 kg at x = 0 and 3.0 kg at x = 5.0 m, sit on a frictionless rail. Where is the center of mass? If the 2.0 kg mass is pushed with a 10 N external force, what is the acceleration of the center of mass?",
+       "steps": [
+        "Center of mass: x_cm = (2.0\u00d70 + 3.0\u00d75.0)/(2.0 + 3.0) = 15/5.0 = 3.0 m \u2014 closer to the heavier mass, as expected.",
+        "Total mass M = 5.0 kg. The center of mass accelerates as a_cm = F_ext/M = 10/5.0 = 2.0 m/s\u00b2.",
+        "Note the individual masses may accelerate differently (the 3.0 kg mass may not move at all if the push does not reach it), but the center of mass moves at 2.0 m/s\u00b2 regardless. The system behaves as one 5.0 kg particle at x = 3.0 m."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A 70 kg person stands at the left end of a 30 kg, 4.0 m canoe (initially at rest on still water). She walks to the right end. Which way does the canoe move, and how far does its center move relative to the water?",
+        "a": "The canoe moves left: with no external horizontal force, the system's center of mass stays put, so the canoe shifts to compensate for her rightward walk. The center of mass of the person-plus-canoe system does not move at all relative to the water."
+       },
+       {
+        "q": "Why does a tightrope walker carry a long pole?",
+        "a": "The pole lowers the walker's center of mass and increases the system's moment of inertia (next module), making tipping slower and easier to correct. The pole also lets the walker shift mass to keep the combined center of mass over the rope."
+       }
+      ],
+      "takeaway": "The center of mass moves as a single particle of total mass under the net external force \u2014 internal forces cannot move it."
+     }
     ]
    },
    {
     "module_title": "Rotation and Gravitation",
     "lessons": [
-     "Rotational Kinematics and Torque",
-     "Moment of Inertia and Angular Momentum",
-     "Rolling Motion",
-     "Universal Gravitation and Orbits",
-     "Lab Final: Measure g Two Different Ways"
+     {
+      "title": "Rotational Kinematics and Torque",
+      "intro": "So far everything translated; now things turn. Rotation has its own kinematics \u2014 angle, angular velocity, angular acceleration \u2014 that mirrors linear motion exactly, with one new idea linking the two: torque, the rotational equivalent of force. A door, a wrench, a spinning top all obey the same rule: a force only turns something if it has leverage.",
+      "concepts": [
+       "Angular quantities \u2014 angle \u03b8 (radians), angular velocity \u03c9 = d\u03b8/dt, angular acceleration \u03b1 = d\u03c9/dt. One full revolution is 2\u03c0 radians. The constant-\u03b1 equations mirror the linear ones: \u03c9 = \u03c9\u2080 + \u03b1t; \u03b8 = \u03b8\u2080 + \u03c9\u2080t + \u00bd\u03b1t\u00b2; \u03c9\u00b2 = \u03c9\u2080\u00b2 + 2\u03b1(\u03b8 \u2212 \u03b8\u2080).",
+       "The arc-length link \u2014 a point at radius r from the axis moves with tangential speed v = \u03c9r and tangential acceleration a_t = \u03b1r. The same rotating wheel gives different speeds at different radii: the rim of a large wheel moves faster than the rim of a small one at the same \u03c9.",
+       "Torque \u2014 \u03c4 = r \u00d7 F, magnitude \u03c4 = rF sin \u03c6, where \u03c6 is the angle between the position vector and the force. Torque is what a force does about a pivot: the same force produces more torque applied farther from the pivot (a longer wrench) or more perpendicular to the lever arm. Units: N\u00b7m \u2014 the same as joules, but torque is not energy, so never call it joules.",
+       "Rotational second law \u2014 \u03a3\u03c4 = I\u03b1, where I is the moment of inertia (next lesson). Torque plays the role of force, I the role of mass, \u03b1 the role of acceleration. A net torque is required to change a rotation, just as a net force is required to change a translation.",
+       "Static equilibrium \u2014 an object at rest needs both \u03a3F = 0 and \u03a3\u03c4 = 0. Torque balance is why a seesaw balances when the heavier child sits closer to the pivot, and why a crane's counterweight matters: torques about the pivot must cancel, not just forces."
+      ],
+      "example": {
+       "q": "A 60 N force is applied to a wrench 0.30 m long at 90\u00b0 to the handle to loosen a bolt. What is the torque? If the same force is applied at 30\u00b0 to the handle, what happens?",
+       "steps": [
+        "At 90\u00b0: \u03c4 = rF sin \u03c6 = (0.30)(60)sin 90\u00b0 = 18 N\u00b7m. The full force contributes, because it is perpendicular to the lever arm.",
+        "At 30\u00b0: \u03c4 = (0.30)(60)sin 30\u00b0 = (0.30)(60)(0.50) = 9.0 N\u00b7m \u2014 half as much. Only the perpendicular component of the force, F sin \u03c6, turns the bolt; the rest pulls along the wrench and does nothing.",
+        "Practical moral: push at right angles to the wrench, and push at the end of the handle. A cheater bar (a pipe over the handle) increases r, which is why it works."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A wheel of radius 0.40 m spins at 5.0 rad/s. What is the speed of a point on its rim, and what is its centripetal acceleration?",
+        "a": "Rim speed: v = \u03c9r = (5.0)(0.40) = 2.0 m/s. Centripetal acceleration: a_c = v\u00b2/r = 4.0/0.40 = 10 m/s\u00b2, or a_c = \u03c9\u00b2r = 25 \u00d7 0.40 = 10 m/s\u00b2 \u2014 toward the hub."
+       },
+       {
+        "q": "Two children sit on a seesaw: a 30 kg child at 2.0 m left of the pivot and a 20 kg child on the right. Where must the 20 kg child sit to balance?",
+        "a": "Torque balance: (30)(9.8)(2.0) = (20)(9.8)d \u2192 d = 60/20 = 3.0 m right of the pivot. The lighter child sits farther out \u2014 torque is force times distance, so a smaller weight needs a longer lever arm."
+       }
+      ],
+      "takeaway": "Torque is force with leverage, \u03c4 = rF sin \u03c6 \u2014 and \u03a3\u03c4 = I\u03b1 is Newton's second law for rotation."
+     },
+     {
+      "title": "Moment of Inertia and Angular Momentum",
+      "intro": "Mass measures resistance to changes in linear motion; moment of inertia measures resistance to changes in rotation \u2014 and unlike mass, it depends on where the mass sits. A figure skater pulls her arms in and spins faster, and that is not magic: it is angular momentum conservation, the rotational twin of linear momentum conservation, and it is the most dramatic demonstration in the course.",
+      "concepts": [
+       "Moment of inertia \u2014 I = \u03a3 m_i r_i\u00b2 for particles, or I = \u222b r\u00b2 dm for continuous bodies: mass far from the axis counts quadratically more. A hoop (all mass at radius R) has I = MR\u00b2; a solid disk of the same mass and radius has I = \u00bdMR\u00b2; a rod about its center has I = (1/12)ML\u00b2. Same mass, different I \u2014 shape matters.",
+       "Parallel-axis theorem \u2014 if you know I about the center of mass, the moment about any parallel axis a distance d away is I = I_cm + Md\u00b2. Moving the axis away from the center always increases I, which is why a rod spins most easily about its middle.",
+       "Rotational kinetic energy \u2014 K_rot = \u00bdI\u03c9\u00b2, the exact analogue of \u00bdmv\u00b2. A rolling object's total kinetic energy is the sum of translational and rotational parts: K = \u00bdMv\u00b2 + \u00bdI\u03c9\u00b2. The flywheel stores energy in rotation for the same reason a moving mass stores it in translation.",
+       "Angular momentum \u2014 L = I\u03c9 for a rotating body, or L = r \u00d7 p for a particle: the rotational analogue of p = mv. It is a vector along the rotation axis (right-hand rule: curl fingers in the direction of rotation, thumb points along L).",
+       "Conservation of angular momentum \u2014 when the net external torque is zero, L is conserved: I\u2081\u03c9\u2081 = I\u2082\u03c9\u2082. The skater pulls her arms in (I drops), so \u03c9 must rise to keep L constant \u2014 that is why she spins up. A collapsing star spins up for the same reason: its radius shrinks by a huge factor, so its rotation rate explodes."
+      ],
+      "example": {
+       "q": "A figure skater spins at 2.0 rev/s with arms outstretched, I = 4.0 kg\u00b7m\u00b2. She pulls her arms in, reducing I to 1.6 kg\u00b7m\u00b2. What is her new spin rate, and what happens to her rotational kinetic energy?",
+       "steps": [
+        "No external torque (neglecting ice friction), so angular momentum is conserved: I\u2081\u03c9\u2081 = I\u2082\u03c9\u2082. In rev/s: (4.0)(2.0) = (1.6)\u03c9\u2082 \u2192 \u03c9\u2082 = 5.0 rev/s. She spins two and a half times faster.",
+        "Initial rotational KE: \u00bdI\u03c9\u00b2 = \u00bd(4.0)(2.0 \u00d7 2\u03c0)\u00b2 \u2014 working in rad/s, \u03c9\u2081 = 12.57 rad/s, so K\u2081 = \u00bd(4.0)(158) \u2248 316 J.",
+        "Final KE: \u03c9\u2082 = 31.4 rad/s, K\u2082 = \u00bd(1.6)(986) \u2248 789 J. Kinetic energy increased \u2014 she did work pulling her arms in against centrifugal effect, and that work became rotational energy. Angular momentum is conserved; energy is not, because she did work."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A hoop and a solid disk of equal mass M and radius R roll down the same incline from rest. Which reaches the bottom first, and why?",
+        "a": "The disk. Both gain the same mgh, but the hoop stores more of it as rotation (I = MR\u00b2 vs. \u00bdMR\u00b2), leaving less for translation. The disk's center moves faster: v_disk = \u221a(4gh/3) vs. v_hoop = \u221a(gh). Shape, not mass, decides the race."
+       },
+       {
+        "q": "A 0.20 kg ball on a string circles at radius 0.50 m with angular momentum 0.60 kg\u00b7m\u00b2/s. The string is pulled in to 0.25 m. What is the new angular speed?",
+        "a": "L = mvr = mr\u00b2\u03c9 is conserved (the pull is radial, so it exerts no torque). Initially \u03c9\u2081 = L/(mr\u00b2) = 0.60/(0.20 \u00d7 0.25) = 12 rad/s. At half the radius, I drops by a factor of 4, so \u03c9 rises by a factor of 4: \u03c9\u2082 = 48 rad/s. Same physics as the skater."
+       }
+      ],
+      "takeaway": "Moment of inertia is mass times distance-squared from the axis \u2014 and with no external torque, angular momentum I\u03c9 never changes."
+     },
+     {
+      "title": "Rolling Motion",
+      "intro": "A rolling wheel is two motions at once: the center moves forward while the wheel turns, and the point touching the ground is instantaneously at rest. Rolling without slipping ties translation and rotation together with one clean condition, v_cm = \u03c9R \u2014 and it is what lets a wheel move without dragging, a car accelerate without skidding, and a bowling ball hook down a lane.",
+      "concepts": [
+       "The no-slip condition \u2014 rolling without slipping means the contact point has zero velocity relative to the surface: v_cm = \u03c9R. The top of the wheel moves at 2v_cm, the center at v_cm, the bottom at zero. The velocity of any point is the vector sum of the translation (v_cm) and the rotation (\u03c9 \u00d7 r).",
+       "Rolling as rotation about the contact point \u2014 at any instant the wheel can be viewed as rotating about the stationary contact point, with angular velocity \u03c9. The kinetic energy then reads K = \u00bdI_contact \u03c9\u00b2, where I_contact = I_cm + MR\u00b2 by the parallel-axis theorem \u2014 the same total as \u00bdMv_cm\u00b2 + \u00bdI_cm\u03c9\u00b2.",
+       "Static friction's role \u2014 static friction causes rolling acceleration (it provides the torque that spins a driven wheel up, and the torque that slows a braking wheel down), but it does no work: the contact point does not move relative to the ground, so there is no displacement for the force to act through. A rolling wheel loses no energy to friction in the ideal case.",
+       "Rolling down an incline \u2014 energy conservation with both kinetic terms: Mgh = \u00bdMv\u00b2 + \u00bdI\u03c9\u00b2, and with v = \u03c9R this gives a = g sin \u03b8 / (1 + I/(MR\u00b2)). A hoop (I = MR\u00b2) accelerates at \u00bdg sin \u03b8; a solid sphere (I = \u2156MR\u00b2) at (5/7)g sin \u03b8 \u2014 the sphere wins the race, and neither result depends on mass or radius.",
+       "Slipping vs. rolling \u2014 if the surface is too slick for static friction to supply the needed torque, the wheel slips: v_cm \u2260 \u03c9R, kinetic friction acts, and energy is lost as heat. A car spinning its wheels on ice is slipping; a car gripping the road is rolling. ABS exists to keep tires in the rolling regime."
+      ],
+      "example": {
+       "q": "A solid sphere (I = \u2156MR\u00b2) rolls without slipping down a 3.0 m high incline. How fast is its center moving at the bottom?",
+       "steps": [
+        "Energy: Mgh = \u00bdMv\u00b2 + \u00bdI\u03c9\u00b2. With rolling, \u03c9 = v/R, so \u00bdI\u03c9\u00b2 = \u00bd(\u2156MR\u00b2)(v\u00b2/R\u00b2) = \u2155Mv\u00b2.",
+        "Total kinetic energy: \u00bdMv\u00b2 + \u2155Mv\u00b2 = (7/10)Mv\u00b2. Set equal to Mgh: (7/10)v\u00b2 = gh.",
+        "v\u00b2 = (10/7)gh = (10/7)(9.8)(3.0) \u2248 42 \u2192 v \u2248 6.5 m/s. A sliding block would reach \u221a(2gh) \u2248 7.7 m/s \u2014 the sphere is slower because part of the energy is stored in rotation."
+       ]
+      },
+      "practice": [
+       {
+        "q": "A bicycle wheel of radius 0.35 m rolls without slipping at 7.0 m/s. What is its angular velocity, and how fast does the top of the wheel move?",
+        "a": "\u03c9 = v/R = 7.0/0.35 = 20 rad/s. The top of the wheel moves at v_cm + \u03c9R = 7.0 + 7.0 = 14 m/s relative to the ground \u2014 twice the bike's speed \u2014 while the contact point is instantaneously at rest."
+       },
+       {
+        "q": "A hoop, a disk, and a solid sphere of the same mass and radius are released together at the top of an incline. In what order do they reach the bottom?",
+        "a": "Solid sphere first, then disk, then hoop. The fraction of energy locked in rotation is I/(I + MR\u00b2): sphere 2/7, disk 1/3, hoop 1/2. The hoop keeps the most energy in rotation and the least in forward motion, so it is last."
+       }
+      ],
+      "takeaway": "Rolling without slipping means v = \u03c9R \u2014 translation and rotation share the energy, and shape decides the split."
+     },
+     {
+      "title": "Universal Gravitation and Orbits",
+      "intro": "The same gravity that drops an apple holds the Moon in its orbit \u2014 Newton realized the apple and the Moon obey one law. Universal gravitation turns the local g = 9.8 m/s\u00b2 into a force between any two masses anywhere, and from it follow the orbits of planets, the periods of satellites, and the reason astronauts float. It is the lesson where the whole course suddenly becomes astronomy.",
+      "concepts": [
+       "Newton's law of universal gravitation \u2014 F = GMm/r\u00b2, attractive, along the line between the masses, where G = 6.67 \u00d7 10\u207b\u00b9\u00b9 N\u00b7m\u00b2/kg\u00b2. It is an inverse-square law: double the distance, quarter the force. The force on each mass is equal and opposite; the acceleration each feels depends on its own mass.",
+       "g from G \u2014 near Earth's surface, mg = GMm/R\u00b2 gives g = GM/R\u00b2 \u2248 9.8 m/s\u00b2. Gravity weakens with altitude (at the space station's height, g is still about 8.7 m/s\u00b2 \u2014 astronauts float because they are in free fall, not because gravity is gone).",
+       "Orbits and circular motion \u2014 for a circular orbit, gravity supplies the centripetal force: GMm/r\u00b2 = mv\u00b2/r, so the orbital speed is v = \u221a(GM/r). Speed depends only on radius, not on the satellite's mass: a bolt and a space station at the same altitude orbit at the same speed.",
+       "Kepler's third law from Newton \u2014 combining v = 2\u03c0r/T with v = \u221a(GM/r) gives T\u00b2 = (4\u03c0\u00b2/GM) r\u00b3: the square of the period is proportional to the cube of the orbital radius. It holds for planets around the Sun (M = M_sun) and moons around a planet alike, and it is how astronomers weigh stars and galaxies.",
+       "Escape velocity and energy \u2014 total orbital energy is E = K + U = \u2212GMm/(2r) for a circular orbit: negative, meaning bound. Escape requires E \u2265 0, giving v_esc = \u221a(2GM/R) \u2248 11.2 km/s from Earth's surface. The factor \u221a2 separates 'in orbit' from 'gone forever.'"
+      ],
+      "example": {
+       "q": "The International Space Station orbits at about 400 km above Earth's surface (Earth's radius 6,371 km). What is its orbital speed and period?",
+       "steps": [
+        "Orbital radius: r = 6,371 + 400 = 6,771 km = 6.771 \u00d7 10\u2076 m. Earth's GM = 3.986 \u00d7 10\u00b9\u2074 m\u00b3/s\u00b2.",
+        "Speed: v = \u221a(GM/r) = \u221a(3.986 \u00d7 10\u00b9\u2074 / 6.771 \u00d7 10\u2076) = \u221a(5.89 \u00d7 10\u2077) \u2248 7,670 m/s \u2014 about 27,600 km/h, or 17,100 mph.",
+        "Period: T = 2\u03c0r/v = 2\u03c0(6.771 \u00d7 10\u2076)/7,670 \u2248 5,550 s \u2248 92.5 minutes. The station circles Earth roughly every hour and a half \u2014 which is why astronauts see about 16 sunrises a day."
+       ]
+      },
+      "practice": [
+       {
+        "q": "How strong is Earth's gravity on the Moon? The Moon's mass is 7.35 \u00d7 10\u00b2\u00b2 kg and its distance is 3.84 \u00d7 10\u2078 m.",
+        "a": "F = GMm/r\u00b2 = (6.67 \u00d7 10\u207b\u00b9\u00b9)(5.97 \u00d7 10\u00b2\u2074)(7.35 \u00d7 10\u00b2\u00b2)/(3.84 \u00d7 10\u2078)\u00b2 \u2248 1.98 \u00d7 10\u00b2\u2070 N. Enormous \u2014 yet the Moon's acceleration is only F/m \u2248 0.0027 m/s\u00b2, the centripetal acceleration of its orbit (v\u00b2/r with v \u2248 1 km/s)."
+       },
+       {
+        "q": "A satellite's orbital radius doubles. What happens to its speed and its period?",
+        "a": "Speed v = \u221a(GM/r) falls by \u221a2 (about 0.71\u00d7). Period T \u221d r^(3/2) grows by 2\u221a2 \u2248 2.83\u00d7. Higher orbits are slower and take much longer \u2014 geostationary orbit, at about 6.6 Earth radii, takes exactly one day."
+       }
+      ],
+      "takeaway": "One law, F = GMm/r\u00b2, drops the apple and holds the Moon \u2014 and orbital speed depends only on radius, never on mass."
+     },
+     {
+      "title": "Lab Final: Measure g Two Different Ways",
+      "intro": "This is the course's lab final: measure the same number \u2014 g, the acceleration due to gravity \u2014 by two independent methods, and reconcile them. It is also a lesson in what experimental physics actually is: not getting the 'right' number, but knowing how wrong your number could be, and why two careful methods that disagree are more informative than one method that happens to land on 9.81.",
+      "concepts": [
+       "Method 1: free fall timing \u2014 drop an object from a known height h and time the fall: h = \u00bdgt\u00b2, so g = 2h/t\u00b2. The challenge is timing: a 1.0 m drop takes only 0.45 s, so a 0.02 s timing error is a 9% error in g. Repeating the drop and averaging, or timing a longer fall, shrinks the random error \u2014 the calculus version: since g depends on 1/t\u00b2, relative error in g is twice the relative error in t.",
+       "Method 2: the simple pendulum \u2014 a pendulum of length L swings with period T = 2\u03c0\u221a(L/g), so g = 4\u03c0\u00b2L/T\u00b2. The period is long (about 2 s for a 1 m pendulum) and timing many swings divides the error by the number of swings \u2014 20 swings timed to 0.2 s gives T to 0.01 s. The small-angle approximation (sin \u03b8 \u2248 \u03b8) holds well below about 10\u00b0.",
+       "Random vs. systematic error \u2014 random errors scatter your results around the true value and shrink with repetition; systematic errors shift every result the same way and do not shrink \u2014 a slow stopwatch, a mismeasured length, air resistance on the falling object. Identifying which kind you have is half the lab.",
+       "Uncertainty propagation \u2014 when g = 2h/t\u00b2, a 1% error in h gives a 1% error in g, but a 1% error in t gives a 2% error in g (because t is squared). When g = 4\u03c0\u00b2L/T\u00b2, the same rule applies to T. Always ask which measurement dominates your uncertainty, and spend your effort there.",
+       "Reconciliation \u2014 two methods give two values with two uncertainties. If the ranges overlap, the methods agree and the weighted average is your best value. If they do not overlap, something systematic is hiding \u2014 usually the pendulum's length measured to the wrong point, or the drop's timing including a reaction delay \u2014 and finding it is the real experiment."
+      ],
+      "example": {
+       "q": "A student times 20 swings of a 0.98 m pendulum at 39.6 s, and drops a ball 1.20 m in 0.49 s. Compute g by both methods and compare.",
+       "steps": [
+        "Pendulum: T = 39.6/20 = 1.98 s. g = 4\u03c0\u00b2L/T\u00b2 = 4\u03c0\u00b2(0.98)/(1.98)\u00b2 = 38.7/3.92 \u2248 9.87 m/s\u00b2.",
+        "Free fall: g = 2h/t\u00b2 = 2(1.20)/(0.49)\u00b2 = 2.40/0.240 \u2248 10.0 m/s\u00b2.",
+        "Comparison: 9.87 vs. 10.0 \u2014 both within about 2% of 9.81, and they agree with each other to about 1%. The pendulum is likely the more trustworthy value (timing 20 swings dilutes the reaction error), while the single short drop is most vulnerable to timing error. A good lab report says exactly that, and quotes an uncertainty for each."
+       ]
+      },
+      "practice": [
+       {
+        "q": "Your pendulum measurement gives g = 9.4 m/s\u00b2, well below 9.81. You measured the length from the pivot to the bottom of the bob instead of to its center. Is the measured L too long or too short, and does that explain the low g?",
+        "a": "Too long: the effective length is to the center of mass, and the bottom of the bob is farther from the pivot. Since g = 4\u03c0\u00b2L/T\u00b2, an overestimated L inflates the computed g \u2014 that would give a high value, not a low one. The error must lie elsewhere (perhaps the angle was too large, or the timing counted extra swings). Checking the sign of an error's effect is how you rule suspects out."
+       },
+       {
+        "q": "Why time 20 pendulum swings instead of one? How much does the timing uncertainty shrink?",
+        "a": "Timing one swing to \u00b10.2 s (a typical reaction error) is a 10% error on a 2 s period. Timing 20 swings to the same \u00b10.2 s gives the total to 0.5% and the period to 0.5% \u2014 the reaction error is diluted by the number of swings. Repeating a measurement and dividing is the cheapest precision upgrade in the lab."
+       }
+      ],
+      "takeaway": "Measure g two ways, propagate the uncertainties, and let agreement \u2014 or disagreement \u2014 tell you what to trust."
+     }
     ]
    }
   ],
@@ -12022,7 +12611,7 @@
    "project": false
   },
   "mastery_rubric": "Solve multi-step mechanics problems using vectors, Newton's laws, energy and momentum conservation, and rotational dynamics, showing clear free-body diagrams and units at each step. Final grade 70% or higher.",
-  "source": "Martinez original syllabus (authored 2026-11-15)"
+  "source": "Martinez original \u2014 written lessons (authored 2026-11-27)"
  },
  "PHYS202": {
   "modules": [
